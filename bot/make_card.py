@@ -10,11 +10,13 @@ import argparse, textwrap
 from PIL import Image, ImageDraw, ImageFont
 
 W = H = 1080
-NAVY = (12, 36, 74)
-NAVY_DARK = (7, 22, 48)
-ORANGE = (243, 130, 32)
+BG = (255, 255, 255)
+BG_BOTTOM = (244, 245, 247)
+ORANGE = (252, 69, 0)
+INK = (19, 23, 25)
+GREY = (90, 98, 108)
+LINE = (215, 220, 226)
 WHITE = (255, 255, 255)
-GREY = (190, 200, 215)
 
 import os
 FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts") + os.sep
@@ -38,10 +40,10 @@ COUNTRIES = {
 }
 
 CATEGORY_COLORS = {
-    "ECONOMÍA": (31, 158, 137),
-    "ECONOMIA": (31, 158, 137),
-    "TRIBUTARIO": (200, 60, 60),
-    "TRIBUTÁRIO": (200, 60, 60),
+    "ECONOMÍA": (19, 23, 25),
+    "ECONOMIA": (19, 23, 25),
+    "TRIBUTARIO": (90, 98, 108),
+    "TRIBUTÁRIO": (90, 98, 108),
     "TELECOM": ORANGE,
     "TELECOMUNICACIONES": ORANGE,
     "TELECOMUNICAÇÕES": ORANGE,
@@ -82,7 +84,7 @@ def draw_flag(code, w=96, h=64):
         r = h // 9
         d.ellipse([w / 2 - r, h / 2 - r, w / 2 + r, h / 2 + r], outline=(120, 120, 120), width=2)
     # borde sutil
-    d.rectangle([0, 0, w - 1, h - 1], outline=(255, 255, 255), width=2)
+    d.rectangle([0, 0, w - 1, h - 1], outline=LINE, width=2)
     return im
 
 
@@ -113,15 +115,29 @@ def fit_title(draw, text, max_w, max_lines, sizes=(64, 58, 52, 46, 42, 38)):
     return f, lines
 
 
+def default_logo():
+    """logo.png junto al script; si no existe, se reconstruye desde logo.b64."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    png = os.path.join(here, "logo.png")
+    b64 = os.path.join(here, "logo.b64")
+    if not os.path.exists(png) and os.path.exists(b64):
+        import base64
+        with open(b64) as f, open(png, "wb") as out:
+            out.write(base64.b64decode(f.read()))
+    return png if os.path.exists(png) else None
+
+
 def make_card(country, category, title, summary, source, date, out, logo=None):
-    im = Image.new("RGB", (W, H), NAVY)
+    im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
 
-    # Fondo: degradado vertical sutil
+    # Fondo: degradado vertical sutil (blanco -> gris muy claro)
     for y in range(H):
         t = y / H
-        c = tuple(int(NAVY[i] * (1 - t) + NAVY_DARK[i] * t) for i in range(3))
+        c = tuple(int(BG[i] * (1 - t) + BG_BOTTOM[i] * t) for i in range(3))
         d.line([(0, y), (W, y)], fill=c)
+
+    logo = logo or default_logo()
 
     # Franja lateral naranja (identidad)
     d.rectangle([0, 0, 18, H], fill=ORANGE)
@@ -130,10 +146,10 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
     margin = 72
     if logo:
         lg = Image.open(logo).convert("RGBA")
-        lg.thumbnail((320, 110))
-        im.paste(lg, (margin, 56), lg)
+        lg.thumbnail((400, 140))
+        im.paste(lg, (margin, 40), lg)
     else:
-        d.text((margin, 56), "DEITEL", font=font("Poppins-Bold.ttf", 60), fill=WHITE)
+        d.text((margin, 56), "DEITEL", font=font("Poppins-Bold.ttf", 60), fill=INK)
         d.text((margin + 2, 126), "TORRES PARA TELECOMUNICACIONES", font=font("Poppins-Medium.ttf", 20), fill=GREY, spacing=4)
 
     # País + bandera, arriba a la derecha
@@ -141,26 +157,26 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
     flag = draw_flag(country)
     fn = font("Poppins-Medium.ttf", 30)
     tw = d.textlength(name, font=fn)
-    d.text((W - margin - tw, 70), name, font=fn, fill=WHITE)
+    d.text((W - margin - tw, 70), name, font=fn, fill=INK)
     im.paste(flag, (W - margin - int(tw) - 96 - 20, 60))
 
     # Línea divisoria
-    d.line([(margin, 190), (W - margin, 190)], fill=(60, 85, 130), width=2)
+    d.line([(margin, 200), (W - margin, 200)], fill=LINE, width=2)
 
     # Etiqueta de categoría
     cat = category.upper()
     col = CATEGORY_COLORS.get(cat, ORANGE)
     fc = font("Poppins-Bold.ttf", 26)
     cw = d.textlength(cat, font=fc)
-    d.rounded_rectangle([margin, 228, margin + cw + 40, 228 + 50], radius=10, fill=col)
-    d.text((margin + 20, 235), cat, font=fc, fill=WHITE)
+    d.rounded_rectangle([margin, 236, margin + cw + 40, 236 + 50], radius=10, fill=col)
+    d.text((margin + 20, 243), cat, font=fc, fill=WHITE)
 
     # Titular
     ft, tlines = fit_title(d, title, W - 2 * margin, 4)
-    y = 320
+    y = 326
     lh = int(ft.size * 1.18)
     for ln in tlines:
-        d.text((margin, y), ln, font=ft, fill=WHITE)
+        d.text((margin, y), ln, font=ft, fill=INK)
         y += lh
 
     # Resumen
@@ -172,7 +188,7 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
         y += 42
 
     # Pie: fuente y fecha
-    d.line([(margin, H - 150), (W - margin, H - 150)], fill=(60, 85, 130), width=2)
+    d.line([(margin, H - 150), (W - margin, H - 150)], fill=LINE, width=2)
     fp = font("Poppins-Regular.ttf", 24)
     lbl = "Fonte" if country == "BR" else "Fuente"
     d.text((margin, H - 120), f"{lbl}: {source}", font=fp, fill=GREY)
