@@ -15,6 +15,8 @@ Variables de entorno:
   POSTIZ_BASE_URL     opcional, por defecto https://api.postiz.com/public/v1
   DRY_RUN=1           no publica: solo genera tarjetas y logs
   ONLY=CL,BR          opcional, limita países
+  DELETE_GROUPS=a,b   opcional, borra esos posts programados (ids de grupo) antes de generar
+  POST_NOW=1          opcional, publica de inmediato (3 min) en vez de a la hora del país
 """
 import os, sys, json, re, time, hashlib, datetime as dt, pathlib, urllib.parse
 import requests, yaml, feedparser
@@ -111,8 +113,19 @@ Candidatos (los más recientes primero):
 
 Tarea: elige UNA noticia. Prioridad: 1) telecomunicaciones e infraestructura (antenas, torres, 5G,
 espectro, fibra, operadores, regulador), 2) economía relevante para inversión e industria, 3) tributario.
-Descarta notas de farándula, deportes, política partidista, opinión o rumores; prefiere fuentes
-oficiales o medios económicos serios. Si ninguna sirve, devuelve {{"skip": true, "reason": "..."}}.
+Descarta notas de farándula, deportes, política partidista, opinión, rumores y sucesos policiales
+menores. Entre dos noticias similares, prefiere SIEMPRE la de fuente de mayor peso: organismos
+oficiales (reguladores, ministerios, bancos centrales, servicios de impuestos) y medios económicos o
+generalistas de referencia del país (por ejemplo Diario Financiero, El Mercurio, La Tercera, Valor
+Econômico, Folha, Estadão, Agência Brasil, Teletime, Telesíntese, La Nación, Clarín, Ámbito, Infobae,
+iProfesional, Gestión, El Comercio, La República, Última Hora, ABC Color, La Nación PY, 5Días). Evita
+medios locales pequeños o desconocidos salvo que sean la única cobertura de un hecho importante.
+Si ninguna sirve, devuelve {{"skip": true, "reason": "..."}}.
+
+Reglas de redacción: no expandas siglas de organismos salvo que estés seguro de su significado
+(escribe solo la sigla, por ejemplo "ARCA", "SII", "SUNAT", "DNIT", "Anatel"); no inventes cifras ni
+nombres; escribe con tus propias palabras. La línea final de cita es "Fuente: <medio>" en español y
+"Fonte: <medio>" en portugués.
 
 Responde SOLO con JSON válido, sin markdown, con estas claves:
 {{
@@ -120,8 +133,8 @@ Responde SOLO con JSON válido, sin markdown, con estas claves:
  "category": "ECONOMÍA" | "TRIBUTARIO" | "TELECOM"   (en portugués: "ECONOMIA" | "TRIBUTÁRIO" | "TELECOM"),
  "card_title": "<titular propio, máximo 90 caracteres, sin comillas>",
  "card_summary": "<resumen propio de 1-2 frases, máximo 220 caracteres>",
- "linkedin": "<post de 500-900 caracteres, tono profesional y cercano, 2-4 párrafos cortos, contexto y por qué importa para la industria de infraestructura telecom. Sin hashtags. Sin emojis excesivos (máximo 2). Termina citando la fuente: 'Fuente: <medio>'>",
- "instagram": "<versión de 300-600 caracteres para Instagram, más directa, puede llevar 1-3 emojis, termina con 'Fuente: <medio>'>",
+ "linkedin": "<post de 500-900 caracteres, tono profesional y cercano, 2-4 párrafos cortos, contexto y por qué importa para la industria de infraestructura telecom. Sin hashtags. Sin emojis excesivos (máximo 2). Termina citando la fuente ('Fuente: <medio>' o, en portugués, 'Fonte: <medio>')>",
+ "instagram": "<versión de 300-600 caracteres para Instagram, más directa, puede llevar 1-3 emojis, termina con la misma línea de fuente>",
  "hashtags": "<3 hashtags adicionales específicos de la noticia, separados por espacio>"
 }}
 Escribe con tus propias palabras (no copies párrafos de la nota) y no inventes cifras que no estén en los candidatos."""
@@ -167,6 +180,15 @@ class Postiz:
                               files={"file": (os.path.basename(path), f, "image/png")}, timeout=120)
         r.raise_for_status()
         return r.json()
+
+    def delete_group(self, group):
+        """Elimina un post programado (por id de grupo o de post) en Postiz."""
+        for path in (f"/posts/{group}",):
+            r = requests.delete(f"{self.base}{path}", headers=self.h, timeout=30)
+            if r.status_code < 400:
+                return True
+        log(f"  AVISO: no se pudo borrar {group}: {r.status_code} {r.text[:200]}")
+        return False
 
     def create_post(self, integration_id, platform, content, media, when_utc):
         settings = {"__type": platform}
@@ -222,6 +244,12 @@ def main():
     LOG_DIR.mkdir(exist_ok=True)
     STATE_FILE.parent.mkdir(exist_ok=True)
     daylog = {"date": TODAY, "run_at": NOW.isoformat(), "dry_run": DRY, "countries": {}}
+    prev_log = LOG_DIR / f"{TODAY}.json"
+    if ONLY and prev_log.exists():  # corrida parcial: conservar lo ya registrado hoy
+        try:
+            daylog["countries"] = json.loads(prev_log.read_text(encoding="utf-8")).get("countries", {})
+        except Exception:
+            pass
 
     pz = channels = None
     if not DRY:
@@ -234,6 +262,11 @@ def main():
             daylog["error"] = repr(e)
             (LOG_DIR / f"{TODAY}.json").write_text(json.dumps(daylog, ensure_ascii=False, indent=2), encoding="utf-8")
             sys.exit(1)
+
+    groups = [g for g in os.environ.get("DELETE_GROUPS", "").replace("\n", ",").split(",") if g.strip()]
+    if groups and not DRY:
+        log(f"Borrando {len(groups)} posts programados en Postiz...")
+        daylog["deleted"] = [g for g in groups if pz.delete_group(g.strip())]
 
     for code, c in CFG["countries"].items():
         if ONLY and code not in ONLY:
@@ -266,8 +299,8 @@ def main():
                 media = pz.upload(str(card))
                 hh, mm = map(int, c["post_time"].split(":"))
                 when = NOW.replace(hour=hh, minute=mm, second=0, microsecond=0)
-                if when < NOW + dt.timedelta(minutes=5):
-                    when = NOW + dt.timedelta(minutes=5)
+                if os.environ.get("POST_NOW") == "1" or when < NOW + dt.timedelta(minutes=5):
+                    when = NOW + dt.timedelta(minutes=3)
                 when_utc = when.astimezone(dt.timezone.utc)
                 entry["posts"] = []
                 for ch in channels:
