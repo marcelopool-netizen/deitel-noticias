@@ -190,16 +190,28 @@ class Postiz:
         return r.json()
 
 
+def _platform_of(i):
+    for k in ("identifier", "providerIdentifier", "platform", "provider", "type"):
+        if i.get(k):
+            return str(i[k]).lower()
+    return ""
+
+
 def resolve_channels(pz):
     ints = pz.integrations()
+    if isinstance(ints, dict):  # algunas versiones envuelven la lista
+        ints = ints.get("integrations") or ints.get("data") or []
     out = []
     for ch in CFG["channels"]:
-        m = [i for i in ints if i.get("providerIdentifier", i.get("platform")) == ch["platform"]
+        m = [i for i in ints if _platform_of(i) == ch["platform"].lower()
              and ch["name"].lower() in (i.get("name") or "").lower()]
         if not m:
             log(f"  AVISO: canal no encontrado en Postiz: {ch}")
             continue
         out.append({"id": m[0]["id"], "platform": ch["platform"], "name": m[0]["name"]})
+    if not out:
+        raise RuntimeError("Ningún canal de Postiz coincide con config.yaml. Respuesta de /integrations: "
+                           + json.dumps(ints, ensure_ascii=False)[:800])
     return out
 
 
@@ -214,8 +226,14 @@ def main():
     pz = channels = None
     if not DRY:
         pz = Postiz()
-        channels = resolve_channels(pz)
-        log("Canales:", [c["name"] for c in channels])
+        try:
+            channels = resolve_channels(pz)
+            log("Canales:", [c["name"] for c in channels])
+        except Exception as e:
+            log("ERROR resolviendo canales:", repr(e))
+            daylog["error"] = repr(e)
+            (LOG_DIR / f"{TODAY}.json").write_text(json.dumps(daylog, ensure_ascii=False, indent=2), encoding="utf-8")
+            sys.exit(1)
 
     for code, c in CFG["countries"].items():
         if ONLY and code not in ONLY:
@@ -257,6 +275,8 @@ def main():
                     res = pz.create_post(ch["id"], ch["platform"], content, media, when_utc)
                     entry["posts"].append({"channel": ch["name"], "scheduled_for": when.isoformat(), "result": res})
                     log(f"  programado en {ch['name']} para {when:%H:%M}")
+                if not entry["posts"]:
+                    raise RuntimeError("sin canales: no se programó ningún post")
                 entry["status"] = "scheduled"
                 seen.add(it["key"])
         except Exception as e:
