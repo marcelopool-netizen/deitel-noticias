@@ -6,6 +6,21 @@ window_hours: 36          # solo noticias publicadas en las últimas N horas
 max_candidates: 25        # candidatos por país que se le muestran al modelo
 model: claude-sonnet-4-5  # modelo de Anthropic para seleccionar y redactar
 
+# Lista blanca de medios: si un país tiene al menos min_preferred candidatos de
+# medios de referencia, al modelo SOLO se le muestran esos. Si hay menos, se muestran
+# todos, pero los de referencia van primero y marcados con ★.
+min_preferred: 3
+preferred_sources_global:
+  - Reuters
+  - Bloomberg
+  - EFE
+  - AFP
+  - BNamericas
+  - TeleSemana
+  - DPL News
+  - Forbes
+  - Infobae
+
 # Cuentas de Postiz donde publicar (se buscan por plataforma + nombre)
 channels:
   - platform: linkedin-page
@@ -30,6 +45,30 @@ countries:
     feeds:
       - https://www.subtel.gob.cl/feed/
       - https://www.emol.com/rss/rss.asp?canal=economia
+      - https://www.latercera.com/arcio/rss/
+      - https://www.df.cl/rss
+    preferred_sources:
+      - Diario Financiero
+      - DF.cl
+      - El Mercurio
+      - Emol
+      - La Tercera
+      - Pulso
+      - La Segunda
+      - El Mostrador
+      - Cooperativa
+      - BioBioChile
+      - Radio Bío-Bío
+      - Diario Estrategia
+      - CNN Chile
+      - T13
+      - 24horas
+      - Subtel
+      - Banco Central
+      - SII
+      - Gobierno de Chile
+      - Ministerio de Hacienda
+      - Ministerio de Transportes
   BR:
     name: Brasil
     lang: pt
@@ -44,6 +83,31 @@ countries:
     feeds:
       - https://www.gov.br/anatel/pt-br/assuntos/noticias/RSS
       - https://agenciabrasil.ebc.com.br/rss/economia/feed.xml
+      - https://teletime.com.br/feed/
+      - https://www.telesintese.com.br/feed/
+      - https://feeds.folha.uol.com.br/mercado/rss091.xml
+    preferred_sources:
+      - Valor
+      - Folha
+      - Estadão
+      - O Globo
+      - G1
+      - Agência Brasil
+      - Teletime
+      - Telesíntese
+      - Tele.Síntese
+      - Mobile Time
+      - Convergência Digital
+      - InfoMoney
+      - Exame
+      - CNN Brasil
+      - Poder360
+      - UOL
+      - Anatel
+      - Receita Federal
+      - Banco Central
+      - Ministério das Comunicações
+      - Gov.br
   AR:
     name: Argentina
     lang: es
@@ -57,6 +121,24 @@ countries:
       - "ARCA impuestos OR tributaria OR monotributo"
     feeds:
       - https://www.enacom.gob.ar/rss
+      - https://www.ambito.com/rss/pages/economia.xml
+      - https://www.iprofesional.com/rss
+    preferred_sources:
+      - La Nación
+      - Clarín
+      - Ámbito
+      - iProfesional
+      - El Cronista
+      - Cronista
+      - Perfil
+      - El Economista
+      - TN
+      - Noticias Argentinas
+      - ENACOM
+      - ARCA
+      - Banco Central
+      - BCRA
+      - Argentina.gob.ar
   PE:
     name: Perú
     lang: es
@@ -70,6 +152,22 @@ countries:
       - "SUNAT impuestos OR tributaria"
     feeds:
       - https://www.osiptel.gob.pe/rss
+      - https://gestion.pe/arcio/rss/
+      - https://elcomercio.pe/arcio/rss/
+    preferred_sources:
+      - Gestión
+      - El Comercio
+      - La República
+      - RPP
+      - Andina
+      - El Peruano
+      - Semana Económica
+      - Osiptel
+      - MTC
+      - Ministerio de Transportes
+      - SUNAT
+      - BCRP
+      - Gob.pe
   PY:
     name: Paraguay
     lang: es
@@ -81,7 +179,26 @@ countries:
       - "telecomunicaciones CONATEL OR 5G OR antenas OR torres OR Tigo OR Personal"
       - "economía Paraguay inversión OR BCP OR crecimiento"
       - "DNIT impuestos OR tributaria OR IVA"
-    feeds: []
+    feeds:
+      - https://www.abc.com.py/arc/outboundfeeds/rss/?outputType=xml
+      - https://www.ultimahora.com/rss/
+    preferred_sources:
+      - Última Hora
+      - ABC Color
+      - ABC
+      - La Nación
+      - 5Días
+      - 5dias
+      - Hoy
+      - IP Paraguay
+      - Agencia IP
+      - MarketData
+      - Infonegocios
+      - Conatel
+      - DNIT
+      - Banco Central del Paraguay
+      - BCP
+      - Ministerio de Economía
 
 # Hashtags fijos por idioma (el modelo puede agregar 2-3 más)
 hashtags:
