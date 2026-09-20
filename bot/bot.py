@@ -138,7 +138,7 @@ def ask_claude(code, c, cands):
     prompt = PROMPT.format(name=c["name"], code=code, lang_name=lang_name, fecha=fecha, cands="\n".join(lines))
     client = anthropic.Anthropic()
     for attempt in range(3):
-        msg = client.messages.create(model=CFG["model"], max_tokens=1500, temperature=0.4,
+        msg = client.messages.create(model=CFG["model"], max_tokens=1500,
                                      messages=[{"role": "user", "content": prompt}])
         txt = msg.content[0].text.strip()
         txt = re.sub(r"^```(?:json)?|```$", "", txt, flags=re.M).strip()
