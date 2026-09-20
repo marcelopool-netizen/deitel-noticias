@@ -183,9 +183,9 @@ class Postiz:
 
     def delete_group(self, group):
         """Elimina un post programado (por id de grupo o de post) en Postiz."""
-        for path in (f"/posts/{group}",):
+        for path in (f"/posts/group/{group}", f"/posts/{group}"):
             r = requests.delete(f"{self.base}{path}", headers=self.h, timeout=30)
-            if r.status_code < 400:
+            if r.status_code < 400 or r.status_code == 404:  # 404 = ya borrado
                 return True
         log(f"  AVISO: no se pudo borrar {group}: {r.status_code} {r.text[:200]}")
         return False
