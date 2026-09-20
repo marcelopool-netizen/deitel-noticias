@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-20",
+  "run_at": "2026-09-20T01:56:35.189394-03:00",
+  "dry_run": true,
+  "countries": {
+    "CL": {
+      "status": "error",
+      "error": "TypeError(\"Messages.create() got an unexpected keyword argument 'temperature'\")"
+    },
+    "BR": {
+      "status": "error",
+      "error": "TypeError(\"Messages.create() got an unexpected keyword argument 'temperature'\")"
+    },
+    "AR": {
+      "status": "error",
+      "error": "TypeError(\"Messages.create() got an unexpected keyword argument 'temperature'\")"
+    },
+    "PE": {
+      "status": "error",
+      "error": "TypeError(\"Messages.create() got an unexpected keyword argument 'temperature'\")"
+    },
+    "PY": {
+      "status": "error",
+      "error": "TypeError(\"Messages.create() got an unexpected keyword argument 'temperature'\")"
+    }
+  }
+}
