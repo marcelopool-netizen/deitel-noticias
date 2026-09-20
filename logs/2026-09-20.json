@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T03:08:25.690499-03:00",
+  "run_at": "2026-09-20T03:19:31.477007-03:00",
   "dry_run": false,
   "countries": {
     "CL": {
@@ -17,13 +17,44 @@
         "index": 3,
         "category": "ECONOMÍA",
         "card_title": "Economía chilena cierra primer semestre con crecimiento bajo 1% y desempleo en 9,5%",
-        "card_summary": "Chile llega a Fiestas Patrias con indicadores económicos complejos: crecimiento inferior al 1%, inflación de 4,1% y desempleo de 9,5%, señales que impactan las proyecciones de inversión.",
-        "linkedin": "Chile enfrenta un escenario económico desafiante al cierre del primer semestre de 2026. Los indicadores revelan un crecimiento inferior al 1%, inflación que se mantiene en 4,1% y una tasa de desempleo de 9,5%.\n\nPara la industria de infraestructura y telecomunicaciones, estos datos son una señal de alerta. El bajo crecimiento puede traducirse en menor inversión en proyectos de conectividad y expansión de redes, mientras que el alto desempleo refleja un mercado laboral contraído que impacta tanto la demanda de servicios como la disponibilidad de recursos para nuevos desarrollos.\n\nLa inflación por sobre el rango meta del Banco Central también presiona los costos de materiales y servicios, un factor crítico para proyectos de infraestructura que requieren planificación de largo plazo. En este contexto, la industria deberá ajustar expectativas y priorizar eficiencia operacional.\n\nFuente: Publimicro",
-        "instagram": "📊 Chile cierra el primer semestre con indicadores económicos complejos: crecimiento bajo 1%, inflación en 4,1% y desempleo de 9,5%.\n\nPara la industria de telecomunicaciones e infraestructura, estos números impactan directamente las proyecciones de inversión y desarrollo de nuevos proyectos de conectividad.\n\nLa planificación estratégica y la eficiencia operacional serán clave en este escenario desafiante. 📡\n\nFuente: Publimicro",
-        "hashtags": "#CrecimientoEconómico #InflaciónChile #DesempleoChile"
+        "card_summary": "Chile enfrenta Fiestas Patrias con indicadores económicos preocupantes: crecimiento inferior al 1%, inflación de 4,1% y desempleo cercano al 10%.",
+        "linkedin": "La economía chilena presenta un panorama desafiante al cierre del primer semestre 2026. Las cifras revelan un crecimiento inferior al 1%, inflación de 4,1% y una tasa de desempleo que alcanza el 9,5%.\n\nEstos indicadores son relevantes para nuestra industria de infraestructura y telecomunicaciones. Un crecimiento económico bajo puede traducirse en menor inversión en proyectos de expansión de redes, ralentización en el despliegue de infraestructura crítica y postergación de licitaciones.\n\nSin embargo, las telecomunicaciones siguen siendo un sector estratégico para la reactivación. La demanda de conectividad se mantiene y los proyectos de infraestructura digital son clave para impulsar la productividad del país.\n\nEn DEITEL seguimos comprometidos con entregar soluciones de calidad que permitan el desarrollo de la infraestructura necesaria para mantener a Chile conectado, incluso en contextos económicos complejos.\n\nFuente: Publimicro",
+        "instagram": "📊 Chile enfrenta un escenario económico complejo: crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% al cierre del primer semestre.\n\nPara la industria de telecomunicaciones e infraestructura, estos números plantean desafíos en inversión y desarrollo de proyectos. Aún así, la conectividad sigue siendo estratégica para la reactivación económica del país.\n\nEn DEITEL mantenemos nuestro compromiso con la infraestructura que mantiene a Chile conectado. 🇨🇱\n\nFuente: Publimicro",
+        "hashtags": "#CrecimientoEconómico #DesempleoChile #IndicadoresEconómicos"
       },
       "card": "cards/2026-09-20/2026-09-20_CL.png",
-      "posts": []
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T09:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9ffeyd0dbymi0yeeffs6yh",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T09:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fff7g0d8js40yl7h7wk4r",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T09:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fffgk0dbzmi0y12x4owh4",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     },
     "BR": {
       "status": "scheduled",
@@ -38,14 +69,45 @@
       "selection": {
         "index": 5,
         "category": "TELECOM",
-        "card_title": "Anatel reforça combate a ligações fraudulentas com números falsificados",
-        "card_summary": "Agência reguladora intensifica ações contra milhões de chamadas com identificação falsificada usadas em golpes, protegendo usuários das redes de telecomunicações.",
-        "linkedin": "A Anatel está intensificando o combate a milhões de ligações fraudulentas que utilizam números falsificados para aplicar golpes. A medida reforça a segurança e a confiabilidade das redes de telecomunicações no Brasil.\n\nEsta ação da agência reguladora é fundamental para proteger os usuários e fortalecer a credibilidade do setor. A falsificação de identificação de chamadas (spoofing) tem sido uma das principais ferramentas utilizadas por criminosos para enganar consumidores e empresas.\n\nPara a indústria de infraestrutura de telecomunicações, essas iniciativas regulatórias demonstram a importância crescente de redes seguras e confiáveis. Operadoras e fornecedores de infraestrutura precisam estar preparados para implementar tecnologias de autenticação e rastreabilidade de chamadas, garantindo um ambiente mais seguro para todos.\n\nFuente: Rádio Mirador",
-        "instagram": "A Anatel está apertando o cerco contra milhões de ligações fraudulentas com números falsificados usados em golpes! 🛡️\n\nA medida reforça a segurança das redes de telecom e protege usuários contra fraudes. Para o setor de infraestrutura, isso significa investimentos em tecnologias mais seguras e confiáveis.\n\nRedes protegidas = usuários protegidos 📞\n\nFuente: Rádio Mirador",
-        "hashtags": "#Segurança #Fraude #RedesTelecom"
+        "card_title": "Anatel intensifica combate a ligações fraudulentas com números falsificados",
+        "card_summary": "Regulador brasileiro reforça medidas contra milhões de chamadas com identificação falsa usadas em golpes, protegendo usuários de telecomunicações.",
+        "linkedin": "A Anatel está intensificando o combate contra milhões de ligações telefônicas que utilizam números falsificados para aplicar golpes em consumidores brasileiros. A medida representa um avanço importante na segurança das redes de telecomunicações do país.\n\nEssa ação do regulador impacta diretamente as operadoras de telefonia, que precisarão implementar mecanismos mais robustos de autenticação e rastreamento de chamadas. Para o setor de infraestrutura telecom, isso significa investimentos em tecnologia e sistemas de segurança mais sofisticados.\n\nA proteção contra fraudes fortalece a confiança dos usuários nas redes de telecomunicações e contribui para um ecossistema digital mais seguro, beneficiando toda a cadeia do setor.\n\nFuente: Rádio Mirador",
+        "instagram": "A Anatel está apertando o cerco contra ligações fraudulentas! 📞\n\nO regulador brasileiro intensificou as medidas contra milhões de chamadas com números falsificados usadas em golpes. A ação obriga operadoras a investirem em segurança e autenticação mais robustas.\n\nUm passo importante para proteger usuários e fortalecer a confiança nas redes de telecomunicações do Brasil. ✅\n\nFuente: Rádio Mirador",
+        "hashtags": "#Anatel #SegurançaDigital #CombateAFraudes"
       },
       "card": "cards/2026-09-20/2026-09-20_BR.png",
-      "posts": []
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T10:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9ffvzj0dc5mi0ysyslrca0",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T10:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fg4xd0dc6mi0ycap6otp7",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T10:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fg5kq0dcami0yq7sxu8q0",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     },
     "AR": {
       "status": "scheduled",
@@ -60,14 +122,45 @@
       "selection": {
         "index": 2,
         "category": "TRIBUTARIO",
-        "card_title": "ARCA define nuevos topes y montos del monotributo para octubre 2026",
-        "card_summary": "La agencia tributaria argentina actualizó las categorías del monotributo con nuevos topes de facturación y montos de pago que regirán desde octubre 2026.",
-        "linkedin": "Argentina actualiza el régimen de monotributo para octubre 2026. ARCA definió los nuevos topes de facturación y montos de aportes que deberán pagar los contribuyentes inscriptos en este régimen simplificado.\n\nEsta actualización es especialmente relevante para proveedores, contratistas y prestadores de servicios técnicos que trabajan con la industria de telecomunicaciones bajo el régimen de monotributo. Los nuevos parámetros impactarán directamente en la estructura de costos de proyectos de infraestructura.\n\nPara empresas como DEITEL que operan con una red de proveedores locales en Argentina, comprender estos cambios tributarios es fundamental para la planificación financiera y la gestión de contratos en el sector de torres y estructuras de telecomunicaciones.\n\nFuente: iProfesional",
-        "instagram": "📊 Argentina actualiza el monotributo para octubre 2026. ARCA definió nuevos topes de facturación y montos de pago que impactarán a miles de contribuyentes.\n\nEsto afecta directamente a proveedores y contratistas del sector telecom que operan bajo este régimen simplificado. Importante para la planificación de costos en proyectos de infraestructura. 📡\n\nFuente: iProfesional",
-        "hashtags": "#Monotributo #ARCA #ArgentinaFiscal"
+        "card_title": "Argentina: ARCA define nuevos topes y valores del monotributo para octubre 2026",
+        "card_summary": "La agencia tributaria argentina actualizó los montos y categorías del monotributo que regirán desde octubre 2026, impactando a pequeñas y medianas empresas del sector.",
+        "linkedin": "Argentina actualiza el régimen de monotributo para octubre 2026. La Administración Federal de Ingresos Públicos (ARCA) definió los nuevos topes de facturación y montos de pago que deberán abonar los contribuyentes inscriptos en este régimen simplificado.\n\nEsta actualización impacta directamente a proveedores de servicios, instaladores y pequeñas empresas del ecosistema de telecomunicaciones que operan bajo este régimen tributario. Los nuevos parámetros determinarán la viabilidad económica de muchos emprendimientos y contratistas vinculados a la infraestructura del sector.\n\nPara empresas como DEITEL, que trabajan con una red de proveedores y subcontratistas en Argentina, estos cambios en la estructura tributaria pueden influir en los costos operativos y en la planificación de proyectos de infraestructura para los próximos meses.\n\nFuente: iProfesional",
+        "instagram": "Argentina actualizó el monotributo para octubre 2026 📋\n\nARCA definió los nuevos topes de facturación y montos a pagar en el régimen simplificado. Este cambio impacta a proveedores, instaladores y pequeñas empresas del sector telecom que operan bajo este sistema tributario.\n\nUn dato clave para planificar costos operativos en proyectos de infraestructura en el país. 📊\n\nFuente: iProfesional",
+        "hashtags": "#Monotributo #ARCA #TributarioArgentina"
       },
       "card": "cards/2026-09-20/2026-09-20_AR.png",
-      "posts": []
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T11:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fggib0dcemi0yczirqhav",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T11:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fggqw0dcfmi0yajhvb6q0",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T11:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fggze0d8ss40ylmkk7q26",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     },
     "PE": {
       "status": "scheduled",
@@ -82,14 +175,45 @@
       "selection": {
         "index": 22,
         "category": "TELECOM",
-        "card_title": "MTC incauta equipos ilegales de internet cerca de penal en Lima",
-        "card_summary": "El Ministerio de Transportes y Comunicaciones decomisó equipos que brindaban señal de internet de forma ilegal en las cercanías del penal Miguel Castro Castro.",
-        "linkedin": "El Ministerio de Transportes y Comunicaciones de Perú realizó un operativo de fiscalización que resultó en la incautación de equipos ilegales que brindaban señal de internet en las proximidades del penal Miguel Castro Castro.\n\nEste tipo de intervenciones son fundamentales para combatir el uso no autorizado del espectro radioeléctrico, un recurso limitado y estratégico para el desarrollo de las telecomunicaciones. La operación ilegal de equipos no solo representa competencia desleal para los operadores formales, sino que también puede generar interferencias que afectan la calidad del servicio en redes legítimas.\n\nPara la industria de infraestructura de telecomunicaciones, estas acciones refuerzan la importancia de operar bajo el marco regulatorio establecido y evidencian el compromiso del MTC con la fiscalización del sector.\n\nFuente: Diario La Opinión Ica",
-        "instagram": "El MTC de Perú incautó equipos ilegales que brindaban internet cerca del penal Miguel Castro Castro 📡\n\nLa fiscalización del espectro radioeléctrico es clave para garantizar servicios de calidad y competencia leal en el sector. Estas intervenciones protegen tanto a operadores formales como a usuarios finales.\n\nUn recordatorio de la importancia de operar dentro del marco regulatorio establecido.\n\nFuente: Diario La Opinión Ica",
-        "hashtags": "#EspectroRadioeléctrico #FiscalizaciónTelecom #InternetIlegal"
+        "card_title": "MTC incauta equipos ilegales de internet cerca de penal Castro Castro",
+        "card_summary": "El Ministerio de Transportes y Comunicaciones decomisó equipos que emitían señal de internet de forma ilegal en las proximidades del penal Miguel Castro Castro.",
+        "linkedin": "El Ministerio de Transportes y Comunicaciones de Perú realizó una operación de fiscalización que resultó en la incautación de equipos ilegales que proporcionaban señal de internet cerca del penal Miguel Castro Castro.\n\nEsta acción refuerza la labor de control del espectro radioeléctrico y combate la infraestructura clandestina de telecomunicaciones, un problema que afecta la calidad del servicio legítimo y genera interferencias en las redes autorizadas.\n\nPara las empresas de infraestructura telecom, estas fiscalizaciones son fundamentales. El uso ilegal del espectro no solo representa competencia desleal, sino que puede degradar la calidad de las señales en zonas urbanas críticas, afectando la inversión en torres y equipamiento homologado.\n\nEl fortalecimiento de estas acciones de control es una señal positiva para el sector formal de telecomunicaciones en Perú.\n\nFuente: Diario La Opinión Ica",
+        "instagram": "El MTC de Perú incautó equipos ilegales que emitían señal de internet cerca del penal Miguel Castro Castro 📡\n\nEsta fiscalización es clave para proteger el espectro radioeléctrico y combatir la infraestructura clandestina que genera interferencias y afecta la calidad del servicio legítimo.\n\nUn paso importante para fortalecer el sector formal de telecomunicaciones y proteger la inversión en infraestructura autorizada.\n\nFuente: Diario La Opinión Ica",
+        "hashtags": "#EspectroRadioeléctrico #FiscalizaciónTelecom #InfraestructuraLegal"
       },
       "card": "cards/2026-09-20/2026-09-20_PE.png",
-      "posts": []
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fgtdh0dchmi0yblfch580",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fgtme0dcimi0yuq6n0lk6",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fgtvq0d8ts40yq8fq5o98",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     },
     "PY": {
       "status": "scheduled",
@@ -104,14 +228,45 @@
       "selection": {
         "index": 2,
         "category": "ECONOMÍA",
-        "card_title": "Itaú proyecta crecimiento de 4,5% para la economía paraguaya en 2026",
-        "card_summary": "El banco Itaú anticipa un crecimiento económico de 4,5% para Paraguay con una inflación controlada del 3%, señales positivas para la inversión en infraestructura.",
-        "linkedin": "Paraguay mantiene perspectivas económicas favorables para 2026. Según proyecciones de Itaú, el país registraría un crecimiento del 4,5% con una inflación controlada en torno al 3%, cifras que reflejan estabilidad macroeconómica.\n\nEste escenario es especialmente relevante para nuestra industria. Un crecimiento económico sostenido impulsa la demanda de conectividad y servicios digitales, lo que se traduce en mayor inversión en infraestructura de telecomunicaciones: torres, antenas y redes que sostienen la transformación digital del país.\n\nLa estabilidad de precios y el dinamismo económico crean las condiciones ideales para que operadores y empresas del sector expandan su cobertura y modernicen sus redes. Para quienes fabricamos estructuras de acero, estas proyecciones anticipan oportunidades concretas de crecimiento en el mercado paraguayo.\n\nFuente: 5Días Paraguay",
-        "instagram": "📊 Buenas noticias desde Paraguay: Itaú proyecta un crecimiento económico de 4,5% para 2026, con inflación controlada del 3%.\n\n¿Por qué importa? Un país en crecimiento necesita más conectividad. Eso significa más inversión en torres, antenas y infraestructura que hacen posible la transformación digital.\n\nEstabilidad económica = oportunidades para expandir las redes de telecomunicaciones en Paraguay 📡\n\nFuente: 5Días Paraguay",
-        "hashtags": "#CrecimientoEconómico #ParaguayEconomía #InversiónTelecom"
+        "card_title": "Itaú proyecta crecimiento de 4,5% e inflación de 3% para Paraguay en 2026",
+        "card_summary": "El banco Itaú presenta perspectivas económicas favorables para Paraguay, con expansión sostenida del PIB y estabilidad de precios que impulsan la inversión en infraestructura.",
+        "linkedin": "Paraguay mantiene su rumbo de crecimiento económico con proyecciones alentadoras para el cierre de 2026. Según Itaú, el país alcanzaría una expansión del 4,5% del PIB, acompañada de una inflación controlada del 3%, cifras que reflejan estabilidad macroeconómica y un entorno favorable para la inversión.\n\nEste escenario es especialmente relevante para la industria de telecomunicaciones e infraestructura. Un crecimiento económico sostenido impulsa la demanda de conectividad, tanto en zonas urbanas como rurales, creando oportunidades para el despliegue de nuevas redes y la modernización de estructuras existentes.\n\nLa combinación de crecimiento y baja inflación genera condiciones óptimas para proyectos de mediano y largo plazo en el sector. Para empresas como DEITEL, especializadas en torres y estructuras de acero, Paraguay se consolida como un mercado con potencial para expandir la cobertura y mejorar la calidad de los servicios de telecomunicaciones.\n\nFuente: 5Días Paraguay",
+        "instagram": "Paraguay cierra 2026 con proyecciones económicas sólidas 📊\n\nItaú prevé un crecimiento del 4,5% y una inflación controlada del 3% para el país. Estas cifras reflejan estabilidad macroeconómica y generan un entorno favorable para la inversión en infraestructura de telecomunicaciones.\n\nUn crecimiento sostenido impulsa la demanda de conectividad y abre oportunidades para el despliegue de nuevas redes y torres en todo el territorio paraguayo. 📡\n\nFuente: 5Días Paraguay",
+        "hashtags": "#CrecimientoEconómico #Paraguay2026 #InversiónTelecom"
       },
       "card": "cards/2026-09-20/2026-09-20_PY.png",
-      "posts": []
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fhfif0dcmmi0ydltgg5wa",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fhfr80d8zs40y89xfiw7f",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmu9fhfzf0d90s40y6r929unr",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     }
   }
 }
