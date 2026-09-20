@@ -1,62 +1,8 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T11:47:20.767064-03:00",
+  "run_at": "2026-09-20T13:04:36.830579-03:00",
   "dry_run": false,
   "countries": {
-    "CL": {
-      "status": "scheduled",
-      "news": {
-        "key": "d835c853e377983842807f208b19a11819d6b284",
-        "title": "El juicio de los chilenos del ChileDay al MK4",
-        "source": "La Tercera",
-        "preferred": true,
-        "link": "https://www.latercera.com/pulso/noticia/el-juicio-de-los-chilenos-del-chileday-al-mk4/",
-        "published": "2026-09-20T07:00:00-03:00",
-        "summary": "No hay dos opiniones: volver a hablar de mercado de capitales en un evento creado para difundir el mercado de capitales es el primer logro de una reforma que trae cambios estructurales, para unos, y tímidos, para otros. En Madrid y Londres, las conversaciones se multiplicaron esta semana. Entre los gestores de inversión y entre autoridades. Aquí, aplausos y reparos de muchos de los asistentes. Y l"
-      },
-      "selection": {
-        "index": 24,
-        "category": "ECONOMÍA",
-        "card_title": "Reforma al mercado de capitales vuelve a poner el tema en la agenda chilena",
-        "card_summary": "El MK4 trae cambios estructurales al mercado de capitales chileno, generando debate entre actores de la industria sobre su impacto en la inversión y financiamiento.",
-        "linkedin": "La reforma al mercado de capitales chileno vuelve a posicionarse como tema central de discusión en el sector financiero del país. El llamado MK4 introduce modificaciones estructurales que están siendo evaluadas por inversionistas y empresas.\n\nSegún el análisis presentado en el ChileDay, el consenso apunta a que esta reforma representa el primer paso concreto para revitalizar la conversación sobre mercado de capitales en Chile, un tema que había perdido relevancia en los últimos años.\n\nPara la industria de infraestructura y telecomunicaciones, un mercado de capitales más robusto y actualizado resulta fundamental. Las inversiones en torres, redes 5G y fibra óptica requieren acceso a financiamiento de largo plazo, y cualquier mejora en los mecanismos de capital puede traducirse en mayores facilidades para desarrollar proyectos estratégicos.\n\nFuente: La Tercera",
-        "instagram": "La reforma MK4 al mercado de capitales chileno vuelve a poner el tema en el centro del debate económico 📊\n\nPara nuestra industria de infraestructura y telecomunicaciones, un mercado de capitales fortalecido significa mejores opciones de financiamiento para proyectos de largo plazo como torres, redes 5G y fibra óptica.\n\nEl debate sobre estos cambios estructurales marca un avance importante en la discusión sobre inversión en Chile.\n\nFuente: La Tercera",
-        "hashtags": "#MercadoDeCapitales #InversiónChile #MK4"
-      },
-      "card": "cards/2026-09-20/2026-09-20_CL.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
-          "result": [
-            {
-              "postId": "cmu9xki1100rjmi0y12n8m8mq",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ]
-        },
-        {
-          "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
-          "result": [
-            {
-              "postId": "cmu9xkia300rkmi0yt357uwhp",
-              "integration": "cmu7tv1l003l4lb0ydst38wb3"
-            }
-          ]
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
-          "result": [
-            {
-              "postId": "cmu9xkik600rlmi0ywhx424ie",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ]
-        }
-      ]
-    },
     "BR": {
       "status": "scheduled",
       "news": {
@@ -105,6 +51,60 @@
           "result": [
             {
               "postId": "cmu9xkzwp00rpmi0yzal1ymg6",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "d835c853e377983842807f208b19a11819d6b284",
+        "title": "El juicio de los chilenos del ChileDay al MK4",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/el-juicio-de-los-chilenos-del-chileday-al-mk4/",
+        "published": "2026-09-20T07:00:00-03:00",
+        "summary": "No hay dos opiniones: volver a hablar de mercado de capitales en un evento creado para difundir el mercado de capitales es el primer logro de una reforma que trae cambios estructurales, para unos, y tímidos, para otros. En Madrid y Londres, las conversaciones se multiplicaron esta semana. Entre los gestores de inversión y entre autoridades. Aquí, aplausos y reparos de muchos de los asistentes. Y l"
+      },
+      "selection": {
+        "index": 24,
+        "category": "ECONOMÍA",
+        "card_title": "Reforma al mercado de capitales vuelve a poner el tema en la agenda chilena",
+        "card_summary": "El MK4 trae cambios estructurales al mercado de capitales chileno, generando debate entre actores de la industria sobre su impacto en la inversión y financiamiento.",
+        "linkedin": "La reforma al mercado de capitales chileno vuelve a posicionarse como tema central de discusión en el sector financiero del país. El llamado MK4 introduce modificaciones estructurales que están siendo evaluadas por inversionistas y empresas.\n\nSegún el análisis presentado en el ChileDay, el consenso apunta a que esta reforma representa el primer paso concreto para revitalizar la conversación sobre mercado de capitales en Chile, un tema que había perdido relevancia en los últimos años.\n\nPara la industria de infraestructura y telecomunicaciones, un mercado de capitales más robusto y actualizado resulta fundamental. Las inversiones en torres, redes 5G y fibra óptica requieren acceso a financiamiento de largo plazo, y cualquier mejora en los mecanismos de capital puede traducirse en mayores facilidades para desarrollar proyectos estratégicos.\n\nFuente: La Tercera",
+        "instagram": "La reforma MK4 al mercado de capitales chileno vuelve a poner el tema en el centro del debate económico 📊\n\nPara nuestra industria de infraestructura y telecomunicaciones, un mercado de capitales fortalecido significa mejores opciones de financiamiento para proyectos de largo plazo como torres, redes 5G y fibra óptica.\n\nEl debate sobre estos cambios estructurales marca un avance importante en la discusión sobre inversión en Chile.\n\nFuente: La Tercera",
+        "hashtags": "#MercadoDeCapitales #InversiónChile #MK4"
+      },
+      "card": "cards/2026-09-20/2026-09-20_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
+          "result": [
+            {
+              "postId": "cmu9xki1100rjmi0y12n8m8mq",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
+          "result": [
+            {
+              "postId": "cmu9xkia300rkmi0yt357uwhp",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
+          "result": [
+            {
+              "postId": "cmu9xkik600rlmi0ywhx424ie",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -220,8 +220,108 @@
       ]
     },
     "PY": {
-      "status": "skip",
-      "reason": "Ninguno de los candidatos marcados con ★ trata sobre telecomunicaciones, infraestructura, economía relevante para inversión industrial o tributación. Las noticias disponibles son principalmente deportes, farándula, política internacional, sucesos y temas sociales generales que no se ajustan a las prioridades editoriales de DEITEL."
+      "status": "scheduled",
+      "news": {
+        "key": "b1e51246a5952440839613263679dda60768d018",
+        "title": "ANDE vs. Atome: Consultor ve debilitada posición de la estatal ante un arbitraje y señala negligencia",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/economia/2026/09/20/ande-vs-atome-consultor-ve-debilitada-posicion-de-la-estatal-ante-un-arbitraje-y-senala-negligencia/",
+        "published": "2026-09-20T12:28:55-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 19,
+        "category": "ECONOMÍA",
+        "card_title": "ANDE enfrenta posición debilitada ante arbitraje con Atome por negligencia",
+        "card_summary": "Consultor advierte que la posición de ANDE se encuentra debilitada ante un eventual arbitraje con Atome, señalando negligencia en el manejo del caso.",
+        "linkedin": "La Administración Nacional de Electricidad (ANDE) de Paraguay enfrenta una situación delicada en su disputa con la empresa Atome. Según análisis de consultores especializados, la posición de la estatal eléctrica paraguaya estaría debilitada ante un eventual arbitraje internacional, con señalamientos de negligencia en la gestión del conflicto.\n\nEste caso cobra relevancia para el sector de infraestructura y telecomunicaciones de la región, ya que evidencia los riesgos que enfrentan las empresas estatales en contratos con operadores privados internacionales. La gestión adecuada de estos acuerdos es fundamental para evitar disputas que puedan afectar la inversión en infraestructura crítica.\n\nPara las empresas que operan en sectores estratégicos como energía y telecomunicaciones, este tipo de situaciones subraya la importancia de contar con marcos contractuales sólidos y gestión profesional de los compromisos internacionales, especialmente en proyectos de infraestructura de gran escala.\n\nFuente: ABC Color",
+        "instagram": "La ANDE de Paraguay enfrenta una posición debilitada ante un posible arbitraje con Atome, según advierten consultores que señalan negligencia en el manejo del caso. ⚠️\n\nUna situación que recuerda la importancia de la gestión profesional en contratos de infraestructura crítica, tanto en energía como en telecomunicaciones.\n\nFuente: ABC Color",
+        "hashtags": "#ANDE #ArbitrajeInternacional #InfraestructuraParaguay"
+      },
+      "card": "cards/2026-09-20/2026-09-20_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T13:07:36.830579-03:00",
+          "result": [
+            {
+              "postId": "cmua0bvuq01rbmi0yhsb5567p",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T13:07:36.830579-03:00",
+          "result": [
+            {
+              "postId": "cmua0bw5301rcmi0yfo288au6",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T13:07:36.830579-03:00",
+          "result": [
+            {
+              "postId": "cmua0bwhb03p0s40ydau7mlb8",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "EFEMÉRIDE",
+        "lang": "es",
+        "card_title": "Wikipedia alcanzó 1 millón de artículos en 100 idiomas",
+        "card_summary": "Un día como hoy en 2004, Wikipedia llegó a un millón de artículos distribuidos en 100 idiomas, consolidando el conocimiento colaborativo global.",
+        "linkedin": "Un día como hoy en 2004, Wikipedia alcanzó un hito histórico: 1 millón de artículos distribuidos en 100 idiomas. Esta plataforma colaborativa demostró que la infraestructura digital y la conectividad podían democratizar el acceso al conocimiento a escala global.\n\nEn DEITEL entendemos que las redes de información dependen de infraestructura física sólida. Nuestras torres y estructuras de acero para telecomunicaciones son la base que permite que millones de personas en Chile, Brasil, Argentina, Perú y Paraguay accedan cada día a plataformas educativas, laborales y de entretenimiento.\n\nLa conectividad transforma sociedades, y nosotros construimos las estructuras que la hacen posible. 🌐📡",
+        "instagram": "📡 Un día como hoy en 2004, Wikipedia alcanzó 1 millón de artículos en 100 idiomas.\n\nLa democratización del conocimiento fue posible gracias a la conectividad global. En DEITEL, construimos las torres y estructuras de acero que sostienen esa infraestructura de telecomunicaciones en Chile, Brasil, Argentina, Perú y Paraguay.\n\nConectividad que transforma, estructuras que perduran. 🌐",
+        "hashtags": "#Conectividad #Infraestructura #Telecomunicaciones",
+        "source": "Wikipedia"
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-20/2026-09-20_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmua0c5kd03p3s40yj24ddi4k",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmua0c5wn01rlmi0yuchs1a1j",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmua0c6ap03p4s40yokr84htc",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     }
   }
 }
