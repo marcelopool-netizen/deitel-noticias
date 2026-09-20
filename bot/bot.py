@@ -18,6 +18,7 @@ Variables de entorno:
   ONLY=CL,BR          opcional, limita países (HOY = solo el post del día; NONE = ninguno)
   DELETE_GROUPS=a,b   opcional, borra esos posts programados (ids de grupo) antes de generar
   POST_NOW=1          opcional, publica de inmediato (3 min) en vez de a la hora del país
+  FORCE=1             opcional, vuelve a publicar aunque el país ya tenga post programado hoy
 """
 import os, sys, json, re, time, hashlib, datetime as dt, pathlib, urllib.parse, unicodedata
 import requests, yaml, feedparser
@@ -119,14 +120,23 @@ def collect(code, c, seen):
                 "key": key, "title": title.strip(), "source": source, "preferred": is_preferred(source, c),
                 "link": link, "published": d.isoformat(), "summary": clean(e.get("summary", ""))[:400],
             })
-    # Medios de referencia primero; si hay suficientes, los medios menores ni se muestran al modelo.
+    # Medios de referencia primero (sort es estable: conserva el orden por fecha dentro de cada grupo).
     items.sort(key=lambda x: x["published"], reverse=True)
-    items.sort(key=lambda x: not x["preferred"])  # sort es estable: conserva el orden por fecha
+    items.sort(key=lambda x: not x["preferred"])
     pref = [i for i in items if i["preferred"]]
-    if len(pref) >= CFG.get("min_preferred", 3):
-        items = pref
     log(f"  {code}: {len(items)} candidatos recientes ({len(pref)} de medios de referencia)")
-    return items[: CFG["max_candidates"]]
+    return items
+
+
+def candidate_sets(items):
+    """Listas a ofrecer al modelo, en orden: solo medios de referencia (si hay suficientes) y luego todos."""
+    n = CFG["max_candidates"]
+    pref = [i for i in items if i["preferred"]]
+    sets = []
+    if len(pref) >= CFG.get("min_preferred", 3):
+        sets.append(pref[:n])
+    sets.append(items[:n])
+    return sets
 
 
 # ------------------------------------------------------------------- selección
@@ -405,11 +415,20 @@ def main():
     STATE_FILE.parent.mkdir(exist_ok=True)
     daylog = {"date": TODAY, "run_at": NOW.isoformat(), "dry_run": DRY, "countries": {}}
     prev_log = LOG_DIR / f"{TODAY}.json"
-    if ONLY and prev_log.exists():  # corrida parcial: conservar lo ya registrado hoy
+    prev = {}
+    if prev_log.exists():
         try:
-            daylog["countries"] = json.loads(prev_log.read_text(encoding="utf-8")).get("countries", {})
+            prev = json.loads(prev_log.read_text(encoding="utf-8")).get("countries", {})
         except Exception:
-            pass
+            prev = {}
+    if ONLY:  # corrida parcial: conservar lo ya registrado hoy
+        daylog["countries"] = dict(prev)
+    # Ya publicado hoy (p. ej. el cron corrió dos veces o se relanzó a mano): no duplicar.
+    done = set() if os.environ.get("FORCE") == "1" or DRY else {k for k, v in prev.items() if v.get("status") == "scheduled"}
+    if done:
+        log("Ya programados hoy (se omiten):", sorted(done))
+        for k in done:
+            daylog["countries"][k] = prev[k]
 
     pz = channels = None
     if not DRY:
@@ -429,17 +448,22 @@ def main():
         daylog["deleted"] = [g for g in groups if pz.delete_group(g.strip())]
 
     for code, c in CFG["countries"].items():
-        if ONLY and code not in ONLY:
+        if (ONLY and code not in ONLY) or code in done:
             continue
         log(f"== {c['name']}")
         entry = {"status": "skip"}
         try:
-            cands = collect(code, c, seen)
-            if not cands:
+            items = collect(code, c, seen)
+            if not items:
                 entry["reason"] = "sin candidatos recientes"
                 daylog["countries"][code] = entry
                 continue
-            sel, fecha = ask_claude(code, c, cands)
+            sel = None
+            for cands in candidate_sets(items):  # 1º solo medios de referencia; si descarta, todos
+                sel, fecha = ask_claude(code, c, cands)
+                if not sel.get("skip"):
+                    break
+                log("  modelo descartó:", str(sel.get("reason", ""))[:160])
             if sel.get("skip"):
                 entry["reason"] = sel.get("reason", "modelo descartó")
                 daylog["countries"][code] = entry
@@ -465,7 +489,7 @@ def main():
 
     # ---- post del día (efeméride / saludo / dato curioso)
     extra_cfg = CFG.get("extra") or {}
-    if extra_cfg.get("enabled", True) and (not ONLY or "HOY" in ONLY):
+    if extra_cfg.get("enabled", True) and (not ONLY or "HOY" in ONLY) and "HOY" not in done:
         log("== Post del día")
         entry = {"status": "skip"}
         try:
