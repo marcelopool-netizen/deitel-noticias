@@ -2,8 +2,10 @@ name: Noticias diarias DEITEL
 
 on:
   schedule:
-    # 11:30 UTC = 08:30 Santiago en horario de verano (07:30 en invierno)
-    - cron: "30 11 * * *"
+    # GitHub suele atrasar los cron hasta 2-3 h. Se dispara temprano (10:00 UTC = 07:00
+    # Santiago) y hay un segundo intento de respaldo; el bot no duplica lo ya publicado.
+    - cron: "0 10 * * *"
+    - cron: "30 12 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -17,6 +19,9 @@ on:
         default: ""
       post_now:
         description: "Publicar de inmediato en vez de a la hora del país (1 = sí)"
+        default: "0"
+      force:
+        description: "Volver a publicar aunque ya haya post de hoy (1 = sí)"
         default: "0"
 
 permissions:
@@ -51,6 +56,7 @@ jobs:
           ONLY: ${{ github.event.inputs.only || '' }}
           DELETE_GROUPS: ${{ github.event.inputs.delete_groups || '' }}
           POST_NOW: ${{ github.event.inputs.post_now || '0' }}
+          FORCE: ${{ github.event.inputs.force || '0' }}
         run: python bot/bot.py
 
       - name: Guardar tarjetas, logs y estado en el repositorio
