@@ -1,0 +1,89 @@
+# Configuración del bot de noticias DEITEL
+# Horas en zona America/Santiago. Un post por país por día.
+
+timezone: America/Santiago
+window_hours: 36          # solo noticias publicadas en las últimas N horas
+max_candidates: 25        # candidatos por país que se le muestran al modelo
+model: claude-sonnet-4-5  # modelo de Anthropic para seleccionar y redactar
+
+# Cuentas de Postiz donde publicar (se buscan por plataforma + nombre)
+channels:
+  - platform: linkedin-page
+    name: Grupodeitel
+  - platform: instagram
+    name: Deitel SPA
+  - platform: linkedin
+    name: Marcelo Pool Skiadaressis
+
+countries:
+  CL:
+    name: Chile
+    lang: es
+    post_time: "09:00"
+    gl: CL
+    hl: es-419
+    ceid: "CL:es-419"
+    queries:
+      - "telecomunicaciones Subtel OR antenas OR 5G OR espectro OR torres"
+      - "economía Chile inversión OR Banco Central OR crecimiento"
+      - "SII impuestos OR tributaria OR reforma"
+    feeds:
+      - https://www.subtel.gob.cl/feed/
+      - https://www.emol.com/rss/rss.asp?canal=economia
+  BR:
+    name: Brasil
+    lang: pt
+    post_time: "10:00"
+    gl: BR
+    hl: pt-BR
+    ceid: "BR:pt-419"
+    queries:
+      - "telecomunicações Anatel OR 5G OR torres OR antenas OR operadoras"
+      - "economia Brasil investimento OR Banco Central OR PIB"
+      - "Receita Federal OR reforma tributária OR impostos"
+    feeds:
+      - https://www.gov.br/anatel/pt-br/assuntos/noticias/RSS
+      - https://agenciabrasil.ebc.com.br/rss/economia/feed.xml
+  AR:
+    name: Argentina
+    lang: es
+    post_time: "11:00"
+    gl: AR
+    hl: es-419
+    ceid: "AR:es-419"
+    queries:
+      - "telecomunicaciones ENACOM OR 5G OR antenas OR espectro OR torres"
+      - "economía Argentina inversión OR inflación OR Banco Central"
+      - "ARCA impuestos OR tributaria OR monotributo"
+    feeds:
+      - https://www.enacom.gob.ar/rss
+  PE:
+    name: Perú
+    lang: es
+    post_time: "12:00"
+    gl: PE
+    hl: es-419
+    ceid: "PE:es-419"
+    queries:
+      - "telecomunicaciones Osiptel OR MTC OR 5G OR antenas OR torres"
+      - "economía Perú inversión OR BCRP OR crecimiento"
+      - "SUNAT impuestos OR tributaria"
+    feeds:
+      - https://www.osiptel.gob.pe/rss
+  PY:
+    name: Paraguay
+    lang: es
+    post_time: "13:00"
+    gl: PY
+    hl: es-419
+    ceid: "PY:es-419"
+    queries:
+      - "telecomunicaciones CONATEL OR 5G OR antenas OR torres OR Tigo OR Personal"
+      - "economía Paraguay inversión OR BCP OR crecimiento"
+      - "DNIT impuestos OR tributaria OR IVA"
+    feeds: []
+
+# Hashtags fijos por idioma (el modelo puede agregar 2-3 más)
+hashtags:
+  es: "#Telecomunicaciones #Infraestructura #TorresDeTelecomunicaciones #DEITEL"
+  pt: "#Telecomunicações #Infraestrutura #TorresDeTelecom #DEITEL"
