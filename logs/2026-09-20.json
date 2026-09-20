@@ -1,10 +1,10 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T02:25:10.801528-03:00",
-  "dry_run": true,
+  "run_at": "2026-09-20T03:08:25.690499-03:00",
+  "dry_run": false,
   "countries": {
     "CL": {
-      "status": "ready",
+      "status": "scheduled",
       "news": {
         "key": "4e2d2a37f99f7782b91213750d923fda516656e6",
         "title": "Economía chilena llega a Fiestas Patrias con crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% - Publimicro",
@@ -16,16 +16,17 @@
       "selection": {
         "index": 3,
         "category": "ECONOMÍA",
-        "card_title": "Economía chilena cierra septiembre con crecimiento bajo 1% y desempleo en 9,5%",
-        "card_summary": "Chile llega a Fiestas Patrias con indicadores económicos desafiantes: crecimiento inferior al 1%, inflación en 4,1% y desempleo alcanza 9,5%.",
-        "linkedin": "Chile cierra septiembre con un panorama económico complejo. El país llega a Fiestas Patrias con un crecimiento inferior al 1%, inflación en 4,1% y una tasa de desempleo que alcanza el 9,5%.\n\nEstos indicadores reflejan un entorno desafiante para la inversión y el desarrollo de proyectos de infraestructura. El bajo crecimiento económico puede impactar la velocidad de despliegue de redes de telecomunicaciones y la expansión de infraestructura crítica que el país necesita para su transformación digital.\n\nPara la industria de telecomunicaciones, estos datos son especialmente relevantes. La inversión en torres, antenas y redes requiere estabilidad económica y confianza en el mercado. Un crecimiento débil puede postergar proyectos de modernización que son fundamentales para la conectividad del país.\n\nFuente: Publimicro",
-        "instagram": "Chile llega a Fiestas Patrias con indicadores económicos complejos 📊\n\nCrecimiento bajo 1%, inflación en 4,1% y desempleo en 9,5%. Estos datos impactan directamente la inversión en infraestructura y telecomunicaciones.\n\nUn entorno económico desafiante puede ralentizar proyectos de conectividad que son clave para el desarrollo digital del país. La industria telecom requiere estabilidad para seguir creciendo.\n\nFuente: Publimicro",
-        "hashtags": "#CrecimientoEconómico #DesempleoChile #IndicadoresEconómicos"
+        "card_title": "Economía chilena cierra primer semestre con crecimiento bajo 1% y desempleo en 9,5%",
+        "card_summary": "Chile llega a Fiestas Patrias con indicadores económicos complejos: crecimiento inferior al 1%, inflación de 4,1% y desempleo de 9,5%, señales que impactan las proyecciones de inversión.",
+        "linkedin": "Chile enfrenta un escenario económico desafiante al cierre del primer semestre de 2026. Los indicadores revelan un crecimiento inferior al 1%, inflación que se mantiene en 4,1% y una tasa de desempleo de 9,5%.\n\nPara la industria de infraestructura y telecomunicaciones, estos datos son una señal de alerta. El bajo crecimiento puede traducirse en menor inversión en proyectos de conectividad y expansión de redes, mientras que el alto desempleo refleja un mercado laboral contraído que impacta tanto la demanda de servicios como la disponibilidad de recursos para nuevos desarrollos.\n\nLa inflación por sobre el rango meta del Banco Central también presiona los costos de materiales y servicios, un factor crítico para proyectos de infraestructura que requieren planificación de largo plazo. En este contexto, la industria deberá ajustar expectativas y priorizar eficiencia operacional.\n\nFuente: Publimicro",
+        "instagram": "📊 Chile cierra el primer semestre con indicadores económicos complejos: crecimiento bajo 1%, inflación en 4,1% y desempleo de 9,5%.\n\nPara la industria de telecomunicaciones e infraestructura, estos números impactan directamente las proyecciones de inversión y desarrollo de nuevos proyectos de conectividad.\n\nLa planificación estratégica y la eficiencia operacional serán clave en este escenario desafiante. 📡\n\nFuente: Publimicro",
+        "hashtags": "#CrecimientoEconómico #InflaciónChile #DesempleoChile"
       },
-      "card": "cards/2026-09-20/2026-09-20_CL.png"
+      "card": "cards/2026-09-20/2026-09-20_CL.png",
+      "posts": []
     },
     "BR": {
-      "status": "ready",
+      "status": "scheduled",
       "news": {
         "key": "1830017b76f53ff7ade3c87596c112de05c978ab",
         "title": "Anatel aperta o cerco contra milhões de ligações com números falsificados usados em golpes - Rádio Mirador",
@@ -37,16 +38,17 @@
       "selection": {
         "index": 5,
         "category": "TELECOM",
-        "card_title": "Anatel intensifica combate a ligações fraudulentas com números falsificados",
-        "card_summary": "Agência reguladora reforça medidas contra milhões de chamadas com identificação adulterada usadas em golpes, protegendo consumidores e operadoras.",
-        "linkedin": "A Anatel está intensificando o combate às chamadas telefônicas fraudulentas que utilizam números falsificados para aplicar golpes. A medida visa coibir uma prática que tem afetado milhões de brasileiros e comprometido a confiança no sistema de telecomunicações.\n\nEssas ligações com identificação adulterada (spoofing) são frequentemente usadas por criminosos para se passar por instituições legítimas, causando prejuízos financeiros e danos à reputação das operadoras. O endurecimento da fiscalização representa um passo importante para a segurança da infraestrutura de telecom.\n\nPara empresas do setor de telecomunicações, essa ação regulatória reforça a necessidade de investimentos em tecnologias de autenticação e rastreabilidade de chamadas, além de fortalecer a parceria entre operadoras, fabricantes de infraestrutura e o órgão regulador na construção de redes mais seguras e confiáveis.\n\nFonte: Rádio Mirador",
-        "instagram": "A Anatel está apertando o cerco contra chamadas telefônicas fraudulentas com números falsificados, usadas em golpes que afetam milhões de brasileiros. 📞\n\nA medida combate o spoofing (adulteração de identificador) e protege tanto consumidores quanto a credibilidade das operadoras de telecom.\n\nPara o setor, isso significa mais investimento em segurança e tecnologias de autenticação nas redes de telecomunicações.\n\nFonte: Rádio Mirador",
-        "hashtags": "#Anatel #SegurançaTelecom #CombateFraudes"
+        "card_title": "Anatel reforça combate a ligações fraudulentas com números falsificados",
+        "card_summary": "Agência reguladora intensifica ações contra milhões de chamadas com identificação falsificada usadas em golpes, protegendo usuários das redes de telecomunicações.",
+        "linkedin": "A Anatel está intensificando o combate a milhões de ligações fraudulentas que utilizam números falsificados para aplicar golpes. A medida reforça a segurança e a confiabilidade das redes de telecomunicações no Brasil.\n\nEsta ação da agência reguladora é fundamental para proteger os usuários e fortalecer a credibilidade do setor. A falsificação de identificação de chamadas (spoofing) tem sido uma das principais ferramentas utilizadas por criminosos para enganar consumidores e empresas.\n\nPara a indústria de infraestrutura de telecomunicações, essas iniciativas regulatórias demonstram a importância crescente de redes seguras e confiáveis. Operadoras e fornecedores de infraestrutura precisam estar preparados para implementar tecnologias de autenticação e rastreabilidade de chamadas, garantindo um ambiente mais seguro para todos.\n\nFuente: Rádio Mirador",
+        "instagram": "A Anatel está apertando o cerco contra milhões de ligações fraudulentas com números falsificados usados em golpes! 🛡️\n\nA medida reforça a segurança das redes de telecom e protege usuários contra fraudes. Para o setor de infraestrutura, isso significa investimentos em tecnologias mais seguras e confiáveis.\n\nRedes protegidas = usuários protegidos 📞\n\nFuente: Rádio Mirador",
+        "hashtags": "#Segurança #Fraude #RedesTelecom"
       },
-      "card": "cards/2026-09-20/2026-09-20_BR.png"
+      "card": "cards/2026-09-20/2026-09-20_BR.png",
+      "posts": []
     },
     "AR": {
-      "status": "ready",
+      "status": "scheduled",
       "news": {
         "key": "df584ba97853b3e051f9a724a5b7804999e10d04",
         "title": "ARCA definió el monotributo: cuánto se paga en octubre 2026 y cuáles son nuevos topes - iProfesional",
@@ -58,16 +60,17 @@
       "selection": {
         "index": 2,
         "category": "TRIBUTARIO",
-        "card_title": "Argentina actualiza monotributo: nuevos topes y valores desde octubre 2026",
-        "card_summary": "ARCA definió los nuevos montos y topes del monotributo que regirán desde octubre 2026, impactando a miles de pequeños contribuyentes y autónomos en Argentina.",
-        "linkedin": "ARCA actualizó el régimen de monotributo en Argentina con nuevos topes y valores que entrarán en vigencia en octubre 2026.\n\nEsta actualización impacta directamente a miles de pequeños contribuyentes, incluyendo técnicos, instaladores y proveedores de servicios que operan en la industria de telecomunicaciones e infraestructura. Los nuevos parámetros determinarán quiénes pueden mantenerse en el régimen simplificado y quiénes deberán migrar al régimen general.\n\nPara las empresas del sector que trabajan con una red de contratistas y prestadores bajo monotributo, estos cambios pueden afectar la estructura de costos y la planificación tributaria del último trimestre del año. Conocer anticipadamente estos ajustes permite una mejor gestión administrativa y financiera.\n\nFuente: iProfesional",
-        "instagram": "📊 Argentina actualiza el monotributo para octubre 2026\n\nARCA definió los nuevos topes y montos del régimen simplificado que impacta a miles de autónomos, incluyendo técnicos e instaladores del sector telecom.\n\nLos cambios en los parámetros determinarán quiénes pueden continuar en el régimen y quiénes deberán migrar. Importante para la planificación del cierre de año.\n\nFuente: iProfesional",
-        "hashtags": "#Monotributo #ARCA #TributarioArgentina"
+        "card_title": "ARCA define nuevos topes y montos del monotributo para octubre 2026",
+        "card_summary": "La agencia tributaria argentina actualizó las categorías del monotributo con nuevos topes de facturación y montos de pago que regirán desde octubre 2026.",
+        "linkedin": "Argentina actualiza el régimen de monotributo para octubre 2026. ARCA definió los nuevos topes de facturación y montos de aportes que deberán pagar los contribuyentes inscriptos en este régimen simplificado.\n\nEsta actualización es especialmente relevante para proveedores, contratistas y prestadores de servicios técnicos que trabajan con la industria de telecomunicaciones bajo el régimen de monotributo. Los nuevos parámetros impactarán directamente en la estructura de costos de proyectos de infraestructura.\n\nPara empresas como DEITEL que operan con una red de proveedores locales en Argentina, comprender estos cambios tributarios es fundamental para la planificación financiera y la gestión de contratos en el sector de torres y estructuras de telecomunicaciones.\n\nFuente: iProfesional",
+        "instagram": "📊 Argentina actualiza el monotributo para octubre 2026. ARCA definió nuevos topes de facturación y montos de pago que impactarán a miles de contribuyentes.\n\nEsto afecta directamente a proveedores y contratistas del sector telecom que operan bajo este régimen simplificado. Importante para la planificación de costos en proyectos de infraestructura. 📡\n\nFuente: iProfesional",
+        "hashtags": "#Monotributo #ARCA #ArgentinaFiscal"
       },
-      "card": "cards/2026-09-20/2026-09-20_AR.png"
+      "card": "cards/2026-09-20/2026-09-20_AR.png",
+      "posts": []
     },
     "PE": {
-      "status": "ready",
+      "status": "scheduled",
       "news": {
         "key": "784dab600abf164a273bb29b9235789d3ea0b360",
         "title": "MTC incautó equipos ilegales con señal de internet cerca del penal Miguel Castro Castro - Diario La Opinión Ica",
@@ -79,16 +82,17 @@
       "selection": {
         "index": 22,
         "category": "TELECOM",
-        "card_title": "MTC incauta equipos ilegales de internet cerca de penal Castro Castro",
-        "card_summary": "El Ministerio de Transportes y Comunicaciones decomisó equipos que operaban ilegalmente señal de internet en las inmediaciones del penal Miguel Castro Castro.",
-        "linkedin": "El Ministerio de Transportes y Comunicaciones de Perú realizó un operativo de fiscalización que resultó en la incautación de equipos ilegales que transmitían señal de internet cerca del penal Miguel Castro Castro.\n\nEste tipo de intervenciones son fundamentales para combatir el uso no autorizado del espectro radioeléctrico, un recurso limitado y estratégico para la industria de telecomunicaciones. Las instalaciones clandestinas no solo operan al margen de la regulación, sino que pueden generar interferencias que afectan la calidad del servicio de operadores legítimos.\n\nPara nuestra industria, estas acciones de fiscalización refuerzan la importancia de contar con infraestructura certificada yoperadores autorizados. La inversión en torres y estructuras de telecomunicaciones debe realizarse siempre dentro del marco regulatorio vigente, garantizando seguridad técnica y operativa.\n\nFuente: Diario La Opinión Ica",
-        "instagram": "El MTC de Perú incautó equipos ilegales de internet operando cerca del penal Miguel Castro Castro 📡\n\nEstos operativos son clave para proteger el espectro radioeléctrico y evitar interferencias que afectan a operadores legítimos. La infraestructura de telecomunicaciones debe ser siempre certificada y cumplir con la normativa vigente.\n\nUn recordatorio de la importancia de invertir en soluciones autorizadas y seguras para el sector.\n\nFuente: Diario La Opinión Ica",
-        "hashtags": "#EspectroRadioeléctrico #FiscalizaciónTelecom #InfraestructuraLegal"
+        "card_title": "MTC incauta equipos ilegales de internet cerca de penal en Lima",
+        "card_summary": "El Ministerio de Transportes y Comunicaciones decomisó equipos que brindaban señal de internet de forma ilegal en las cercanías del penal Miguel Castro Castro.",
+        "linkedin": "El Ministerio de Transportes y Comunicaciones de Perú realizó un operativo de fiscalización que resultó en la incautación de equipos ilegales que brindaban señal de internet en las proximidades del penal Miguel Castro Castro.\n\nEste tipo de intervenciones son fundamentales para combatir el uso no autorizado del espectro radioeléctrico, un recurso limitado y estratégico para el desarrollo de las telecomunicaciones. La operación ilegal de equipos no solo representa competencia desleal para los operadores formales, sino que también puede generar interferencias que afectan la calidad del servicio en redes legítimas.\n\nPara la industria de infraestructura de telecomunicaciones, estas acciones refuerzan la importancia de operar bajo el marco regulatorio establecido y evidencian el compromiso del MTC con la fiscalización del sector.\n\nFuente: Diario La Opinión Ica",
+        "instagram": "El MTC de Perú incautó equipos ilegales que brindaban internet cerca del penal Miguel Castro Castro 📡\n\nLa fiscalización del espectro radioeléctrico es clave para garantizar servicios de calidad y competencia leal en el sector. Estas intervenciones protegen tanto a operadores formales como a usuarios finales.\n\nUn recordatorio de la importancia de operar dentro del marco regulatorio establecido.\n\nFuente: Diario La Opinión Ica",
+        "hashtags": "#EspectroRadioeléctrico #FiscalizaciónTelecom #InternetIlegal"
       },
-      "card": "cards/2026-09-20/2026-09-20_PE.png"
+      "card": "cards/2026-09-20/2026-09-20_PE.png",
+      "posts": []
     },
     "PY": {
-      "status": "ready",
+      "status": "scheduled",
       "news": {
         "key": "53a9857fac464dede73799a84558fcf871cfc650",
         "title": "Itaú prevé crecimiento de 4,5% e inflación de 3% para Paraguay - 5Días Paraguay",
@@ -101,12 +105,13 @@
         "index": 2,
         "category": "ECONOMÍA",
         "card_title": "Itaú proyecta crecimiento de 4,5% para la economía paraguaya en 2026",
-        "card_summary": "El banco Itaú estima un crecimiento económico de 4,5% e inflación controlada de 3% para Paraguay, señales positivas para la inversión en infraestructura.",
-        "linkedin": "Paraguay mantiene perspectivas económicas sólidas según las proyecciones de Itaú, que estima un crecimiento del 4,5% para 2026, acompañado de una inflación controlada en torno al 3%.\n\nEstas cifras resultan especialmente relevantes para nuestra industria. Un crecimiento económico sostenido impulsa la demanda de conectividad y telecomunicaciones, lo que se traduce en mayor inversión en infraestructura de red, torres y estructuras de soporte para tecnologías móviles y de transmisión de datos.\n\nLa estabilidad macroeconómica, reflejada en el control inflacionario, genera condiciones favorables para proyectos de largo plazo en el sector de telecomunicaciones, facilitando la planificación de inversiones en expansión y modernización de redes.\n\nPara los actores del mercado de infraestructura telecom, este escenario representa oportunidades concretas de desarrollo en un mercado que combina crecimiento con predictibilidad económica.\n\nFuente: 5Días Paraguay",
-        "instagram": "Paraguay muestra señales positivas para la inversión en infraestructura 📊\n\nItaú proyecta un crecimiento económico de 4,5% e inflación de 3% para 2026. Estas cifras reflejan estabilidad macroeconómica y condiciones favorables para el desarrollo del sector telecomunicaciones.\n\nUn entorno de crecimiento sostenido impulsa la demanda de conectividad y abre oportunidades para inversiones en torres, antenas y estructuras de soporte para redes móviles.\n\nFuente: 5Días Paraguay",
-        "hashtags": "#CrecimientoEconómico #InversiónParaguay #DesarrolloTelecom"
+        "card_summary": "El banco Itaú anticipa un crecimiento económico de 4,5% para Paraguay con una inflación controlada del 3%, señales positivas para la inversión en infraestructura.",
+        "linkedin": "Paraguay mantiene perspectivas económicas favorables para 2026. Según proyecciones de Itaú, el país registraría un crecimiento del 4,5% con una inflación controlada en torno al 3%, cifras que reflejan estabilidad macroeconómica.\n\nEste escenario es especialmente relevante para nuestra industria. Un crecimiento económico sostenido impulsa la demanda de conectividad y servicios digitales, lo que se traduce en mayor inversión en infraestructura de telecomunicaciones: torres, antenas y redes que sostienen la transformación digital del país.\n\nLa estabilidad de precios y el dinamismo económico crean las condiciones ideales para que operadores y empresas del sector expandan su cobertura y modernicen sus redes. Para quienes fabricamos estructuras de acero, estas proyecciones anticipan oportunidades concretas de crecimiento en el mercado paraguayo.\n\nFuente: 5Días Paraguay",
+        "instagram": "📊 Buenas noticias desde Paraguay: Itaú proyecta un crecimiento económico de 4,5% para 2026, con inflación controlada del 3%.\n\n¿Por qué importa? Un país en crecimiento necesita más conectividad. Eso significa más inversión en torres, antenas y infraestructura que hacen posible la transformación digital.\n\nEstabilidad económica = oportunidades para expandir las redes de telecomunicaciones en Paraguay 📡\n\nFuente: 5Días Paraguay",
+        "hashtags": "#CrecimientoEconómico #ParaguayEconomía #InversiónTelecom"
       },
-      "card": "cards/2026-09-20/2026-09-20_PY.png"
+      "card": "cards/2026-09-20/2026-09-20_PY.png",
+      "posts": []
     }
   }
 }
