@@ -1,60 +1,29 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T03:50:24.074197-03:00",
-  "dry_run": false,
+  "run_at": "2026-09-20T11:04:14.797079-03:00",
+  "dry_run": true,
   "countries": {
     "CL": {
-      "status": "scheduled",
+      "status": "ready",
       "news": {
-        "key": "4e2d2a37f99f7782b91213750d923fda516656e6",
-        "title": "Economía chilena llega a Fiestas Patrias con crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% - Publimicro",
-        "source": "Publimicro",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONXdaUVNOU2FBemY2VVNBOEl4bUJPa0k2eDBqVVdVZEFJSTdWa0JXS0hzMkxTUHduNGdoRE5SdV9rWnE0TURwM0IxakZsTmtkcTdkLWs5YVNMUlAwQzhGYkRDOXVRWjRTVEw1VFVHNGUxbmtMMzNiWm0tTG1FMFduWUd2RmdBUE4wcHhtSDl4TkpYMmgyQ3pNWEo2NFVYTFFVSk9BaWo2RUFIVUkxV0Nfa2FlbnZMWXg5MnpvNA?oc=5",
-        "published": "2026-09-19T09:27:24-03:00",
-        "summary": "Economía chilena llega a Fiestas Patrias con crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% &nbsp;&nbsp; Publimicro"
+        "key": "ff535edd51eef25f657b631d8f553ab3ecbcbbf6",
+        "title": "Ignacio Briones: “Si no hay pragmatismo para hacerse cargo de la emergencia laboral de hoy, la agenda de reformas de largo plazo se complica”",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/ignacio-briones-si-no-hay-pragmatismo-para-hacerse-cargo-de-la-emergencia-laboral-de-hoy-la-agenda-de-reformas-de-largo-plazo-se-complica/",
+        "published": "2026-09-20T07:00:00-03:00",
+        "summary": "El exministro de Hacienda llama al gobierno a dar una señal de compromiso con la emergencia económica actual, mediante un mayor activismo fiscal transitorio. “El Presupuesto 2027 tiene que ser el del trabajo. Es cierto que ni las obras públicas ni los subsidios son capaces de eliminar completamente el problema de desempleo, pero lo morigeran, y muestran una actitud de que el gobierno está comprome"
       },
       "selection": {
-        "index": 3,
+        "index": 22,
         "category": "ECONOMÍA",
-        "card_title": "Economía chilena cierra primer semestre con crecimiento bajo 1% y desempleo en 9,5%",
-        "card_summary": "Chile enfrenta Fiestas Patrias con indicadores económicos preocupantes: crecimiento inferior al 1%, inflación de 4,1% y desempleo cercano al 10%.",
-        "linkedin": "La economía chilena presenta un panorama desafiante al cierre del primer semestre 2026. Las cifras revelan un crecimiento inferior al 1%, inflación de 4,1% y una tasa de desempleo que alcanza el 9,5%.\n\nEstos indicadores son relevantes para nuestra industria de infraestructura y telecomunicaciones. Un crecimiento económico bajo puede traducirse en menor inversión en proyectos de expansión de redes, ralentización en el despliegue de infraestructura crítica y postergación de licitaciones.\n\nSin embargo, las telecomunicaciones siguen siendo un sector estratégico para la reactivación. La demanda de conectividad se mantiene y los proyectos de infraestructura digital son clave para impulsar la productividad del país.\n\nEn DEITEL seguimos comprometidos con entregar soluciones de calidad que permitan el desarrollo de la infraestructura necesaria para mantener a Chile conectado, incluso en contextos económicos complejos.\n\nFuente: Publimicro",
-        "instagram": "📊 Chile enfrenta un escenario económico complejo: crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% al cierre del primer semestre.\n\nPara la industria de telecomunicaciones e infraestructura, estos números plantean desafíos en inversión y desarrollo de proyectos. Aún así, la conectividad sigue siendo estratégica para la reactivación económica del país.\n\nEn DEITEL mantenemos nuestro compromiso con la infraestructura que mantiene a Chile conectado. 🇨🇱\n\nFuente: Publimicro",
-        "hashtags": "#CrecimientoEconómico #DesempleoChile #IndicadoresEconómicos"
+        "card_title": "Briones llama a mayor activismo fiscal para enfrentar emergencia laboral",
+        "card_summary": "El exministro de Hacienda pide al gobierno priorizar la urgencia económica actual con un Presupuesto 2027 que impulse el empleo y la inversión en infraestructura.",
+        "linkedin": "El exministro de Hacienda Ignacio Briones hizo un llamado al gobierno a comprometerse con la emergencia económica actual mediante un mayor activismo fiscal transitorio. Según Briones, sin pragmatismo para hacerse cargo de la situación laboral de hoy, la agenda de reformas de largo plazo se complica.\n\nEn su análisis, el economista enfatizó que el Presupuesto 2027 debe ser el del empleo y la reactivación. Esta señal es especialmente relevante para sectores intensivos en infraestructura como las telecomunicaciones, donde la inversión en torres, redes 5G y fibra óptica depende de un entorno macroeconómico estable y políticas que incentiven el desarrollo.\n\nPara la industria de infraestructura telecom, un presupuesto expansivo orientado al empleo podría traducirse en mayores obras públicas, mejor conectividad regional y señales claras para inversores que evalúan proyectos de mediano y largo plazo en Chile.\n\nFuente: La Tercera",
+        "instagram": "El exministro Ignacio Briones pidió al gobierno mayor activismo fiscal para enfrentar la emergencia laboral actual. Según él, el Presupuesto 2027 debe enfocarse en empleo y reactivación. 💼\n\nPara infraestructura telecom esto es clave: más inversión pública puede impulsar proyectos de conectividad, torres y redes que generen empleos y desarrollo regional.\n\nFuente: La Tercera",
+        "hashtags": "#Presupuesto2027 #ReactivaciónEconómica #InversiónPública"
       },
-      "card": "cards/2026-09-20/2026-09-20_CL.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T09:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmu9ffeyd0dbymi0yeeffs6yh",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ]
-        },
-        {
-          "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T09:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmu9fff7g0d8js40yl7h7wk4r",
-              "integration": "cmu7tv1l003l4lb0ydst38wb3"
-            }
-          ]
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T09:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmu9fffgk0dbzmi0y12x4owh4",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ]
-        }
-      ]
+      "card": "cards/2026-09-20/2026-09-20_CL.png"
     },
     "BR": {
       "status": "scheduled",
@@ -163,57 +132,26 @@
       ]
     },
     "PE": {
-      "status": "scheduled",
+      "status": "ready",
       "news": {
-        "key": "784dab600abf164a273bb29b9235789d3ea0b360",
-        "title": "MTC incautó equipos ilegales con señal de internet cerca del penal Miguel Castro Castro - Diario La Opinión Ica",
-        "source": "Diario La Opinión Ica",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZS1RWkp5RUtLUDB6bmtXMFZKLWdpelVMaUd2N1JMbnAwbEN4bS1lOHpIT3lJdWlQNGdoZUYxd2h4MDhoSXQxU1dGOEhHTzRPRWU2NjZFcDBqb1FkcGpPOUJUZ0RrbkdMZUFybFRURHcxclZNV2JBVkd0S05yZE8zYjQtOG5BOTlVMGlUcHRsdkdSR1EwSHNhVWFwWEhTLTM4T3UwX2YyaWhHS3Izcm1FQWdDNURiUUk2cWdtQks2d256SnlE?oc=5",
-        "published": "2026-09-18T19:45:50-03:00",
-        "summary": "MTC incautó equipos ilegales con señal de internet cerca del penal Miguel Castro Castro &nbsp;&nbsp; Diario La Opinión Ica"
+        "key": "274c6a64e0fc344c670ecbe6cf08ff354904cda7",
+        "title": "Minem evalúa cambios al “peaje” que pagan los usuarios libres de electricidad",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/economia/gobierno-de-peru-evalua-cambios-al-peaje-que-pagan-los-usuarios-libres-de-electricidad-lo-que-dijo-el-minem-noticia/",
+        "published": "2026-09-20T10:52:37-03:00",
+        "summary": "El viceministro de energía, Luis Santillán, mencionó que están evaluando medidas para el sistema de electricidad, entre ellas una referente al pago de los peajes de transmisión por parte de los clientes libres."
       },
       "selection": {
-        "index": 22,
-        "category": "TELECOM",
-        "card_title": "MTC incauta equipos ilegales de internet cerca de penal Castro Castro",
-        "card_summary": "El Ministerio de Transportes y Comunicaciones decomisó equipos que emitían señal de internet de forma ilegal en las proximidades del penal Miguel Castro Castro.",
-        "linkedin": "El Ministerio de Transportes y Comunicaciones de Perú realizó una operación de fiscalización que resultó en la incautación de equipos ilegales que proporcionaban señal de internet cerca del penal Miguel Castro Castro.\n\nEsta acción refuerza la labor de control del espectro radioeléctrico y combate la infraestructura clandestina de telecomunicaciones, un problema que afecta la calidad del servicio legítimo y genera interferencias en las redes autorizadas.\n\nPara las empresas de infraestructura telecom, estas fiscalizaciones son fundamentales. El uso ilegal del espectro no solo representa competencia desleal, sino que puede degradar la calidad de las señales en zonas urbanas críticas, afectando la inversión en torres y equipamiento homologado.\n\nEl fortalecimiento de estas acciones de control es una señal positiva para el sector formal de telecomunicaciones en Perú.\n\nFuente: Diario La Opinión Ica",
-        "instagram": "El MTC de Perú incautó equipos ilegales que emitían señal de internet cerca del penal Miguel Castro Castro 📡\n\nEsta fiscalización es clave para proteger el espectro radioeléctrico y combatir la infraestructura clandestina que genera interferencias y afecta la calidad del servicio legítimo.\n\nUn paso importante para fortalecer el sector formal de telecomunicaciones y proteger la inversión en infraestructura autorizada.\n\nFuente: Diario La Opinión Ica",
-        "hashtags": "#EspectroRadioeléctrico #FiscalizaciónTelecom #InfraestructuraLegal"
+        "index": 15,
+        "category": "ECONOMÍA",
+        "card_title": "Minem evalúa ajustes al peaje eléctrico que pagan grandes usuarios en Perú",
+        "card_summary": "El viceministro de Energía anuncia revisión de medidas para el sistema eléctrico, incluyendo modificaciones al esquema de peajes de transmisión que pagan los usuarios libres.",
+        "linkedin": "El Ministerio de Energía y Minas de Perú está evaluando cambios estructurales en el sistema eléctrico nacional, con especial atención al esquema de peajes de transmisión que actualmente pagan los usuarios libres de electricidad.\n\nSegún el viceministro Luis Santillán, entre las medidas bajo análisis destaca una posible modificación al pago de peajes por uso de infraestructura de transmisión eléctrica. Este componente afecta directamente a grandes consumidores industriales y empresas que contratan su suministro en el mercado libre.\n\nPara la industria de telecomunicaciones, estos ajustes son relevantes dado el consumo intensivo de energía que demandan centros de datos, estaciones base y torres de telecomunicaciones. Cualquier modificación en la estructura de costos energéticos impacta la viabilidad económica de proyectos de infraestructura digital y expansión de redes.\n\nFuente: Diario Gestión",
+        "instagram": "📊 Perú revisa el esquema de peajes eléctricos para grandes usuarios\n\nEl Minem evalúa cambios en el pago de peajes de transmisión que afectan a usuarios libres de electricidad. Para telecomunicaciones, esto es clave: torres, antenas y data centers consumen energía intensivamente, por lo que ajustes en costos pueden impactar proyectos de infraestructura digital.\n\nFuente: Diario Gestión",
+        "hashtags": "#EnergíaPerú #SistemaEléctrico #Minem"
       },
-      "card": "cards/2026-09-20/2026-09-20_PE.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T12:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmu9fgtdh0dchmi0yblfch580",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ]
-        },
-        {
-          "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T12:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmu9fgtme0dcimi0yuq6n0lk6",
-              "integration": "cmu7tv1l003l4lb0ydst38wb3"
-            }
-          ]
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T12:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmu9fgtvq0d8ts40yq8fq5o98",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ]
-        }
-      ]
+      "card": "cards/2026-09-20/2026-09-20_PE.png"
     },
     "PY": {
       "status": "scheduled",
@@ -268,13 +206,5 @@
         }
       ]
     }
-  },
-  "deleted": [
-    "76299069-db8e-4911-9d70-45e7c1327ad4",
-    "4e285458-f9b1-4b4a-8e78-dbbfbd6b2c3d",
-    "13fa0305-537d-4fed-aa20-f8e78b2f35cd",
-    "dc057220-4f61-4143-817b-793dd8779f34",
-    "aaaa3f5d-699f-4670-b89c-4eae2134aa5c",
-    "0260765d-5f40-4b34-8e9b-5f6afce5a405"
-  ]
+  }
 }
