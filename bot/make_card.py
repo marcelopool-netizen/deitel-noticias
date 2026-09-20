@@ -47,6 +47,12 @@ CATEGORY_COLORS = {
     "TELECOM": ORANGE,
     "TELECOMUNICACIONES": ORANGE,
     "TELECOMUNICAÇÕES": ORANGE,
+    # post extra del día (efemérides, saludos, datos curiosos)
+    "SALUDO": ORANGE,
+    "EFEMÉRIDE": (0, 92, 168),
+    "EFEMERIDE": (0, 92, 168),
+    "UN DÍA COMO HOY": (0, 92, 168),
+    "DATO CURIOSO": (24, 128, 118),
 }
 
 
@@ -152,13 +158,19 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
         d.text((margin, 56), "DEITEL", font=font("Poppins-Bold.ttf", 60), fill=INK)
         d.text((margin + 2, 126), "TORRES PARA TELECOMUNICACIONES", font=font("Poppins-Medium.ttf", 20), fill=GREY, spacing=4)
 
-    # País + bandera, arriba a la derecha
-    name = COUNTRIES[country][0]
-    flag = draw_flag(country)
+    # País + bandera, arriba a la derecha (sin país: solo la fecha, para el post del día)
     fn = font("Poppins-Medium.ttf", 30)
-    tw = d.textlength(name, font=fn)
-    d.text((W - margin - tw, 70), name, font=fn, fill=INK)
-    im.paste(flag, (W - margin - int(tw) - 96 - 20, 60))
+    if country in COUNTRIES:
+        name = COUNTRIES[country][0]
+        flag = draw_flag(country)
+        tw = d.textlength(name, font=fn)
+        d.text((W - margin - tw, 70), name, font=fn, fill=INK)
+        im.paste(flag, (W - margin - int(tw) - 96 - 20, 60))
+    else:
+        name = date.upper()
+        tw = d.textlength(name, font=fn)
+        d.text((W - margin - tw, 70), name, font=fn, fill=INK)
+        d.rounded_rectangle([W - margin - tw, 112, W - margin, 116], radius=2, fill=ORANGE)
 
     # Línea divisoria
     d.line([(margin, 200), (W - margin, 200)], fill=LINE, width=2)
@@ -191,10 +203,16 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
     d.line([(margin, H - 150), (W - margin, H - 150)], fill=LINE, width=2)
     fp = font("Poppins-Regular.ttf", 24)
     lbl = "Fonte" if country == "BR" else "Fuente"
-    d.text((margin, H - 120), f"{lbl}: {source}", font=fp, fill=GREY)
-    d.text((margin, H - 84), date, font=fp, fill=GREY)
+    if country not in COUNTRIES:  # post del día: la fecha ya va en la cabecera
+        if source:
+            d.text((margin, H - 120), f"{lbl}: {source}", font=fp, fill=GREY)
+    elif source:
+        d.text((margin, H - 120), f"{lbl}: {source}", font=fp, fill=GREY)
+        d.text((margin, H - 84), date, font=fp, fill=GREY)
+    else:
+        d.text((margin, H - 120), date, font=fp, fill=GREY)
     fb = font("Poppins-Medium.ttf", 24)
-    tag = "grupodeitel.cl"
+    tag = {"BR": "deitel.com.br", None: "deitel.cl · deitel.com.br"}.get(country, "deitel.cl")
     d.text((W - margin - d.textlength(tag, font=fb), H - 120), tag, font=fb, fill=ORANGE)
 
     im.save(out, "PNG", optimize=True)
@@ -203,7 +221,7 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--country", required=True, choices=list(COUNTRIES))
+    p.add_argument("--country", default=None, choices=list(COUNTRIES), help="omitir para el post del día")
     p.add_argument("--category", required=True)
     p.add_argument("--title", required=True)
     p.add_argument("--summary", required=True)
