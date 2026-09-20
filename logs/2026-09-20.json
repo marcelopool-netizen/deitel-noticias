@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T03:19:31.477007-03:00",
+  "run_at": "2026-09-20T03:38:53.064453-03:00",
   "dry_run": false,
   "countries": {
     "CL": {
@@ -70,39 +70,39 @@
         "index": 5,
         "category": "TELECOM",
         "card_title": "Anatel intensifica combate a ligações fraudulentas com números falsificados",
-        "card_summary": "Regulador brasileiro reforça medidas contra milhões de chamadas com identificação falsa usadas em golpes, protegendo usuários de telecomunicações.",
-        "linkedin": "A Anatel está intensificando o combate contra milhões de ligações telefônicas que utilizam números falsificados para aplicar golpes em consumidores brasileiros. A medida representa um avanço importante na segurança das redes de telecomunicações do país.\n\nEssa ação do regulador impacta diretamente as operadoras de telefonia, que precisarão implementar mecanismos mais robustos de autenticação e rastreamento de chamadas. Para o setor de infraestrutura telecom, isso significa investimentos em tecnologia e sistemas de segurança mais sofisticados.\n\nA proteção contra fraudes fortalece a confiança dos usuários nas redes de telecomunicações e contribui para um ecossistema digital mais seguro, beneficiando toda a cadeia do setor.\n\nFuente: Rádio Mirador",
-        "instagram": "A Anatel está apertando o cerco contra ligações fraudulentas! 📞\n\nO regulador brasileiro intensificou as medidas contra milhões de chamadas com números falsificados usadas em golpes. A ação obriga operadoras a investirem em segurança e autenticação mais robustas.\n\nUm passo importante para proteger usuários e fortalecer a confiança nas redes de telecomunicações do Brasil. ✅\n\nFuente: Rádio Mirador",
-        "hashtags": "#Anatel #SegurançaDigital #CombateAFraudes"
+        "card_summary": "Agência reguladora reforça medidas contra milhões de chamadas com identificação falsa usadas em golpes telefônicos no Brasil.",
+        "linkedin": "A Anatel está intensificando as ações de combate contra milhões de ligações telefônicas realizadas com números falsificados, prática conhecida como spoofing e amplamente utilizada em golpes.\n\nA medida busca proteger usuários de fraudes que se aproveitam da falsificação de identificadores de chamada para simular contatos de instituições legítimas. Este tipo de golpe tem crescido no Brasil, prejudicando tanto consumidores quanto a credibilidade do sistema de telecomunicações.\n\nPara o setor de infraestrutura e telecomunicações, o endurecimento da fiscalização reforça a importância de sistemas seguros e da colaboração entre operadoras e o regulador. A integridade das redes é fundamental para manter a confiança dos usuários e a qualidade dos serviços prestados.\n\nFonte: Rádio Mirador",
+        "instagram": "A Anatel está apertando o cerco contra ligações fraudulentas que usam números falsificados para aplicar golpes. 📞\n\nA prática, conhecida como spoofing, prejudica milhões de brasileiros e compromete a credibilidade do sistema de telecom.\n\nMedidas mais rígidas de fiscalização são essenciais para proteger usuários e garantir redes seguras.\n\nFonte: Rádio Mirador",
+        "hashtags": "#Anatel #Spoofing #SegurançaTelecom"
       },
       "card": "cards/2026-09-20/2026-09-20_BR.png",
       "posts": [
         {
           "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T10:00:00-03:00",
+          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
           "result": [
             {
-              "postId": "cmu9ffvzj0dc5mi0ysyslrca0",
+              "postId": "cmu9g4id30dfas40yiyc2f8so",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
         },
         {
           "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T10:00:00-03:00",
+          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
           "result": [
             {
-              "postId": "cmu9fg4xd0dc6mi0ycap6otp7",
+              "postId": "cmu9g4imi0didmi0y1o2104wh",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
         },
         {
           "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T10:00:00-03:00",
+          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
           "result": [
             {
-              "postId": "cmu9fg5kq0dcami0yq7sxu8q0",
+              "postId": "cmu9g4ivz0diemi0yietl0k4a",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -122,40 +122,40 @@
       "selection": {
         "index": 2,
         "category": "TRIBUTARIO",
-        "card_title": "Argentina: ARCA define nuevos topes y valores del monotributo para octubre 2026",
-        "card_summary": "La agencia tributaria argentina actualizó los montos y categorías del monotributo que regirán desde octubre 2026, impactando a pequeñas y medianas empresas del sector.",
-        "linkedin": "Argentina actualiza el régimen de monotributo para octubre 2026. La Administración Federal de Ingresos Públicos (ARCA) definió los nuevos topes de facturación y montos de pago que deberán abonar los contribuyentes inscriptos en este régimen simplificado.\n\nEsta actualización impacta directamente a proveedores de servicios, instaladores y pequeñas empresas del ecosistema de telecomunicaciones que operan bajo este régimen tributario. Los nuevos parámetros determinarán la viabilidad económica de muchos emprendimientos y contratistas vinculados a la infraestructura del sector.\n\nPara empresas como DEITEL, que trabajan con una red de proveedores y subcontratistas en Argentina, estos cambios en la estructura tributaria pueden influir en los costos operativos y en la planificación de proyectos de infraestructura para los próximos meses.\n\nFuente: iProfesional",
-        "instagram": "Argentina actualizó el monotributo para octubre 2026 📋\n\nARCA definió los nuevos topes de facturación y montos a pagar en el régimen simplificado. Este cambio impacta a proveedores, instaladores y pequeñas empresas del sector telecom que operan bajo este sistema tributario.\n\nUn dato clave para planificar costos operativos en proyectos de infraestructura en el país. 📊\n\nFuente: iProfesional",
-        "hashtags": "#Monotributo #ARCA #TributarioArgentina"
+        "card_title": "Argentina: ARCA actualiza categorías y montos del monotributo para octubre 2026",
+        "card_summary": "ARCA definió los nuevos topes de facturación y cuotas mensuales del monotributo que regirán desde octubre 2026, impactando a pequeñas empresas y autónomos.",
+        "linkedin": "Argentina actualiza el régimen de monotributo para octubre 2026 🇦🇷\n\nARCA definió los nuevos topes de facturación y los montos de las cuotas mensuales que deberán abonar los contribuyentes inscriptos en el monotributo a partir de octubre. Esta actualización periódica impacta directamente a pequeñas empresas, autónomos y prestadores de servicios que operan bajo este régimen simplificado.\n\nPara las empresas de infraestructura y telecomunicaciones que trabajan con contratistas y proveedores de servicios especializados en Argentina, estos cambios pueden afectar la estructura de costos y la cadena de valor. Muchos técnicos, instaladores y pequeños talleres que apoyan el despliegue de redes operan bajo monotributo, por lo que las modificaciones en las categorías y aportes inciden en la planificación comercial del sector.\n\nMantenerse informado sobre el marco tributario argentino permite anticipar ajustes en presupuestos y contratos con proveedores locales.\n\nFuente: iProfesional",
+        "instagram": "Argentina actualiza el monotributo para octubre 2026 📋\n\nARCA definió los nuevos topes de facturación y cuotas mensuales del monotributo. Este régimen simplificado alcanza a pequeñas empresas y autónomos, incluyendo muchos proveedores técnicos del sector telecomunicaciones.\n\nPara quienes operamos con contratistas y servicios especializados en Argentina, estos cambios impactan en costos y planificación comercial.\n\nFuente: iProfesional",
+        "hashtags": "#Monotributo #ARCA #ArgentinaTributario"
       },
       "card": "cards/2026-09-20/2026-09-20_AR.png",
       "posts": [
         {
           "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T11:00:00-03:00",
+          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
           "result": [
             {
-              "postId": "cmu9fggib0dcemi0yczirqhav",
+              "postId": "cmu9g4usq0digmi0y04htxg4r",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
         },
         {
           "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T11:00:00-03:00",
+          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
           "result": [
             {
-              "postId": "cmu9fggqw0dcfmi0yajhvb6q0",
+              "postId": "cmu9g4v280dihmi0ycrjt68ke",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
         },
         {
           "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T11:00:00-03:00",
+          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
           "result": [
             {
-              "postId": "cmu9fggze0d8ss40ylmkk7q26",
+              "postId": "cmu9g4vb70diimi0yu8v5cdah",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -268,5 +268,6 @@
         }
       ]
     }
-  }
+  },
+  "deleted": []
 }
