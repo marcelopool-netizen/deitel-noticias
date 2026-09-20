@@ -18,7 +18,7 @@ Variables de entorno:
   DELETE_GROUPS=a,b   opcional, borra esos posts programados (ids de grupo) antes de generar
   POST_NOW=1          opcional, publica de inmediato (3 min) en vez de a la hora del país
 """
-import os, sys, json, re, time, hashlib, datetime as dt, pathlib, urllib.parse
+import os, sys, json, re, time, hashlib, datetime as dt, pathlib, urllib.parse, unicodedata
 import requests, yaml, feedparser
 from zoneinfo import ZoneInfo
 
@@ -67,6 +67,27 @@ def clean(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html or "")).strip()
 
 
+def norm(s):
+    """minúsculas y sin acentos, para comparar nombres de medios."""
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+
+
+def is_preferred(source, c):
+    """True si el medio está en la lista blanca del país o en la global (config.yaml)."""
+    src = norm(source)
+    names = list(c.get("preferred_sources") or []) + list(CFG.get("preferred_sources_global") or [])
+    for n in names:
+        n = norm(n)
+        if not n:
+            continue
+        if len(n) <= 4:  # siglas cortas (SII, BCP, TN...): solo como palabra completa
+            if re.search(r"(?<![a-z0-9])" + re.escape(n) + r"(?![a-z0-9])", src):
+                return True
+        elif n in src:
+            return True
+    return False
+
+
 def collect(code, c, seen):
     urls = [gnews_url(q, c) for q in c["queries"]] + list(c.get("feeds", []))
     cutoff = NOW - dt.timedelta(hours=CFG["window_hours"])
@@ -92,12 +113,18 @@ def collect(code, c, seen):
                 source = e.source.title
             elif " - " in title:  # Google News agrega " - Fuente" al final
                 title, source = title.rsplit(" - ", 1)
+            source = source.strip() or fp.feed.get("title", "").strip()
             items.append({
-                "key": key, "title": title.strip(), "source": source.strip() or fp.feed.get("title", "").strip(),
+                "key": key, "title": title.strip(), "source": source, "preferred": is_preferred(source, c),
                 "link": link, "published": d.isoformat(), "summary": clean(e.get("summary", ""))[:400],
             })
+    # Medios de referencia primero; si hay suficientes, los medios menores ni se muestran al modelo.
     items.sort(key=lambda x: x["published"], reverse=True)
-    log(f"  {code}: {len(items)} candidatos recientes")
+    items.sort(key=lambda x: not x["preferred"])  # sort es estable: conserva el orden por fecha
+    pref = [i for i in items if i["preferred"]]
+    if len(pref) >= CFG.get("min_preferred", 3):
+        items = pref
+    log(f"  {code}: {len(items)} candidatos recientes ({len(pref)} de medios de referencia)")
     return items[: CFG["max_candidates"]]
 
 
@@ -108,18 +135,16 @@ noticia por país sobre economía, tributación o telecomunicaciones.
 
 País: {name} ({code}). Idioma de redacción: {lang_name}. Fecha: {fecha}.
 
-Candidatos (los más recientes primero):
+Candidatos (primero los de medios de referencia, marcados con ★; dentro de cada grupo, los más recientes primero):
 {cands}
 
 Tarea: elige UNA noticia. Prioridad: 1) telecomunicaciones e infraestructura (antenas, torres, 5G,
 espectro, fibra, operadores, regulador), 2) economía relevante para inversión e industria, 3) tributario.
 Descarta notas de farándula, deportes, política partidista, opinión, rumores y sucesos policiales
-menores. Entre dos noticias similares, prefiere SIEMPRE la de fuente de mayor peso: organismos
-oficiales (reguladores, ministerios, bancos centrales, servicios de impuestos) y medios económicos o
-generalistas de referencia del país (por ejemplo Diario Financiero, El Mercurio, La Tercera, Valor
-Econômico, Folha, Estadão, Agência Brasil, Teletime, Telesíntese, La Nación, Clarín, Ámbito, Infobae,
-iProfesional, Gestión, El Comercio, La República, Última Hora, ABC Color, La Nación PY, 5Días). Evita
-medios locales pequeños o desconocidos salvo que sean la única cobertura de un hecho importante.
+menores. REGLA DE FUENTES: elige SIEMPRE un candidato marcado con ★ (organismos oficiales y medios
+económicos o generalistas de referencia del país). Solo si no hay ningún candidato ★ aceptable puedes
+tomar uno sin marca, y en ese caso prefiere el medio de mayor peso. Nunca elijas un medio local pequeño
+o desconocido habiendo una alternativa ★ razonable, aunque sea algo menos llamativa.
 Si ninguna sirve, devuelve {{"skip": true, "reason": "..."}}.
 
 Reglas de redacción: no expandas siglas de organismos salvo que estés seguro de su significado
@@ -147,7 +172,8 @@ def ask_claude(code, c, cands):
     fecha = f"{NOW.day} de {meses[NOW.month - 1]} de {NOW.year}"
     lines = []
     for i, it in enumerate(cands):
-        lines.append(f"[{i}] {it['title']} | {it['source']} | {it['published'][:16]} | {it['summary'][:200]}")
+        star = "★ " if it.get("preferred") else ""
+        lines.append(f"[{i}] {star}{it['title']} | {it['source']} | {it['published'][:16]} | {it['summary'][:200]}")
     prompt = PROMPT.format(name=c["name"], code=code, lang_name=lang_name, fecha=fecha, cands="\n".join(lines))
     client = anthropic.Anthropic()
     for attempt in range(3):
