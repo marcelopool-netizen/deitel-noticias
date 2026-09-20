@@ -54,4 +54,3 @@ set POSTIZ_API_KEY=...
 set DRY_RUN=1
 python bot/bot.py
 ```
-# deitel-noticias
