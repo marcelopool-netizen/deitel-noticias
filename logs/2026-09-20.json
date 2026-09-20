@@ -1,77 +1,110 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T11:04:14.797079-03:00",
-  "dry_run": true,
+  "run_at": "2026-09-20T11:47:20.767064-03:00",
+  "dry_run": false,
   "countries": {
     "CL": {
-      "status": "ready",
-      "news": {
-        "key": "ff535edd51eef25f657b631d8f553ab3ecbcbbf6",
-        "title": "Ignacio Briones: “Si no hay pragmatismo para hacerse cargo de la emergencia laboral de hoy, la agenda de reformas de largo plazo se complica”",
-        "source": "La Tercera",
-        "preferred": true,
-        "link": "https://www.latercera.com/pulso/noticia/ignacio-briones-si-no-hay-pragmatismo-para-hacerse-cargo-de-la-emergencia-laboral-de-hoy-la-agenda-de-reformas-de-largo-plazo-se-complica/",
-        "published": "2026-09-20T07:00:00-03:00",
-        "summary": "El exministro de Hacienda llama al gobierno a dar una señal de compromiso con la emergencia económica actual, mediante un mayor activismo fiscal transitorio. “El Presupuesto 2027 tiene que ser el del trabajo. Es cierto que ni las obras públicas ni los subsidios son capaces de eliminar completamente el problema de desempleo, pero lo morigeran, y muestran una actitud de que el gobierno está comprome"
-      },
-      "selection": {
-        "index": 22,
-        "category": "ECONOMÍA",
-        "card_title": "Briones llama a mayor activismo fiscal para enfrentar emergencia laboral",
-        "card_summary": "El exministro de Hacienda pide al gobierno priorizar la urgencia económica actual con un Presupuesto 2027 que impulse el empleo y la inversión en infraestructura.",
-        "linkedin": "El exministro de Hacienda Ignacio Briones hizo un llamado al gobierno a comprometerse con la emergencia económica actual mediante un mayor activismo fiscal transitorio. Según Briones, sin pragmatismo para hacerse cargo de la situación laboral de hoy, la agenda de reformas de largo plazo se complica.\n\nEn su análisis, el economista enfatizó que el Presupuesto 2027 debe ser el del empleo y la reactivación. Esta señal es especialmente relevante para sectores intensivos en infraestructura como las telecomunicaciones, donde la inversión en torres, redes 5G y fibra óptica depende de un entorno macroeconómico estable y políticas que incentiven el desarrollo.\n\nPara la industria de infraestructura telecom, un presupuesto expansivo orientado al empleo podría traducirse en mayores obras públicas, mejor conectividad regional y señales claras para inversores que evalúan proyectos de mediano y largo plazo en Chile.\n\nFuente: La Tercera",
-        "instagram": "El exministro Ignacio Briones pidió al gobierno mayor activismo fiscal para enfrentar la emergencia laboral actual. Según él, el Presupuesto 2027 debe enfocarse en empleo y reactivación. 💼\n\nPara infraestructura telecom esto es clave: más inversión pública puede impulsar proyectos de conectividad, torres y redes que generen empleos y desarrollo regional.\n\nFuente: La Tercera",
-        "hashtags": "#Presupuesto2027 #ReactivaciónEconómica #InversiónPública"
-      },
-      "card": "cards/2026-09-20/2026-09-20_CL.png"
-    },
-    "BR": {
       "status": "scheduled",
       "news": {
-        "key": "1830017b76f53ff7ade3c87596c112de05c978ab",
-        "title": "Anatel aperta o cerco contra milhões de ligações com números falsificados usados em golpes - Rádio Mirador",
-        "source": "Rádio Mirador",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ2ZWdHJmMTdHdUFDZktBSXRDTVpZUk9YSFNEQ09ENXR6V01USmpiTEFyM3FsT1c1YUFaVkVrN3pDUEYtc1BrRWxkcmx0RGhucWs5R29vTEx1Mkl5R0VZbkEyS2pab181WlpBUmZJdTNqamw4TFQxZDJxZWRvbUhnbkZtSU9zOU9FNEZQMnhvT3ljQTU4aE9EMFBBYlFwY2U4cElmQ1dRMnBaRzh1R1FYbng4VnJBRUNueVlr?oc=5",
-        "published": "2026-09-19T09:17:47-03:00",
-        "summary": "Anatel aperta o cerco contra milhões de ligações com números falsificados usados em golpes &nbsp;&nbsp; Rádio Mirador"
+        "key": "d835c853e377983842807f208b19a11819d6b284",
+        "title": "El juicio de los chilenos del ChileDay al MK4",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/el-juicio-de-los-chilenos-del-chileday-al-mk4/",
+        "published": "2026-09-20T07:00:00-03:00",
+        "summary": "No hay dos opiniones: volver a hablar de mercado de capitales en un evento creado para difundir el mercado de capitales es el primer logro de una reforma que trae cambios estructurales, para unos, y tímidos, para otros. En Madrid y Londres, las conversaciones se multiplicaron esta semana. Entre los gestores de inversión y entre autoridades. Aquí, aplausos y reparos de muchos de los asistentes. Y l"
       },
       "selection": {
-        "index": 5,
-        "category": "TELECOM",
-        "card_title": "Anatel intensifica combate a ligações fraudulentas com números falsificados",
-        "card_summary": "Agência reguladora reforça medidas contra milhões de chamadas com identificação falsa usadas em golpes telefônicos no Brasil.",
-        "linkedin": "A Anatel está intensificando as ações de combate contra milhões de ligações telefônicas realizadas com números falsificados, prática conhecida como spoofing e amplamente utilizada em golpes.\n\nA medida busca proteger usuários de fraudes que se aproveitam da falsificação de identificadores de chamada para simular contatos de instituições legítimas. Este tipo de golpe tem crescido no Brasil, prejudicando tanto consumidores quanto a credibilidade do sistema de telecomunicações.\n\nPara o setor de infraestrutura e telecomunicações, o endurecimento da fiscalização reforça a importância de sistemas seguros e da colaboração entre operadoras e o regulador. A integridade das redes é fundamental para manter a confiança dos usuários e a qualidade dos serviços prestados.\n\nFonte: Rádio Mirador",
-        "instagram": "A Anatel está apertando o cerco contra ligações fraudulentas que usam números falsificados para aplicar golpes. 📞\n\nA prática, conhecida como spoofing, prejudica milhões de brasileiros e compromete a credibilidade do sistema de telecom.\n\nMedidas mais rígidas de fiscalização são essenciais para proteger usuários e garantir redes seguras.\n\nFonte: Rádio Mirador",
-        "hashtags": "#Anatel #Spoofing #SegurançaTelecom"
+        "index": 24,
+        "category": "ECONOMÍA",
+        "card_title": "Reforma al mercado de capitales vuelve a poner el tema en la agenda chilena",
+        "card_summary": "El MK4 trae cambios estructurales al mercado de capitales chileno, generando debate entre actores de la industria sobre su impacto en la inversión y financiamiento.",
+        "linkedin": "La reforma al mercado de capitales chileno vuelve a posicionarse como tema central de discusión en el sector financiero del país. El llamado MK4 introduce modificaciones estructurales que están siendo evaluadas por inversionistas y empresas.\n\nSegún el análisis presentado en el ChileDay, el consenso apunta a que esta reforma representa el primer paso concreto para revitalizar la conversación sobre mercado de capitales en Chile, un tema que había perdido relevancia en los últimos años.\n\nPara la industria de infraestructura y telecomunicaciones, un mercado de capitales más robusto y actualizado resulta fundamental. Las inversiones en torres, redes 5G y fibra óptica requieren acceso a financiamiento de largo plazo, y cualquier mejora en los mecanismos de capital puede traducirse en mayores facilidades para desarrollar proyectos estratégicos.\n\nFuente: La Tercera",
+        "instagram": "La reforma MK4 al mercado de capitales chileno vuelve a poner el tema en el centro del debate económico 📊\n\nPara nuestra industria de infraestructura y telecomunicaciones, un mercado de capitales fortalecido significa mejores opciones de financiamiento para proyectos de largo plazo como torres, redes 5G y fibra óptica.\n\nEl debate sobre estos cambios estructurales marca un avance importante en la discusión sobre inversión en Chile.\n\nFuente: La Tercera",
+        "hashtags": "#MercadoDeCapitales #InversiónChile #MK4"
       },
-      "card": "cards/2026-09-20/2026-09-20_BR.png",
+      "card": "cards/2026-09-20/2026-09-20_CL.png",
       "posts": [
         {
           "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
           "result": [
             {
-              "postId": "cmu9g4id30dfas40yiyc2f8so",
+              "postId": "cmu9xki1100rjmi0y12n8m8mq",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
         },
         {
           "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
           "result": [
             {
-              "postId": "cmu9g4imi0didmi0y1o2104wh",
+              "postId": "cmu9xkia300rkmi0yt357uwhp",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
         },
         {
           "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
           "result": [
             {
-              "postId": "cmu9g4ivz0diemi0yietl0k4a",
+              "postId": "cmu9xkik600rlmi0ywhx424ie",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "6f6e2d078dda12fef535211305077b2053e435c2",
+        "title": "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+        "source": "Folha de S.Paulo - Mercado - Principal",
+        "preferred": true,
+        "link": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/09/diferenca-de-juros-entre-brasil-e-eua-diminui-mas-ativos-locais-seguem-atrativos-para-estrangeiros.shtml",
+        "published": "2026-09-20T11:00:00-03:00",
+        "summary": "O Copom (Comitê de Política Monetária) do Banco Central e o Fed (Federal Reserve, banco central dos EUA) atuaram em direções contrárias na última quarta-feira (16). O Banco Central brasileiro cortou a taxa Selic para 13,75% , enquanto o dos Estados Unidos elevou os juros para a faixa entre 3,75% e 4% . Leia mais (09/20/2026 - 11h00)"
+      },
+      "selection": {
+        "index": 1,
+        "category": "ECONOMIA",
+        "card_title": "Diferencial de juros Brasil-EUA diminui mas ativos locais seguem atrativos",
+        "card_summary": "Copom cortou juros enquanto Fed atuou em direção contrária. Diferencial menor ainda mantém ativos brasileiros competitivos para investidores estrangeiros.",
+        "linkedin": "O cenário de juros entre Brasil e Estados Unidos apresentou movimentos opostos recentemente. Enquanto o Copom do Banco Central brasileiro reduziu a taxa, o Fed manteve sua política em direção contrária.\n\nMesmo com a diminuição do diferencial entre as taxas de juros dos dois países, os ativos brasileiros continuam atrativos para investidores estrangeiros. Esse movimento é relevante para o setor de infraestrutura e telecomunicações, que depende fortemente de investimentos de longo prazo e acesso a capital competitivo.\n\nPara empresas do setor de torres e estruturas de telecomunicações, a manutenção da atratividade dos ativos locais significa continuidade no fluxo de recursos necessários para expansão da infraestrutura 5G e modernização de redes.\n\nFonte: Folha de S.Paulo",
+        "instagram": "O Banco Central brasileiro cortou juros enquanto o Fed seguiu caminho diferente. Mesmo com o diferencial menor entre as taxas, o Brasil segue atraente para investidores estrangeiros 💼\n\nIsso impacta diretamente o setor de infraestrutura e telecom, que precisa de capital para expandir redes e estruturas. Cenário positivo para novos investimentos no país 📡\n\nFonte: Folha de S.Paulo",
+        "hashtags": "#Juros #Copom #InvestimentosEstrangeiros"
+      },
+      "card": "cards/2026-09-20/2026-09-20_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
+          "result": [
+            {
+              "postId": "cmu9xkzd202o8s40yaoqa35o5",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
+          "result": [
+            {
+              "postId": "cmu9xkzmm02o9s40yuofacvsk",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
+          "result": [
+            {
+              "postId": "cmu9xkzwp00rpmi0yzal1ymg6",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -81,50 +114,51 @@
     "AR": {
       "status": "scheduled",
       "news": {
-        "key": "df584ba97853b3e051f9a724a5b7804999e10d04",
-        "title": "ARCA definió el monotributo: cuánto se paga en octubre 2026 y cuáles son nuevos topes - iProfesional",
-        "source": "iProfesional",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaHNjSGFuSnZwcy1BVGVPam1hakxkMFAzbUhNZU8zcEhBYk1RYThpRzVMSlA4V0FGc1hpem5TOWRZOE5Mb3dNYU1xMlMydXJrRTFEN1Jxa3dTWEhpSDBfeUM4U3JPZVY0c3Y5Z1BGcmZ4V2k0aGROQWJzLXE1TmpVUHZYR2dCNWxwUVVxSTg0b1hXaDJMUjU4T1lFeTAyUEhjMWpaVE1QNTAtVU9yWnBkNXVLLUdUd29PbjZWZjB0NDdmZkZzOUxSLUVB0gHPAUFVX3lxTE5BZHJYY2t5VmRPdHRpd1NDUUpJZEdEV21ncF9ibVdDQ2pVMy1xeGJPN05CdkJyU29YLVR6c20teFN6UF83TlhfZHc0U0FHaDRiYk1Oem0xdG5pVC1nbDluUG1ISUZWU2VDRjBqLWVkX3ViczhVRHVHeEtLSnVwbTBvaGV4bWc4bEV4WlN0M2RZV2IzdDJGNnlkalEtWUI4VW5fTG1OVVE4QV9vU2VHNUVWVXhaMW9WUmpDNWtOQjhVajgwOUVHRUl3bFYtR19pcw?oc=5",
-        "published": "2026-09-19T17:15:00-03:00",
-        "summary": "ARCA definió el monotributo: cuánto se paga en octubre 2026 y cuáles son nuevos topes &nbsp;&nbsp; iProfesional"
+        "key": "bdfeb897866361caf983f7c8b6d8fae0cfb3664b",
+        "title": "Crisis de ingresos: 6 de cada 10 argentinos se endeudaron y el 76% lo hizo para para pagar alimentos, salud, tarifas y servicios",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/crisis-ingresos-6-cada-10-argentinos-se-endeudaron-y-el-76-lo-hizo-para-pagar-alimentos-salud-tarifas-y-servicios-n6324445",
+        "published": "2026-09-20T10:09:00-03:00",
+        "summary": "Un informe reciente reveló que el 60,2% tomó deuda en los últimos seis meses. Los gastos en productos y servicios básicos se llevan la mayor parte del gasto del crédito."
       },
       "selection": {
-        "index": 2,
-        "category": "TRIBUTARIO",
-        "card_title": "Argentina: ARCA actualiza categorías y montos del monotributo para octubre 2026",
-        "card_summary": "ARCA definió los nuevos topes de facturación y cuotas mensuales del monotributo que regirán desde octubre 2026, impactando a pequeñas empresas y autónomos.",
-        "linkedin": "Argentina actualiza el régimen de monotributo para octubre 2026 🇦🇷\n\nARCA definió los nuevos topes de facturación y los montos de las cuotas mensuales que deberán abonar los contribuyentes inscriptos en el monotributo a partir de octubre. Esta actualización periódica impacta directamente a pequeñas empresas, autónomos y prestadores de servicios que operan bajo este régimen simplificado.\n\nPara las empresas de infraestructura y telecomunicaciones que trabajan con contratistas y proveedores de servicios especializados en Argentina, estos cambios pueden afectar la estructura de costos y la cadena de valor. Muchos técnicos, instaladores y pequeños talleres que apoyan el despliegue de redes operan bajo monotributo, por lo que las modificaciones en las categorías y aportes inciden en la planificación comercial del sector.\n\nMantenerse informado sobre el marco tributario argentino permite anticipar ajustes en presupuestos y contratos con proveedores locales.\n\nFuente: iProfesional",
-        "instagram": "Argentina actualiza el monotributo para octubre 2026 📋\n\nARCA definió los nuevos topes de facturación y cuotas mensuales del monotributo. Este régimen simplificado alcanza a pequeñas empresas y autónomos, incluyendo muchos proveedores técnicos del sector telecomunicaciones.\n\nPara quienes operamos con contratistas y servicios especializados en Argentina, estos cambios impactan en costos y planificación comercial.\n\nFuente: iProfesional",
-        "hashtags": "#Monotributo #ARCA #ArgentinaTributario"
+        "index": 0,
+        "category": "ECONOMÍA",
+        "card_title": "6 de cada 10 argentinos se endeudaron para cubrir gastos básicos",
+        "card_summary": "El 60,2% de los argentinos tomó deuda en los últimos seis meses. El 76% lo hizo para pagar alimentos, salud, tarifas y servicios esenciales.",
+        "linkedin": "Un reciente informe económico reveló que el 60,2% de los argentinos se endeudó durante los últimos seis meses, y lo más preocupante: tres de cada cuatro personas lo hicieron para cubrir gastos básicos como alimentos, salud, tarifas de servicios y otras necesidades esenciales.\n\nEsta contracción del poder adquisitivo impacta directamente en la capacidad de inversión de las empresas y en la demanda de servicios. Para la industria de infraestructura y telecomunicaciones, un contexto de endeudamiento para cubrir lo básico señala menor capacidad de consumo de servicios digitales y presión sobre los ingresos de los operadores.\n\nLa crisis de ingresos también afecta la cadena de pagos en proyectos de inversión y puede retrasar decisiones de despliegue de infraestructura crítica en un momento donde la conectividad es fundamental para la reactivación económica.\n\nFuente: Ámbito",
+        "instagram": "6 de cada 10 argentinos se endeudaron en los últimos seis meses, y el 76% lo hizo solo para pagar alimentos, salud y servicios básicos 📉\n\nEsta crisis de ingresos impacta toda la cadena económica, incluyendo la capacidad de inversión en infraestructura y servicios de telecomunicaciones en un momento crítico para la conectividad del país.\n\nFuente: Ámbito",
+        "hashtags": "#CrisisEconómica #DeudaArgentina #PoderAdquisitivo"
       },
       "card": "cards/2026-09-20/2026-09-20_AR.png",
       "posts": [
         {
           "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
           "result": [
             {
-              "postId": "cmu9g4usq0digmi0y04htxg4r",
+              "postId": "cmu9xlcl200rrmi0yuffn53so",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
         },
         {
           "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
           "result": [
             {
-              "postId": "cmu9g4v280dihmi0ycrjt68ke",
+              "postId": "cmu9xlcwt02ods40ye3j796ns",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
         },
         {
           "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T03:41:53.064453-03:00",
+          "scheduled_for": "2026-09-20T11:50:20.767064-03:00",
           "result": [
             {
-              "postId": "cmu9g4vb70diimi0yu8v5cdah",
+              "postId": "cmu9xld7402oes40yybriud9e",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -132,79 +166,62 @@
       ]
     },
     "PE": {
-      "status": "ready",
-      "news": {
-        "key": "274c6a64e0fc344c670ecbe6cf08ff354904cda7",
-        "title": "Minem evalúa cambios al “peaje” que pagan los usuarios libres de electricidad",
-        "source": "Diario Gestión",
-        "preferred": true,
-        "link": "https://gestion.pe/economia/gobierno-de-peru-evalua-cambios-al-peaje-que-pagan-los-usuarios-libres-de-electricidad-lo-que-dijo-el-minem-noticia/",
-        "published": "2026-09-20T10:52:37-03:00",
-        "summary": "El viceministro de energía, Luis Santillán, mencionó que están evaluando medidas para el sistema de electricidad, entre ellas una referente al pago de los peajes de transmisión por parte de los clientes libres."
-      },
-      "selection": {
-        "index": 15,
-        "category": "ECONOMÍA",
-        "card_title": "Minem evalúa ajustes al peaje eléctrico que pagan grandes usuarios en Perú",
-        "card_summary": "El viceministro de Energía anuncia revisión de medidas para el sistema eléctrico, incluyendo modificaciones al esquema de peajes de transmisión que pagan los usuarios libres.",
-        "linkedin": "El Ministerio de Energía y Minas de Perú está evaluando cambios estructurales en el sistema eléctrico nacional, con especial atención al esquema de peajes de transmisión que actualmente pagan los usuarios libres de electricidad.\n\nSegún el viceministro Luis Santillán, entre las medidas bajo análisis destaca una posible modificación al pago de peajes por uso de infraestructura de transmisión eléctrica. Este componente afecta directamente a grandes consumidores industriales y empresas que contratan su suministro en el mercado libre.\n\nPara la industria de telecomunicaciones, estos ajustes son relevantes dado el consumo intensivo de energía que demandan centros de datos, estaciones base y torres de telecomunicaciones. Cualquier modificación en la estructura de costos energéticos impacta la viabilidad económica de proyectos de infraestructura digital y expansión de redes.\n\nFuente: Diario Gestión",
-        "instagram": "📊 Perú revisa el esquema de peajes eléctricos para grandes usuarios\n\nEl Minem evalúa cambios en el pago de peajes de transmisión que afectan a usuarios libres de electricidad. Para telecomunicaciones, esto es clave: torres, antenas y data centers consumen energía intensivamente, por lo que ajustes en costos pueden impactar proyectos de infraestructura digital.\n\nFuente: Diario Gestión",
-        "hashtags": "#EnergíaPerú #SistemaEléctrico #Minem"
-      },
-      "card": "cards/2026-09-20/2026-09-20_PE.png"
-    },
-    "PY": {
       "status": "scheduled",
       "news": {
-        "key": "53a9857fac464dede73799a84558fcf871cfc650",
-        "title": "Itaú prevé crecimiento de 4,5% e inflación de 3% para Paraguay - 5Días Paraguay",
-        "source": "5Días Paraguay",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSkVrVXhWSnd1R2d0WDVKbXREVE1JSmdwZl9jRlVKV3hUaUxsajdDV20zZzc1cmFzWEw5elNlSmFsNEl0YmJhRXR1LVZpT1h3eEFNdXg5OUY0YVhEMHl4WlNoOFBmNFVWcldKeUt3d3cyMmw5b01RWFhGRXk1aXk5SlNtZElsTC10eWlrdUdB?oc=5",
-        "published": "2026-09-19T14:18:53-03:00",
-        "summary": "Itaú prevé crecimiento de 4,5% e inflación de 3% para Paraguay &nbsp;&nbsp; 5Días Paraguay"
+        "key": "ae979cd5018d098b100f34d4de4c0ca79d6d87f5",
+        "title": "Mincetur: delegación viajará a Estados Unidos para negociar aranceles aplicados al Perú",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/economia/mincetur-delegacion-viajara-a-estados-unidos-para-negociar-aranceles-aplicados-al-peru-noticia/",
+        "published": "2026-09-20T11:35:44-03:00",
+        "summary": "Una delegación del Ministerio de Comercio Exterior y Turismo (Mincetur) viajará a Estados Unidos (EE.UU.) para negociar los aranceles que este país aplica al Perú."
       },
       "selection": {
-        "index": 2,
+        "index": 10,
         "category": "ECONOMÍA",
-        "card_title": "Itaú proyecta crecimiento de 4,5% e inflación de 3% para Paraguay en 2026",
-        "card_summary": "El banco Itaú presenta perspectivas económicas favorables para Paraguay, con expansión sostenida del PIB y estabilidad de precios que impulsan la inversión en infraestructura.",
-        "linkedin": "Paraguay mantiene su rumbo de crecimiento económico con proyecciones alentadoras para el cierre de 2026. Según Itaú, el país alcanzaría una expansión del 4,5% del PIB, acompañada de una inflación controlada del 3%, cifras que reflejan estabilidad macroeconómica y un entorno favorable para la inversión.\n\nEste escenario es especialmente relevante para la industria de telecomunicaciones e infraestructura. Un crecimiento económico sostenido impulsa la demanda de conectividad, tanto en zonas urbanas como rurales, creando oportunidades para el despliegue de nuevas redes y la modernización de estructuras existentes.\n\nLa combinación de crecimiento y baja inflación genera condiciones óptimas para proyectos de mediano y largo plazo en el sector. Para empresas como DEITEL, especializadas en torres y estructuras de acero, Paraguay se consolida como un mercado con potencial para expandir la cobertura y mejorar la calidad de los servicios de telecomunicaciones.\n\nFuente: 5Días Paraguay",
-        "instagram": "Paraguay cierra 2026 con proyecciones económicas sólidas 📊\n\nItaú prevé un crecimiento del 4,5% y una inflación controlada del 3% para el país. Estas cifras reflejan estabilidad macroeconómica y generan un entorno favorable para la inversión en infraestructura de telecomunicaciones.\n\nUn crecimiento sostenido impulsa la demanda de conectividad y abre oportunidades para el despliegue de nuevas redes y torres en todo el territorio paraguayo. 📡\n\nFuente: 5Días Paraguay",
-        "hashtags": "#CrecimientoEconómico #Paraguay2026 #InversiónTelecom"
+        "card_title": "Perú enviará delegación a EE.UU. para negociar aranceles comerciales",
+        "card_summary": "Mincetur viajará a Estados Unidos para negociar los aranceles que ese país aplica al Perú, en busca de mejores condiciones comerciales.",
+        "linkedin": "El Ministerio de Comercio Exterior y Turismo de Perú enviará una delegación a Estados Unidos para negociar los aranceles aplicados a productos peruanos. Esta gestión busca mejorar las condiciones comerciales bilaterales en un contexto de creciente proteccionismo global.\n\nPara la industria de infraestructura y telecomunicaciones, estas negociaciones son clave: aranceles favorables facilitan la importación de equipos tecnológicos, componentes electrónicos y materiales especializados necesarios para el despliegue de redes. Estados Unidos es uno de los principales proveedores de tecnología para el sector telecom en la región.\n\nUn entorno arancelario predecible permite planificar mejor las inversiones en infraestructura digital, especialmente en proyectos de expansión de redes móviles y fibra óptica que requieren equipamiento importado.\n\nFuente: Diario Gestión",
+        "instagram": "🔔 Perú enviará una delegación a Estados Unidos para negociar los aranceles aplicados a productos peruanos.\n\nPara el sector de telecomunicaciones e infraestructura, esto importa: mejores condiciones arancelarias facilitan la importación de equipos y tecnología necesarios para desplegar redes móviles y fibra óptica.\n\nFuente: Diario Gestión",
+        "hashtags": "#ComercioExterior #Mincetur #ArancelesPerú"
       },
-      "card": "cards/2026-09-20/2026-09-20_PY.png",
+      "card": "cards/2026-09-20/2026-09-20_PE.png",
       "posts": [
         {
           "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-20T13:00:00-03:00",
+          "scheduled_for": "2026-09-20T12:00:00-03:00",
           "result": [
             {
-              "postId": "cmu9fhfif0dcmmi0ydltgg5wa",
+              "postId": "cmu9xlp8y02ojs40y0mk6q055",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
         },
         {
           "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-20T13:00:00-03:00",
+          "scheduled_for": "2026-09-20T12:00:00-03:00",
           "result": [
             {
-              "postId": "cmu9fhfr80d8zs40y89xfiw7f",
+              "postId": "cmu9xlpj800rzmi0ybua0q79p",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
         },
         {
           "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-20T13:00:00-03:00",
+          "scheduled_for": "2026-09-20T12:00:00-03:00",
           "result": [
             {
-              "postId": "cmu9fhfzf0d90s40y6r929unr",
+              "postId": "cmu9xlpsv02oks40yuv9olulb",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
         }
       ]
+    },
+    "PY": {
+      "status": "skip",
+      "reason": "Ninguno de los candidatos marcados con ★ trata sobre telecomunicaciones, infraestructura, economía relevante para inversión industrial o tributación. Las noticias disponibles son principalmente deportes, farándula, política internacional, sucesos y temas sociales generales que no se ajustan a las prioridades editoriales de DEITEL."
     }
   }
 }
