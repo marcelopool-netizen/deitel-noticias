@@ -1,0 +1,55 @@
+name: Noticias diarias DEITEL
+
+on:
+  schedule:
+    # 11:30 UTC = 08:30 Santiago en horario de verano (07:30 en invierno)
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Solo generar tarjetas y logs, sin publicar (1 = sí)"
+        default: "0"
+      only:
+        description: "Países, separados por coma (ej. CL,BR). Vacío = todos"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noticias
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias y fuentes
+        run: |
+          pip install -r requirements.txt
+          echo "Poppins se descarga automáticamente en bot/fonts"
+
+      - name: Ejecutar bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          ONLY: ${{ github.event.inputs.only || '' }}
+        run: python bot/bot.py
+
+      - name: Guardar tarjetas, logs y estado en el repositorio
+        if: always()
+        run: |
+          git config user.name "deitel-noticias-bot"
+          git config user.email "bot@grupodeitel.cl"
+          git add cards logs state
+          git diff --cached --quiet || git commit -m "noticias $(date -u +%F)"
+          git push
