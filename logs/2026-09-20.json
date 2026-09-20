@@ -1,27 +1,112 @@
 {
   "date": "2026-09-20",
-  "run_at": "2026-09-20T02:21:08.631249-03:00",
+  "run_at": "2026-09-20T02:25:10.801528-03:00",
   "dry_run": true,
   "countries": {
     "CL": {
-      "status": "error",
-      "error": "AuthenticationError(\"Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}\")"
+      "status": "ready",
+      "news": {
+        "key": "4e2d2a37f99f7782b91213750d923fda516656e6",
+        "title": "Economía chilena llega a Fiestas Patrias con crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% - Publimicro",
+        "source": "Publimicro",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONXdaUVNOU2FBemY2VVNBOEl4bUJPa0k2eDBqVVdVZEFJSTdWa0JXS0hzMkxTUHduNGdoRE5SdV9rWnE0TURwM0IxakZsTmtkcTdkLWs5YVNMUlAwQzhGYkRDOXVRWjRTVEw1VFVHNGUxbmtMMzNiWm0tTG1FMFduWUd2RmdBUE4wcHhtSDl4TkpYMmgyQ3pNWEo2NFVYTFFVSk9BaWo2RUFIVUkxV0Nfa2FlbnZMWXg5MnpvNA?oc=5",
+        "published": "2026-09-19T09:27:24-03:00",
+        "summary": "Economía chilena llega a Fiestas Patrias con crecimiento bajo 1%, inflación de 4,1% y desempleo de 9,5% &nbsp;&nbsp; Publimicro"
+      },
+      "selection": {
+        "index": 3,
+        "category": "ECONOMÍA",
+        "card_title": "Economía chilena cierra septiembre con crecimiento bajo 1% y desempleo en 9,5%",
+        "card_summary": "Chile llega a Fiestas Patrias con indicadores económicos desafiantes: crecimiento inferior al 1%, inflación en 4,1% y desempleo alcanza 9,5%.",
+        "linkedin": "Chile cierra septiembre con un panorama económico complejo. El país llega a Fiestas Patrias con un crecimiento inferior al 1%, inflación en 4,1% y una tasa de desempleo que alcanza el 9,5%.\n\nEstos indicadores reflejan un entorno desafiante para la inversión y el desarrollo de proyectos de infraestructura. El bajo crecimiento económico puede impactar la velocidad de despliegue de redes de telecomunicaciones y la expansión de infraestructura crítica que el país necesita para su transformación digital.\n\nPara la industria de telecomunicaciones, estos datos son especialmente relevantes. La inversión en torres, antenas y redes requiere estabilidad económica y confianza en el mercado. Un crecimiento débil puede postergar proyectos de modernización que son fundamentales para la conectividad del país.\n\nFuente: Publimicro",
+        "instagram": "Chile llega a Fiestas Patrias con indicadores económicos complejos 📊\n\nCrecimiento bajo 1%, inflación en 4,1% y desempleo en 9,5%. Estos datos impactan directamente la inversión en infraestructura y telecomunicaciones.\n\nUn entorno económico desafiante puede ralentizar proyectos de conectividad que son clave para el desarrollo digital del país. La industria telecom requiere estabilidad para seguir creciendo.\n\nFuente: Publimicro",
+        "hashtags": "#CrecimientoEconómico #DesempleoChile #IndicadoresEconómicos"
+      },
+      "card": "cards/2026-09-20/2026-09-20_CL.png"
     },
     "BR": {
-      "status": "error",
-      "error": "AuthenticationError(\"Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}\")"
+      "status": "ready",
+      "news": {
+        "key": "1830017b76f53ff7ade3c87596c112de05c978ab",
+        "title": "Anatel aperta o cerco contra milhões de ligações com números falsificados usados em golpes - Rádio Mirador",
+        "source": "Rádio Mirador",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ2ZWdHJmMTdHdUFDZktBSXRDTVpZUk9YSFNEQ09ENXR6V01USmpiTEFyM3FsT1c1YUFaVkVrN3pDUEYtc1BrRWxkcmx0RGhucWs5R29vTEx1Mkl5R0VZbkEyS2pab181WlpBUmZJdTNqamw4TFQxZDJxZWRvbUhnbkZtSU9zOU9FNEZQMnhvT3ljQTU4aE9EMFBBYlFwY2U4cElmQ1dRMnBaRzh1R1FYbng4VnJBRUNueVlr?oc=5",
+        "published": "2026-09-19T09:17:47-03:00",
+        "summary": "Anatel aperta o cerco contra milhões de ligações com números falsificados usados em golpes &nbsp;&nbsp; Rádio Mirador"
+      },
+      "selection": {
+        "index": 5,
+        "category": "TELECOM",
+        "card_title": "Anatel intensifica combate a ligações fraudulentas com números falsificados",
+        "card_summary": "Agência reguladora reforça medidas contra milhões de chamadas com identificação adulterada usadas em golpes, protegendo consumidores e operadoras.",
+        "linkedin": "A Anatel está intensificando o combate às chamadas telefônicas fraudulentas que utilizam números falsificados para aplicar golpes. A medida visa coibir uma prática que tem afetado milhões de brasileiros e comprometido a confiança no sistema de telecomunicações.\n\nEssas ligações com identificação adulterada (spoofing) são frequentemente usadas por criminosos para se passar por instituições legítimas, causando prejuízos financeiros e danos à reputação das operadoras. O endurecimento da fiscalização representa um passo importante para a segurança da infraestrutura de telecom.\n\nPara empresas do setor de telecomunicações, essa ação regulatória reforça a necessidade de investimentos em tecnologias de autenticação e rastreabilidade de chamadas, além de fortalecer a parceria entre operadoras, fabricantes de infraestrutura e o órgão regulador na construção de redes mais seguras e confiáveis.\n\nFonte: Rádio Mirador",
+        "instagram": "A Anatel está apertando o cerco contra chamadas telefônicas fraudulentas com números falsificados, usadas em golpes que afetam milhões de brasileiros. 📞\n\nA medida combate o spoofing (adulteração de identificador) e protege tanto consumidores quanto a credibilidade das operadoras de telecom.\n\nPara o setor, isso significa mais investimento em segurança e tecnologias de autenticação nas redes de telecomunicações.\n\nFonte: Rádio Mirador",
+        "hashtags": "#Anatel #SegurançaTelecom #CombateFraudes"
+      },
+      "card": "cards/2026-09-20/2026-09-20_BR.png"
     },
     "AR": {
-      "status": "error",
-      "error": "AuthenticationError(\"Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}\")"
+      "status": "ready",
+      "news": {
+        "key": "df584ba97853b3e051f9a724a5b7804999e10d04",
+        "title": "ARCA definió el monotributo: cuánto se paga en octubre 2026 y cuáles son nuevos topes - iProfesional",
+        "source": "iProfesional",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaHNjSGFuSnZwcy1BVGVPam1hakxkMFAzbUhNZU8zcEhBYk1RYThpRzVMSlA4V0FGc1hpem5TOWRZOE5Mb3dNYU1xMlMydXJrRTFEN1Jxa3dTWEhpSDBfeUM4U3JPZVY0c3Y5Z1BGcmZ4V2k0aGROQWJzLXE1TmpVUHZYR2dCNWxwUVVxSTg0b1hXaDJMUjU4T1lFeTAyUEhjMWpaVE1QNTAtVU9yWnBkNXVLLUdUd29PbjZWZjB0NDdmZkZzOUxSLUVB0gHPAUFVX3lxTE5BZHJYY2t5VmRPdHRpd1NDUUpJZEdEV21ncF9ibVdDQ2pVMy1xeGJPN05CdkJyU29YLVR6c20teFN6UF83TlhfZHc0U0FHaDRiYk1Oem0xdG5pVC1nbDluUG1ISUZWU2VDRjBqLWVkX3ViczhVRHVHeEtLSnVwbTBvaGV4bWc4bEV4WlN0M2RZV2IzdDJGNnlkalEtWUI4VW5fTG1OVVE4QV9vU2VHNUVWVXhaMW9WUmpDNWtOQjhVajgwOUVHRUl3bFYtR19pcw?oc=5",
+        "published": "2026-09-19T17:15:00-03:00",
+        "summary": "ARCA definió el monotributo: cuánto se paga en octubre 2026 y cuáles son nuevos topes &nbsp;&nbsp; iProfesional"
+      },
+      "selection": {
+        "index": 2,
+        "category": "TRIBUTARIO",
+        "card_title": "Argentina actualiza monotributo: nuevos topes y valores desde octubre 2026",
+        "card_summary": "ARCA definió los nuevos montos y topes del monotributo que regirán desde octubre 2026, impactando a miles de pequeños contribuyentes y autónomos en Argentina.",
+        "linkedin": "ARCA actualizó el régimen de monotributo en Argentina con nuevos topes y valores que entrarán en vigencia en octubre 2026.\n\nEsta actualización impacta directamente a miles de pequeños contribuyentes, incluyendo técnicos, instaladores y proveedores de servicios que operan en la industria de telecomunicaciones e infraestructura. Los nuevos parámetros determinarán quiénes pueden mantenerse en el régimen simplificado y quiénes deberán migrar al régimen general.\n\nPara las empresas del sector que trabajan con una red de contratistas y prestadores bajo monotributo, estos cambios pueden afectar la estructura de costos y la planificación tributaria del último trimestre del año. Conocer anticipadamente estos ajustes permite una mejor gestión administrativa y financiera.\n\nFuente: iProfesional",
+        "instagram": "📊 Argentina actualiza el monotributo para octubre 2026\n\nARCA definió los nuevos topes y montos del régimen simplificado que impacta a miles de autónomos, incluyendo técnicos e instaladores del sector telecom.\n\nLos cambios en los parámetros determinarán quiénes pueden continuar en el régimen y quiénes deberán migrar. Importante para la planificación del cierre de año.\n\nFuente: iProfesional",
+        "hashtags": "#Monotributo #ARCA #TributarioArgentina"
+      },
+      "card": "cards/2026-09-20/2026-09-20_AR.png"
     },
     "PE": {
-      "status": "error",
-      "error": "AuthenticationError(\"Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}\")"
+      "status": "ready",
+      "news": {
+        "key": "784dab600abf164a273bb29b9235789d3ea0b360",
+        "title": "MTC incautó equipos ilegales con señal de internet cerca del penal Miguel Castro Castro - Diario La Opinión Ica",
+        "source": "Diario La Opinión Ica",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZS1RWkp5RUtLUDB6bmtXMFZKLWdpelVMaUd2N1JMbnAwbEN4bS1lOHpIT3lJdWlQNGdoZUYxd2h4MDhoSXQxU1dGOEhHTzRPRWU2NjZFcDBqb1FkcGpPOUJUZ0RrbkdMZUFybFRURHcxclZNV2JBVkd0S05yZE8zYjQtOG5BOTlVMGlUcHRsdkdSR1EwSHNhVWFwWEhTLTM4T3UwX2YyaWhHS3Izcm1FQWdDNURiUUk2cWdtQks2d256SnlE?oc=5",
+        "published": "2026-09-18T19:45:50-03:00",
+        "summary": "MTC incautó equipos ilegales con señal de internet cerca del penal Miguel Castro Castro &nbsp;&nbsp; Diario La Opinión Ica"
+      },
+      "selection": {
+        "index": 22,
+        "category": "TELECOM",
+        "card_title": "MTC incauta equipos ilegales de internet cerca de penal Castro Castro",
+        "card_summary": "El Ministerio de Transportes y Comunicaciones decomisó equipos que operaban ilegalmente señal de internet en las inmediaciones del penal Miguel Castro Castro.",
+        "linkedin": "El Ministerio de Transportes y Comunicaciones de Perú realizó un operativo de fiscalización que resultó en la incautación de equipos ilegales que transmitían señal de internet cerca del penal Miguel Castro Castro.\n\nEste tipo de intervenciones son fundamentales para combatir el uso no autorizado del espectro radioeléctrico, un recurso limitado y estratégico para la industria de telecomunicaciones. Las instalaciones clandestinas no solo operan al margen de la regulación, sino que pueden generar interferencias que afectan la calidad del servicio de operadores legítimos.\n\nPara nuestra industria, estas acciones de fiscalización refuerzan la importancia de contar con infraestructura certificada yoperadores autorizados. La inversión en torres y estructuras de telecomunicaciones debe realizarse siempre dentro del marco regulatorio vigente, garantizando seguridad técnica y operativa.\n\nFuente: Diario La Opinión Ica",
+        "instagram": "El MTC de Perú incautó equipos ilegales de internet operando cerca del penal Miguel Castro Castro 📡\n\nEstos operativos son clave para proteger el espectro radioeléctrico y evitar interferencias que afectan a operadores legítimos. La infraestructura de telecomunicaciones debe ser siempre certificada y cumplir con la normativa vigente.\n\nUn recordatorio de la importancia de invertir en soluciones autorizadas y seguras para el sector.\n\nFuente: Diario La Opinión Ica",
+        "hashtags": "#EspectroRadioeléctrico #FiscalizaciónTelecom #InfraestructuraLegal"
+      },
+      "card": "cards/2026-09-20/2026-09-20_PE.png"
     },
     "PY": {
-      "status": "error",
-      "error": "AuthenticationError(\"Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}\")"
+      "status": "ready",
+      "news": {
+        "key": "53a9857fac464dede73799a84558fcf871cfc650",
+        "title": "Itaú prevé crecimiento de 4,5% e inflación de 3% para Paraguay - 5Días Paraguay",
+        "source": "5Días Paraguay",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSkVrVXhWSnd1R2d0WDVKbXREVE1JSmdwZl9jRlVKV3hUaUxsajdDV20zZzc1cmFzWEw5elNlSmFsNEl0YmJhRXR1LVZpT1h3eEFNdXg5OUY0YVhEMHl4WlNoOFBmNFVWcldKeUt3d3cyMmw5b01RWFhGRXk1aXk5SlNtZElsTC10eWlrdUdB?oc=5",
+        "published": "2026-09-19T14:18:53-03:00",
+        "summary": "Itaú prevé crecimiento de 4,5% e inflación de 3% para Paraguay &nbsp;&nbsp; 5Días Paraguay"
+      },
+      "selection": {
+        "index": 2,
+        "category": "ECONOMÍA",
+        "card_title": "Itaú proyecta crecimiento de 4,5% para la economía paraguaya en 2026",
+        "card_summary": "El banco Itaú estima un crecimiento económico de 4,5% e inflación controlada de 3% para Paraguay, señales positivas para la inversión en infraestructura.",
+        "linkedin": "Paraguay mantiene perspectivas económicas sólidas según las proyecciones de Itaú, que estima un crecimiento del 4,5% para 2026, acompañado de una inflación controlada en torno al 3%.\n\nEstas cifras resultan especialmente relevantes para nuestra industria. Un crecimiento económico sostenido impulsa la demanda de conectividad y telecomunicaciones, lo que se traduce en mayor inversión en infraestructura de red, torres y estructuras de soporte para tecnologías móviles y de transmisión de datos.\n\nLa estabilidad macroeconómica, reflejada en el control inflacionario, genera condiciones favorables para proyectos de largo plazo en el sector de telecomunicaciones, facilitando la planificación de inversiones en expansión y modernización de redes.\n\nPara los actores del mercado de infraestructura telecom, este escenario representa oportunidades concretas de desarrollo en un mercado que combina crecimiento con predictibilidad económica.\n\nFuente: 5Días Paraguay",
+        "instagram": "Paraguay muestra señales positivas para la inversión en infraestructura 📊\n\nItaú proyecta un crecimiento económico de 4,5% e inflación de 3% para 2026. Estas cifras reflejan estabilidad macroeconómica y condiciones favorables para el desarrollo del sector telecomunicaciones.\n\nUn entorno de crecimiento sostenido impulsa la demanda de conectividad y abre oportunidades para inversiones en torres, antenas y estructuras de soporte para redes móviles.\n\nFuente: 5Días Paraguay",
+        "hashtags": "#CrecimientoEconómico #InversiónParaguay #DesarrolloTelecom"
+      },
+      "card": "cards/2026-09-20/2026-09-20_PY.png"
     }
   }
 }
