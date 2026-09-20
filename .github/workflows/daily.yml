@@ -12,6 +12,12 @@ on:
       only:
         description: "Países, separados por coma (ej. CL,BR). Vacío = todos"
         default: ""
+      delete_groups:
+        description: "Ids de grupo de posts de Postiz a borrar antes de generar (separados por coma)"
+        default: ""
+      post_now:
+        description: "Publicar de inmediato en vez de a la hora del país (1 = sí)"
+        default: "0"
 
 permissions:
   contents: write
@@ -43,6 +49,8 @@ jobs:
           POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           ONLY: ${{ github.event.inputs.only || '' }}
+          DELETE_GROUPS: ${{ github.event.inputs.delete_groups || '' }}
+          POST_NOW: ${{ github.event.inputs.post_now || '0' }}
         run: python bot/bot.py
 
       - name: Guardar tarjetas, logs y estado en el repositorio
