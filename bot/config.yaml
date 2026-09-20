@@ -200,6 +200,51 @@ countries:
       - BCP
       - Ministerio de Economía
 
+# ---------------------------------------------------------------------------
+# Post extra "del día": saludo por fecha conmemorativa, efeméride o dato curioso.
+# Se publica en las mismas 3 cuentas. Los saludos salen temprano (greeting_time);
+# efemérides y datos curiosos a post_time (hora de Santiago).
+extra:
+  enabled: true
+  post_time: "16:00"
+  greeting_time: "08:45"
+
+# Fechas conmemorativas con prioridad (when: "MM-DD" o "MM-Nsun" = N-ésimo domingo del mes).
+# El bot además consulta Wikipedia ("un día como hoy") para efemérides.
+efemerides:
+  - {when: "01-01", name: "Año Nuevo", scope: "todos"}
+  - {when: "03-08", name: "Día Internacional de la Mujer", scope: "todos", note: "saludo a las mujeres de la industria de telecomunicaciones e ingeniería"}
+  - {when: "03-22", name: "Día Mundial del Agua", scope: "todos"}
+  - {when: "04-22", name: "Día de la Tierra", scope: "todos"}
+  - {when: "05-01", name: "Día Internacional del Trabajador", scope: "todos", note: "saludo a los equipos de planta, montaje y terreno"}
+  - {when: "05-2sun", name: "Día de la Madre", scope: "Chile, Brasil, Perú, Paraguay", note: "en Argentina se celebra en octubre"}
+  - {when: "05-14", name: "Día del Ingeniero en Chile", scope: "Chile"}
+  - {when: "05-14", name: "Día de la Independencia de Paraguay (14 y 15 de mayo)", scope: "Paraguay"}
+  - {when: "05-15", name: "Día de la Independencia de Paraguay", scope: "Paraguay"}
+  - {when: "05-17", name: "Día Mundial de las Telecomunicaciones y la Sociedad de la Información (UIT) / Día de Internet", scope: "todos", note: "fecha central para DEITEL"}
+  - {when: "05-21", name: "Día de las Glorias Navales", scope: "Chile"}
+  - {when: "05-25", name: "Aniversario de la Revolución de Mayo", scope: "Argentina"}
+  - {when: "06-05", name: "Día Mundial del Medio Ambiente", scope: "todos"}
+  - {when: "06-06", name: "Día de la Ingeniería Argentina", scope: "Argentina"}
+  - {when: "06-08", name: "Día del Ingeniero Peruano", scope: "Perú"}
+  - {when: "06-3sun", name: "Día del Padre", scope: "Chile, Argentina, Perú, Paraguay", note: "en Brasil es en agosto"}
+  - {when: "06-20", name: "Día de la Bandera Argentina", scope: "Argentina"}
+  - {when: "07-09", name: "Día de la Independencia Argentina", scope: "Argentina"}
+  - {when: "07-28", name: "Fiestas Patrias del Perú (28 y 29 de julio)", scope: "Perú"}
+  - {when: "08-2sun", name: "Dia dos Pais", scope: "Brasil", note: "post en portugués"}
+  - {when: "08-15", name: "Fundación de Asunción", scope: "Paraguay"}
+  - {when: "09-07", name: "Dia da Independência do Brasil", scope: "Brasil", note: "post en portugués"}
+  - {when: "09-18", name: "Fiestas Patrias de Chile (18 y 19 de septiembre)", scope: "Chile"}
+  - {when: "09-19", name: "Día de las Glorias del Ejército", scope: "Chile"}
+  - {when: "10-12", name: "Día del Encuentro de Dos Mundos / Dia de Nossa Senhora Aparecida (Brasil)", scope: "todos"}
+  - {when: "10-3sun", name: "Día de la Madre en Argentina", scope: "Argentina"}
+  - {when: "11-15", name: "Proclamação da República", scope: "Brasil", note: "post en portugués"}
+  - {when: "11-20", name: "Dia da Consciência Negra", scope: "Brasil", note: "post en portugués"}
+  - {when: "12-11", name: "Dia do Engenheiro (Brasil)", scope: "Brasil", note: "post en portugués"}
+  - {when: "12-24", name: "Nochebuena", scope: "todos"}
+  - {when: "12-25", name: "Navidad", scope: "todos"}
+  - {when: "12-31", name: "Fin de año", scope: "todos", note: "agradecimiento a clientes y equipos; buenos deseos"}
+
 # Hashtags fijos por idioma (el modelo puede agregar 2-3 más)
 hashtags:
   es: "#Telecomunicaciones #Infraestructura #TorresDeTelecomunicaciones #DEITEL"
