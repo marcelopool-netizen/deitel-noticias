@@ -1,0 +1,327 @@
+{
+  "date": "2026-09-21",
+  "run_at": "2026-09-21T13:04:42.224778-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "436998d27ff898eabb95b6bd66062692294f982b",
+        "title": "Veolia, Aguas Andinas y Google anuncian proyecto para revestir canal de riego y reforzar la seguridad hídrica en Santiago",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/sustentabilidad/noticia/veolia-aguas-andinas-y-google-anuncian-proyecto-para-revestir-canal-de-riego-y-reforzar-la-seguridad-hidrica-en-santiago/",
+        "published": "2026-09-21T11:37:53-03:00",
+        "summary": "A partir de 2027, se espera que el proyecto reduzca las pérdidas de agua en 7,5 millones de metros cúbicos al año, equivalentes a la capacidad de 750.000 camiones cisterna o a cubrir las necesidades domésticas anuales de agua de casi 30.000 hogares chilenos."
+      },
+      "selection": {
+        "index": 18,
+        "category": "ECONOMÍA",
+        "card_title": "Veolia, Aguas Andinas y Google lanzan proyecto hídrico en Santiago",
+        "card_summary": "Revestimiento de canal reducirá pérdidas de 7,5 millones de m³ anuales desde 2027, equivalentes a necesidades de 500 mil personas.",
+        "linkedin": "Veolia, Aguas Andinas y Google anunciaron un proyecto de infraestructura para revestir un canal de riego en la Región Metropolitana, reforzando la seguridad hídrica de Santiago.\n\nA partir de 2027, la iniciativa evitará la pérdida de 7,5 millones de metros cúbicos de agua al año, volumen equivalente a 750 mil camiones cisterna o al consumo anual de 500 mil personas.\n\nEsta alianza público-privada demuestra cómo la infraestructura crítica —concepto que también aplica a telecomunicaciones— requiere inversión sostenida y colaboración entre sectores. La eficiencia hídrica y la resiliencia de los servicios esenciales son pilares para el desarrollo de cualquier industria intensiva en infraestructura.\n\nFuente: La Tercera",
+        "instagram": "Veolia, Aguas Andinas y Google lanzaron un proyecto de infraestructura para revestir un canal de riego en Santiago 💧\n\nDesde 2027 reducirá pérdidas de 7,5 millones de m³ anuales de agua, equivalente al consumo de 500 mil personas.\n\nUna alianza estratégica que refuerza la seguridad hídrica y muestra el valor de la infraestructura crítica sostenible.\n\nFuente: La Tercera",
+        "hashtags": "#SeguridadHídrica #InfraestructuraSostenible #AguasAndinas"
+      },
+      "card": "cards/2026-09-21/2026-09-21_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfrukq06u0pg0yer6iia4o",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfrv8p06qylf0yrbt9oq0q",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfrvk906u1pg0y1oq91jfs",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "bc3048cd8aeb2e037dec4ec1ba3624517b22f9b5",
+        "title": "Estatal italiana assume controle da Telecom Itália e se torna controladora indireta da Tim no Brasil",
+        "source": "Folha de S.Paulo - Mercado - Principal",
+        "preferred": true,
+        "link": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/09/estatal-italiana-assume-controle-da-telecom-italia-e-se-torna-controladora-indireta-da-tim-no-brasil.shtml",
+        "published": "2026-09-21T11:11:00-03:00",
+        "summary": "A Poste Italiane, empresa estatal italiana de serviço postal, abriu uma nova janela de compra das ações da Telecom Itália , dona da Tim, cujas ações são listadas na Bolsa de Milão. Entre 21 e 25 de setembro, acionistas da companhia de telefonia poderão vender suas ações para a nova controladora. Leia mais (09/21/2026 - 11h11)"
+      },
+      "selection": {
+        "index": 5,
+        "category": "TELECOM",
+        "card_title": "Estatal italiana assume controle da Telecom Itália e da Tim Brasil",
+        "card_summary": "Poste Italiane abre nova janela de compra de ações da Telecom Itália, tornando-se controladora indireta da Tim no Brasil entre 21 e 25 de setembro.",
+        "linkedin": "A Poste Italiane, empresa estatal italiana de serviços postais, deu um passo importante ao abrir uma nova janela para aquisição de ações da Telecom Itália, proprietária da Tim. O movimento ocorre entre 21 e 25 de setembro e consolida a estatal como controladora indireta da operadora brasileira.\n\nEsta mudança no controle acionário da Tim Brasil representa um marco relevante para o setor de telecomunicações no país. A entrada de uma estatal italiana como controladora pode trazer novas perspectivas estratégicas e de investimento para a operadora, que é uma das principais do mercado brasileiro.\n\nPara o setor de infraestrutura de telecomunicações, movimentos corporativos dessa magnitude costumam impactar decisões de investimento em redes, torres e expansão de cobertura. A estabilidade e o perfil do novo controlador serão determinantes para os próximos ciclos de modernização tecnológica da operadora.\n\nFonte: Folha de S.Paulo",
+        "instagram": "A Poste Italiane, estatal italiana de serviços postais, assume o controle da Telecom Itália e, consequentemente, da Tim Brasil. A janela de compra de ações ocorre entre 21 e 25 de setembro. 📡\n\nEste movimento corporativo pode trazer novos rumos para a operadora brasileira, impactando investimentos em infraestrutura e expansão de redes no país.\n\nFonte: Folha de S.Paulo",
+        "hashtags": "#TelecomItalia #TimBrasil #PosteItaliane"
+      },
+      "card": "cards/2026-09-21/2026-09-21_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfsate06u2pg0ytb9730m7",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfsb2v06u3pg0y9xvnttl5",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfsbey06r6lf0y3kao7mum",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "462555fed8e583f91c5435ae26baaee1729cccec",
+        "title": "La industria metalúrgica se desplomó 6,1% anual en agosto y opera con apenas el 39,6% de su capacidad instalada",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/la-industria-metalurgica-se-desplomo-61-anual-agosto-y-opera-apenas-el-396-su-capacidad-instalada-n6324668",
+        "published": "2026-09-21T09:40:00-03:00",
+        "summary": "La producción del sector cayó 6,1% interanual en agosto y 3,9% frente a julio, mientras que el uso de la capacidad instalada se redujo al 39,6%. Todos los sectores estratégicos registraron retrocesos y el 10,3% de las empresas ya presenta atrasos en sus obligaciones financieras."
+      },
+      "selection": {
+        "index": 3,
+        "category": "ECONOMÍA",
+        "card_title": "Industria metalúrgica argentina cae 6,1% y opera al 39,6% de capacidad",
+        "card_summary": "El sector metalúrgico registró una caída interanual de 6,1% en agosto, con un uso de capacidad instalada de apenas 39,6%. Todos los sectores estratégicos mostraron retrocesos.",
+        "linkedin": "La industria metalúrgica argentina continúa mostrando señales de debilidad. En agosto de 2026, la producción del sector cayó 6,1% en comparación con el mismo mes del año anterior, mientras que el uso de capacidad instalada se ubicó en apenas 39,6%.\n\nEste indicador es particularmente relevante para la industria de infraestructura de telecomunicaciones, ya que la fabricación de torres y estructuras metálicas depende directamente de la salud del sector metalúrgico. Una capacidad ociosa tan elevada refleja no solo la contracción de la demanda interna, sino también las dificultades que enfrenta toda la cadena de valor del acero.\n\nLa caída mensual de 3,9% respecto a julio suma más presión sobre un sector que opera muy por debajo de su potencial. Para empresas que fabrican estructuras de acero, este escenario plantea desafíos en términos de costos, disponibilidad de insumos y planificación de proyectos de infraestructura.\n\nFuente: Ámbito",
+        "instagram": "📉 La industria metalúrgica argentina registró una caída de 6,1% interanual en agosto y opera con apenas el 39,6% de su capacidad instalada.\n\nPara el sector de infraestructura de telecomunicaciones, que depende del acero para torres y estructuras, este escenario plantea desafíos importantes en toda la cadena de valor.\n\nUna capacidad ociosa tan alta refleja la contracción de la demanda y las dificultades del sector industrial argentino.\n\nFuente: Ámbito",
+        "hashtags": "#IndustriaMetalúrgica #SectorIndustrial #ArgentinaEconomía"
+      },
+      "card": "cards/2026-09-21/2026-09-21_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfsn2q06u7pg0y1bqd5a26",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfsnd806u8pg0ybxc5kzt3",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfso0i06ralf0y61hd1gd5",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "b39a382e3065054e5333f56c645435d3b52350ff",
+        "title": "Hay más optimismo sobre crecimiento del comercio, pero ¿El Niño “golpearía” al sector?",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/economia/sector-comercio-entre-los-que-mas-elevo-su-proyeccion-de-crecimiento-el-nino-golpearia-noticia/",
+        "published": "2026-09-21T12:39:52-03:00",
+        "summary": "Aunque la previsión sobre la economía peruana se revisó a la baja, hubo algunos ajustes positivos: para comercio ahora se espera un avance de casi 6%. Este escenario es el que presenta."
+      },
+      "selection": {
+        "index": 17,
+        "category": "ECONOMÍA",
+        "card_title": "Sector comercio en Perú crecería casi 6% pese a revisión a la baja del PBI",
+        "card_summary": "Proyección de crecimiento del comercio se ajusta al alza en un contexto de previsión económica revisada a la baja. Sector muestra resiliencia ante coyuntura desafiante.",
+        "linkedin": "El sector comercio en Perú muestra señales positivas en medio de un panorama económico mixto. Aunque la previsión general sobre la economía peruana fue revisada a la baja, el comercio recibió un ajuste al alza: ahora se espera un avance de casi 6% según las últimas proyecciones.\n\nEsta resiliencia del comercio es relevante para la industria de telecomunicaciones, ya que el dinamismo comercial impulsa la demanda de infraestructura digital, conectividad y soluciones tecnológicas. Un sector comercio robusto requiere redes móviles eficientes, plataformas de pagos digitales y mayor cobertura para el comercio electrónico.\n\nSin embargo, el escenario presenta desafíos: especialistas advierten que el fenómeno El Niño podría impactar negativamente al sector en los próximos meses, lo que obliga a las empresas de infraestructura a prepararse para posibles disrupciones y a garantizar la continuidad operativa.\n\nFuente: Diario Gestión",
+        "instagram": "📊 Buenas noticias para el comercio peruano: se proyecta un crecimiento cercano al 6%, pese a que la economía general fue revisada a la baja.\n\nUn comercio dinámico impulsa la demanda de conectividad y infraestructura digital. Aunque El Niño podría presentar desafíos, el sector muestra resiliencia importante para el desarrollo tecnológico del país.\n\nFuente: Diario Gestión",
+        "hashtags": "#ComercioPerú #CrecimientoEconómico #InfraestructuraDigital"
+      },
+      "card": "cards/2026-09-21/2026-09-21_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubft22d06rclf0ygtuy0gl4",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubft2e506uapg0yefgbc4oc",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubft2qb06ubpg0yg05b4nig",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "b4f139ed55f577894c3c14a22fc86ea43e283dfd",
+        "title": "Casi la mitad de los jóvenes de Paraguay no cursan estudios formales",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/internacionales/2026/09/21/casi-la-mitad-de-los-jovenes-de-paraguay-no-cursan-estudios-formales/",
+        "published": "2026-09-21T12:40:22-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 18,
+        "category": "ECONOMÍA",
+        "card_title": "Casi la mitad de jóvenes paraguayos no cursan estudios formales",
+        "card_summary": "Un informe revela que cerca del 50% de los jóvenes en Paraguay no accede a educación formal, evidenciando un desafío estructural para el desarrollo del capital humano.",
+        "linkedin": "Paraguay enfrenta un importante desafío educativo: casi la mitad de su población joven no participa en estudios formales, según datos recientes.\n\nEsta brecha educativa tiene implicancias directas para sectores que demandan mano de obra calificada, como las telecomunicaciones y la infraestructura tecnológica. La instalación, mantenimiento y operación de redes móviles, fibra óptica y torres de comunicación requieren técnicos especializados y profesionales con formación continua.\n\nPara empresas que operan en la región, este déficit educativo representa tanto un obstáculo como una oportunidad: invertir en programas de capacitación técnica puede ser clave para asegurar talento local y contribuir al desarrollo sostenible de la industria.\n\nLa expansión de infraestructura digital en Paraguay dependerá, en gran medida, de cerrar esta brecha formativa y preparar a las nuevas generaciones para los empleos del futuro.\n\nFuente: ABC Color",
+        "instagram": "Casi la mitad de los jóvenes en Paraguay no accede a educación formal, según datos recientes. 📚\n\nEsta brecha impacta directamente en sectores como telecomunicaciones e infraestructura, que necesitan técnicos capacitados para instalar y mantener redes, torres y fibra óptica.\n\nCerrar esta brecha educativa es clave para el desarrollo digital de la región y para asegurar talento local en la industria.\n\nFuente: ABC Color",
+        "hashtags": "#EducaciónParaguay #CapitalHumano #DesarrolloDigital"
+      },
+      "card": "cards/2026-09-21/2026-09-21_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfti2e06rhlf0yxm5mweux",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubftidb06udpg0y77am2p7x",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubftiox06rilf0yzuu9685w",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día Internacional de la Paz",
+        "card_summary": "Hoy celebramos 24 horas de no violencia promovidas por la ONU para fortalecer los ideales de paz en el mundo.",
+        "linkedin": "Hoy, 21 de septiembre, se conmemora el Día Internacional de la Paz 🕊️\n\nEstablecido por la Asamblea General de las Naciones Unidas, este día nos invita a observar 24 horas de no violencia y alto el fuego en todo el mundo. Es una jornada para fortalecer los ideales de paz y reflexionar sobre la importancia de la convivencia armónica.\n\nDesde DEITEL creemos que la conectividad y la infraestructura que construimos también son puentes de paz: acercan comunidades, facilitan el diálogo y permiten que la información fluya sin fronteras. Hoy renovamos nuestro compromiso con un futuro más conectado y en paz.",
+        "instagram": "Hoy celebramos el Día Internacional de la Paz 🕊️ establecido por la ONU para promover 24 horas de no violencia en el mundo.\n\nDesde DEITEL sabemos que la conectividad también construye puentes de paz: acerca comunidades y permite que la información fluya sin fronteras.\n\nRenovamos nuestro compromiso con un futuro más conectado y en paz. 🌍",
+        "hashtags": "#DíaDeLaPaz #Conectividad #DEITEL",
+        "source": ""
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-21/2026-09-21_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubftrfp06ulpg0yeekapq60",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubftrrt06rplf0ye274s7fl",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-21T13:07:42.224778-03:00",
+          "result": [
+            {
+              "postId": "cmubfts1s06umpg0yukahmlg1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
