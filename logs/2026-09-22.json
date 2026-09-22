@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-22",
+  "run_at": "2026-09-22T11:15:12.763272-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "error",
+      "news": {
+        "key": "21ed13be269431d790f9e21fbbbeed8e378f1424",
+        "title": "Biministro De Grange espera lograr rebajas en el precio del TAG solo para algunas autopistas",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/biministro-de-grange-espera-lograr-rebajas-en-el-precio-del-tag-solo-para-algunas-autopistas/",
+        "published": "2026-09-22T10:07:38-03:00",
+        "summary": "El biministro de Obras Públicas y de Transportes y Telecomunicaciones, Louis de Grange, dijo que está en \"muy buenas conversaciones\" para bajar el precio por transitar en las autopistas concesionadas."
+      },
+      "selection": {
+        "index": 11,
+        "category": "TELECOM",
+        "card_title": "Gobierno negocia rebajas en precio del TAG para algunas autopistas",
+        "card_summary": "El biministro De Grange confirmó conversaciones avanzadas para reducir tarifas de TAG en autopistas concesionadas del país.",
+        "linkedin": "El biministro de Obras Públicas y de Transportes y Telecomunicaciones, Louis de Grange, anunció que se encuentra en \"muy buenas conversaciones\" para lograr rebajas en el precio del TAG en algunas autopistas concesionadas de Chile.\n\nLa cartera de Transportes y Telecomunicaciones juega un rol fundamental en la coordinación de infraestructura que sirve de soporte tanto para el transporte como para las redes de comunicaciones. Las autopistas concesionadas son corredores estratégicos donde también se despliegan fibra óptica y otras instalaciones de telecomunicaciones.\n\nCualquier ajuste en el modelo de concesiones viales puede sentar precedentes importantes para otros sectores de infraestructura, incluido el despliegue de torres y redes de telecomunicaciones que dependen de permisos y coordinación con estas vías.\n\nFuente: La Tercera",
+        "instagram": "El biministro Louis de Grange confirmó que está en conversaciones avanzadas para bajar el precio del TAG en algunas autopistas concesionadas de Chile 🛣️\n\nDesde Transportes y Telecomunicaciones se coordina infraestructura clave para conectividad y comunicaciones. Los cambios en concesiones viales pueden impactar también al sector telecom.\n\nFuente: La Tercera",
+        "hashtags": "#Concesiones #InfraestructuraChile #TAG"
+      },
+      "card": "cards/2026-09-22/2026-09-22_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrbgus01drqr0yep5h3kpf",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        }
+      ],
+      "error": "RuntimeError('Postiz 502: {\"status\":\"error\",\"code\":502,\"message\":\"Application failed to respond\",\"request_id\":\"wAANPTvKT16oOFRaCYBc-A\"}')"
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "69bebefb5c9a0921801e805d2adddc94a1138ce1",
+        "title": "Aos presidenciáveis, Conexis defende tratar espectro como política industrial",
+        "source": "TELETIME News",
+        "preferred": true,
+        "link": "https://teletime.com.br/22/09/2026/conexis-espectro-presidenciaiveis/",
+        "published": "2026-09-22T10:09:15-03:00",
+        "summary": "A Conexis Brasil Digital emitiu uma carta aos presidenciáveis pedindo que o espectro de rádio seja tratado como política industrial de longo prazo, com leilões não arrecadatórios, prazos previsíveis, combate à sobreposição de ciclos tecnológicos e maior segurança jurídica nas renovações de licença."
+      },
+      "selection": {
+        "index": 4,
+        "category": "TELECOM",
+        "card_title": "Conexis propõe espectro como política industrial de longo prazo no Brasil",
+        "card_summary": "Entidade do setor de telecom envia carta aos presidenciáveis pedindo leilões não arrecadatórios e prazos previsíveis para espectro de rádio.",
+        "linkedin": "A Conexis Brasil Digital enviou uma carta aos candidatos à presidência propondo que o espectro de radiofrequências seja tratado como política industrial de longo prazo. A entidade defende leilões com foco na expansão da infraestrutura em vez de arrecadação, além de prazos previsíveis para o setor.\n\nEsta proposta chega em momento estratégico para a indústria de telecomunicações brasileira. O acesso ao espectro em condições adequadas impacta diretamente os investimentos em infraestrutura, incluindo a instalação de torres e antenas necessárias para ampliar a cobertura 5G e levar conectividade a regiões remotas.\n\nPara empresas como DEITEL, que atuam na fabricação de estruturas metálicas para telecomunicações, políticas que estimulem investimentos consistentes das operadoras são fundamentais para o planejamento e crescimento sustentável do setor.\n\nFonte: TELETIME News",
+        "instagram": "A Conexis Brasil Digital propôs aos presidenciáveis que o espectro de rádio seja tratado como política industrial de longo prazo. A entidade defende leilões não arrecadatórios e prazos previsíveis. 📡\n\nEssa estratégia pode impulsionar investimentos em infraestrutura de telecom, beneficiando toda a cadeia produtiva do setor, desde operadoras até fabricantes de torres e estruturas metálicas.\n\nFonte: TELETIME News",
+        "hashtags": "#Espectro #Conexis #InfraestruturaDigital"
+      },
+      "card": "cards/2026-09-22/2026-09-22_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrc5ax01emqr0ymr3ojzwj",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrc5rq02vzqs0y093kc369",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrc69k01erqr0yrzhixw6x",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "891257ec7e5e79ea330e283712ed8b14bc8f1be9",
+        "title": "Se traba el acuerdo comercial con EEUU: el Gobierno busca renegociar los términos, pero Washington lo rechaza",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/se-traba-el-acuerdo-comercial-eeuu-el-gobierno-busca-renegociar-los-terminos-pero-washington-lo-rechaza-n6325195",
+        "published": "2026-09-22T10:38:00-03:00",
+        "summary": "Delegados de la Casa Rosada intentan rediscutir los condiciones del acuerdo con Washington, porque desde el gobierno argentino no cuentan con los votos necesarios en el Congreso para ratificar el tratado comercial."
+      },
+      "selection": {
+        "index": 0,
+        "category": "ECONOMÍA",
+        "card_title": "Se traba acuerdo comercial Argentina-EEUU por falta de votos en el Congreso",
+        "card_summary": "El Gobierno argentino busca renegociar términos del tratado con Washington al no contar con respaldo parlamentario, pero la Casa Blanca rechaza modificar las condiciones acordadas.",
+        "linkedin": "Se complica el acuerdo comercial entre Argentina y Estados Unidos. Delegados del Gobierno argentino intentan rediscutir las condiciones del tratado con Washington, pero enfrentan un obstáculo importante: no cuentan con los votos necesarios en el Congreso para ratificarlo en sus términos actuales.\n\nLa Casa Blanca, sin embargo, ha rechazado renegociar lo acordado, generando un punto muerto en las negociaciones que podría afectar la integración comercial de Argentina con su principal socio del norte.\n\nPara la industria de infraestructura y telecomunicaciones, este tipo de acuerdos comerciales suelen abrir oportunidades en financiamiento, acceso a tecnología y estándares internacionales. Un tratado con EEUU podría facilitar la importación de equipamiento especializado y fortalecer la inversión en proyectos de conectividad.\n\nLa incertidumbre sobre este acuerdo agrega un elemento más al complejo panorama económico argentino de cara al 2027.\n\nFuente: Ámbito",
+        "instagram": "🚨 Se traba el acuerdo comercial Argentina-EEUU\n\nEl Gobierno argentino busca renegociar el tratado con Washington por falta de votos en el Congreso, pero la Casa Blanca rechaza modificar los términos.\n\nEste tipo de acuerdos son clave para la industria: facilitan acceso a tecnología, equipamiento y financiamiento para proyectos de infraestructura y telecomunicaciones. La incertidumbre continúa.\n\nFuente: Ámbito",
+        "hashtags": "#ComercioExterior #AcuerdoComercial #ArgentinaUSA"
+      },
+      "card": "cards/2026-09-22/2026-09-22_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrcmus02wbqs0ybhrzi5gh",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrcnb202wcqs0yuiha2k7c",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrcnol02weqs0yfkigtjh1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "24113f0e358d3ee23c2bf5b5bc02b3caae338358",
+        "title": "Gobierno propone prohibir desvío de fondos destinados al fenómeno El Niño",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/peru/gobierno-de-keiko-fujimori-propone-prohibir-desvio-de-fondos-destinados-al-fenomeno-el-nino-noticia/",
+        "published": "2026-09-22T11:14:33-03:00",
+        "summary": "A fin de garantizar recursos para enfrentar emergencias, el Gobierno propuso prohibir modificaciones presupuestarias que anulen o reduzcan los fondos destinados a intervenciones extraordinarias frente al Fenómeno El Niño (FEN) y a la atención de emergencias en el país."
+      },
+      "selection": {
+        "index": 0,
+        "category": "ECONOMÍA",
+        "card_title": "Perú propone blindar fondos para emergencias por El Niño",
+        "card_summary": "El Gobierno peruano busca prohibir reasignaciones presupuestarias que reduzcan recursos destinados a intervenciones extraordinarias frente al fenómeno El Niño.",
+        "linkedin": "El Gobierno de Perú ha propuesto una importante medida para proteger los recursos destinados a enfrentar emergencias climáticas. La iniciativa busca prohibir cualquier modificación presupuestaria que anule o reduzca los fondos asignados a intervenciones extraordinarias frente al fenómeno El Niño.\n\nEsta propuesta cobra especial relevancia para el sector de infraestructura y telecomunicaciones, considerando que eventos climáticos extremos pueden afectar gravemente torres, redes y equipamiento crítico. La disponibilidad garantizada de recursos para emergencias permitiría una respuesta más rápida ante daños en infraestructura esencial.\n\nPara empresas que operan infraestructura crítica en la región andina, esta medida representa un marco más predecible para la planificación de contingencias y refuerza la importancia de contar con protocolos robustos de resiliencia operacional frente a fenómenos climáticos.\n\nFuente: Diario Gestión",
+        "instagram": "Perú propone blindar el presupuesto destinado a emergencias por El Niño 🌧️\n\nEl Gobierno busca prohibir reasignaciones que reduzcan fondos para intervenciones extraordinarias frente a este fenómeno climático.\n\nUna medida clave para proteger infraestructura crítica, incluidas las redes de telecomunicaciones que pueden verse afectadas por eventos climáticos extremos.\n\nFuente: Diario Gestión",
+        "hashtags": "#ElNiño #EmergenciaClimática #InfraestructuraCrítica"
+      },
+      "card": "cards/2026-09-22/2026-09-22_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmucrd1k201f3qr0yh9l576s2",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmucrd21102wqqs0ybblrwrtg",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmucrd2oq02wtqs0yr69w0pde",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "38b2eb3d305b905c98a739674d51f112a0747828",
+        "title": "Latinoamérica supera el millón de automóviles eléctricos, con más de la mitad en Brasil",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/internacionales/2026/09/22/latinoamerica-supera-el-millon-de-automoviles-electricos-con-mas-de-la-mitad-en-brasil/",
+        "published": "2026-09-22T10:55:16-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 9,
+        "category": "ECONOMÍA",
+        "card_title": "Latinoamérica supera el millón de vehículos eléctricos",
+        "card_summary": "La región alcanzó más de un millón de automóviles eléctricos, con Brasil concentrando más de la mitad del parque vehicular de este tipo.",
+        "linkedin": "Latinoamérica acaba de cruzar un umbral histórico en movilidad sostenible: la región superó el millón de automóviles eléctricos en circulación, con Brasil liderando este crecimiento al concentrar más de la mitad de estas unidades.\n\nEste hito refleja una transformación en la infraestructura energética y de transporte que tiene impactos directos en nuestro sector. La electromovilidad demanda una red de telecomunicaciones robusta para gestión de carga inteligente, sistemas de navegación y conectividad vehicular. Además, impulsa inversiones en infraestructura eléctrica que a menudo comparten espacios y necesidades con nuestras torres y estructuras.\n\nPara la industria de telecomunicaciones, el crecimiento del parque eléctrico representa nuevas oportunidades en soluciones de conectividad para estaciones de carga, gestión de flotas y servicios de Internet de las Cosas (IoT) aplicados al transporte.\n\nFuente: ABC Color",
+        "instagram": "🔋 Latinoamérica alcanzó un millón de vehículos eléctricos, con Brasil liderando con más de la mitad del parque regional.\n\nLa electromovilidad no solo transforma el transporte: también impulsa la demanda de infraestructura de telecomunicaciones para gestión inteligente de carga, conectividad vehicular y servicios IoT. Un sector en crecimiento que abre nuevas oportunidades para la industria.\n\nFuente: ABC Color",
+        "hashtags": "#MovilidadEléctrica #InfraestructuraSostenible #IoT"
+      },
+      "card": "cards/2026-09-22/2026-09-22_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmucrdfmm01foqr0yjsxya9y0",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmucrdg0a01fqqr0yzqod1ucy",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmucrdgdm01frqr0ywh83firs",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día Mundial sin Automóvil: movilidad sostenible para todos",
+        "card_summary": "Hoy celebramos alternativas de transporte que reducen emisiones y mejoran la calidad del aire en nuestras ciudades.",
+        "linkedin": "Hoy es el Día Mundial sin Automóvil, una jornada que promueve alternativas de movilidad más sostenibles: caminar, usar la bicicleta y el transporte público. 🚴\n\nEn DEITEL sabemos que la conectividad va más allá de las telecomunicaciones. Las redes de transporte eficientes también dependen de infraestructura inteligente: señalización digital, sistemas de monitoreo y torres que permiten la comunicación en tiempo real entre vehículos y ciudades.\n\nUna movilidad urbana sostenible necesita estructuras que la soporten. Hoy celebramos las decisiones que construyen ciudades más habitables para Chile, Brasil, Argentina, Perú y Paraguay. 🌎",
+        "instagram": "Hoy es el Día Mundial sin Automóvil 🚴, una jornada que impulsa alternativas de transporte sostenible.\n\nEn DEITEL construimos la infraestructura que conecta ciudades inteligentes: desde torres de telecomunicaciones hasta sistemas que permiten el monitoreo del tráfico en tiempo real.\n\nMovilidad sostenible también es conectividad. 🌎",
+        "hashtags": "#MovilidadSostenible #CiudadesInteligentes #Conectividad",
+        "source": ""
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-22/2026-09-22_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrdrcz02xdqs0yczm4hi76",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrdrpu01fxqr0yaj9w8eon",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrds1q02xeqs0yjgo5qsk6",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
