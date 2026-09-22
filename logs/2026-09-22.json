@@ -1,43 +1,8 @@
 {
   "date": "2026-09-22",
-  "run_at": "2026-09-22T11:15:12.763272-03:00",
+  "run_at": "2026-09-22T14:11:34.390617-03:00",
   "dry_run": false,
   "countries": {
-    "CL": {
-      "status": "error",
-      "news": {
-        "key": "21ed13be269431d790f9e21fbbbeed8e378f1424",
-        "title": "Biministro De Grange espera lograr rebajas en el precio del TAG solo para algunas autopistas",
-        "source": "La Tercera",
-        "preferred": true,
-        "link": "https://www.latercera.com/pulso/noticia/biministro-de-grange-espera-lograr-rebajas-en-el-precio-del-tag-solo-para-algunas-autopistas/",
-        "published": "2026-09-22T10:07:38-03:00",
-        "summary": "El biministro de Obras Públicas y de Transportes y Telecomunicaciones, Louis de Grange, dijo que está en \"muy buenas conversaciones\" para bajar el precio por transitar en las autopistas concesionadas."
-      },
-      "selection": {
-        "index": 11,
-        "category": "TELECOM",
-        "card_title": "Gobierno negocia rebajas en precio del TAG para algunas autopistas",
-        "card_summary": "El biministro De Grange confirmó conversaciones avanzadas para reducir tarifas de TAG en autopistas concesionadas del país.",
-        "linkedin": "El biministro de Obras Públicas y de Transportes y Telecomunicaciones, Louis de Grange, anunció que se encuentra en \"muy buenas conversaciones\" para lograr rebajas en el precio del TAG en algunas autopistas concesionadas de Chile.\n\nLa cartera de Transportes y Telecomunicaciones juega un rol fundamental en la coordinación de infraestructura que sirve de soporte tanto para el transporte como para las redes de comunicaciones. Las autopistas concesionadas son corredores estratégicos donde también se despliegan fibra óptica y otras instalaciones de telecomunicaciones.\n\nCualquier ajuste en el modelo de concesiones viales puede sentar precedentes importantes para otros sectores de infraestructura, incluido el despliegue de torres y redes de telecomunicaciones que dependen de permisos y coordinación con estas vías.\n\nFuente: La Tercera",
-        "instagram": "El biministro Louis de Grange confirmó que está en conversaciones avanzadas para bajar el precio del TAG en algunas autopistas concesionadas de Chile 🛣️\n\nDesde Transportes y Telecomunicaciones se coordina infraestructura clave para conectividad y comunicaciones. Los cambios en concesiones viales pueden impactar también al sector telecom.\n\nFuente: La Tercera",
-        "hashtags": "#Concesiones #InfraestructuraChile #TAG"
-      },
-      "card": "cards/2026-09-22/2026-09-22_CL.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
-          "result": [
-            {
-              "postId": "cmucrbgus01drqr0yep5h3kpf",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ]
-        }
-      ],
-      "error": "RuntimeError('Postiz 502: {\"status\":\"error\",\"code\":502,\"message\":\"Application failed to respond\",\"request_id\":\"wAANPTvKT16oOFRaCYBc-A\"}')"
-    },
     "BR": {
       "status": "scheduled",
       "news": {
@@ -86,60 +51,6 @@
           "result": [
             {
               "postId": "cmucrc69k01erqr0yrzhixw6x",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ]
-        }
-      ]
-    },
-    "AR": {
-      "status": "scheduled",
-      "news": {
-        "key": "891257ec7e5e79ea330e283712ed8b14bc8f1be9",
-        "title": "Se traba el acuerdo comercial con EEUU: el Gobierno busca renegociar los términos, pero Washington lo rechaza",
-        "source": "Noticias de Economía | Ámbito",
-        "preferred": true,
-        "link": "https://www.ambito.com/se-traba-el-acuerdo-comercial-eeuu-el-gobierno-busca-renegociar-los-terminos-pero-washington-lo-rechaza-n6325195",
-        "published": "2026-09-22T10:38:00-03:00",
-        "summary": "Delegados de la Casa Rosada intentan rediscutir los condiciones del acuerdo con Washington, porque desde el gobierno argentino no cuentan con los votos necesarios en el Congreso para ratificar el tratado comercial."
-      },
-      "selection": {
-        "index": 0,
-        "category": "ECONOMÍA",
-        "card_title": "Se traba acuerdo comercial Argentina-EEUU por falta de votos en el Congreso",
-        "card_summary": "El Gobierno argentino busca renegociar términos del tratado con Washington al no contar con respaldo parlamentario, pero la Casa Blanca rechaza modificar las condiciones acordadas.",
-        "linkedin": "Se complica el acuerdo comercial entre Argentina y Estados Unidos. Delegados del Gobierno argentino intentan rediscutir las condiciones del tratado con Washington, pero enfrentan un obstáculo importante: no cuentan con los votos necesarios en el Congreso para ratificarlo en sus términos actuales.\n\nLa Casa Blanca, sin embargo, ha rechazado renegociar lo acordado, generando un punto muerto en las negociaciones que podría afectar la integración comercial de Argentina con su principal socio del norte.\n\nPara la industria de infraestructura y telecomunicaciones, este tipo de acuerdos comerciales suelen abrir oportunidades en financiamiento, acceso a tecnología y estándares internacionales. Un tratado con EEUU podría facilitar la importación de equipamiento especializado y fortalecer la inversión en proyectos de conectividad.\n\nLa incertidumbre sobre este acuerdo agrega un elemento más al complejo panorama económico argentino de cara al 2027.\n\nFuente: Ámbito",
-        "instagram": "🚨 Se traba el acuerdo comercial Argentina-EEUU\n\nEl Gobierno argentino busca renegociar el tratado con Washington por falta de votos en el Congreso, pero la Casa Blanca rechaza modificar los términos.\n\nEste tipo de acuerdos son clave para la industria: facilitan acceso a tecnología, equipamiento y financiamiento para proyectos de infraestructura y telecomunicaciones. La incertidumbre continúa.\n\nFuente: Ámbito",
-        "hashtags": "#ComercioExterior #AcuerdoComercial #ArgentinaUSA"
-      },
-      "card": "cards/2026-09-22/2026-09-22_AR.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
-          "result": [
-            {
-              "postId": "cmucrcmus02wbqs0ybhrzi5gh",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ]
-        },
-        {
-          "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
-          "result": [
-            {
-              "postId": "cmucrcnb202wcqs0yuiha2k7c",
-              "integration": "cmu7tv1l003l4lb0ydst38wb3"
-            }
-          ]
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
-          "result": [
-            {
-              "postId": "cmucrcnol02weqs0yfkigtjh1",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -254,6 +165,60 @@
         }
       ]
     },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "891257ec7e5e79ea330e283712ed8b14bc8f1be9",
+        "title": "Se traba el acuerdo comercial con EEUU: el Gobierno busca renegociar los términos, pero Washington lo rechaza",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/se-traba-el-acuerdo-comercial-eeuu-el-gobierno-busca-renegociar-los-terminos-pero-washington-lo-rechaza-n6325195",
+        "published": "2026-09-22T10:38:00-03:00",
+        "summary": "Delegados de la Casa Rosada intentan rediscutir los condiciones del acuerdo con Washington, porque desde el gobierno argentino no cuentan con los votos necesarios en el Congreso para ratificar el tratado comercial."
+      },
+      "selection": {
+        "index": 0,
+        "category": "ECONOMÍA",
+        "card_title": "Se traba acuerdo comercial Argentina-EEUU por falta de votos en el Congreso",
+        "card_summary": "El Gobierno argentino busca renegociar términos del tratado con Washington al no contar con respaldo parlamentario, pero la Casa Blanca rechaza modificar las condiciones acordadas.",
+        "linkedin": "Se complica el acuerdo comercial entre Argentina y Estados Unidos. Delegados del Gobierno argentino intentan rediscutir las condiciones del tratado con Washington, pero enfrentan un obstáculo importante: no cuentan con los votos necesarios en el Congreso para ratificarlo en sus términos actuales.\n\nLa Casa Blanca, sin embargo, ha rechazado renegociar lo acordado, generando un punto muerto en las negociaciones que podría afectar la integración comercial de Argentina con su principal socio del norte.\n\nPara la industria de infraestructura y telecomunicaciones, este tipo de acuerdos comerciales suelen abrir oportunidades en financiamiento, acceso a tecnología y estándares internacionales. Un tratado con EEUU podría facilitar la importación de equipamiento especializado y fortalecer la inversión en proyectos de conectividad.\n\nLa incertidumbre sobre este acuerdo agrega un elemento más al complejo panorama económico argentino de cara al 2027.\n\nFuente: Ámbito",
+        "instagram": "🚨 Se traba el acuerdo comercial Argentina-EEUU\n\nEl Gobierno argentino busca renegociar el tratado con Washington por falta de votos en el Congreso, pero la Casa Blanca rechaza modificar los términos.\n\nEste tipo de acuerdos son clave para la industria: facilitan acceso a tecnología, equipamiento y financiamiento para proyectos de infraestructura y telecomunicaciones. La incertidumbre continúa.\n\nFuente: Ámbito",
+        "hashtags": "#ComercioExterior #AcuerdoComercial #ArgentinaUSA"
+      },
+      "card": "cards/2026-09-22/2026-09-22_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrcmus02wbqs0ybhrzi5gh",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrcnb202wcqs0yuiha2k7c",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T11:18:12.763272-03:00",
+          "result": [
+            {
+              "postId": "cmucrcnol02weqs0yfkigtjh1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
     "HOY": {
       "status": "scheduled",
       "selection": {
@@ -298,6 +263,60 @@
           "result": [
             {
               "postId": "cmucrds1q02xeqs0yjgo5qsk6",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "098b45c57367dd3211f78b07c35a32699ace6b66",
+        "title": "Ministro Arrau y discusión del levantamiento del secreto bancario: “Empezar a abrir esa puerta nos parece algo riesgoso”",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/politica/noticia/ministro-arrau-y-discusion-del-levantamiento-del-secreto-bancario-empezar-a-abrir-esa-puerta-nos-parece-algo-riesgoso/",
+        "published": "2026-09-22T13:09:29-03:00",
+        "summary": "El ministro asistió durante esta mañana a la comisión de Seguridad del Senado, donde además señaló que ninguna investigación se ha visto afectada porque no se haya dado una orden judicial para el alzamiento del secreto bancario."
+      },
+      "selection": {
+        "index": 17,
+        "category": "ECONOMÍA",
+        "card_title": "Gobierno descarta levantamiento de secreto bancario para investigaciones",
+        "card_summary": "El ministro Arrau señaló en el Senado que abrir la posibilidad de levantar el secreto bancario sin orden judicial resulta riesgoso para el país.",
+        "linkedin": "El ministro Arrau compareció este lunes ante la comisión de Seguridad del Senado para abordar la discusión sobre el eventual levantamiento del secreto bancario en investigaciones. Su postura fue clara: \"Empezar a abrir esa puerta nos parece algo riesgoso\".\n\nLa autoridad enfatizó que hasta el momento ninguna investigación se ha visto afectada por no contar con facultades para alzar el secreto sin orden judicial previa. Esta posición del Ejecutivo mantiene el statu quo en materia de reserva bancaria, un tema sensible para el clima de inversiones y la confianza en el sistema financiero.\n\nPara las empresas de infraestructura y telecomunicaciones que operan con financiamiento bancario y contratos de largo plazo, la certeza jurídica en torno al secreto bancario es un factor relevante en la planificación de inversiones y en la relación con entidades financieras nacionales e internacionales.\n\nFuente: La Tercera",
+        "instagram": "El ministro Arrau descartó en el Senado avanzar en el levantamiento del secreto bancario sin orden judicial, calificándolo de \"riesgoso\". 🏛️\n\nSegún la autoridad, ninguna investigación se ha visto perjudicada por la normativa actual. Esta postura del gobierno mantiene la reserva bancaria vigente, tema clave para la confianza del sistema financiero y el clima de inversiones en Chile.\n\nFuente: La Tercera",
+        "hashtags": "#SecretoBancario #SistemaFinanciero #InversionesChile"
+      },
+      "card": "cards/2026-09-22/2026-09-22_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-22T14:14:34.390617-03:00",
+          "result": [
+            {
+              "postId": "cmucxlqof04jjqr0yjzu7eiyc",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-22T14:14:34.390617-03:00",
+          "result": [
+            {
+              "postId": "cmucxlrah066yqs0ymzwqh032",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-22T14:14:34.390617-03:00",
+          "result": [
+            {
+              "postId": "cmucxlrkf04jlqr0y6ey2iv4f",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
