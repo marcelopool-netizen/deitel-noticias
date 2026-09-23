@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-23",
+  "run_at": "2026-09-23T11:31:22.006906-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "c6e3d1567135a82c0a1885b16b516e369db00dd3",
+        "title": "Tres regiones entran en recesión técnica y otras tres profundizan la caída de su economía",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/tres-regiones-entran-en-recesion-tecnica-y-otras-tres-profundizan-la-caida-de-su-economia/",
+        "published": "2026-09-23T09:53:09-03:00",
+        "summary": "El Banco Central informó que, durante el segundo trimestre, seis regiones anotaron una contracción en su Producto Interno Bruto (PIB)."
+      },
+      "selection": {
+        "index": 19,
+        "category": "ECONOMÍA",
+        "card_title": "Seis regiones chilenas registran contracción económica en segundo trimestre",
+        "card_summary": "Banco Central informa que tres regiones entraron en recesión técnica y otras tres profundizaron la caída de su PIB durante el segundo trimestre de 2026.",
+        "linkedin": "El Banco Central de Chile informó que seis regiones del país registraron contracción en su Producto Interno Bruto durante el segundo trimestre de 2026. De ellas, tres ingresaron en recesión técnica, mientras las otras tres profundizaron la caída económica que venían experimentando.\n\nEste escenario de desaceleración regional tiene implicancias directas para nuestra industria. La inversión en infraestructura de telecomunicaciones está estrechamente ligada al dinamismo económico territorial: regiones con menor actividad económica pueden experimentar postergación de proyectos de expansión de cobertura y modernización tecnológica.\n\nPara empresas como DEITEL, que desarrollan infraestructura crítica para las comunicaciones, entender estas dinámicas regionales resulta fundamental para la planificación estratégica y la identificación de oportunidades en territorios que requieren conectividad como palanca de reactivación.\n\nFuente: La Tercera",
+        "instagram": "📊 Seis regiones chilenas registraron contracción económica en el segundo trimestre de 2026, según el Banco Central. Tres de ellas entraron en recesión técnica.\n\nEsta situación impacta directamente la inversión en infraestructura de telecomunicaciones. La conectividad puede ser clave para la reactivación económica de estos territorios. 📡\n\nFuente: La Tercera",
+        "hashtags": "#EconomíaRegional #PIBChile #InversiónInfraestructura"
+      },
+      "card": "cards/2026-09-23/2026-09-23_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7bi360560nt0y5grnx8re",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7biih059vkr0yfmpwty66",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7biuc059wkr0y9cn4hzfb",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "479a4e975c8f5d5556b8ea799cf637bf8d59dbef",
+        "title": "Veja no Boletim TELETIME: desafios das MVNOs e Brasil na ONU",
+        "source": "TELETIME News",
+        "preferred": true,
+        "link": "https://teletime.com.br/23/09/2026/boletim-teletime-mvnos/",
+        "published": "2026-09-23T10:02:41-03:00",
+        "summary": "A edição de 23 de setembro do Boletim TELETIME aborda os desafios das operadoras móveis virtuais (MVNOs) e a percepção da Anatel sobre possíveis mudanças regulatórias no segmento. O discurso do Brasil durante a Assembleia Geral da ONU, com defesa da regulação de IA e das big techs, e a carta da Conexis aos presidenciáveis também foram assuntos. Confira!"
+      },
+      "selection": {
+        "index": 7,
+        "category": "TELECOM",
+        "card_title": "Desafios das MVNOs e mudanças regulatórias no radar da Anatel",
+        "card_summary": "Boletim TELETIME destaca os desafios enfrentados pelas operadoras móveis virtuais e possíveis mudanças regulatórias que a Anatel avalia para o segmento.",
+        "linkedin": "A edição de hoje do Boletim TELETIME traz à tona os desafios que as operadoras móveis virtuais (MVNOs) enfrentam no mercado brasileiro e a percepção da Anatel sobre eventuais mudanças regulatórias no setor.\n\nAs MVNOs representam uma alternativa importante para ampliar a competitividade no mercado de telecomunicações, oferecendo serviços móveis sem a necessidade de investir em infraestrutura própria de rede. No entanto, o modelo de negócio enfrenta obstáculos que podem limitar seu crescimento e impacto no setor.\n\nPara empresas como a DEITEL, que fornece infraestrutura de torres e estruturas metálicas, é fundamental acompanhar as discussões regulatórias que podem impactar a demanda por infraestrutura compartilhada e os modelos de negócio das operadoras, sejam elas tradicionais ou virtuais.\n\nFonte: TELETIME News",
+        "instagram": "O Boletim TELETIME de hoje destaca os desafios das operadoras móveis virtuais (MVNOs) no Brasil e as possíveis mudanças regulatórias que a Anatel estuda para o setor 📡\n\nAs MVNOs operam sem infraestrutura própria, mas enfrentam obstáculos que limitam seu crescimento. Mudanças regulatórias podem impactar todo o ecossistema de telecomunicações.\n\nFonte: TELETIME News",
+        "hashtags": "#MVNOs #Anatel #RegulacaoTelecom"
+      },
+      "card": "cards/2026-09-23/2026-09-23_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7c1ae056cnt0yet0os573",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7c1r6056dnt0yot98gw01",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7c27l056ent0yr4gv0wdt",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "93219287609e535e13b85aedce45a75943a2734f",
+        "title": "La OCDE recortó su proyección de crecimiento para Argentina y advirtió sobre la economía global",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/la-ocde-recorto-su-proyeccion-crecimiento-argentina-y-advirtio-la-global-n6325571",
+        "published": "2026-09-23T08:31:00-03:00",
+        "summary": "La economía a nivel global crecerá 2,9%, mostrando mayor resiliencia de lo esperado, mientras que la proyección de crecimiento del organismo para la Argentina se ajustó al 2,6% para este año. Los detalles, en la nota."
+      },
+      "selection": {
+        "index": 3,
+        "category": "ECONOMÍA",
+        "card_title": "OCDE recorta proyección de crecimiento para Argentina a 2,6% en 2026",
+        "card_summary": "El organismo internacional ajustó a la baja su estimación para la economía argentina este año, mientras la economía global muestra mayor resiliencia.",
+        "linkedin": "La OCDE revisó su proyección de crecimiento para Argentina en 2026, ajustándola al 2,6%. El organismo internacional presentó su informe sobre perspectivas económicas globales, donde destaca que la economía mundial crecerá un 2,9%, mostrando mayor solidez de la esperada.\n\nEste ajuste a la baja para Argentina tiene implicancias directas para el sector de infraestructura de telecomunicaciones. Un crecimiento económico más moderado puede afectar el ritmo de inversiones en nuevos proyectos de torres y estructuras, aunque la demanda por conectividad sigue siendo prioritaria en el desarrollo del país.\n\nPara nuestra industria, estos indicadores macroeconómicos son señales clave para planificar inversiones y proyectos de mediano plazo en la región. La estabilidad y las perspectivas de crecimiento influyen directamente en las decisiones de los operadores de telecomunicaciones y en el despliegue de infraestructura crítica.\n\nFuente: Ámbito",
+        "instagram": "📊 La OCDE recortó su proyección de crecimiento para Argentina este año, ajustándola al 2,6%.\n\nMientras la economía global muestra resiliencia con un crecimiento del 2,9%, este ajuste tiene impacto directo en las proyecciones de inversión en infraestructura de telecomunicaciones en el país.\n\nEstos indicadores son fundamentales para planificar el desarrollo de proyectos en nuestra industria. 📡\n\nFuente: Ámbito",
+        "hashtags": "#OCDE #CrecimientoEconómico #ArgentinaEconomía"
+      },
+      "card": "cards/2026-09-23/2026-09-23_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7cgfk056hnt0yd5nsyd2k",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7cgvq056int0y5p5e43l2",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7ch7605amkr0yzoomhcbf",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "bc1754e7efaed36c383b13775f7c0945aab24a4a",
+        "title": "Perú refuerza en Nueva York su agenda comercial y de inversiones con Asia-Pacífico y Estados Unidos",
+        "source": "El Comercio",
+        "preferred": true,
+        "link": "https://elcomercio.pe/economia/peru/peru-refuerza-en-nueva-york-su-agenda-comercial-y-de-inversiones-con-asia-pacifico-y-estados-unidos-l-ultimas-noticia/",
+        "published": "2026-09-23T11:25:33-03:00",
+        "summary": "Rogers Valencia, titular del Mincetur, participó este 22 de septiembre, como integrante de la delegación oficial peruana que acompañó a la presidenta de la República, Keiko Fujimori, en la Semana de Alto Nivel del 81.º período de sesiones de la Asamblea General de las Naciones Unidas, en Nueva York."
+      },
+      "selection": {
+        "index": 9,
+        "category": "ECONOMÍA",
+        "card_title": "Perú refuerza agenda comercial con Asia-Pacífico y EE.UU. desde Nueva York",
+        "card_summary": "El titular del Mincetur participó en la Semana de Alto Nivel de la ONU para impulsar comercio e inversiones con socios estratégicos del Asia-Pacífico y Estados Unidos.",
+        "linkedin": "Perú avanza en su agenda de comercio e inversiones con socios clave del Asia-Pacífico y Estados Unidos. Rogers Valencia, ministro de Comercio Exterior y Turismo, participó en la Semana de Alto Nivel de la ONU en Nueva York como parte de la delegación oficial peruana.\n\nEsta presencia estratégica busca fortalecer vínculos comerciales con economías que impulsan sectores como telecomunicaciones, infraestructura y tecnología. Para empresas como DEITEL, que exportan soluciones de infraestructura telecom, estos acercamientos abren oportunidades de inversión y facilitación comercial en mercados donde la demanda de conectividad 5G y torres de telecomunicaciones sigue en expansión.\n\nLa consolidación de acuerdos comerciales y la atracción de inversión extranjera directa son fundamentales para el desarrollo de infraestructura crítica en la región. El posicionamiento de Perú en foros multilaterales refuerza su rol como hub de negocios en Sudamérica.\n\nFuente: El Comercio",
+        "instagram": "📡 Perú refuerza su agenda comercial con Asia-Pacífico y EE.UU. desde Nueva York. El titular del Mincetur participó en la Semana de Alto Nivel de la ONU para impulsar comercio e inversiones.\n\nPara la industria de infraestructura y telecomunicaciones, estos acercamientos estratégicos abren puertas a nuevas oportunidades de inversión en conectividad, 5G y desarrollo tecnológico en la región 🌎\n\nFuente: El Comercio",
+        "hashtags": "#ComercioExterior #InversiónExtranjera #PerúGlobal"
+      },
+      "card": "cards/2026-09-23/2026-09-23_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmue7cucd05arkr0ysarzu5ym",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmue7curh056snt0yhviiutvy",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmue7cv4h05askr0yhox9fhsd",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PY": {
+      "status": "skip",
+      "reason": "No hay noticias relevantes sobre telecomunicaciones, economía relevante para inversión/industria, o tributación en Paraguay entre los candidatos disponibles. Las noticias son principalmente de política partidista local, internacional, deportes, farándula y temas sociales que no se relacionan con los criterios establecidos."
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día de la Primavera y la Juventud en Perú",
+        "card_summary": "Celebramos junto a Perú esta jornada que vincula la llegada de la primavera con la juventud, la renovación y la creatividad.",
+        "linkedin": "Hoy celebramos el Día de la Primavera y la Juventud en Perú 🌸\n\nEsta fecha simboliza la renovación, la creatividad y la energía de las nuevas generaciones. Desde DEITEL, valoramos ese espíritu de innovación que impulsa el desarrollo de infraestructura y conectividad en toda la región.\n\nA nuestros colegas, clientes y aliados en Perú: ¡feliz día! Sigamos construyendo juntos el futuro de las telecomunicaciones.",
+        "instagram": "Hoy celebramos el Día de la Primavera y la Juventud en Perú 🌸✨\n\nUna fecha que simboliza renovación, creatividad y el impulso de las nuevas generaciones. Desde DEITEL valoramos ese espíritu innovador que construye el futuro de la conectividad.\n\n¡Feliz día a todo nuestro equipo y aliados en Perú!",
+        "hashtags": "#Perú #DíaDeLaPrimavera #Telecomunicaciones",
+        "source": ""
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-23/2026-09-23_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7detq0577nt0yvnzdkl4h",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7df870579nt0y7zvoqv6c",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7dfjb05b7kr0yluo66zlj",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
