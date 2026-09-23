@@ -1,8 +1,62 @@
 {
   "date": "2026-09-23",
-  "run_at": "2026-09-23T11:31:22.006906-03:00",
+  "run_at": "2026-09-23T14:24:28.722191-03:00",
   "dry_run": false,
   "countries": {
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "93219287609e535e13b85aedce45a75943a2734f",
+        "title": "La OCDE recortó su proyección de crecimiento para Argentina y advirtió sobre la economía global",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/la-ocde-recorto-su-proyeccion-crecimiento-argentina-y-advirtio-la-global-n6325571",
+        "published": "2026-09-23T08:31:00-03:00",
+        "summary": "La economía a nivel global crecerá 2,9%, mostrando mayor resiliencia de lo esperado, mientras que la proyección de crecimiento del organismo para la Argentina se ajustó al 2,6% para este año. Los detalles, en la nota."
+      },
+      "selection": {
+        "index": 3,
+        "category": "ECONOMÍA",
+        "card_title": "OCDE recorta proyección de crecimiento para Argentina a 2,6% en 2026",
+        "card_summary": "El organismo internacional ajustó a la baja su estimación para la economía argentina este año, mientras la economía global muestra mayor resiliencia.",
+        "linkedin": "La OCDE revisó su proyección de crecimiento para Argentina en 2026, ajustándola al 2,6%. El organismo internacional presentó su informe sobre perspectivas económicas globales, donde destaca que la economía mundial crecerá un 2,9%, mostrando mayor solidez de la esperada.\n\nEste ajuste a la baja para Argentina tiene implicancias directas para el sector de infraestructura de telecomunicaciones. Un crecimiento económico más moderado puede afectar el ritmo de inversiones en nuevos proyectos de torres y estructuras, aunque la demanda por conectividad sigue siendo prioritaria en el desarrollo del país.\n\nPara nuestra industria, estos indicadores macroeconómicos son señales clave para planificar inversiones y proyectos de mediano plazo en la región. La estabilidad y las perspectivas de crecimiento influyen directamente en las decisiones de los operadores de telecomunicaciones y en el despliegue de infraestructura crítica.\n\nFuente: Ámbito",
+        "instagram": "📊 La OCDE recortó su proyección de crecimiento para Argentina este año, ajustándola al 2,6%.\n\nMientras la economía global muestra resiliencia con un crecimiento del 2,9%, este ajuste tiene impacto directo en las proyecciones de inversión en infraestructura de telecomunicaciones en el país.\n\nEstos indicadores son fundamentales para planificar el desarrollo de proyectos en nuestra industria. 📡\n\nFuente: Ámbito",
+        "hashtags": "#OCDE #CrecimientoEconómico #ArgentinaEconomía"
+      },
+      "card": "cards/2026-09-23/2026-09-23_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7cgfk056hnt0yd5nsyd2k",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7cgvq056int0y5p5e43l2",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
+          "result": [
+            {
+              "postId": "cmue7ch7605amkr0yzoomhcbf",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
     "CL": {
       "status": "scheduled",
       "news": {
@@ -57,34 +111,30 @@
         }
       ]
     },
-    "BR": {
+    "HOY": {
       "status": "scheduled",
-      "news": {
-        "key": "479a4e975c8f5d5556b8ea799cf637bf8d59dbef",
-        "title": "Veja no Boletim TELETIME: desafios das MVNOs e Brasil na ONU",
-        "source": "TELETIME News",
-        "preferred": true,
-        "link": "https://teletime.com.br/23/09/2026/boletim-teletime-mvnos/",
-        "published": "2026-09-23T10:02:41-03:00",
-        "summary": "A edição de 23 de setembro do Boletim TELETIME aborda os desafios das operadoras móveis virtuais (MVNOs) e a percepção da Anatel sobre possíveis mudanças regulatórias no segmento. O discurso do Brasil durante a Assembleia Geral da ONU, com defesa da regulação de IA e das big techs, e a carta da Conexis aos presidenciáveis também foram assuntos. Confira!"
-      },
       "selection": {
-        "index": 7,
-        "category": "TELECOM",
-        "card_title": "Desafios das MVNOs e mudanças regulatórias no radar da Anatel",
-        "card_summary": "Boletim TELETIME destaca os desafios enfrentados pelas operadoras móveis virtuais e possíveis mudanças regulatórias que a Anatel avalia para o segmento.",
-        "linkedin": "A edição de hoje do Boletim TELETIME traz à tona os desafios que as operadoras móveis virtuais (MVNOs) enfrentam no mercado brasileiro e a percepção da Anatel sobre eventuais mudanças regulatórias no setor.\n\nAs MVNOs representam uma alternativa importante para ampliar a competitividade no mercado de telecomunicações, oferecendo serviços móveis sem a necessidade de investir em infraestrutura própria de rede. No entanto, o modelo de negócio enfrenta obstáculos que podem limitar seu crescimento e impacto no setor.\n\nPara empresas como a DEITEL, que fornece infraestrutura de torres e estruturas metálicas, é fundamental acompanhar as discussões regulatórias que podem impactar a demanda por infraestrutura compartilhada e os modelos de negócio das operadoras, sejam elas tradicionais ou virtuais.\n\nFonte: TELETIME News",
-        "instagram": "O Boletim TELETIME de hoje destaca os desafios das operadoras móveis virtuais (MVNOs) no Brasil e as possíveis mudanças regulatórias que a Anatel estuda para o setor 📡\n\nAs MVNOs operam sem infraestrutura própria, mas enfrentam obstáculos que limitam seu crescimento. Mudanças regulatórias podem impactar todo o ecossistema de telecomunicações.\n\nFonte: TELETIME News",
-        "hashtags": "#MVNOs #Anatel #RegulacaoTelecom"
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día de la Primavera y la Juventud en Perú",
+        "card_summary": "Celebramos junto a Perú esta jornada que vincula la llegada de la primavera con la juventud, la renovación y la creatividad.",
+        "linkedin": "Hoy celebramos el Día de la Primavera y la Juventud en Perú 🌸\n\nEsta fecha simboliza la renovación, la creatividad y la energía de las nuevas generaciones. Desde DEITEL, valoramos ese espíritu de innovación que impulsa el desarrollo de infraestructura y conectividad en toda la región.\n\nA nuestros colegas, clientes y aliados en Perú: ¡feliz día! Sigamos construyendo juntos el futuro de las telecomunicaciones.",
+        "instagram": "Hoy celebramos el Día de la Primavera y la Juventud en Perú 🌸✨\n\nUna fecha que simboliza renovación, creatividad y el impulso de las nuevas generaciones. Desde DEITEL valoramos ese espíritu innovador que construye el futuro de la conectividad.\n\n¡Feliz día a todo nuestro equipo y aliados en Perú!",
+        "hashtags": "#Perú #DíaDeLaPrimavera #Telecomunicaciones",
+        "source": ""
       },
-      "card": "cards/2026-09-23/2026-09-23_BR.png",
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-23/2026-09-23_HOY.png",
       "posts": [
         {
           "channel": "Grupodeitel",
           "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
           "result": [
             {
-              "postId": "cmue7c1ae056cnt0yet0os573",
+              "postId": "cmue7detq0577nt0yvnzdkl4h",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
@@ -94,7 +144,7 @@
           "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
           "result": [
             {
-              "postId": "cmue7c1r6056dnt0yot98gw01",
+              "postId": "cmue7df870579nt0y7zvoqv6c",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
@@ -104,61 +154,7 @@
           "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
           "result": [
             {
-              "postId": "cmue7c27l056ent0yr4gv0wdt",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ]
-        }
-      ]
-    },
-    "AR": {
-      "status": "scheduled",
-      "news": {
-        "key": "93219287609e535e13b85aedce45a75943a2734f",
-        "title": "La OCDE recortó su proyección de crecimiento para Argentina y advirtió sobre la economía global",
-        "source": "Noticias de Economía | Ámbito",
-        "preferred": true,
-        "link": "https://www.ambito.com/economia/la-ocde-recorto-su-proyeccion-crecimiento-argentina-y-advirtio-la-global-n6325571",
-        "published": "2026-09-23T08:31:00-03:00",
-        "summary": "La economía a nivel global crecerá 2,9%, mostrando mayor resiliencia de lo esperado, mientras que la proyección de crecimiento del organismo para la Argentina se ajustó al 2,6% para este año. Los detalles, en la nota."
-      },
-      "selection": {
-        "index": 3,
-        "category": "ECONOMÍA",
-        "card_title": "OCDE recorta proyección de crecimiento para Argentina a 2,6% en 2026",
-        "card_summary": "El organismo internacional ajustó a la baja su estimación para la economía argentina este año, mientras la economía global muestra mayor resiliencia.",
-        "linkedin": "La OCDE revisó su proyección de crecimiento para Argentina en 2026, ajustándola al 2,6%. El organismo internacional presentó su informe sobre perspectivas económicas globales, donde destaca que la economía mundial crecerá un 2,9%, mostrando mayor solidez de la esperada.\n\nEste ajuste a la baja para Argentina tiene implicancias directas para el sector de infraestructura de telecomunicaciones. Un crecimiento económico más moderado puede afectar el ritmo de inversiones en nuevos proyectos de torres y estructuras, aunque la demanda por conectividad sigue siendo prioritaria en el desarrollo del país.\n\nPara nuestra industria, estos indicadores macroeconómicos son señales clave para planificar inversiones y proyectos de mediano plazo en la región. La estabilidad y las perspectivas de crecimiento influyen directamente en las decisiones de los operadores de telecomunicaciones y en el despliegue de infraestructura crítica.\n\nFuente: Ámbito",
-        "instagram": "📊 La OCDE recortó su proyección de crecimiento para Argentina este año, ajustándola al 2,6%.\n\nMientras la economía global muestra resiliencia con un crecimiento del 2,9%, este ajuste tiene impacto directo en las proyecciones de inversión en infraestructura de telecomunicaciones en el país.\n\nEstos indicadores son fundamentales para planificar el desarrollo de proyectos en nuestra industria. 📡\n\nFuente: Ámbito",
-        "hashtags": "#OCDE #CrecimientoEconómico #ArgentinaEconomía"
-      },
-      "card": "cards/2026-09-23/2026-09-23_AR.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
-          "result": [
-            {
-              "postId": "cmue7cgfk056hnt0yd5nsyd2k",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ]
-        },
-        {
-          "channel": "Deitel SPA",
-          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
-          "result": [
-            {
-              "postId": "cmue7cgvq056int0y5p5e43l2",
-              "integration": "cmu7tv1l003l4lb0ydst38wb3"
-            }
-          ]
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
-          "result": [
-            {
-              "postId": "cmue7ch7605amkr0yzoomhcbf",
+              "postId": "cmue7dfjb05b7kr0yluo66zlj",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
@@ -219,34 +215,34 @@
         }
       ]
     },
-    "PY": {
-      "status": "skip",
-      "reason": "No hay noticias relevantes sobre telecomunicaciones, economía relevante para inversión/industria, o tributación en Paraguay entre los candidatos disponibles. Las noticias son principalmente de política partidista local, internacional, deportes, farándula y temas sociales que no se relacionan con los criterios establecidos."
-    },
-    "HOY": {
+    "BR": {
       "status": "scheduled",
+      "news": {
+        "key": "479a4e975c8f5d5556b8ea799cf637bf8d59dbef",
+        "title": "Veja no Boletim TELETIME: desafios das MVNOs e Brasil na ONU",
+        "source": "TELETIME News",
+        "preferred": true,
+        "link": "https://teletime.com.br/23/09/2026/boletim-teletime-mvnos/",
+        "published": "2026-09-23T10:02:41-03:00",
+        "summary": "A edição de 23 de setembro do Boletim TELETIME aborda os desafios das operadoras móveis virtuais (MVNOs) e a percepção da Anatel sobre possíveis mudanças regulatórias no segmento. O discurso do Brasil durante a Assembleia Geral da ONU, com defesa da regulação de IA e das big techs, e a carta da Conexis aos presidenciáveis também foram assuntos. Confira!"
+      },
       "selection": {
-        "kind": "SALUDO",
-        "lang": "es",
-        "card_title": "Día de la Primavera y la Juventud en Perú",
-        "card_summary": "Celebramos junto a Perú esta jornada que vincula la llegada de la primavera con la juventud, la renovación y la creatividad.",
-        "linkedin": "Hoy celebramos el Día de la Primavera y la Juventud en Perú 🌸\n\nEsta fecha simboliza la renovación, la creatividad y la energía de las nuevas generaciones. Desde DEITEL, valoramos ese espíritu de innovación que impulsa el desarrollo de infraestructura y conectividad en toda la región.\n\nA nuestros colegas, clientes y aliados en Perú: ¡feliz día! Sigamos construyendo juntos el futuro de las telecomunicaciones.",
-        "instagram": "Hoy celebramos el Día de la Primavera y la Juventud en Perú 🌸✨\n\nUna fecha que simboliza renovación, creatividad y el impulso de las nuevas generaciones. Desde DEITEL valoramos ese espíritu innovador que construye el futuro de la conectividad.\n\n¡Feliz día a todo nuestro equipo y aliados en Perú!",
-        "hashtags": "#Perú #DíaDeLaPrimavera #Telecomunicaciones",
-        "source": ""
+        "index": 7,
+        "category": "TELECOM",
+        "card_title": "Desafios das MVNOs e mudanças regulatórias no radar da Anatel",
+        "card_summary": "Boletim TELETIME destaca os desafios enfrentados pelas operadoras móveis virtuais e possíveis mudanças regulatórias que a Anatel avalia para o segmento.",
+        "linkedin": "A edição de hoje do Boletim TELETIME traz à tona os desafios que as operadoras móveis virtuais (MVNOs) enfrentam no mercado brasileiro e a percepção da Anatel sobre eventuais mudanças regulatórias no setor.\n\nAs MVNOs representam uma alternativa importante para ampliar a competitividade no mercado de telecomunicações, oferecendo serviços móveis sem a necessidade de investir em infraestrutura própria de rede. No entanto, o modelo de negócio enfrenta obstáculos que podem limitar seu crescimento e impacto no setor.\n\nPara empresas como a DEITEL, que fornece infraestrutura de torres e estruturas metálicas, é fundamental acompanhar as discussões regulatórias que podem impactar a demanda por infraestrutura compartilhada e os modelos de negócio das operadoras, sejam elas tradicionais ou virtuais.\n\nFonte: TELETIME News",
+        "instagram": "O Boletim TELETIME de hoje destaca os desafios das operadoras móveis virtuais (MVNOs) no Brasil e as possíveis mudanças regulatórias que a Anatel estuda para o setor 📡\n\nAs MVNOs operam sem infraestrutura própria, mas enfrentam obstáculos que limitam seu crescimento. Mudanças regulatórias podem impactar todo o ecossistema de telecomunicações.\n\nFonte: TELETIME News",
+        "hashtags": "#MVNOs #Anatel #RegulacaoTelecom"
       },
-      "context": {
-        "curated": [],
-        "wikipedia": 55
-      },
-      "card": "cards/2026-09-23/2026-09-23_HOY.png",
+      "card": "cards/2026-09-23/2026-09-23_BR.png",
       "posts": [
         {
           "channel": "Grupodeitel",
           "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
           "result": [
             {
-              "postId": "cmue7detq0577nt0yvnzdkl4h",
+              "postId": "cmue7c1ae056cnt0yet0os573",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
@@ -256,7 +252,7 @@
           "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
           "result": [
             {
-              "postId": "cmue7df870579nt0y7zvoqv6c",
+              "postId": "cmue7c1r6056dnt0yot98gw01",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
@@ -266,7 +262,61 @@
           "scheduled_for": "2026-09-23T11:34:22.006906-03:00",
           "result": [
             {
-              "postId": "cmue7dfjb05b7kr0yluo66zlj",
+              "postId": "cmue7c27l056ent0yr4gv0wdt",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "f9ddc7f9137a213239b8cb8da13c063d1bf05e7e",
+        "title": "ASML alerta del retraso europeo en chips tras no vender ninguna máquina en Europa",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/tecnologia/2026/09/23/asml-alerta-del-retraso-europeo-en-chips-tras-no-vender-ninguna-maquina-en-europa/",
+        "published": "2026-09-23T13:55:22-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 18,
+        "category": "TELECOM",
+        "card_title": "ASML alerta por retraso europeo en chips: ninguna venta en Europa",
+        "card_summary": "El fabricante neerlandés de maquinaria para semiconductores advierte que Europa se está quedando atrás en la producción de chips al no registrar ventas en el continente.",
+        "linkedin": "ASML, el gigante neerlandés de equipos para fabricación de semiconductores, lanzó una advertencia sobre el rezago europeo en la industria de chips tras no concretar ninguna venta de maquinaria en Europa durante el último período.\n\nLos semiconductores son el corazón de la infraestructura de telecomunicaciones moderna. Desde equipos de red 5G hasta sistemas de procesamiento para antenas inteligentes, toda la cadena de telecomunicaciones depende de un suministro confiable de chips avanzados.\n\nEsta alerta cobra especial relevancia para la industria de infraestructura telecom en América Latina, donde la dependencia de tecnología importada es alta. La concentración de la producción de semiconductores en Asia y su ausencia en Europa podría impactar los plazos de entrega y costos de equipamiento para proyectos de conectividad en la región.\n\nFuente: ABC Color",
+        "instagram": "ASML advierte que Europa se quedó sin ventas de maquinaria para fabricar chips 📡\n\nLos semiconductores son esenciales para toda la infraestructura de telecomunicaciones: equipos 5G, antenas inteligentes y sistemas de red dependen de ellos.\n\nLa concentración de producción fuera de Europa puede impactar plazos y costos de equipamiento telecom en nuestra región.\n\nFuente: ABC Color",
+        "hashtags": "#Semiconductores #Chips #InfraestructuraTelecom"
+      },
+      "card": "cards/2026-09-23/2026-09-23_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-23T14:27:28.722191-03:00",
+          "result": [
+            {
+              "postId": "cmuedi34m08e2kr0yiymmlt1u",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-23T14:27:28.722191-03:00",
+          "result": [
+            {
+              "postId": "cmuedi3es0880nt0yvltakbk4",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-23T14:27:28.722191-03:00",
+          "result": [
+            {
+              "postId": "cmuedi3oc08e3kr0yet9kqo15",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
