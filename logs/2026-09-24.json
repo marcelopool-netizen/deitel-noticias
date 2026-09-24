@@ -1,0 +1,327 @@
+{
+  "date": "2026-09-24",
+  "run_at": "2026-09-24T11:30:56.593961-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "5f55bad0aeca2fce992f12c91e521271f4fbe990",
+        "title": "Tras adhesión a Escudo de las Américas de Trump: De Grange asegura que relación de Chile con China “va muy bien”",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/nacional/noticia/tras-adhesion-a-escudo-de-las-americas-de-trump-de-grange-asegura-que-relacion-de-chile-con-china-va-muy-bien/",
+        "published": "2026-09-24T09:36:30-03:00",
+        "summary": "El biministro de Obras Públicas y Transportes y Telecomunicaciones descartó que el ingreso a la iniciativa de Trump afectara las relaciones con el país asiático, apuntando a que a su parecer \"las puertas están abiertas para seguir trabajando con ambas potencias”."
+      },
+      "selection": {
+        "index": 22,
+        "category": "TELECOM",
+        "card_title": "Biministro De Grange descarta impacto en relaciones con China tras Escudo",
+        "card_summary": "El ministro de Transportes y Telecomunicaciones aseguró que la adhesión al Escudo de las Américas no afectará los vínculos comerciales con el gigante asiático.",
+        "linkedin": "El biministro de Obras Públicas y Transportes y Telecomunicaciones, Juan Carlos De Grange, abordó las inquietudes sobre el impacto que podría tener la adhesión de Chile al Escudo de las Américas en las relaciones comerciales con China.\n\nDe Grange aseguró que la relación bilateral \"va muy bien\" y descartó que el ingreso a esta iniciativa estadounidense afecte los vínculos con el país asiático, señalando que \"las puertas\" permanecen abiertas.\n\nEsta declaración resulta especialmente relevante para el sector de telecomunicaciones, considerando que China es uno de los principales proveedores de equipamiento e infraestructura tecnológica para redes móviles y fibra óptica en la región. La estabilidad en estas relaciones comerciales es clave para garantizar el desarrollo continuo de proyectos de conectividad y expansión de infraestructura digital en Chile.\n\nFuente: La Tercera",
+        "instagram": "El ministro De Grange descartó que la adhesión de Chile al Escudo de las Américas afecte las relaciones con China 🇨🇱🇨🇳\n\nEl biministro de Transportes y Telecomunicaciones aseguró que los vínculos comerciales con el país asiático \"van muy bien\" y las puertas permanecen abiertas.\n\nClave para el sector telecom, considerando que China es proveedor importante de equipamiento e infraestructura tecnológica en la región.\n\nFuente: La Tercera",
+        "hashtags": "#RelacionesComerciales #InfraestructuraDigital #ChinaChile"
+      },
+      "card": "cards/2026-09-24/2026-09-24_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmqzh207dgof0ygqz12e09",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmqzqh080tli0yjxar5jgf",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmr00p080uli0yubvmgvbn",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "d41c1be033806c9e136817d5b173794d9c3cf6d9",
+        "title": "Anatel assina acordo com Ministério da Justiça para integrar Rede-Lab",
+        "source": "TELETIME News",
+        "preferred": true,
+        "link": "https://teletime.com.br/24/09/2026/rede-lab-anatel/",
+        "published": "2026-09-24T10:28:37-03:00",
+        "summary": "Acordo de cooperação técnica prevê participação da Anatel no Programa Rede-Lab, voltado à articulação e ao compartilhamento de conhecimentos, metodologias e tecnologias entre instituições públicas para combate à lavagem de dinheiro."
+      },
+      "selection": {
+        "index": 4,
+        "category": "TELECOM",
+        "card_title": "Anatel integra Rede-Lab do Ministério da Justiça",
+        "card_summary": "Acordo de cooperação técnica permitirá à Anatel compartilhar conhecimentos e tecnologias com outras instituições públicas.",
+        "linkedin": "A Anatel acaba de assinar um acordo de cooperação técnica com o Ministério da Justiça para integrar o Programa Rede-Lab. Esta iniciativa é voltada à articulação e ao compartilhamento de conhecimentos, metodologias e tecnologias entre instituições públicas.\n\nPara o setor de telecomunicações, essa integração representa um avanço importante na modernização da gestão regulatória. A troca de experiências e recursos tecnológicos entre órgãos públicos pode acelerar processos de fiscalização, análise de dados e implementação de novas tecnologias.\n\nEmpresas de infraestrutura de telecom devem se beneficiar de uma regulação mais eficiente e tecnologicamente avançada, resultado dessa colaboração interinstitucional que fortalece a capacidade técnica da agência reguladora.\n\nFonte: TELETIME News",
+        "instagram": "A Anatel assinou acordo com o Ministério da Justiça para integrar o Programa Rede-Lab 📡\n\nO programa permite compartilhar conhecimentos, metodologias e tecnologias entre instituições públicas, modernizando a gestão regulatória das telecomunicações no Brasil.\n\nUma regulação mais eficiente beneficia todo o setor de infraestrutura telecom.\n\nFonte: TELETIME News",
+        "hashtags": "#Anatel #RegulaçãoTelecom #InfraestruturaDigital"
+      },
+      "card": "cards/2026-09-24/2026-09-24_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmrgqr081bli0y70th7qex",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmrh2h081cli0yr21ae66n",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmrhae07dkof0yic6mks5d",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "cd79fe06ea0c8ecc066fe90a735623863e56a56f",
+        "title": "Vaca Muerta, litio, trenes y puertos: qué hay detrás del acuerdo del corredor Andes-Atlántico entre Argentina y EEUU",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/vaca-muerta-litio-trenes-y-puertos-que-hay-detras-del-acuerdo-del-corredor-andes-atlantico-argentina-y-eeuu-n6326033",
+        "published": "2026-09-24T08:07:00-03:00",
+        "summary": "El entendimiento firmado en Nueva York contempla inversiones para 2027 en energía, minería, transporte y telecomunicaciones. El proyecto busca conectar Vaca Muerta y las zonas mineras con los puertos del Atlántico."
+      },
+      "selection": {
+        "index": 7,
+        "category": "ECONOMÍA",
+        "card_title": "Argentina y EEUU firman acuerdo de inversión en telecomunicaciones",
+        "card_summary": "El corredor Andes-Atlántico contempla inversiones en energía, minería, transporte y telecomunicaciones para conectar Vaca Muerta con los puertos.",
+        "linkedin": "Argentina y Estados Unidos firmaron un acuerdo estratégico para el desarrollo del corredor Andes-Atlántico, que contempla inversiones en infraestructura para 2027 en cuatro sectores clave: energía, minería, transporte y telecomunicaciones.\n\nEl proyecto busca conectar Vaca Muerta y las zonas mineras con los puertos argentinos, lo que requiere una red robusta de telecomunicaciones para operar de manera eficiente. La conectividad digital es esencial para la gestión de operaciones energéticas y logísticas modernas.\n\nPara la industria de infraestructura telecom, este tipo de acuerdos representa oportunidades concretas de despliegue de redes, torres y sistemas de comunicación en zonas estratégicas. El desarrollo de corredores productivos siempre demanda infraestructura de telecomunicaciones de última generación.\n\nFuente: Ámbito",
+        "instagram": "🇦🇷🇺🇸 Argentina y EEUU firmaron un acuerdo estratégico para desarrollar el corredor Andes-Atlántico, con inversiones previstas para 2027 en energía, minería, transporte y telecomunicaciones.\n\nEl proyecto conectará Vaca Muerta y zonas mineras con puertos, requiriendo infraestructura telecom robusta. Una oportunidad clave para el sector de torres y redes.\n\nFuente: Ámbito",
+        "hashtags": "#InfraestructuraDigital #CorredorAndesAtlántico #InversiónTelecom"
+      },
+      "card": "cards/2026-09-24/2026-09-24_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmrscm07dnof0ykofa4yr4",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmrslv081dli0y4t556tl5",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-24T11:33:56.593961-03:00",
+          "result": [
+            {
+              "postId": "cmufmrsvn081eli0yups2tev6",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "a6b3658a5942e391ef477c9eb92a09bacca5ec88",
+        "title": "Paradoja de América Latina: con recursos, pero con puntos débiles para convencer al capital",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/economia/paradoja-de-america-latina-con-recursos-pero-con-puntos-debiles-para-convencer-al-capital-el-analisis-en-evento-de-mckinsey-noticia/",
+        "published": "2026-09-24T11:15:43-03:00",
+        "summary": "¿Qué frena la inversión en América Latina? Seguridad, certeza jurídica y estabilidad política aparecen como claves para atraer capital y aprovechar el potencial de la región y, sobre todo, de Perú."
+      },
+      "selection": {
+        "index": 8,
+        "category": "ECONOMÍA",
+        "card_title": "Seguridad y certeza jurídica frenan inversión en Latinoamérica",
+        "card_summary": "A pesar de sus recursos, América Latina enfrenta desafíos para atraer capital. Expertos identifican seguridad, certeza jurídica y estabilidad política como claves para inversión en la región.",
+        "linkedin": "América Latina enfrenta una paradoja: cuenta con abundantes recursos naturales y oportunidades, pero presenta debilidades estructurales que dificultan atraer inversión de capital a gran escala.\n\nSegún análisis recientes, tres factores críticos frenan el flujo de inversiones hacia la región: la falta de seguridad, la ausencia de certeza jurídica y la inestabilidad política. Estos elementos son especialmente relevantes para Perú, que busca consolidar su posición como destino de inversión.\n\nPara la industria de infraestructura y telecomunicaciones, este diagnóstico es fundamental. El despliegue de redes, torres y tecnología 5G requiere inversiones de largo plazo que solo se concretan en entornos predecibles y seguros. Mejorar estas condiciones no solo beneficiaría al sector telecom, sino que permitiría aprovechar plenamente el potencial económico de la región.\n\nFuente: Diario Gestión",
+        "instagram": "América Latina tiene recursos y potencial, pero enfrenta obstáculos para atraer inversión 💼\n\nSeguridad, certeza jurídica y estabilidad política son las claves que faltan para convencer al capital, especialmente en Perú. Para infraestructura y telecomunicaciones, estas condiciones son esenciales: el despliegue de redes y torres requiere entornos predecibles y seguros.\n\nFuente: Diario Gestión",
+        "hashtags": "#InversiónLatam #CertezaJurídica #DesarrolloEconómico"
+      },
+      "card": "cards/2026-09-24/2026-09-24_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-24T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufms8og081gli0y2and1cpe",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-24T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufms8wg07dwof0yk5crclsk",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-24T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufms965081ili0yeymu01h8",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "7bd0ace62f01ab7f915a8d936595bb4062b9f50a",
+        "title": "Dengue: Paraguay amplía vacunación hasta los 60 años ante el avance regional del virus",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/nacionales/2026/09/24/dengue-paraguay-amplia-vacunacion-hasta-los-60-anos-ante-el-avance-regional-del-virus/",
+        "published": "2026-09-24T11:14:40-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 14,
+        "category": "ECONOMÍA",
+        "card_title": "Paraguay amplía vacunación contra dengue hasta los 60 años",
+        "card_summary": "Ante el avance regional del virus, Paraguay extiende el rango etario de su campaña de inmunización contra el dengue hasta los 60 años.",
+        "linkedin": "Paraguay ha decidido ampliar su programa de vacunación contra el dengue, extendiendo la cobertura hasta los 60 años de edad. La medida responde al avance sostenido del virus en la región, que ha generado preocupación sanitaria en varios países sudamericanos.\n\nEsta decisión tiene implicancias directas para la continuidad operativa de sectores industriales clave. En telecomunicaciones e infraestructura, donde los equipos técnicos trabajan frecuentemente en campo —instalando torres, realizando mantenimiento de antenas y desplegando redes— la salud laboral es fundamental para garantizar la ejecución de proyectos sin interrupciones.\n\nLa ampliación del programa de inmunización contribuye a reducir el ausentismo y proteger la fuerza laboral, factores críticos en una industria que demanda alta disponibilidad de personal especializado para cumplir con cronogramas de despliegue de infraestructura.\n\nFuente: ABC Color",
+        "instagram": "Paraguay amplía su vacunación contra dengue hasta los 60 años, respondiendo al avance regional del virus. 💉\n\nPara la industria de telecomunicaciones e infraestructura, donde los equipos técnicos trabajan constantemente en campo instalando torres y antenas, esta medida sanitaria ayuda a proteger la continuidad operativa y reducir el ausentismo laboral.\n\nUna fuerza laboral saludable es clave para el despliegue ininterrumpido de proyectos de conectividad.\n\nFuente: ABC Color",
+        "hashtags": "#Dengue #SaludLaboral #Paraguay"
+      },
+      "card": "cards/2026-09-24/2026-09-24_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-24T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufmskl207e6of0y1m1wqq2n",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-24T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufmsktx081qli0ya64kfjg0",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-24T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufmsl47081rli0yfnlp7v7t",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "EFEMÉRIDE",
+        "lang": "es",
+        "card_title": "1991: Se publica Nevermind de Nirvana",
+        "card_summary": "Hace 35 años salía al mercado uno de los discos más influyentes de la historia del rock, cambiando la industria musical para siempre.",
+        "linkedin": "Un día como hoy, en 1991, se publicaba Nevermind de Nirvana 🎸\n\nHace 35 años, este álbum revolucionó no solo el rock alternativo, sino toda la industria musical. Su éxito demostró cómo una propuesta auténtica podía conectar con millones de personas a través de los canales correctos: radio, MTV y una distribución que supo llegar a cada rincón.\n\nAsí como la música necesita infraestructura para viajar por el mundo, hoy las telecomunicaciones son el canal que conecta ideas, negocios y personas. En DEITEL construimos las estructuras que sostienen esa conectividad esencial para la región.",
+        "instagram": "24 de septiembre de 1991: se publicaba Nevermind de Nirvana 🎸\n\nHace 35 años, este disco cambió la historia del rock y demostró el poder de la conectividad: radio, MTV y distribución global llevaron su mensaje a millones.\n\nHoy, las torres y estructuras de telecomunicaciones son la infraestructura que conecta al mundo. Construimos los canales del siglo XXI 🔧",
+        "hashtags": "#Efemérides #Conectividad #Infraestructura",
+        "source": "Wikipedia"
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-24/2026-09-24_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-24T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufmsy7707edof0y0lop4pn6",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-24T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufmsydg07eeof0yaz0rxfe2",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-24T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmufmsylp081tli0ysiepmhg1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
