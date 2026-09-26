@@ -1,0 +1,327 @@
+{
+  "date": "2026-09-26",
+  "run_at": "2026-09-26T10:57:06.504964-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "535e385fc6a64345a3139b3e5a986feba47d7c39",
+        "title": "Cobre, “el salvavidas” de Jorge Quiroz que le da un mayor espacio fiscal para el Presupuesto 2027",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/cobre-el-salvavidas-de-jorge-quiroz-que-le-da-un-mayor-espacio-fiscal-para-el-presupuesto-2027/",
+        "published": "2026-09-26T07:00:00-03:00",
+        "summary": "El próximo miércoles 30 de septiembre es la fecha límite para que el gobierno presente el proyecto de ley de Presupuestos 2027. El espacio para que suba el gasto es acotado, pero se le abrió una ventana al ministro de Hacienda. El precio del cobre de largo plazo subió de US$4,38 a US$5,37 la libra. Esto, de acuerdo a los expertos, le entrega mayores recursos estructurales del orden de los US$2.000"
+      },
+      "selection": {
+        "index": 24,
+        "category": "ECONOMÍA",
+        "card_title": "Precio del cobre amplía espacio fiscal para Presupuesto 2027 en Chile",
+        "card_summary": "El alza del cobre abre una ventana para mayor gasto público en el Presupuesto 2027, que se presenta el 30 de septiembre. Mejora el panorama fiscal del gobierno.",
+        "linkedin": "El precio del cobre se convierte en un factor clave para el Presupuesto 2027 de Chile. Con fecha límite el próximo 30 de septiembre para la presentación del proyecto de ley, el gobierno cuenta con un espacio fiscal más amplio gracias al comportamiento favorable del metal rojo.\n\nPara la industria de infraestructura y telecomunicaciones, esta noticia es relevante: un mayor espacio fiscal puede traducirse en inversión pública en conectividad, digitalización y proyectos de infraestructura crítica. El cobre, además de ser el principal producto de exportación del país, actúa como termómetro de la salud económica que impulsa o frena la inversión en sectores estratégicos.\n\nEl desempeño del mercado del cobre impacta directamente en la capacidad del Estado para financiar programas de desarrollo, incluyendo aquellos vinculados a la expansión de redes de telecomunicaciones y modernización de infraestructura digital en regiones más alejadas.\n\nFuente: La Tercera",
+        "instagram": "📊 El precio del cobre amplía el espacio fiscal para el Presupuesto 2027 que Chile presentará el 30 de septiembre.\n\nPara nuestra industria, un mayor espacio fiscal puede significar más inversión pública en infraestructura de telecomunicaciones y proyectos de conectividad. El cobre sigue siendo clave no solo como exportación, sino como motor de desarrollo en sectores estratégicos como las telecom 📡\n\nFuente: La Tercera",
+        "hashtags": "#Cobre #PresupuestoChile #EconomíaChilena"
+      },
+      "card": "cards/2026-09-26/2026-09-26_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigfa350migo80yviwqbt2o",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigfabk0mpapr0yi96kesgs",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigfaix0mpbpr0yoxyz1efe",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "5f7ece479328c77c37ec5aaf3463a93a17272558",
+        "title": "MP prevê bloqueio de bets por operadoras a partir de 6 de outubro",
+        "source": "TELETIME News",
+        "preferred": true,
+        "link": "https://teletime.com.br/25/09/2026/bloqueio-bets-anatel-operadoras/",
+        "published": "2026-09-25T20:36:36-03:00",
+        "summary": "De acordo com o governo, a retirada das plataformas de bets começa à 0h do dia 6 de outubro. Apesar da proximidade do prazo, a Anatel ainda não iniciou a interlocução com o governo federal sobre como o bloqueio será colocado em prática, apurou o TELETIME"
+      },
+      "selection": {
+        "index": 20,
+        "category": "TELECOM",
+        "card_title": "Anatel será mobilizada para bloquear sites de bets a partir de 6 de outubro",
+        "card_summary": "MP do governo prevê bloqueio de plataformas de apostas pelas operadoras desde 6 de outubro. Anatel ainda não iniciou interlocução sobre implementação técnica.",
+        "linkedin": "O governo federal publicou medida provisória que determina o bloqueio de sites e aplicativos de bets no Brasil a partir de 6 de outubro. A implementação técnica ficará a cargo da Anatel, que deverá coordenar com as operadoras de telecomunicações a retirada das plataformas do ar.\n\nApesar da proximidade do prazo estabelecido, a Anatel ainda não iniciou as tratativas com o governo sobre os procedimentos operacionais para executar o bloqueio. Esse tipo de medida representa um desafio técnico significativo para as operadoras, que precisarão implementar mecanismos de filtragem em suas redes.\n\nPara o setor de telecomunicações, esta determinação reforça o papel central da infraestrutura de conectividade não apenas como meio de transmissão de dados, mas também como ferramenta de controle e regulação de conteúdo. A capacidade técnica das redes e dos sistemas das operadoras será testada para garantir conformidade em escala nacional.\n\nFonte: TELETIME News",
+        "instagram": "🚨 A Anatel será mobilizada para bloquear sites e apps de bets no Brasil a partir de 6 de outubro, conforme MP publicada pelo governo federal.\n\nO prazo é curto e a agência ainda não iniciou as conversas sobre como será feita a implementação técnica junto às operadoras de telecomunicações. Um novo desafio para a infraestrutura de conectividade do país.\n\nFonte: TELETIME News",
+        "hashtags": "#Anatel #BloqueioDigital #Regulacao"
+      },
+      "card": "cards/2026-09-26/2026-09-26_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigfqsl0mino80yo4mxnup8",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigfr3e0mpgpr0y2gh4v9kw",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigfrcz0mioo80ya4xdpgok",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "d9c51392e94f24278f919a32799f588732456a27",
+        "title": "Ingresos Brutos: Catamarca elimina el impuesto a la industria y reaviva el debate fiscal con las provincias",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/ingresos-brutos-catamarca-elimina-el-impuesto-la-industria-y-reaviva-el-debate-fiscal-las-provincias-n6326748",
+        "published": "2026-09-26T08:00:00-03:00",
+        "summary": "La medida anunciada por el gobernador Raúl Jalil apunta a aliviar la carga sobre las fábricas. En territorio bonaerense, los industriales pidieron excluir del tributo a pymes que facturen hasta $3.200 millones al año."
+      },
+      "selection": {
+        "index": 0,
+        "category": "TRIBUTARIO",
+        "card_title": "Catamarca elimina Ingresos Brutos a la industria y reaviva debate fiscal",
+        "card_summary": "La provincia argentina eliminó el impuesto para fábricas, mientras industriales bonaerenses piden eximir a pymes que facturen hasta $3.200 millones.",
+        "linkedin": "Catamarca acaba de eliminar el impuesto a los Ingresos Brutos para el sector industrial, una medida que marca un precedente importante en la discusión fiscal argentina. El gobernador Raúl Jalil busca aliviar la carga tributaria sobre las fábricas en su territorio.\n\nLa decisión reabre el debate en otras provincias: en Buenos Aires, los industriales ya solicitan excluir del tributo a las pymes que facturen hasta $3.200 millones anuales. Esta diferenciación provincial en la carga impositiva podría influir en las decisiones de localización de nuevas inversiones industriales.\n\nPara el sector de fabricación de estructuras metálicas y torres de telecomunicaciones, estas políticas tributarias provinciales son clave al momento de planificar expansiones o nuevas plantas. La competencia fiscal entre provincias puede modificar sustancialmente la ecuación de costos de producción.\n\nFuente: Ámbito",
+        "instagram": "Catamarca eliminó el impuesto a los Ingresos Brutos para la industria 🏭, buscando aliviar la carga sobre las fábricas.\n\nEn Buenos Aires, los industriales piden eximir del tributo a pymes que facturen hasta $3.200 millones. Estas diferencias tributarias entre provincias argentinas impactan directamente en las decisiones de inversión industrial.\n\nPara sectores como la fabricación de estructuras metálicas, elegir dónde producir implica evaluar estos incentivos fiscales.\n\nFuente: Ámbito",
+        "hashtags": "#IngresosBrutos #IndustriaArgentina #TributaciónProvincial"
+      },
+      "card": "cards/2026-09-26/2026-09-26_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigg2750mplpr0ydetixwl9",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigg2d50mpmpr0ymlgixzu2",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuigg2kz0mipo80yrfdmn6o7",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "3aec347bd558f980743b03a8cbe0956cbb3525bb",
+        "title": "Tipo de cambio al alza: ¿En cuánto cerró el dólar la semana?",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/economia/mercados/tipo-de-cambio-dolar-hoy-en-peru-cuanto-esta-el-precio-del-dolar-este-viernes-25-de-septiembre-dolares-a-soles-compra-y-venta-bcrp-noticia/",
+        "published": "2026-09-26T10:09:04-03:00",
+        "summary": "El viernes 25 de septiembre, el dólar en Perú comenzó el día con un incremento, en medio de expectativas de una política monetaria más restrictiva de la Reserva Federal de Estados Unidos."
+      },
+      "selection": {
+        "index": 17,
+        "category": "ECONOMÍA",
+        "card_title": "Dólar cierra la semana al alza en Perú por política de la Reserva Federal",
+        "card_summary": "El tipo de cambio subió el viernes 25 de septiembre en medio de expectativas de una política monetaria más restrictiva de la Fed estadounidense.",
+        "linkedin": "El dólar cerró la semana con incremento en Perú, impulsado por las expectativas de una política monetaria más restrictiva por parte de la Reserva Federal de Estados Unidos.\n\nEste movimiento cambiario tiene implicancias directas para nuestra industria de infraestructura y telecomunicaciones. Un dólar más alto encarece la importación de equipamiento especializado, componentes tecnológicos y acero estructural que utilizamos en la fabricación de torres y estructuras metálicas.\n\nPara proyectos de infraestructura telecom con contratos en moneda local, el alza cambiaria presiona los márgenes y obliga a revisar estrategias de cobertura financiera. La planificación de inversiones a mediano plazo debe considerar este escenario de fortalecimiento del dólar.\n\nFuente: Diario Gestión",
+        "instagram": "El dólar cerró al alza en Perú esta semana, impulsado por expectativas de política más restrictiva de la Reserva Federal de EE.UU. 📊\n\nPara la industria de infraestructura y telecomunicaciones, esto significa equipamiento y componentes importados más caros. Un factor clave a considerar en la planificación de proyectos de torres y estructuras metálicas.\n\nFuente: Diario Gestión",
+        "hashtags": "#TipoDeCambio #DólarPerú #EconomíaPeruana"
+      },
+      "card": "cards/2026-09-26/2026-09-26_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-26T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmuiggegw0miso80ytz5bh5mg",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-26T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmuiggepy0mito80ybtjzwvd4",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-26T12:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmuiggezu0mivo80yu6g8fbrc",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "ba5b57bc5df1ccf3c8cab6662e4dd17d226a8a50",
+        "title": "AUDIO: Lo que tiene que saber el elector en estas Elecciones Municipales 2026",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/730am/contacto-ciudadano/2026/09/26/audio-lo-que-tiene-que-saber-el-elector-en-estas-elecciones-municipales-2026/",
+        "published": "2026-09-26T09:56:27-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 19,
+        "category": "ECONOMÍA",
+        "card_title": "Paraguay: lo que el elector debe saber en las Elecciones Municipales 2026",
+        "card_summary": "ABC Color publica una guía con información clave para los votantes de las Elecciones Municipales 2026 en Paraguay, proceso electoral que definirá autoridades locales.",
+        "linkedin": "Paraguay se prepara para las Elecciones Municipales 2026, y ABC Color ha publicado una guía con la información esencial que los electores deben conocer antes de acudir a las urnas.\n\nEstas elecciones municipales son relevantes para el clima de negocios y la planificación de infraestructura en el país. Las autoridades locales que resulten electas tendrán bajo su responsabilidad la gestión de permisos, ordenamiento territorial y proyectos de desarrollo urbano, aspectos fundamentales para empresas que operan en sectores como las telecomunicaciones y la construcción de infraestructura.\n\nUn proceso electoral transparente y la renovación ordenada de gobiernos locales contribuyen a mantener la estabilidad institucional necesaria para la continuidad de inversiones en el sector productivo y de servicios.\n\nFuente: ABC Color",
+        "instagram": "Paraguay vive sus Elecciones Municipales 2026 📍 ABC Color publicó una guía con lo que los votantes necesitan saber antes de ir a las urnas.\n\nLas autoridades locales que se elijan tendrán un rol clave en permisos, ordenamiento territorial y proyectos de infraestructura, aspectos fundamentales para sectores como telecomunicaciones.\n\nFuente: ABC Color",
+        "hashtags": "#EleccionesParaguay #GobiernosLocales #InversiónPY"
+      },
+      "card": "cards/2026-09-26/2026-09-26_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-26T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmuiggp3n0mpvpr0ywv4fykqb",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-26T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmuiggpd90mizo80y2afigl06",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-26T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmuiggpmn0mj0o80y2telndph",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día del Empleado de Comercio en Argentina",
+        "card_summary": "Celebramos a quienes impulsan día a día el comercio argentino, con dedicación y profesionalismo.",
+        "linkedin": "Hoy 26 de septiembre saludamos a todos los empleados de comercio de Argentina en su día. 🇦🇷\n\nReconocemos el trabajo de quienes día a día atienden, asesoran y construyen relaciones con los clientes en todo el país. Su labor es fundamental para mantener activa la economía y conectar a las comunidades.\n\nDesde DEITEL, valoramos el profesionalismo y la dedicación de cada trabajador que contribuye al desarrollo de Argentina. ¡Feliz día!",
+        "instagram": "Hoy celebramos el Día del Empleado de Comercio en Argentina. 🇦🇷\n\nReconocemos a quienes con su trabajo diario impulsan el comercio y conectan a las comunidades en todo el país.\n\nDesde DEITEL valoramos su dedicación y profesionalismo. ¡Feliz día a todos los empleados de comercio! 👏",
+        "hashtags": "#DíaDelEmpleadoDeComercio #Argentina #DEITEL",
+        "source": ""
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-09-26/2026-09-26_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuiggwzx0mj1o80yyrnkiww1",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuiggx8y0mpwpr0y3rjkw4sl",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-09-26T11:00:06.504964-03:00",
+          "result": [
+            {
+              "postId": "cmuiggxgi0mpxpr0ynb6y5d1l",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
