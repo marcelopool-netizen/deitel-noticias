@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-01",
+  "run_at": "2026-10-01T13:46:54.418406-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "error",
+      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfbrg4sDeGDMQwEhGEhPm'}\")"
+    },
+    "BR": {
+      "status": "error",
+      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfbrgor6thw2dXNuiTSSY'}\")"
+    },
+    "AR": {
+      "status": "error",
+      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfbrh4uUwN8HgzLFSHKYJ'}\")"
+    },
+    "PE": {
+      "status": "error",
+      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfbrhUERkxUoVsBXqndza'}\")"
+    },
+    "PY": {
+      "status": "error",
+      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfbrhoNMgWVi4FKUjF2ew'}\")"
+    },
+    "HOY": {
+      "status": "error",
+      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfbrhzqgD2sDpDyEH8rof'}\")"
+    }
+  }
+}
