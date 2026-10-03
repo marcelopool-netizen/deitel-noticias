@@ -29,7 +29,7 @@ from zoneinfo import ZoneInfo
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
-from make_card import make_card, make_event_card  # noqa: E402
+from make_card import make_card, make_event_card, make_photo_card  # noqa: E402
 
 CFG = yaml.safe_load((HERE / "config.yaml").read_text(encoding="utf-8"))
 TZ = ZoneInfo(CFG["timezone"])
@@ -438,11 +438,19 @@ def run_campaign(camp, pz, channels, daylog, done):
                 card = CARD_DIR / f"{TODAY}_{key}.png"
                 info = (camp.get("info") or {}).get(lang, "")
                 ev_logo = ROOT / camp["event_logo"] if camp.get("event_logo") else None
-                make_event_card(t["title"], t["summary"], info, str(card),
-                                str(LOGO) if LOGO.exists() else None,
-                                str(ev_logo) if ev_logo and ev_logo.exists() else None,
-                                art=p.get("art", "tower"), label=camp.get("category", "CAMPAÑA"),
-                                badge=(camp.get("badge") or {}).get(lang, ""))
+                ev = str(ev_logo) if ev_logo and ev_logo.exists() else None
+                lg = str(LOGO) if LOGO.exists() else None
+                if p.get("photo") and (ROOT / p["photo"]).exists():  # foto real (preferida)
+                    make_photo_card(t["title"], t["summary"], str(ROOT / p["photo"]), str(card),
+                                    (camp.get("facts") or {}).get(lang, []), lg, ev,
+                                    kicker=camp.get("category", "CAMPAÑA"),
+                                    tag=(camp.get("tag") or {}).get(lang, ""),
+                                    focus=tuple(p.get("focus", (0.5, 0.5))),
+                                    web="deitel.com.br" if lang == "pt" else "deitel.cl · deitel.com.br")
+                else:  # ilustración de respaldo
+                    make_event_card(t["title"], t["summary"], info, str(card), lg, ev,
+                                    art=p.get("art", "tower"), label=camp.get("category", "CAMPAÑA"),
+                                    badge=(camp.get("badge") or {}).get(lang, ""))
                 tags = (camp.get("hashtags") or {}).get(lang, CFG["hashtags"].get(lang, ""))
                 body = t["text"].strip() + "\n\n" + tags.strip()
                 texts = {"linkedin": t.get("linkedin", body), "instagram": t.get("instagram", body)}
