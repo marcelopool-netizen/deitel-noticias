@@ -21,7 +21,9 @@ preferred_sources_global:
   - Forbes
   - Infobae
 
-# Cuentas de Postiz donde publicar (se buscan por plataforma + nombre)
+# Cuentas de Postiz donde publicar (se buscan por plataforma + nombre; el nombre se
+# compara sin espacios, puntos ni guiones bajos). lang: idioma de la cuenta para la
+# campaña (es por defecto); las noticias por país salen igual en todas las cuentas.
 channels:
   - platform: linkedin-page
     name: Grupodeitel
@@ -29,6 +31,9 @@ channels:
     name: Deitel SPA
   - platform: linkedin
     name: Marcelo Pool Skiadaressis
+  - platform: instagram
+    name: Deitel Brasil
+    lang: pt
 
 countries:
   CL:
@@ -249,3 +254,190 @@ efemerides:
 hashtags:
   es: "#Telecomunicaciones #Infraestructura #TorresDeTelecomunicaciones #DEITEL"
   pt: "#Telecomunicações #Infraestrutura #TorresDeTelecom #DEITEL"
+
+# ---------------------------------------------------------------------------
+# Campaña: mientras la fecha de hoy esté entre start y end, el bot NO publica las
+# noticias por país ni el post del día: publica solo los posts de la campaña cuya
+# fecha sea hoy (textos fijos, no usa Claude). Cada post genera una tarjeta en
+# español (cuentas lang es) y otra en portugués (cuentas lang pt).
+campaign:
+  enabled: true
+  name: Futurecom 2026
+  start: "2026-10-03"
+  end: "2026-10-08"
+  category: FUTURECOM 2026
+  # franja naranja de la tarjeta ilustrada
+  info: {es: "6–8 OCT 2026 · SÃO PAULO EXPO · STAND I023", pt: "6–8 OUT 2026 · SÃO PAULO EXPO · ESTANDE I023"}
+  badge: {es: "Expositor", pt: "Expositor"}
+  # logo oficial del evento (archivo entregado por el organizador); si no existe, no se pone
+  event_logo: bot/futurecom_logo.png
+  hashtags:
+    es: "#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+    pt: "#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
+  posts:
+    - id: FC1
+      date: "2026-10-03"
+      time: "17:00"
+      es:
+        title: "DEITEL estará en Futurecom 2026"
+        summary: "Del 6 al 8 de octubre en el São Paulo Expo, Brasil. Te esperamos en el stand I023."
+        text: |-
+          📡 DEITEL estará en Futurecom 2026.
+
+          Del 6 al 8 de octubre participaremos en una de las principales ferias de telecomunicaciones y tecnología de América Latina, en el São Paulo Expo (Brasil).
+
+          En nuestro stand I023 presentaremos nuestra experiencia en torres autoportantes y estructuras metálicas para telecomunicaciones, junto a los equipos de DEITEL Chile y DEITEL Brasil.
+
+          ¿Vas a Futurecom? Escríbenos y agendemos una reunión en el stand.
+
+          🌐 deitel.cl · deitel.com.br
+      pt:
+        title: "A DEITEL estará na Futurecom 2026"
+        summary: "De 6 a 8 de outubro no São Paulo Expo. Esperamos você no estande I023."
+        text: |-
+          📡 A DEITEL estará na Futurecom 2026.
+
+          De 6 a 8 de outubro participaremos de uma das principais feiras de telecomunicações e tecnologia da América Latina, no São Paulo Expo.
+
+          No nosso estande I023 vamos apresentar nossa experiência em torres autoportantes e estruturas metálicas para telecomunicações, com as equipes da DEITEL Brasil e da DEITEL Chile.
+
+          Vai à Futurecom? Fale com a gente e agende uma reunião no estande.
+
+          🌐 deitel.com.br · deitel.cl
+    - id: FC2
+      date: "2026-10-04"
+      time: "10:00"
+      art: booth          # ilustración del stand en vez de la torre
+      es:
+        title: "Un stand hecho de acero, como nuestras torres"
+        summary: "Estructura metálica desmontable y apernada. Al terminar la feria, el material vuelve a producción: cero residuos."
+        text: |-
+          🏗️ Para Futurecom 2026 diseñamos un stand a la altura de lo que hacemos: una estructura de acero desmontable, unida con pernos, que sigue la misma lógica constructiva de nuestras torres.
+
+          Cero residuos: al terminar la feria, todo el material vuelve a nuestra línea de producción.
+
+          Ven a verlo del 6 al 8 de octubre en el stand I023 del São Paulo Expo.
+      pt:
+        title: "Um estande feito de aço, como as nossas torres"
+        summary: "Estrutura metálica desmontável e parafusada. Depois da feira, o material volta para a produção: resíduo zero."
+        text: |-
+          🏗️ Para a Futurecom 2026 projetamos um estande à altura do que fazemos: uma estrutura de aço desmontável, parafusada, que segue a mesma lógica construtiva das nossas torres.
+
+          Resíduo zero: ao final da feira, todo o material volta para a nossa linha de produção.
+
+          Venha conhecer de 6 a 8 de outubro no estande I023 do São Paulo Expo.
+    - id: FC3
+      date: "2026-10-05"
+      time: "10:00"
+      es:
+        title: "Mañana comienza Futurecom 2026"
+        summary: "Torres autoportantes, estructuras metálicas y un equipo Chile + Brasil. Stand I023, São Paulo Expo."
+        text: |-
+          ⏳ Mañana comienza Futurecom 2026 y DEITEL estará presente.
+
+          En el stand I023 podrás conversar con nuestro equipo sobre:
+          • Torres autoportantes para telecomunicaciones
+          • Estructuras metálicas a medida
+          • Ingeniería y fabricación con equipos en Chile y Brasil
+
+          Del 6 al 8 de octubre, São Paulo Expo. ¡Agenda tu reunión con nosotros!
+      pt:
+        title: "Amanhã começa a Futurecom 2026"
+        summary: "Torres autoportantes, estruturas metálicas e uma equipe Brasil + Chile. Estande I023, São Paulo Expo."
+        text: |-
+          ⏳ Amanhã começa a Futurecom 2026 e a DEITEL estará presente.
+
+          No estande I023 você poderá conversar com a nossa equipe sobre:
+          • Torres autoportantes para telecomunicações
+          • Estruturas metálicas sob medida
+          • Engenharia e fabricação com equipes no Brasil e no Chile
+
+          De 6 a 8 de outubro, São Paulo Expo. Agende sua reunião com a gente!
+    - id: FC4
+      date: "2026-10-06"
+      time: "09:00"
+      es:
+        title: "Hoy abre Futurecom 2026: estamos en el stand I023"
+        summary: "Del 6 al 8 de octubre en el São Paulo Expo. Pasa a conversar con el equipo DEITEL."
+        text: |-
+          🚀 ¡Hoy abre Futurecom 2026!
+
+          Ya estamos en el stand I023 del São Paulo Expo. Si estás en la feria, pasa a conocer nuestro stand de acero y a conversar con el equipo DEITEL sobre tus próximos proyectos de infraestructura para telecomunicaciones.
+
+          Te esperamos hasta el 8 de octubre.
+      pt:
+        title: "Hoje abre a Futurecom 2026: estamos no estande I023"
+        summary: "De 6 a 8 de outubro no São Paulo Expo. Venha conversar com a equipe DEITEL."
+        text: |-
+          🚀 Hoje abre a Futurecom 2026!
+
+          Já estamos no estande I023 do São Paulo Expo. Se você está na feira, venha conhecer o nosso estande de aço e conversar com a equipe DEITEL sobre os seus próximos projetos de infraestrutura para telecomunicações.
+
+          Esperamos você até 8 de outubro.
+    - id: FC5
+      date: "2026-10-07"
+      time: "10:00"
+      es:
+        title: "Segundo día en Futurecom 2026"
+        summary: "Seguimos en el stand I023 conversando sobre torres e infraestructura para telecomunicaciones."
+        text: |-
+          📍 Segundo día en Futurecom 2026.
+
+          Seguimos en el stand I023 del São Paulo Expo. Si tienes un proyecto de nuevos sitios, torres autoportantes o estructuras metálicas, pasa a conversar con nuestro equipo de ingeniería.
+
+          Estaremos aquí hasta mañana, 8 de octubre.
+      pt:
+        title: "Segundo dia na Futurecom 2026"
+        summary: "Seguimos no estande I023 conversando sobre torres e infraestrutura para telecomunicações."
+        text: |-
+          📍 Segundo dia na Futurecom 2026.
+
+          Seguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.
+
+          Estaremos aqui até amanhã, 8 de outubro.
+    - id: FC6
+      date: "2026-10-08"
+      time: "09:00"
+      es:
+        title: "Último día de Futurecom 2026"
+        summary: "Hoy es la última oportunidad para visitarnos en el stand I023 del São Paulo Expo."
+        text: |-
+          ⏰ Último día de Futurecom 2026.
+
+          Hoy es la última oportunidad para visitarnos en el stand I023 del São Paulo Expo y conversar con el equipo DEITEL sobre torres y estructuras metálicas para telecomunicaciones.
+
+          ¡Te esperamos!
+      pt:
+        title: "Último dia da Futurecom 2026"
+        summary: "Hoje é a última oportunidade para nos visitar no estande I023 do São Paulo Expo."
+        text: |-
+          ⏰ Último dia da Futurecom 2026.
+
+          Hoje é a última oportunidade para nos visitar no estande I023 do São Paulo Expo e conversar com a equipe DEITEL sobre torres e estruturas metálicas para telecomunicações.
+
+          Esperamos você!
+    - id: FC7
+      date: "2026-10-08"
+      time: "18:30"
+      es:
+        title: "¡Gracias, Futurecom 2026!"
+        summary: "Gracias a todos los que visitaron el stand DEITEL. Nos vemos en los próximos proyectos."
+        text: |-
+          🙌 ¡Gracias, Futurecom 2026!
+
+          Gracias a clientes, socios y amigos que pasaron por nuestro stand I023 durante estos tres días. Fue una gran oportunidad para mostrar lo que hacemos en DEITEL Chile y DEITEL Brasil.
+
+          Seguimos en contacto para los próximos proyectos.
+
+          🌐 deitel.cl · deitel.com.br
+      pt:
+        title: "Obrigado, Futurecom 2026!"
+        summary: "Obrigado a todos que visitaram o estande DEITEL. Nos vemos nos próximos projetos."
+        text: |-
+          🙌 Obrigado, Futurecom 2026!
+
+          Obrigado a clientes, parceiros e amigos que passaram pelo nosso estande I023 durante estes três dias. Foi uma ótima oportunidade para mostrar o que fazemos na DEITEL Brasil e na DEITEL Chile.
+
+          Seguimos em contato para os próximos projetos.
+
+          🌐 deitel.com.br · deitel.cl
