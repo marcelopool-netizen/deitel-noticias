@@ -53,6 +53,12 @@ Contexto para Claude Code. Leer antes de tocar el repo.
 
 Sitios: **deitel.cl** (Chile) y **deitel.com.br** (Brasil). **Nunca `grupodeitel.cl` en las tarjetas.**
 
+## Fotos en vivo de la feria (fuera de este repo)
+- Durante Futurecom el equipo publica fotos al instante desde `https://ar.67-205-176-19.sslip.io/foto/`
+  (con PIN). Lo hace el servidor DigitalOcean (repo local `C:\Users\ACER\Claude\Projects\Futurecom`,
+  `ranking-api/fotos.js`), NO este bot: llama directo a la API de Postiz con las mismas cuentas.
+- Si se cambian canales aquí (`config.yaml > channels`), cambiar también `CONTAS` en `ranking-api/fotos.js`.
+
 ## Workflow (.github/workflows/daily.yml)
 - Cron 10:00 y 12:30 UTC (GitHub atrasa hasta ~3 h; el segundo es respaldo, la idempotencia evita duplicar).
 - Secrets: `ANTHROPIC_API_KEY`, `POSTIZ_API_KEY`.
