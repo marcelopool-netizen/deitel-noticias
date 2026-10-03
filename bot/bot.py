@@ -335,13 +335,32 @@ class Postiz:
         return r.json()
 
     def delete_group(self, group):
-        """Elimina un post programado (por id de grupo o de post) en Postiz."""
-        for path in (f"/posts/group/{group}", f"/posts/{group}"):
-            r = requests.delete(f"{self.base}{path}", headers=self.h, timeout=30)
-            if r.status_code < 400 or r.status_code == 404:  # 404 = ya borrado
-                return True
-        log(f"  AVISO: no se pudo borrar {group}: {r.status_code} {r.text[:200]}")
-        return False
+        """Borra un post programado por id de GRUPO (campo `group` en Postiz; el postId no sirve).
+        Nunca lanza excepción: devuelve "ok", "no_existe" o "error: ..." para dejarlo en el log."""
+        try:
+            r = requests.delete(f"{self.base}/posts/group/{group}", headers=self.h, timeout=90)
+        except requests.RequestException as e:  # Postiz a veces tarda: no tumbar el run
+            return f"error: {e.__class__.__name__}"
+        if r.status_code < 400:
+            return "ok"
+        if r.status_code == 404:  # id inexistente (p. ej. se pasó un postId): NO cuenta como borrado
+            return "no_existe"
+        return f"error: {r.status_code} {r.text[:150]}"
+
+    def groups_for(self, post_ids, when_utc):
+        """Busca el id de grupo de posts recién programados (POST /posts solo devuelve postId).
+        Consulta GET /posts en una ventana alrededor de la hora programada. Best effort: {} si falla."""
+        try:
+            params = {"startDate": (when_utc - dt.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+                      "endDate": (when_utc + dt.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.000Z")}
+            r = requests.get(f"{self.base}/posts", headers=self.h, params=params, timeout=60)
+            if r.status_code >= 400:
+                return {}
+            data = r.json()
+            posts = data.get("posts", data) if isinstance(data, dict) else data
+            return {p["id"]: p["group"] for p in posts or [] if isinstance(p, dict) and p.get("id") in post_ids and p.get("group")}
+        except Exception:
+            return {}
 
     def create_post(self, integration_id, platform, content, media, when_utc):
         settings = {"__type": platform}
@@ -409,6 +428,15 @@ def publish(pz, channels, card, texts, post_time, entry):
     if not entry["posts"]:
         raise RuntimeError("sin canales: no se programó ningún post")
     entry["status"] = "scheduled"
+    # Guardar el id de grupo de cada post (es lo que pide DELETE_GROUPS para borrarlo después)
+    ids = [x.get("postId") for p in entry["posts"] for x in (p["result"] if isinstance(p["result"], list) else [])]
+    groups = pz.groups_for(set(filter(None, ids)), when_utc)
+    for p in entry["posts"]:
+        for x in (p["result"] if isinstance(p["result"], list) else []):
+            if groups.get(x.get("postId")):
+                p["group"] = groups[x["postId"]]
+    if groups:
+        log(f"  grupos Postiz: {sorted(set(groups.values()))}")
 
 
 # ------------------------------------------------------------------- campaña
@@ -500,8 +528,12 @@ def main():
 
     groups = [g for g in os.environ.get("DELETE_GROUPS", "").replace("\n", ",").split(",") if g.strip()]
     if groups and not DRY:
-        log(f"Borrando {len(groups)} posts programados en Postiz...")
-        daylog["deleted"] = [g for g in groups if pz.delete_group(g.strip())]
+        log(f"Borrando {len(groups)} grupos de posts en Postiz...")
+        daylog["deleted"] = {}
+        for g in groups:
+            res = pz.delete_group(g.strip())
+            daylog["deleted"][g.strip()] = res
+            log(f"  {g.strip()}: {res}")
 
     active, camp = campaign_active()
     if active:

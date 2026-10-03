@@ -74,15 +74,16 @@ Sitios: **deitel.cl** (Chile) y **deitel.com.br** (Brasil). **Nunca `grupodeitel
 - `credit balance is too low` en todo: se acabaron los créditos de Anthropic
   (console.anthropic.com → Plans & Billing). No es un bug.
 - `delete_groups` necesita el **id de grupo** (campo `group` de los posts en Postiz), no el `postId`.
-  Con `postId` Postiz responde 404 y hoy el bot lo cuenta como borrado. `delete_group` no tiene
-  try/except: un timeout tumba el run antes de escribir el log.
-  Además, `POST /posts` solo devuelve `[{postId, integration}]`, sin el grupo.
+  Desde el 03/10: `delete_group` no lanza excepciones (timeout 90 s) y devuelve `ok` / `no_existe` /
+  `error: ...`, que queda en `logs/<fecha>.json > deleted`. Un 404 ya NO cuenta como borrado.
+- `POST /posts` solo devuelve `[{postId, integration}]`. Tras programar, `groups_for()` consulta
+  `GET /posts` y guarda el grupo en `posts[].group` del log (best effort; si falla, no hay campo).
 - Los títulos en logs a veces conservan el sufijo " - Medio" (Google News).
 
 ## Pendientes
 1. ~~Crear CLAUDE.md~~ (hecho).
-2. Arreglar `delete_group` (try/except, timeout más largo, no contar 404 como borrado) y guardar el
-   id de grupo en los logs al programar.
+2. ~~Arreglar `delete_group` y guardar el id de grupo en los logs~~ (hecho 03/10; verificar en el
+   primer run real que `posts[].group` aparece en el log).
 3. Cuando Marcelo conecte Instagram "Deitel Brasil" en Postiz: verificar con dry run que el bot lo
    encuentra y que recibe los posts en portugués.
 4. Si Marcelo deja el logo oficial de Futurecom: guardarlo como `bot/futurecom_logo.png` y revisar
