@@ -359,6 +359,91 @@ def make_event_card(title, summary, info, out, logo=None, event_logo=None, art="
     return out
 
 
+DARK = (17, 21, 24)
+
+
+def _cover(img, w, h, focus=(0.5, 0.5)):
+    """Recorta la foto para llenar w x h (como CSS object-fit: cover)."""
+    sc = max(w / img.width, h / img.height)
+    im = img.resize((max(w, round(img.width * sc)), max(h, round(img.height * sc))), Image.LANCZOS)
+    x = int((im.width - w) * focus[0])
+    y = int((im.height - h) * focus[1])
+    return im.crop((x, y, x + w, y + h))
+
+
+def make_photo_card(title, summary, photo, out, facts, logo=None, event_logo=None,
+                    kicker="FUTURECOM 2026", tag="", focus=(0.5, 0.5), web="deitel.com.br"):
+    """Tarjeta con foto real arriba, bloque naranja con titular y pie oscuro con datos
+    (mismo lenguaje visual que el carrusel de Instagram y el loop del estande)."""
+    im = Image.new("RGB", (W, H), DARK)
+    ph_h = 590
+    ph = _cover(Image.open(photo).convert("RGB"), W, ph_h, focus)
+    # sombra superior para que se lean logo y etiqueta
+    shade = Image.new("L", (W, ph_h), 0)
+    sd = ImageDraw.Draw(shade)
+    for y in range(210):
+        sd.line([(0, y), (W, y)], fill=int(200 * (1 - y / 210) ** 1.3))
+    ph = Image.composite(Image.new("RGB", (W, ph_h), DARK), ph, shade)
+    im.paste(ph, (0, 0))
+    d = ImageDraw.Draw(im)
+    m = 56
+    # logo DEITEL en caja blanca
+    logo = logo or default_logo()
+    if logo:
+        lg = Image.open(logo).convert("RGBA")
+        lg.thumbnail((250, 78))
+        d.rounded_rectangle([m, 40, m + lg.width + 32, 40 + lg.height + 24], radius=8, fill=WHITE)
+        im.paste(lg, (m + 16, 52), lg)
+    # etiqueta arriba a la derecha (texto espaciado)
+    fk = font("Poppins-SemiBold.ttf", 22)
+    def spaced(t, x_right, y, fnt, fill):
+        t = " ".join(t)  # tracking
+        d.text((x_right - d.textlength(t, font=fnt), y), t, font=fnt, fill=fill)
+    kw = max(d.textlength(" ".join(kicker), font=fk), d.textlength(" ".join(tag), font=fk) if tag else 0)
+    d.rounded_rectangle([W - m - kw - 22, 40, W - m + 18, 122 if tag else 92], radius=8, fill=DARK)
+    spaced(kicker, W - m, 52, fk, WHITE)
+    if tag:
+        spaced(tag, W - m, 84, fk, ORANGE)
+    # bloque naranja con titular
+    ob_top, ob_bot = ph_h, 880
+    d.rectangle([0, ob_top, W, ob_bot], fill=ORANGE)
+    ft, tlines = fit_title(d, title, W - 2 * m, 2, sizes=(66, 60, 54, 48, 44))
+    fs = font("Poppins-Medium.ttf", 28)
+    slines = wrap_to_width(d, summary, fs, W - 2 * m)[:2]
+    lh = int(ft.size * 1.12)
+    block = len(tlines) * lh + 18 + len(slines) * 40
+    y = ob_top + (ob_bot - ob_top - block) // 2
+    for ln in tlines:
+        d.text((m, y), ln, font=ft, fill=WHITE)
+        y += lh
+    y += 18
+    for ln in slines:
+        d.text((m, y), ln, font=fs, fill=DARK)
+        y += 40
+    # pie oscuro con datos del evento
+    fl = font("Poppins-SemiBold.ttf", 18)
+    fv = font("Poppins-Bold.ttf", 36)
+    right = W - m
+    if event_logo and os.path.exists(event_logo):
+        el = Image.open(event_logo).convert("RGBA")
+        el.thumbnail((230, 110))
+        im.paste(el, (right - el.width, 880 + (200 - el.height) // 2), el)
+        right -= el.width + 40
+    cols = len(facts)
+    cw = (right - m) / max(cols, 1)
+    for i, (lbl, val) in enumerate(facts):
+        x = m + i * cw
+        d.text((x, 918), " ".join(lbl.upper()), font=fl, fill=ORANGE)
+        fvv = fv
+        while d.textlength(val, font=fvv) > cw - 20 and fvv.size > 24:
+            fvv = font("Poppins-Bold.ttf", fvv.size - 2)
+        d.text((x, 948), val, font=fvv, fill=WHITE)
+    fw = font("Poppins-Medium.ttf", 20)
+    d.text((m, 1030), web, font=fw, fill=(150, 156, 164))
+    im.save(out, "PNG", optimize=True)
+    return out
+
+
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--country", default=None, choices=list(COUNTRIES), help="omitir para el post del día")
