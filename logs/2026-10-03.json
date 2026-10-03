@@ -1,31 +1,48 @@
 {
   "date": "2026-10-03",
-  "run_at": "2026-10-03T11:27:50.931302-03:00",
+  "run_at": "2026-10-03T12:15:19.043419-03:00",
   "dry_run": false,
   "countries": {
-    "CL": {
-      "status": "error",
-      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CffTgpuhRDvhG7u6CNhAo'}\")"
-    },
-    "BR": {
-      "status": "error",
-      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CffThRvc9n214NHF5zgSV'}\")"
-    },
-    "AR": {
-      "status": "error",
-      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CffThfSCcofaqEvBJtGEM'}\")"
-    },
-    "PE": {
-      "status": "error",
-      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CffThvxMYhVdaKAzm2DP8'}\")"
-    },
-    "PY": {
-      "status": "error",
-      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CffTiCfv8HCFw89i58Qca'}\")"
-    },
-    "HOY": {
-      "status": "error",
-      "error": "BadRequestError(\"Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CffTixxwE8fsAZUWVJuNm'}\")"
+    "FC1-es": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-03/2026-10-03_FC1-es.png",
+      "texts": {
+        "linkedin": "📡 DEITEL estará en Futurecom 2026.\n\nDel 6 al 8 de octubre participaremos en una de las principales ferias de telecomunicaciones y tecnología de América Latina, en el São Paulo Expo (Brasil).\n\nEn nuestro stand I023 presentaremos nuestra experiencia en torres autoportantes y estructuras metálicas para telecomunicaciones, junto a los equipos de DEITEL Chile y DEITEL Brasil.\n\n¿Vas a Futurecom? Escríbenos y agendemos una reunión en el stand.\n\n🌐 deitel.cl · deitel.com.br\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL",
+        "instagram": "📡 DEITEL estará en Futurecom 2026.\n\nDel 6 al 8 de octubre participaremos en una de las principales ferias de telecomunicaciones y tecnología de América Latina, en el São Paulo Expo (Brasil).\n\nEn nuestro stand I023 presentaremos nuestra experiencia en torres autoportantes y estructuras metálicas para telecomunicaciones, junto a los equipos de DEITEL Chile y DEITEL Brasil.\n\n¿Vas a Futurecom? Escríbenos y agendemos una reunión en el stand.\n\n🌐 deitel.cl · deitel.com.br\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-03T17:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmusja6ir051wlh0yg2y08feg",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ]
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-03T17:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmusja6u7051xlh0ya89qhper",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ]
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-03T17:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmusja75i051ylh0y2whterws",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ]
+        }
+      ]
     }
   }
 }
