@@ -266,8 +266,13 @@ campaign:
   start: "2026-10-03"
   end: "2026-10-08"
   category: FUTURECOM 2026
-  # franja naranja de la tarjeta ilustrada
+  # franja naranja de la tarjeta ilustrada (solo posts sin foto)
   info: {es: "6–8 OCT 2026 · SÃO PAULO EXPO · STAND I023", pt: "6–8 OUT 2026 · SÃO PAULO EXPO · ESTANDE I023"}
+  # tarjeta con foto real (posts con photo): etiqueta arriba a la derecha y datos del pie
+  tag: {es: "STAND I023", pt: "ESTANDE I023"}
+  facts:
+    es: [[Fecha, "6–8 oct"], [Lugar, "São Paulo Expo"], [Stand, "I023"]]
+    pt: [[Data, "6–8 out"], [Local, "São Paulo Expo"], [Estande, "I023"]]
   badge: {es: "Expositor", pt: "Expositor"}
   # logo oficial del evento (archivo entregado por el organizador); si no existe, no se pone
   event_logo: bot/futurecom_logo.png
@@ -278,6 +283,8 @@ campaign:
     - id: FC1
       date: "2026-10-03"
       time: "17:00"
+      photo: bot/assets/futurecom/torre_chile.jpg
+      focus: [0.5, 0.35]
       es:
         title: "DEITEL estará en Futurecom 2026"
         summary: "Del 6 al 8 de octubre en el São Paulo Expo, Brasil. Te esperamos en el stand I023."
@@ -307,7 +314,8 @@ campaign:
     - id: FC2
       date: "2026-10-04"
       time: "10:00"
-      art: booth          # ilustración del stand en vez de la torre
+      photo: bot/assets/futurecom/trelica_vermelha.jpg
+      focus: [0.5, 0.4]
       es:
         title: "Un stand hecho de acero, como nuestras torres"
         summary: "Estructura metálica desmontable y apernada. Al terminar la feria, el material vuelve a producción: cero residuos."
@@ -329,6 +337,8 @@ campaign:
     - id: FC3
       date: "2026-10-05"
       time: "10:00"
+      photo: bot/assets/futurecom/galvanizados.jpg
+      focus: [0.5, 0.5]
       es:
         title: "Mañana comienza Futurecom 2026"
         summary: "Torres autoportantes, estructuras metálicas y un equipo Chile + Brasil. Stand I023, São Paulo Expo."
@@ -356,6 +366,8 @@ campaign:
     - id: FC4
       date: "2026-10-06"
       time: "09:00"
+      photo: bot/assets/futurecom/torre_baixo.jpg
+      focus: [0.5, 0.5]
       es:
         title: "Hoy abre Futurecom 2026: estamos en el stand I023"
         summary: "Del 6 al 8 de octubre en el São Paulo Expo. Pasa a conversar con el equipo DEITEL."
@@ -377,6 +389,8 @@ campaign:
     - id: FC5
       date: "2026-10-07"
       time: "10:00"
+      photo: bot/assets/futurecom/fabrica.jpg
+      focus: [0.5, 0.6]
       es:
         title: "Segundo día en Futurecom 2026"
         summary: "Seguimos en el stand I023 conversando sobre torres e infraestructura para telecomunicaciones."
@@ -398,6 +412,8 @@ campaign:
     - id: FC6
       date: "2026-10-08"
       time: "09:00"
+      photo: bot/assets/futurecom/torre_noite.jpg
+      focus: [0.5, 0.5]
       es:
         title: "Último día de Futurecom 2026"
         summary: "Hoy es la última oportunidad para visitarnos en el stand I023 del São Paulo Expo."
@@ -419,6 +435,8 @@ campaign:
     - id: FC7
       date: "2026-10-08"
       time: "18:30"
+      photo: bot/assets/futurecom/torre_chile.jpg
+      focus: [0.5, 0.6]
       es:
         title: "¡Gracias, Futurecom 2026!"
         summary: "Gracias a todos los que visitaron el stand DEITEL. Nos vemos en los próximos proyectos."
