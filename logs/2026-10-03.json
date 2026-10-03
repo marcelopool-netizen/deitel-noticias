@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "run_at": "2026-10-03T12:25:38.661831-03:00",
+  "run_at": "2026-10-03T13:36:44.231006-03:00",
   "dry_run": false,
   "countries": {
     "FC1-es": {
@@ -44,10 +44,5 @@
         }
       ]
     }
-  },
-  "deleted": [
-    "cmusja6ir051wlh0yg2y08feg",
-    "cmusja6u7051xlh0ya89qhper",
-    "cmusja75i051ylh0y2whterws"
-  ]
+  }
 }
