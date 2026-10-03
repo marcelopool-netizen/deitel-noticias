@@ -219,6 +219,146 @@ def make_card(country, category, title, summary, source, date, out, logo=None):
     return out
 
 
+# ---------------------------------------------------------------- tarjeta de evento
+NAVY = (14, 22, 34)
+NAVY2 = (24, 36, 54)
+
+
+def _draw_tower(d, cx, base_y, h, base_w, top_w, k):
+    """Torre autoportante reticulada (ilustración propia), coordenadas ya escaladas por k."""
+    top_y = base_y - h
+    lx = lambda y: cx - (base_w / 2) + (base_w - top_w) / 2 * (base_y - y) / h
+    rx = lambda y: 2 * cx - lx(y)
+    leg = (252, 69, 0)
+    brace = (255, 140, 90)
+    n = 9
+    ys = [base_y - h * (1 - (1 - i / n) ** 1.25) for i in range(n + 1)]
+    for a, b in zip(ys, ys[1:]):
+        d.line([(lx(a), a), (rx(a), a)], fill=brace, width=int(3 * k))
+        d.line([(lx(a), a), (rx(b), b)], fill=brace, width=int(2 * k))
+        d.line([(rx(a), a), (lx(b), b)], fill=brace, width=int(2 * k))
+    d.line([(lx(base_y), base_y), (lx(top_y), top_y)], fill=leg, width=int(7 * k))
+    d.line([(rx(base_y), base_y), (rx(top_y), top_y)], fill=leg, width=int(7 * k))
+    # mástil, antenas de panel y microondas
+    d.line([(cx, top_y), (cx, top_y - 70 * k)], fill=WHITE, width=int(4 * k))
+    for side in (-1, 1):
+        x = cx + side * (top_w / 2 + 14 * k)
+        d.rounded_rectangle([x - 8 * k, top_y + 6 * k, x + 8 * k, top_y + 78 * k], radius=int(4 * k), fill=WHITE)
+    yy = top_y + 150 * k
+    r = 30 * k
+    d.ellipse([lx(yy) - 2 * r - 6 * k, yy - r, lx(yy) - 6 * k, yy + r], fill=(235, 238, 242))
+    d.ellipse([lx(yy) - 2 * r + 4 * k, yy - r + 10 * k, lx(yy) - 16 * k, yy + r - 10 * k], fill=(200, 206, 214))
+    # ondas de radio
+    for i, rr in enumerate((45, 75, 105)):
+        rr *= k
+        box = [cx - rr, top_y - 70 * k - rr, cx + rr, top_y - 70 * k + rr]
+        col = (252, 69 + 40 * i, 40 * i)
+        d.arc(box, 300, 360, fill=col, width=int(5 * k))
+        d.arc(box, 180, 240, fill=col, width=int(5 * k))
+
+
+def _draw_booth(d, ox, oy, s, k):
+    """Stand de acero en isométrico (marco apernado con LED), ilustración propia."""
+    import math
+    c, sn = math.cos(math.radians(30)), math.sin(math.radians(30))
+    P = lambda x, y, z: (ox + (x - y) * c * s, oy + (x + y) * sn * s - z * s)
+    W_, D_, H_ = 1.6, 1.0, 1.0
+    steel, led, plate = (190, 198, 210), (252, 69, 0), (60, 74, 96)
+    # muros de plancha (fondo y lateral)
+    d.polygon([P(0, D_, 0), P(W_, D_, 0), P(W_, D_, H_), P(0, D_, H_)], fill=plate)
+    d.polygon([P(0, 0, 0), P(0, D_, 0), P(0, D_, H_), P(0, 0, H_)], fill=(48, 60, 80))
+    # piso
+    d.polygon([P(0, 0, 0), P(W_, 0, 0), P(W_, D_, 0), P(0, D_, 0)], fill=(90, 100, 116))
+    for i in range(1, 8):
+        x = W_ * i / 8
+        d.line([P(x, 0, 0), P(x, D_, 0)], fill=(110, 120, 136), width=int(1 * k))
+    edges = [((0,0,0),(0,0,H_)),((W_,0,0),(W_,0,H_)),((W_,D_,0),(W_,D_,H_)),((0,D_,0),(0,D_,H_)),
+             ((0,0,H_),(W_,0,H_)),((W_,0,H_),(W_,D_,H_)),((W_,D_,H_),(0,D_,H_)),((0,D_,H_),(0,0,H_))]
+    for a, b in edges:
+        d.line([P(*a), P(*b)], fill=steel, width=int(7 * k))
+    # cerchas de techo
+    for i in range(1, 4):
+        x = W_ * i / 4
+        d.line([P(x, 0, H_), P(x, D_, H_)], fill=steel, width=int(4 * k))
+        d.line([P(x - W_ / 8, 0, H_), P(x, D_, H_)], fill=steel, width=int(2 * k))
+    # franjas LED en perfiles omega
+    d.line([P(0, 0, H_ - 0.06), P(W_, 0, H_ - 0.06)], fill=led, width=int(6 * k))
+    d.line([P(W_, 0, H_ - 0.06), P(W_, D_, H_ - 0.06)], fill=led, width=int(6 * k))
+    # mini torre de exhibición dentro del stand
+    _draw_tower(d, P(W_ * 0.55, D_ * 0.6, 0)[0], P(W_ * 0.55, D_ * 0.6, 0)[1], 0.85 * s, 0.30 * s, 0.06 * s, k * 0.6)
+
+
+def make_event_card(title, summary, info, out, logo=None, event_logo=None, art="tower",
+                    label="FUTURECOM 2026", badge="Expositor"):
+    """Tarjeta ilustrada para campañas de eventos (1080x1080)."""
+    k = 2  # supersampling para bordes suaves
+    big = Image.new("RGB", (W * k, H * k), NAVY)
+    d = ImageDraw.Draw(big)
+    top_h = 640
+    # fondo azul noche con degradado y retícula tipo plano
+    for y in range(top_h * k):
+        t = y / (top_h * k)
+        c = tuple(int(NAVY[i] * (1 - t) + NAVY2[i] * t) for i in range(3))
+        d.line([(0, y), (W * k, y)], fill=c)
+    for x in range(0, W * k, 54 * k):
+        d.line([(x, 0), (x, top_h * k)], fill=(30, 44, 64), width=k)
+    for y in range(0, top_h * k, 54 * k):
+        d.line([(0, y), (W * k, y)], fill=(30, 44, 64), width=k)
+    if art == "booth":
+        _draw_booth(d, 815 * k, 300 * k, 165 * k, k)
+    else:
+        _draw_tower(d, 830 * k, (top_h - 20) * k, 420 * k, 300 * k, 46 * k, k)
+    # parte inferior blanca
+    d.rectangle([0, top_h * k, W * k, H * k], fill=WHITE)
+    im = big.resize((W, H), Image.LANCZOS)
+    d = ImageDraw.Draw(im)
+    margin = 72
+    # etiqueta
+    fc = font("Poppins-Bold.ttf", 26)
+    cw = d.textlength(label, font=fc)
+    d.rounded_rectangle([margin, 70, margin + cw + 40, 120], radius=10, fill=ORANGE)
+    d.text((margin + 20, 77), label, font=fc, fill=WHITE)
+    # titular en blanco, columna izquierda
+    ft, tlines = fit_title(d, title, 560 if art == "booth" else 600, 5, sizes=(66, 60, 54, 48, 44, 40))
+    lh = int(ft.size * 1.16)
+    y = 160 + max(0, (5 - len(tlines)) * lh // 3)
+    for ln in tlines:
+        d.text((margin, y), ln, font=ft, fill=WHITE)
+        y += lh
+    # franja naranja con datos del evento
+    d.rectangle([0, top_h - 70, W, top_h], fill=ORANGE)
+    fi = font("Poppins-Bold.ttf", 30)
+    iw = d.textlength(info, font=fi)
+    d.text(((W - iw) / 2, top_h - 58), info, font=fi, fill=WHITE)
+    # resumen
+    y = top_h + 34
+    fs = font("Poppins-Regular.ttf", 32)
+    for ln in wrap_to_width(d, summary, fs, W - 2 * margin)[:4]:
+        d.text((margin, y), ln, font=fs, fill=GREY)
+        y += 46
+    # pie: logo DEITEL + logo del evento (si se entregó el archivo oficial) + web
+    d.line([(margin, H - 170), (W - margin, H - 170)], fill=LINE, width=2)
+    logo = logo or default_logo()
+    if logo:
+        lg = Image.open(logo).convert("RGBA")
+        lg.thumbnail((330, 120))
+        im.paste(lg, (margin, H - 150 + (120 - lg.height) // 2), lg)
+    fb = font("Poppins-Medium.ttf", 24)
+    if event_logo and os.path.exists(event_logo):
+        el = Image.open(event_logo).convert("RGBA")
+        el.thumbnail((300, 100))
+        x = W - margin - el.width
+        im.paste(el, (x, H - 140 + (100 - el.height) // 2), el)
+        if badge:
+            fbg = font("Poppins-Medium.ttf", 20)
+            d.text((x, H - 162 + 4), badge.upper(), font=fbg, fill=GREY)
+    else:
+        tag = "deitel.cl · deitel.com.br"
+        d.text((W - margin - d.textlength(tag, font=fb), H - 104), tag, font=fb, fill=ORANGE)
+    im.save(out, "PNG", optimize=True)
+    return out
+
+
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--country", default=None, choices=list(COUNTRIES), help="omitir para el post del día")
