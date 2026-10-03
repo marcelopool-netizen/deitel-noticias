@@ -9,13 +9,15 @@ Bot diario de noticias DEITEL
 4. Sube la imagen a Postiz y programa el post en cada canal configurado.
 5. Guarda registro en logs/ y evita repetir noticias (state/published.json).
 6. Post extra "del día": saludo por fecha conmemorativa, efeméride (Wikipedia) o dato curioso.
+7. Campaña (config.yaml > campaign): entre start y end reemplaza noticias y post del día
+   por posts fijos (p. ej. Futurecom), en español o portugués según la cuenta.
 
 Variables de entorno:
   ANTHROPIC_API_KEY   clave de Anthropic
   POSTIZ_API_KEY      clave pública de Postiz (Settings -> Public API)
   POSTIZ_BASE_URL     opcional, por defecto https://api.postiz.com/public/v1
   DRY_RUN=1           no publica: solo genera tarjetas y logs
-  ONLY=CL,BR          opcional, limita países (HOY = solo el post del día; NONE = ninguno)
+  ONLY=CL,BR          opcional, limita países (HOY = solo el post del día; FC = campaña; NONE = ninguno)
   DELETE_GROUPS=a,b   opcional, borra esos posts programados (ids de grupo) antes de generar
   POST_NOW=1          opcional, publica de inmediato (3 min) en vez de a la hora del país
   FORCE=1             opcional, vuelve a publicar aunque el país ya tenga post programado hoy
@@ -27,7 +29,7 @@ from zoneinfo import ZoneInfo
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
-from make_card import make_card  # noqa: E402
+from make_card import make_card, make_event_card  # noqa: E402
 
 CFG = yaml.safe_load((HERE / "config.yaml").read_text(encoding="utf-8"))
 TZ = ZoneInfo(CFG["timezone"])
@@ -375,13 +377,15 @@ def resolve_channels(pz):
     if isinstance(ints, dict):  # algunas versiones envuelven la lista
         ints = ints.get("integrations") or ints.get("data") or []
     out = []
+    key = lambda x: re.sub(r"[\s._\-]+", "", (x or "").lower())
     for ch in CFG["channels"]:
         m = [i for i in ints if _platform_of(i) == ch["platform"].lower()
-             and ch["name"].lower() in (i.get("name") or "").lower()]
+             and key(ch["name"]) in key(i.get("name"))]
         if not m:
             log(f"  AVISO: canal no encontrado en Postiz: {ch}")
             continue
-        out.append({"id": m[0]["id"], "platform": ch["platform"], "name": m[0]["name"]})
+        out.append({"id": m[0]["id"], "platform": ch["platform"], "name": m[0]["name"],
+                    "lang": ch.get("lang", "es")})
     if not out:
         raise RuntimeError("Ningún canal de Postiz coincide con config.yaml. Respuesta de /integrations: "
                            + json.dumps(ints, ensure_ascii=False)[:800])
@@ -405,6 +409,50 @@ def publish(pz, channels, card, texts, post_time, entry):
     if not entry["posts"]:
         raise RuntimeError("sin canales: no se programó ningún post")
     entry["status"] = "scheduled"
+
+
+# ------------------------------------------------------------------- campaña
+def campaign_active():
+    camp = CFG.get("campaign") or {}
+    return bool(camp.get("enabled")) and str(camp.get("start")) <= TODAY <= str(camp.get("end")), camp
+
+
+def run_campaign(camp, pz, channels, daylog, done):
+    """Publica los posts fijos de la campaña cuya fecha es hoy (sin Claude).
+    Se registra por post e idioma (FC1-es, FC1-pt) para que una cuenta conectada más
+    tarde reciba su post en el siguiente run sin duplicar las demás."""
+    want = not ONLY or any(o in ONLY for o in ("FC", "CAMPAIGN"))
+    langs = sorted({ch["lang"] for ch in channels}) if channels else ["es", "pt"]
+    for p in camp.get("posts", []):
+        pid = p["id"]
+        if str(p["date"]) != TODAY or not (want or pid in ONLY):
+            continue
+        for lang in langs:
+            key = f"{pid}-{lang}"
+            if key in done:
+                continue
+            log(f"== Campaña {camp.get('name', '')}: {key}")
+            entry = {"status": "skip", "campaign": camp.get("name")}
+            try:
+                t = p.get(lang) or p["es"]
+                card = CARD_DIR / f"{TODAY}_{key}.png"
+                info = (camp.get("info") or {}).get(lang, "")
+                ev_logo = ROOT / camp["event_logo"] if camp.get("event_logo") else None
+                make_event_card(t["title"], t["summary"], info, str(card),
+                                str(LOGO) if LOGO.exists() else None,
+                                str(ev_logo) if ev_logo and ev_logo.exists() else None,
+                                art=p.get("art", "tower"), label=camp.get("category", "CAMPAÑA"),
+                                badge=(camp.get("badge") or {}).get(lang, ""))
+                tags = (camp.get("hashtags") or {}).get(lang, CFG["hashtags"].get(lang, ""))
+                body = t["text"].strip() + "\n\n" + tags.strip()
+                texts = {"linkedin": t.get("linkedin", body), "instagram": t.get("instagram", body)}
+                entry.update(status="ready", card=str(card.relative_to(ROOT)), texts=texts)
+                if not DRY:
+                    publish(pz, [ch for ch in channels if ch["lang"] == lang], card, texts, p["time"], entry)
+            except Exception as e:
+                entry.update(status="error", error=repr(e))
+                log("  ERROR:", repr(e))
+            daylog["countries"][key] = entry
 
 
 # ----------------------------------------------------------------------- main
@@ -447,8 +495,14 @@ def main():
         log(f"Borrando {len(groups)} posts programados en Postiz...")
         daylog["deleted"] = [g for g in groups if pz.delete_group(g.strip())]
 
+    active, camp = campaign_active()
+    if active:
+        log(f"Campaña activa ({camp.get('name')}, {camp.get('start')} a {camp.get('end')}): "
+            "se omiten noticias por país y post del día")
+        run_campaign(camp, pz, channels, daylog, done)
+
     for code, c in CFG["countries"].items():
-        if (ONLY and code not in ONLY) or code in done:
+        if active or (ONLY and code not in ONLY) or code in done:
             continue
         log(f"== {c['name']}")
         entry = {"status": "skip"}
@@ -489,7 +543,7 @@ def main():
 
     # ---- post del día (efeméride / saludo / dato curioso)
     extra_cfg = CFG.get("extra") or {}
-    if extra_cfg.get("enabled", True) and (not ONLY or "HOY" in ONLY) and "HOY" not in done:
+    if not active and extra_cfg.get("enabled", True) and (not ONLY or "HOY" in ONLY) and "HOY" not in done:
         log("== Post del día")
         entry = {"status": "skip"}
         try:
