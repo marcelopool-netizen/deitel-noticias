@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "run_at": "2026-10-03T12:15:19.043419-03:00",
+  "run_at": "2026-10-03T12:25:38.661831-03:00",
   "dry_run": false,
   "countries": {
     "FC1-es": {
@@ -17,7 +17,7 @@
           "scheduled_for": "2026-10-03T17:00:00-03:00",
           "result": [
             {
-              "postId": "cmusja6ir051wlh0yg2y08feg",
+              "postId": "cmusjnh6c058oqy0ykipm7c84",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ]
@@ -27,7 +27,7 @@
           "scheduled_for": "2026-10-03T17:00:00-03:00",
           "result": [
             {
-              "postId": "cmusja6u7051xlh0ya89qhper",
+              "postId": "cmusjnhd4058pqy0yyfj6sfvz",
               "integration": "cmu7tv1l003l4lb0ydst38wb3"
             }
           ]
@@ -37,12 +37,17 @@
           "scheduled_for": "2026-10-03T17:00:00-03:00",
           "result": [
             {
-              "postId": "cmusja75i051ylh0y2whterws",
+              "postId": "cmusjnhjc058qqy0yl36or5ro",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ]
         }
       ]
     }
-  }
+  },
+  "deleted": [
+    "cmusja6ir051wlh0yg2y08feg",
+    "cmusja6u7051xlh0ya89qhper",
+    "cmusja75i051ylh0y2whterws"
+  ]
 }
