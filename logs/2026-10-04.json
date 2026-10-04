@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-04",
+  "run_at": "2026-10-04T12:01:47.716816-03:00",
+  "dry_run": false,
+  "countries": {
+    "FC2-es": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-04/2026-10-04_FC2-es.png",
+      "texts": {
+        "linkedin": "🏗️ Para Futurecom 2026 diseñamos un stand a la altura de lo que hacemos: una estructura de acero desmontable, unida con pernos, que sigue la misma lógica constructiva de nuestras torres.\n\nCero residuos: al terminar la feria, todo el material vuelve a nuestra línea de producción.\n\nVen a verlo del 6 al 8 de octubre en el stand I023 del São Paulo Expo.\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL",
+        "instagram": "🏗️ Para Futurecom 2026 diseñamos un stand a la altura de lo que hacemos: una estructura de acero desmontable, unida con pernos, que sigue la misma lógica constructiva de nuestras torres.\n\nCero residuos: al terminar la feria, todo el material vuelve a nuestra línea de producción.\n\nVen a verlo del 6 al 8 de octubre en el stand I023 del São Paulo Expo.\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-04T12:04:47.716816-03:00",
+          "result": [
+            {
+              "postId": "cmuty8nnw046is00y5urhawhb",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "ae5d5f2d-d402-4489-bb32-159d610c18e8"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-04T12:04:47.716816-03:00",
+          "result": [
+            {
+              "postId": "cmuty8nyx045dl60y7iethfbs",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "04c9ee57-fb59-4cdd-bc10-53f409df61e8"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-04T12:04:47.716816-03:00",
+          "result": [
+            {
+              "postId": "cmuty8o8o046js00yr2yiv6ba",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "f130a1f2-f37f-4710-8d74-62452d4b8f91"
+        }
+      ]
+    }
+  }
+}
