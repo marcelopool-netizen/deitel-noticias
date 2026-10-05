@@ -31,7 +31,7 @@ channels:
     name: Deitel SPA
   - platform: linkedin
     name: Marcelo Pool Skiadaressis
-  - platform: instagram
+  - platform: instagram-standalone   # Postiz la conecto como "Instagram (standalone)"
     name: Deitel Brasil
     lang: pt
 
