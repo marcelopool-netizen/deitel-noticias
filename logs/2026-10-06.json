@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-06",
+  "run_at": "2026-10-06T13:22:45.258807-03:00",
+  "dry_run": false,
+  "countries": {
+    "FC4-es": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-06/2026-10-06_FC4-es.png",
+      "texts": {
+        "linkedin": "🚀 ¡Hoy abre Futurecom 2026!\n\nYa estamos en el stand I023 del São Paulo Expo. Si estás en la feria, pasa a conocer nuestro stand de acero y a conversar con el equipo DEITEL sobre tus próximos proyectos de infraestructura para telecomunicaciones.\n\nTe esperamos hasta el 8 de octubre.\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL",
+        "instagram": "🚀 ¡Hoy abre Futurecom 2026!\n\nYa estamos en el stand I023 del São Paulo Expo. Si estás en la feria, pasa a conocer nuestro stand de acero y a conversar con el equipo DEITEL sobre tus próximos proyectos de infraestructura para telecomunicaciones.\n\nTe esperamos hasta el 8 de octubre.\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-06T13:25:45.258807-03:00",
+          "result": [
+            {
+              "postId": "cmuww0gzu0a7rmx0yqbceicic",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "2417ee77-24bc-4c43-b71f-46198ca4e1a4"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-06T13:25:45.258807-03:00",
+          "result": [
+            {
+              "postId": "cmuww0h7a0aisrz0y3arv1622",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "5deeaa7e-919c-47da-9021-01b1bdb57772"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-06T13:25:45.258807-03:00",
+          "result": [
+            {
+              "postId": "cmuww0hff0aitrz0y8ogcfnl8",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "1d4f26d9-7e13-4ac7-9deb-42fa9f97ae07"
+        }
+      ]
+    },
+    "FC4-pt": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-06/2026-10-06_FC4-pt.png",
+      "texts": {
+        "linkedin": "🚀 Hoje abre a Futurecom 2026!\n\nJá estamos no estande I023 do São Paulo Expo. Se você está na feira, venha conhecer o nosso estande de aço e conversar com a equipe DEITEL sobre os seus próximos projetos de infraestrutura para telecomunicações.\n\nEsperamos você até 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL",
+        "instagram": "🚀 Hoje abre a Futurecom 2026!\n\nJá estamos no estande I023 do São Paulo Expo. Se você está na feira, venha conhecer o nosso estande de aço e conversar com a equipe DEITEL sobre os seus próximos projetos de infraestrutura para telecomunicações.\n\nEsperamos você até 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-06T13:25:45.258807-03:00",
+          "result": [
+            {
+              "postId": "cmuww0is10aiwrz0yhogjduto",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "12369bab-70e9-486e-adb5-3c2e6bec5dd6"
+        }
+      ]
+    }
+  }
+}
