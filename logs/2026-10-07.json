@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-07",
+  "run_at": "2026-10-07T14:05:06.263142-03:00",
+  "dry_run": false,
+  "countries": {
+    "FC5-es": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-07/2026-10-07_FC5-es.png",
+      "texts": {
+        "linkedin": "📍 Segundo día en Futurecom 2026.\n\nSeguimos en el stand I023 del São Paulo Expo. Si tienes un proyecto de nuevos sitios, torres autoportantes o estructuras metálicas, pasa a conversar con nuestro equipo de ingeniería.\n\nEstaremos aquí hasta mañana, 8 de octubre.\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL",
+        "instagram": "📍 Segundo día en Futurecom 2026.\n\nSeguimos en el stand I023 del São Paulo Expo. Si tienes un proyecto de nuevos sitios, torres autoportantes o estructuras metálicas, pasa a conversar con nuestro equipo de ingeniería.\n\nEstaremos aquí hasta mañana, 8 de octubre.\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-07T14:08:06.263142-03:00",
+          "result": [
+            {
+              "postId": "cmuycys4s0343lc0y9sax35fv",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "c4136e8c-d968-49b7-9c38-744b56be905a"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-07T14:08:06.263142-03:00",
+          "result": [
+            {
+              "postId": "cmuycysiv0344lc0ymoj0pff9",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "3c294fb3-91b9-4355-acac-46b510486c6c"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-07T14:08:06.263142-03:00",
+          "result": [
+            {
+              "postId": "cmuycysuc0345lc0y7qqagdtn",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "c073046d-eb94-4d04-a637-08b1ede20c38"
+        }
+      ]
+    },
+    "FC5-pt": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-07/2026-10-07_FC5-pt.png",
+      "texts": {
+        "linkedin": "📍 Segundo dia na Futurecom 2026.\n\nSeguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.\n\nEstaremos aqui até amanhã, 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL",
+        "instagram": "📍 Segundo dia na Futurecom 2026.\n\nSeguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.\n\nEstaremos aqui até amanhã, 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-07T14:08:06.263142-03:00",
+          "result": [
+            {
+              "postId": "cmuycyu2a037fkz0y2huvrwa5",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "dec445cc-67e0-4223-8f4a-ae4769eb1cae"
+        }
+      ]
+    }
+  }
+}
