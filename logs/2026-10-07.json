@@ -1,8 +1,30 @@
 {
   "date": "2026-10-07",
-  "run_at": "2026-10-07T14:05:06.263142-03:00",
+  "run_at": "2026-10-07T16:03:02.708485-03:00",
   "dry_run": false,
   "countries": {
+    "FC5-pt": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-07/2026-10-07_FC5-pt.png",
+      "texts": {
+        "linkedin": "📍 Segundo dia na Futurecom 2026.\n\nSeguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.\n\nEstaremos aqui até amanhã, 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL",
+        "instagram": "📍 Segundo dia na Futurecom 2026.\n\nSeguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.\n\nEstaremos aqui até amanhã, 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-07T14:08:06.263142-03:00",
+          "result": [
+            {
+              "postId": "cmuycyu2a037fkz0y2huvrwa5",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "dec445cc-67e0-4223-8f4a-ae4769eb1cae"
+        }
+      ]
+    },
     "FC5-es": {
       "status": "scheduled",
       "campaign": "Futurecom 2026",
@@ -44,28 +66,6 @@
             }
           ],
           "group": "c073046d-eb94-4d04-a637-08b1ede20c38"
-        }
-      ]
-    },
-    "FC5-pt": {
-      "status": "scheduled",
-      "campaign": "Futurecom 2026",
-      "card": "cards/2026-10-07/2026-10-07_FC5-pt.png",
-      "texts": {
-        "linkedin": "📍 Segundo dia na Futurecom 2026.\n\nSeguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.\n\nEstaremos aqui até amanhã, 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL",
-        "instagram": "📍 Segundo dia na Futurecom 2026.\n\nSeguimos no estande I023 do São Paulo Expo. Se você tem um projeto de novos sites, torres autoportantes ou estruturas metálicas, venha conversar com a nossa equipe de engenharia.\n\nEstaremos aqui até amanhã, 8 de outubro.\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
-      },
-      "posts": [
-        {
-          "channel": "Deitel Brasil LTDA",
-          "scheduled_for": "2026-10-07T14:08:06.263142-03:00",
-          "result": [
-            {
-              "postId": "cmuycyu2a037fkz0y2huvrwa5",
-              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
-            }
-          ],
-          "group": "dec445cc-67e0-4223-8f4a-ae4769eb1cae"
         }
       ]
     }
