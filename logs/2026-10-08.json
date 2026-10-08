@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-08",
+  "run_at": "2026-10-08T14:04:30.819305-03:00",
+  "dry_run": false,
+  "countries": {
+    "FC6-es": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-08/2026-10-08_FC6-es.png",
+      "texts": {
+        "linkedin": "⏰ Último día de Futurecom 2026.\n\nHoy es la última oportunidad para visitarnos en el stand I023 del São Paulo Expo y conversar con el equipo DEITEL sobre torres y estructuras metálicas para telecomunicaciones.\n\n¡Te esperamos!\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL",
+        "instagram": "⏰ Último día de Futurecom 2026.\n\nHoy es la última oportunidad para visitarnos en el stand I023 del São Paulo Expo y conversar con el equipo DEITEL sobre torres y estructuras metálicas para telecomunicaciones.\n\n¡Te esperamos!\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-08T14:07:30.819305-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdv7b08jbp60y3vhud4bf",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "35ec2e87-9fde-46f0-8968-3e24549ff9db"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-08T14:07:30.819305-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdvew07yfqo0yzb3chgfi",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "7259f4fd-b273-45d6-994f-9ae62821bb86"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-08T14:07:30.819305-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdvnv07ygqo0y39wlrxmb",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "2dcafe4a-9dbd-411a-8139-3afc71f250a9"
+        }
+      ]
+    },
+    "FC6-pt": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-08/2026-10-08_FC6-pt.png",
+      "texts": {
+        "linkedin": "⏰ Último dia da Futurecom 2026.\n\nHoje é a última oportunidade para nos visitar no estande I023 do São Paulo Expo e conversar com a equipe DEITEL sobre torres e estruturas metálicas para telecomunicações.\n\nEsperamos você!\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL",
+        "instagram": "⏰ Último dia da Futurecom 2026.\n\nHoje é a última oportunidade para nos visitar no estande I023 do São Paulo Expo e conversar com a equipe DEITEL sobre torres e estruturas metálicas para telecomunicações.\n\nEsperamos você!\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-08T14:07:30.819305-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdww008jep60yc4wtfrhp",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "3b3b0efb-c7b0-4ec1-8082-53f257883e98"
+        }
+      ]
+    },
+    "FC7-es": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-08/2026-10-08_FC7-es.png",
+      "texts": {
+        "linkedin": "🙌 ¡Gracias, Futurecom 2026!\n\nGracias a clientes, socios y amigos que pasaron por nuestro stand I023 durante estos tres días. Fue una gran oportunidad para mostrar lo que hacemos en DEITEL Chile y DEITEL Brasil.\n\nSeguimos en contacto para los próximos proyectos.\n\n🌐 deitel.cl · deitel.com.br\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL",
+        "instagram": "🙌 ¡Gracias, Futurecom 2026!\n\nGracias a clientes, socios y amigos que pasaron por nuestro stand I023 durante estos tres días. Fue una gran oportunidad para mostrar lo que hacemos en DEITEL Chile y DEITEL Brasil.\n\nSeguimos en contacto para los próximos proyectos.\n\n🌐 deitel.cl · deitel.com.br\n\n#Futurecom2026 #Futurecom #Telecomunicaciones #TorresDeTelecomunicaciones #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-08T18:30:00-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdy3h08jgp60y4bgkf7vx",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "63556775-67b9-4650-9a5a-70929ef9c16b"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-08T18:30:00-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdybg07ykqo0y0hgrgo65",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "22fca104-bceb-41a9-99d9-a9fb1187fa5b"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-08T18:30:00-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdykr08jhp60y7xqtp7h3",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "cc082f58-66de-446c-a649-da36fe73acdc"
+        }
+      ]
+    },
+    "FC7-pt": {
+      "status": "scheduled",
+      "campaign": "Futurecom 2026",
+      "card": "cards/2026-10-08/2026-10-08_FC7-pt.png",
+      "texts": {
+        "linkedin": "🙌 Obrigado, Futurecom 2026!\n\nObrigado a clientes, parceiros e amigos que passaram pelo nosso estande I023 durante estes três dias. Foi uma ótima oportunidade para mostrar o que fazemos na DEITEL Brasil e na DEITEL Chile.\n\nSeguimos em contato para os próximos projetos.\n\n🌐 deitel.com.br · deitel.cl\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL",
+        "instagram": "🙌 Obrigado, Futurecom 2026!\n\nObrigado a clientes, parceiros e amigos que passaram pelo nosso estande I023 durante estes três dias. Foi uma ótima oportunidade para mostrar o que fazemos na DEITEL Brasil e na DEITEL Chile.\n\nSeguimos em contato para os próximos projetos.\n\n🌐 deitel.com.br · deitel.cl\n\n#Futurecom2026 #Futurecom #Telecomunicações #TorresDeTelecom #DEITEL"
+      },
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-08T18:30:00-03:00",
+          "result": [
+            {
+              "postId": "cmuzsdzst07ymqo0y6xf91xpx",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "dc1aab0d-fa3e-479d-b6d0-7a5a18eb4d6a"
+        }
+      ]
+    }
+  }
+}
