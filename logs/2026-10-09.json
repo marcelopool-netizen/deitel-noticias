@@ -1,0 +1,411 @@
+{
+  "date": "2026-10-09",
+  "run_at": "2026-10-09T13:42:03.625340-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "f35a00b6ea54d7abe879a424dbdafa2cb14366de",
+        "title": "Ultranav de la familia Von Appen presenta proyecto portuario por US$80 millones en la Región de Magallanes",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/ultranav-de-la-familia-von-appen-presenta-proyecto-portuario-por-us80-millones-en-la-region-de-magallanes/",
+        "published": "2026-10-09T12:52:12-03:00",
+        "summary": "La iniciativa portuaria se ubica en las comunas de Punta Arenas y Río Verde y se justifica por las necesidades lógicas de la zona, apelando principalmente a la industria del hidrógeno verde."
+      },
+      "selection": {
+        "index": 22,
+        "category": "ECONOMÍA",
+        "card_title": "Ultranav invierte US$80 millones en proyecto portuario en Magallanes",
+        "card_summary": "La naviera de la familia Von Appen presenta iniciativa portuaria en Punta Arenas y Río Verde, enfocada en apoyar la industria del hidrógeno verde en la zona austral.",
+        "linkedin": "Ultranav ha ingresado a evaluación un proyecto portuario de US$80 millones en la Región de Magallanes, específicamente en las comunas de Punta Arenas y Río Verde. La iniciativa busca responder a las crecientes necesidades logísticas de la zona, con foco particular en la emergente industria del hidrógeno verde.\n\nEsta inversión representa una oportunidad significativa para el desarrollo de infraestructura en la región más austral de Chile. El proyecto portuario no solo facilitará operaciones marítimas, sino que también requerirá infraestructura de telecomunicaciones robusta para operar en condiciones climáticas extremas.\n\nPara la industria de telecomunicaciones, proyectos de esta envergadura en zonas remotas implican nuevos desafíos y oportunidades: desde conectividad confiable para operaciones portuarias hasta infraestructura que soporte las comunicaciones críticas de la industria del hidrógeno verde, un sector que demanda altos estándares de conectividad y monitoreo.\n\nFuente: La Tercera",
+        "instagram": "Ultranav anuncia proyecto portuario de US$80 millones en Magallanes 🚢\n\nLa naviera de la familia Von Appen ingresó a evaluación una iniciativa en Punta Arenas y Río Verde, orientada a apoyar la logística de la industria del hidrógeno verde en la zona austral.\n\nEsta inversión abre oportunidades para infraestructura de telecomunicaciones en condiciones extremas, clave para operaciones portuarias modernas.\n\nFuente: La Tercera",
+        "hashtags": "#InfraestructuraPortuaria #HidrógenoVerde #Magallanes"
+      },
+      "card": "cards/2026-10-09/2026-10-09_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv17193q0cvsqz0y3zwvqxla",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "ee9db25c-d76c-4c71-a09e-9ea5ff64fef4"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv1719gr0cvtqz0ynjpew41b",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "2e7de442-59ef-4b62-b69a-9422c98047a2"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv1719uu0d1amq0yb205w05g",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "4c1beb64-8952-48ee-8434-70d554139c94"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv171aab0d1bmq0y4vze5258",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "b0d42a5d-e3e8-4018-a356-503fb86e5a8f"
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "ae5f402942075a437045596659756340df9df2ac",
+        "title": "Veja no Boletim TELETIME: RAN sharing entre TIM e Vivo aprovado",
+        "source": "TELETIME News",
+        "preferred": true,
+        "link": "https://teletime.com.br/09/10/2026/boletim-teletime-ran-sharing-tim-vivo/",
+        "published": "2026-10-09T10:54:33-03:00",
+        "summary": "A edição de 9 de outubro do Boletim TELETIME aborda a aprovação da Anatel para o compartilhamento de rede entre Vivo e TIM. A perspectiva de mais espectro para a Starlink e o prejuízo da Oi em 2025 também foram assuntos. Confira!"
+      },
+      "selection": {
+        "index": 16,
+        "category": "TELECOM",
+        "card_title": "Anatel aprova compartilhamento de rede entre Vivo e TIM no Brasil",
+        "card_summary": "Regulador autoriza acordo de RAN sharing entre as duas operadoras, permitindo otimização de infraestrutura e expansão de cobertura móvel.",
+        "linkedin": "A Anatel aprovou o compartilhamento de rede (RAN sharing) entre Vivo e TIM, uma decisão que pode transformar a forma como as operadoras expandem sua infraestrutura de telecomunicações no Brasil.\n\nEste modelo permite que ambas as empresas compartilhem equipamentos e estruturas de radiofrequência, otimizando investimentos e acelerando a expansão da cobertura móvel em áreas onde a construção individual de torres seria menos eficiente.\n\nPara o setor de infraestrutura de telecomunicações, este movimento confirma uma tendência global: a busca por modelos mais eficientes de deployment que reduzam custos operacionais sem comprometer a qualidade do serviço. A decisão também pode influenciar novos acordos entre operadoras e provedores de infraestrutura passiva.\n\nFonte: TELETIME News",
+        "instagram": "A Anatel autorizou o compartilhamento de rede entre Vivo e TIM no Brasil! 📡\n\nO acordo de RAN sharing permite que as operadoras dividam equipamentos e infraestrutura de radiofrequência, otimizando investimentos e expandindo a cobertura móvel de forma mais eficiente.\n\nEsta decisão reforça a tendência de colaboração entre operadoras para acelerar a modernização das redes de telecomunicações no país.\n\nFonte: TELETIME News",
+        "hashtags": "#RANSharing #InfraestruturaMovel #Anatel"
+      },
+      "card": "cards/2026-10-09/2026-10-09_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv171q380cw3qz0ybdcd73bo",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "c1bb3543-9543-4deb-a8e6-e73d0e5bd2c9"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv171tdg0d1rmq0yhzwonxdf",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "ad47a13d-29cb-4e27-90d6-06fc0d79a40d"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv171tp20cw4qz0yefaajufz",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "c65de761-668d-4cf1-9691-107ea04f5142"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv171u470d1ymq0yczlmkrdq",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "c950ed78-d617-40f0-8e7a-8fdf1477c69d"
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "bc04549c12c831de9175e0522d3e8d40618bf5af",
+        "title": "ARCA publicó precisiones del régimen de courier de ARCA para las compras en Shein y Temu - iProfesional",
+        "source": "iProfesional",
+        "preferred": true,
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMTNUVlI4NTlmRlhLT1MwNTY3cE9lSVVBNGROVE9LazdTY2J4QlB2UHVnRlhad0R1TUttUTg4RUd4NWU0ZUQ0dHdhVTkzLVdyMWkwb3hucmRSMk5fb054UHh2elYzWnRBVGhnOGVQakU5QXZ6ZVBRdkpCblRpNGh2X1NTYllIY2FFV3pGeWdKWmk3dmVLRlFiSFMtZ0xBRVFialpnQ0dIeXRkd0hjUzAwQ0ZRcXpYakw3MkxFa0FqbWJobVRLV21jckZvdVFwWVXSAdQBQVVfeXFMTXBBWHBnV1JyajBnWU5yWG1yemtJQ2tza1htcDF3SmxsY3NkY1lUVi1Kb1ZwS1E1NGFvNlFDT2s1Skx4cHJTNld0c3RkNFAtVUNZWUZ5NzBhTGNEMTdiTF9TOWVkVGxCUGVqd2tsbjd1N1pFX0FxdU5EMnhKeWd0VHUxQWJnVHl3MlJrVzR6VmY5NFdCRFZDSDVNQTI2VzJIdlNfdGV3UGh5am51QkFIbUVtdy1aNFd4T3ZIQ3BXbkpiX2ZJbEFGSWlNYzF6clVRQl9LQko?oc=5",
+        "published": "2026-10-09T01:16:45-03:00",
+        "summary": "ARCA publicó precisiones del régimen de courier de ARCA para las compras en Shein y Temu &nbsp;&nbsp; iProfesional"
+      },
+      "selection": {
+        "index": 1,
+        "category": "TRIBUTARIO",
+        "card_title": "ARCA precisa régimen de courier para compras en Shein y Temu",
+        "card_summary": "La autoridad tributaria argentina publicó aclaraciones sobre el tratamiento aduanero de envíos courier desde plataformas de comercio electrónico internacional.",
+        "linkedin": "ARCA publicó nuevas precisiones sobre el régimen de courier aplicable a las compras en plataformas como Shein y Temu, aportando mayor claridad al tratamiento aduanero de estos envíos internacionales.\n\nEstas definiciones son relevantes para empresas que importan equipamiento y componentes tecnológicos, ya que establecen criterios más claros sobre los procesos de importación simplificada y los requisitos para envíos de bajo valor.\n\nPara el sector de infraestructura de telecomunicaciones, entender estos regímenes resulta clave al momento de importar insumos, herramientas y equipos especializados que muchas veces ingresan por canales express. La claridad normativa facilita la planificación logística y reduce riesgos de demoras en proyectos que dependen de importaciones ágiles.\n\nFuente: iProfesional",
+        "instagram": "ARCA publicó aclaraciones sobre el régimen de courier para compras internacionales en plataformas como Shein y Temu 📦\n\nLa precisión de estos criterios aduaneros es importante para empresas que importan insumos y equipamiento técnico, facilitando procesos de importación simplificada y reduciendo incertidumbre logística en el ingreso de componentes especializados.\n\nFuente: iProfesional",
+        "hashtags": "#Aduanas #ComercioExterior #ImportacionesAR"
+      },
+      "card": "cards/2026-10-09/2026-10-09_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv1726540cwuqz0yzr7mdu07",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "80f1c273-3060-4227-8865-583e9246a65a"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv1726g70cwvqz0y91lnhlfk",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "684eb230-47df-4c19-b045-b7a0de374140"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv1726u20d2gmq0y8tyln7qz",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "9740c3eb-892f-4809-9890-86ff1a0478fb"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv17279e0d2hmq0ywongmkxy",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "7da2579c-5548-4ecb-8633-4d6368d47c14"
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "c1dbb65f54aa57b2632f362c1f9cb3b1da8bf501",
+        "title": "Exploración minera: área de búsqueda cae y hay menos proyectos en cartera que hace un año",
+        "source": "Diario Gestión",
+        "preferred": true,
+        "link": "https://gestion.pe/economia/exploracion-minera-en-peru-area-de-busqueda-cae-y-hay-menos-proyectos-en-cartera-que-hace-un-ano-noticia/",
+        "published": "2026-10-09T13:33:00-03:00",
+        "summary": "Analistas explican qué pasa con la inversión en esta actividad de la minería. Aquí todos los detalles."
+      },
+      "selection": {
+        "index": 4,
+        "category": "ECONOMÍA",
+        "card_title": "Exploración minera en Perú: cae área de búsqueda y cartera de proyectos",
+        "card_summary": "La inversión en exploración minera muestra retroceso en Perú, con menor área de búsqueda y menos proyectos en cartera respecto al año anterior.",
+        "linkedin": "La exploración minera en Perú registra una contracción preocupante: tanto el área destinada a búsqueda como la cantidad de proyectos en cartera han disminuido en comparación con el mismo período del año anterior.\n\nEsta caída en la actividad exploratoria es un indicador temprano del nivel de inversión futura en el sector. La exploración es la primera etapa del ciclo minero y determina la magnitud de proyectos que eventualmente demandarán infraestructura de telecomunicaciones.\n\nPara la industria de torres y estructuras, la minería representa uno de los sectores más relevantes en zonas remotas de Perú, donde los proyectos requieren conectividad confiable para sus operaciones. Una menor cartera exploratoria podría impactar las oportunidades de despliegue de infraestructura telecom en regiones mineras durante los próximos años.\n\nFuente: Diario Gestión",
+        "instagram": "📉 La exploración minera en Perú muestra señales de desaceleración: menor área de búsqueda y menos proyectos en cartera que hace un año.\n\nEste indicador es clave porque la exploración es la primera fase del ciclo minero. Menos exploración hoy significa menos proyectos futuros que requieran infraestructura de telecomunicaciones en zonas remotas.\n\nUn dato relevante para nuestra industria de torres y conectividad. 🗼\n\nFuente: Diario Gestión",
+        "hashtags": "#MineríaPerú #ExploraciónMinera #InversiónMinera"
+      },
+      "card": "cards/2026-10-09/2026-10-09_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172ldi0d3amq0ys07g6q77",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "4c3af7f6-976a-4769-ae15-350a1adc5fe7"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172lsu0d3bmq0y6ldm9v34",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "f099dfad-2b01-47e7-adc2-4665f86c6ded"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172m6l0cxmqz0yq0imulzz",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "2b4c8684-cbac-4b59-9b78-10ca72add950"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172mkn0d3dmq0y1i00h1ay",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "5bf81694-cc12-4876-a926-bb19d559fcba"
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "933fe99f072a6e522cfa491a15f60946cd687434",
+        "title": "SpaceX sacude el sector de las telecomunicaciones de EE.UU. tras comprar espectro nacional",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/internacionales/2026/10/09/spacex-sacude-el-sector-de-las-telecomunicaciones-de-eeuu-tras-comprar-espectro-nacional/",
+        "published": "2026-10-09T13:05:17-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 23,
+        "category": "TELECOM",
+        "card_title": "SpaceX compra espectro nacional y sacude telecomunicaciones en EE.UU.",
+        "card_summary": "La empresa de Elon Musk adquiere espectro radioeléctrico a nivel nacional, marcando un hito disruptivo en el mercado de telecomunicaciones estadounidense.",
+        "linkedin": "SpaceX acaba de dar un paso estratégico que revoluciona el panorama de las telecomunicaciones en Estados Unidos: la compañía ha adquirido espectro radioeléctrico a nivel nacional, consolidando su posición más allá de los servicios satelitales de Starlink.\n\nEsta movida representa un cambio de juego en la industria, ya que SpaceX ahora controla infraestructura crítica para las comunicaciones terrestres, no solo satelitales. La integración vertical que esto permite —desde el espacio hasta las redes terrestres— podría redefinir cómo se despliegan los servicios de conectividad en el mercado más grande del mundo.\n\nPara nuestra industria de infraestructura de telecomunicaciones, esto refuerza una tendencia clave: la convergencia entre tecnologías satelitales y terrestres demandará torres y estructuras cada vez más versátiles, capaces de soportar múltiples tecnologías y operadores en un ecosistema cada vez más competitivo.\n\nFuente: ABC Color",
+        "instagram": "SpaceX sacude el mercado de telecomunicaciones en EE.UU. 📡\n\nLa empresa de Elon Musk compró espectro radioeléctrico nacional, yendo más allá de Starlink para controlar infraestructura crítica de comunicaciones terrestres.\n\nUn movimiento que cambia las reglas del juego y refuerza la convergencia entre tecnologías satelitales y terrestres. La infraestructura de telecomunicaciones seguirá evolucionando para soportar este ecosistema cada vez más integrado.\n\nFuente: ABC Color",
+        "hashtags": "#SpaceX #EspectroRadioelectrico #InfraestructuraTelecom"
+      },
+      "card": "cards/2026-10-09/2026-10-09_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172yyz0d3kmq0ywe6eiynu",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "d0b915da-d915-43d3-8c75-309143c2b8be"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172zbq0cxwqz0yellxuqwi",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "22fcd412-9b3c-4b3d-b488-82f600dc164e"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172znp0cxxqz0yi7jtp0o0",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "9bf9e826-95d8-4faa-ab40-be329089cc3c"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv172zzv0d3lmq0yqqixnkv4",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "12af92b2-5b7d-4c77-8ef6-1fd654c62f0b"
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día Mundial del Correo 🌍",
+        "card_summary": "Celebramos el 152° aniversario de la Unión Postal Universal y el poder de las conexiones que transforman el mundo.",
+        "linkedin": "Hoy celebramos el Día Mundial del Correo 📬\n\nHace 152 años, en 1874, nació la Unión Postal Universal, estableciendo el primer estándar global de comunicación y conectividad entre naciones. Lo que comenzó como un sistema para intercambiar cartas, evolucionó hasta las redes digitales que hoy sostienen las telecomunicaciones modernas.\n\nEn DEITEL entendemos que la conectividad es la base del progreso. Así como el correo universal conectó continentes, nuestras estructuras de acero permiten que las redes de telecomunicaciones lleguen a cada rincón de Latinoamérica, acercando personas, empresas y oportunidades.",
+        "instagram": "Día Mundial del Correo 📬🌎\n\nHace 152 años nació la Unión Postal Universal, el primer sistema global de conectividad. De las cartas a las redes 5G, la necesidad de conectar nunca ha dejado de evolucionar.\n\nEn DEITEL construimos la infraestructura que mantiene al mundo conectado. Porque cada torre es un puente hacia el futuro.",
+        "hashtags": "#DíaMundialDelCorreo #Conectividad #Telecomunicaciones",
+        "source": "Wikipedia"
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-10-09/2026-10-09_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv173a2u0cy2qz0y0vwcnssu",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "27ac7e8c-c95d-4b12-9ca2-ad700808cf13"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv173af00cy3qz0y3ou4xu0a",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "e661f9aa-8fbc-42e4-81e2-c53b10827e25"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv173aqs0cy4qz0yxfin8gqo",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "cf572551-fe27-4367-958e-b2081f0ee3a0"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-09T13:45:03.625340-03:00",
+          "result": [
+            {
+              "postId": "cmv173b2y0cy5qz0y824y6m31",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "1f20488e-aa08-41a1-8694-1919a54916b6"
+        }
+      ]
+    }
+  }
+}
