@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-10",
+  "run_at": "2026-10-10T12:38:01.076386-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "skip",
+      "reason": "No hay noticias disponibles sobre telecomunicaciones, infraestructura, economía relevante para la industria o temas tributarios. Los candidatos se centran exclusivamente en deportes, sucesos policiales, eventos climáticos locales, política internacional y entretenimiento, ninguno de los cuales cumple con los criterios de prioridad establecidos para DEITEL."
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "aee758a7f8b097f31c724ca2946457f30331ab75",
+        "title": "SpaceX avança para lançar serviço de operadora móvel da Starlink nos EUA",
+        "source": "Folha de S.Paulo - Mercado - Principal",
+        "preferred": true,
+        "link": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/infraestrutura/2026/10/spacex-avanca-para-lancar-servico-de-operadora-movel-da-starlink-nos-eua.shtml",
+        "published": "2026-10-10T04:00:00-03:00",
+        "summary": "A SpaceX deu um passo importante para lançar um serviço de operadoras móveis da Starlink voltado a consumidores nos Estados Unidos . A empresa anunciou a aquisição de um portfólio de frequências de baixa faixa e provocou uma queda de cerca de US$ 62 bilhões (R$ 309,33 bilhões) no valor de mercado combinado das maiores operadoras de telecomunicações do país. Leia mais (10/10/2026 - 04h00)"
+      },
+      "selection": {
+        "index": 12,
+        "category": "TELECOM",
+        "card_title": "SpaceX avança para lançar serviço de operadora móvel Starlink nos EUA",
+        "card_summary": "SpaceX adquiriu portfólio de frequências para lançar serviço de telefonia móvel da Starlink nos Estados Unidos, marcando entrada no mercado de telecomunicações.",
+        "linkedin": "A SpaceX deu um passo estratégico importante para expandir os serviços da Starlink além da internet por satélite. A empresa anunciou a aquisição de um portfólio de frequências de banda que permitirá o lançamento de um serviço de operadora móvel voltado para consumidores nos Estados Unidos.\n\nEste movimento marca a entrada direta da SpaceX no mercado de telecomunicações móveis, integrando conectividade por satélite com serviços de telefonia celular. A iniciativa pode transformar o modelo tradicional de operadoras ao combinar cobertura terrestre e espacial.\n\nPara a indústria de infraestrutura de telecomunicações, este desenvolvimento sinaliza a crescente convergência entre redes terrestres e satelitais. Fabricantes de torres e estruturas precisam acompanhar como essa integração pode influenciar as demandas futuras de infraestrutura híbrida.\n\nFonte: Folha de S.Paulo",
+        "instagram": "A SpaceX avança na telefonia móvel! 📡\n\nA empresa adquiriu frequências para lançar serviço de operadora móvel da Starlink nos EUA, combinando conectividade por satélite com telefonia celular.\n\nEste movimento pode transformar o mercado de telecomunicações, integrando redes terrestres e espaciais. Um desenvolvimento importante para toda a indústria de infraestrutura telecom.\n\nFonte: Folha de S.Paulo",
+        "hashtags": "#Starlink #Satelite #RedesMóveis"
+      },
+      "card": "cards/2026-10-10/2026-10-10_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k70av11g9mq0y6wamts6g",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "94459b7d-12e2-421a-9530-e7f0a1399031"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k70jr1145qz0yuvxzys77",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "e320c5c3-54bb-4732-b513-49a5da313627"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k70u911gamq0ywxx6f5sj",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "001cc24d-435c-41f5-b103-b791601ecdf3"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k716411gbmq0ykp4recwu",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "79497a94-b101-422a-a078-ac01241671d6"
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "d3c0ee0d38cfcf1a2c67e266ed1723069ad47fa6",
+        "title": "ARCA elimina las facturas de papel: cuáles son las fechas límite para el Monotributo - iProfesional",
+        "source": "iProfesional",
+        "preferred": true,
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRG8yYm5jQkVzck9mcXZNbHJ4REdCbUpRcGtkMDZ4YXZBV0Y1Mmg1N24tYUsxQXUtclpEUkRza25WRjV3VHQzWDR5VzhzQWpESGxlaGhySWJoYU9LVWoyRm9xdnNndVVqSVQwelYzbExlc2puY284Yk1wTGVEVFRya0xKQk1uS3hDaG5pQzBBSEU5eHpHOXNxMkN4b2ZwejFGcHlHTjBuV19fQ3NRcWlwR1N1NFZWdl9MREFqUjdjNzBmN3JfZ3dtQVZ30gHPAUFVX3lxTE9DVF9KeWlsb01Ta0hkdWxfVHNCaGpkWFZuclVzdzFqamswcjNwNDFHRFd2eWZDUTQtWkI4a2ZETm5XNncydVlsOW1XY1dmT19SN2t4RlFFS2pZVllrdTgycDZ4cVVkbjFHcTVtVy1kUEtjZF9LZmZCQUFFc2xHWlU1WHp5OE9sX0RaSWlqR04xWjlMZkVfY0tZNkpuMnE1N2J3dXhJWV8zQ3dfNVdyUjlMRjhTdkU2aS1aZkIwVjg5bWFOZzQ0RlhHMl90czVYcw?oc=5",
+        "published": "2026-10-09T17:15:00-03:00",
+        "summary": "ARCA elimina las facturas de papel: cuáles son las fechas límite para el Monotributo &nbsp;&nbsp; iProfesional"
+      },
+      "selection": {
+        "index": 1,
+        "category": "TRIBUTARIO",
+        "card_title": "Argentina elimina las facturas de papel para monotributistas",
+        "card_summary": "ARCA estableció fechas límite para que los monotributistas migren a la facturación electrónica, eliminando definitivamente el uso de papel.",
+        "linkedin": "Argentina avanza en la digitalización tributaria. ARCA anunció la eliminación definitiva de las facturas de papel para los contribuyentes del Monotributo, estableciendo fechas límite para completar la migración hacia la facturación electrónica obligatoria.\n\nEsta medida busca modernizar el sistema tributario argentino y mejorar los controles fiscales mediante la trazabilidad digital de las operaciones. Para las empresas de infraestructura y telecomunicaciones que operan bajo el régimen simplificado, implica adaptar sus procesos administrativos y sistemas de facturación.\n\nLa transición completa hacia la factura electrónica representa un paso más en la transformación digital del país, aunque plantea desafíos de implementación para pequeños contribuyentes en zonas con menor conectividad.\n\nFuente: iProfesional",
+        "instagram": "🇦🇷 Argentina elimina las facturas de papel para monotributistas. ARCA fijó las fechas límite para migrar completamente a facturación electrónica.\n\nUn avance en digitalización tributaria que impacta a miles de pequeños contribuyentes y empresas que deberán adaptar sus procesos administrativos al sistema electrónico obligatorio.\n\nFuente: iProfesional",
+        "hashtags": "#FacturaElectrónica #MonotributoArgentina #DigitalizaciónFiscal"
+      },
+      "card": "cards/2026-10-10/2026-10-10_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7bys114kqz0y4rlbkhh0",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "6d6a9a56-fb1d-410d-820f-f0935ca4d406"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7c65114lqz0yez4sq68q",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "793f5dcb-d26b-4e99-beda-34611b545354"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7ce3114mqz0y7rvp9e70",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "17974de4-c001-4bce-b63f-553067c1dd1f"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7cp611gnmq0yppjk3wlb",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "184d79b7-a964-44b6-a609-71c683827711"
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "c2b56359a11e6b457841c8deb31ba62c06dd5f95",
+        "title": "Precio del dólar hoy: revisa el tipo de cambio del sábado 10 de octubre según SUNAT",
+        "source": "El Comercio",
+        "preferred": true,
+        "link": "https://elcomercio.pe/economia/mercados/precio-del-dolar-hoy-en-peru-2026-a-cuanto-esta-el-tipo-de-cambio-del-sabado-10-de-octubre-tasa-cotizacion-compra-y-venta-segun-bcrp-dolares-a-soles-sbs-ocona-lbposting-noticia/",
+        "published": "2026-10-10T12:08:40-03:00",
+        "summary": "Precio del dólar hoy EN VIVO: cotización en compra y venta del dólar en el Perú en la jornada de hoy, sábado 10 de octubre. Revisa los movimientos de la moneda estadounidense en el mercado nacional."
+      },
+      "selection": {
+        "index": 19,
+        "category": "ECONOMÍA",
+        "card_title": "Dólar en Perú: SUNAT publica tipo de cambio del 10 de octubre",
+        "card_summary": "La SUNAT informó el tipo de cambio oficial del dólar para hoy. Este dato es clave para operaciones comerciales y proyectos de infraestructura.",
+        "linkedin": "La SUNAT publicó hoy el tipo de cambio oficial del dólar para el sábado 10 de octubre, información fundamental para las operaciones comerciales y la planificación financiera de empresas en el Perú.\n\nPara la industria de telecomunicaciones e infraestructura, el seguimiento del tipo de cambio es esencial. La importación de equipos, componentes de acero y tecnología para torres y antenas se cotiza en dólares, por lo que las variaciones en la moneda impactan directamente en los costos de proyectos y márgenes operativos.\n\nEn DEITEL, como fabricantes de estructuras metálicas para telecomunicaciones, monitoreamos constantemente estas fluctuaciones para optimizar nuestras adquisiciones de insumos y mantener la competitividad en el mercado peruano.\n\nFuente: El Comercio",
+        "instagram": "📊 La SUNAT publicó el tipo de cambio oficial del dólar para hoy en Perú.\n\nPara la industria de infraestructura y telecomunicaciones, esta información es clave: la importación de equipos y componentes de acero se cotiza en dólares, impactando directamente en costos de proyectos.\n\nEl monitoreo constante del tipo de cambio nos permite optimizar decisiones y mantener competitividad. 💼\n\nFuente: El Comercio",
+        "hashtags": "#TipoDeCambio #DólarPerú #SUNAT"
+      },
+      "card": "cards/2026-10-10/2026-10-10_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7owq11gtmq0ymtvlkhd3",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "981ea209-c13d-40b0-9c0c-2828820a318d"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7p55114nqz0yqzd7cs3q",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "113edc38-56c0-4be8-b5ca-17162234826c"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7pbt114oqz0y0nipfj9a",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "e0ddc94f-e9d2-47cc-963c-d4c3803b5662"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k7ple11gumq0y8bf3e3vx",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "1c4c6122-b00f-49c6-98a4-52dc9bf78400"
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "2c943de31a9b40e8adce08d8d540a396f565ef26",
+        "title": "Olacde: La integración energética es clave para el futuro de América Latina y el Caribe",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/internacionales/2026/10/10/olacde-la-integracion-energetica-es-clave-para-el-futuro-de-america-latina-y-el-caribe/",
+        "published": "2026-10-10T11:40:17-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 23,
+        "category": "ECONOMÍA",
+        "card_title": "Integración energética, clave para el futuro de América Latina según Olade",
+        "card_summary": "La Organización Latinoamericana de Energía destaca la integración energética como factor estratégico para el desarrollo regional y el Caribe.",
+        "linkedin": "La Organización Latinoamericana de Energía (Olade) reafirmó que la integración energética constituye un factor clave para el futuro de América Latina y el Caribe, según declaraciones difundidas este viernes.\n\nEsta visión cobra especial relevancia para la industria de telecomunicaciones, que depende de un suministro eléctrico estable y eficiente para sostener sus redes de antenas, centros de datos y torres de transmisión. La infraestructura telecom moderna, especialmente con el avance del 5G y la densificación de redes, demanda cada vez más energía confiable.\n\nUna mayor integración energética regional permitiría optimizar costos operativos, mejorar la resiliencia de las redes críticas y facilitar la expansión de infraestructura en zonas remotas, donde el acceso energético sigue siendo un desafío para los operadores y fabricantes de torres.\n\nFuente: ABC Color",
+        "instagram": "La Olade destaca la integración energética como clave para el desarrollo de América Latina y el Caribe 🔌\n\nPara la industria de telecomunicaciones, esto significa mayor estabilidad eléctrica para redes, torres y centros de datos. Un suministro energético integrado facilita la expansión del 5G y mejora la conectividad en zonas remotas.\n\nFuente: ABC Color",
+        "hashtags": "#EnergíaRegional #IntegraciónLatam #Olade"
+      },
+      "card": "cards/2026-10-10/2026-10-10_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k81ba11gvmq0yq2ut2h9v",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "bf977009-6600-413e-9087-aef5c11160ce"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k84lq114qqz0ybvxyyi3k",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "7886ed31-0532-49c3-a5fc-7f7ce9ab6fa0"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k84vo11gwmq0ydvw9v2v1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "f295abeb-0805-4b83-a64f-2a561c66a116"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k8546114rqz0ytybpj4k4",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "863bcfac-cf21-4abe-bb72-b1c2fcaefd40"
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día Nacional del Técnico en Argentina",
+        "card_summary": "Hoy celebramos a los profesionales técnicos que construyen la infraestructura del país.",
+        "linkedin": "Hoy 10 de octubre Argentina celebra el Día Nacional del Técnico, recordando la aprobación en 1898 de los primeros planes de estudio técnicos impulsados por el ingeniero Otto Krause.\n\nDesde DEITEL reconocemos el trabajo fundamental de técnicos e ingenieros que diseñan, construyen y mantienen la infraestructura que conecta nuestros países. Sin su expertise, las redes de telecomunicaciones que acercan comunidades no serían posibles.\n\n¡Feliz día a todos los técnicos argentinos! 🔧🇦🇷",
+        "instagram": "10 de octubre: Día Nacional del Técnico en Argentina 🇦🇷\n\nCelebramos a los profesionales que desde 1898 construyen la infraestructura del país. En DEITEL sabemos que sin técnicos e ingenieros capacitados, conectar comunidades sería imposible.\n\n¡Feliz día a todos! 🔧",
+        "hashtags": "#DíaDelTécnico #Argentina #Ingeniería",
+        "source": ""
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-10-10/2026-10-10_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k8e3x114sqz0yayjhixho",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "48465a56-fb7e-4053-b885-7cfe41fca2a1"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k8ed211h1mq0y2lr62o2s",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "00583977-458e-4817-803e-9a9a05220c6a"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k8ekv114tqz0y5bhg2z64",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "bf272947-1370-4467-92ea-32721c88b11b"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T12:41:01.076386-03:00",
+          "result": [
+            {
+              "postId": "cmv2k8eu511h2mq0yuvj9zagb",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "2aecd028-4023-42e9-a515-d83ea9d4cef1"
+        }
+      ]
+    }
+  }
+}
