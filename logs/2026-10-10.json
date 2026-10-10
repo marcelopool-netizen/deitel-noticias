@@ -1,12 +1,8 @@
 {
   "date": "2026-10-10",
-  "run_at": "2026-10-10T12:38:01.076386-03:00",
+  "run_at": "2026-10-10T14:26:20.018985-03:00",
   "dry_run": false,
   "countries": {
-    "CL": {
-      "status": "skip",
-      "reason": "No hay noticias disponibles sobre telecomunicaciones, infraestructura, economía relevante para la industria o temas tributarios. Los candidatos se centran exclusivamente en deportes, sucesos policiales, eventos climáticos locales, política internacional y entretenimiento, ninguno de los cuales cumple con los criterios de prioridad establecidos para DEITEL."
-    },
     "BR": {
       "status": "scheduled",
       "news": {
@@ -72,6 +68,74 @@
             }
           ],
           "group": "79497a94-b101-422a-a078-ac01241671d6"
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "2c943de31a9b40e8adce08d8d540a396f565ef26",
+        "title": "Olacde: La integración energética es clave para el futuro de América Latina y el Caribe",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/internacionales/2026/10/10/olacde-la-integracion-energetica-es-clave-para-el-futuro-de-america-latina-y-el-caribe/",
+        "published": "2026-10-10T11:40:17-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 23,
+        "category": "ECONOMÍA",
+        "card_title": "Integración energética, clave para el futuro de América Latina según Olade",
+        "card_summary": "La Organización Latinoamericana de Energía destaca la integración energética como factor estratégico para el desarrollo regional y el Caribe.",
+        "linkedin": "La Organización Latinoamericana de Energía (Olade) reafirmó que la integración energética constituye un factor clave para el futuro de América Latina y el Caribe, según declaraciones difundidas este viernes.\n\nEsta visión cobra especial relevancia para la industria de telecomunicaciones, que depende de un suministro eléctrico estable y eficiente para sostener sus redes de antenas, centros de datos y torres de transmisión. La infraestructura telecom moderna, especialmente con el avance del 5G y la densificación de redes, demanda cada vez más energía confiable.\n\nUna mayor integración energética regional permitiría optimizar costos operativos, mejorar la resiliencia de las redes críticas y facilitar la expansión de infraestructura en zonas remotas, donde el acceso energético sigue siendo un desafío para los operadores y fabricantes de torres.\n\nFuente: ABC Color",
+        "instagram": "La Olade destaca la integración energética como clave para el desarrollo de América Latina y el Caribe 🔌\n\nPara la industria de telecomunicaciones, esto significa mayor estabilidad eléctrica para redes, torres y centros de datos. Un suministro energético integrado facilita la expansión del 5G y mejora la conectividad en zonas remotas.\n\nFuente: ABC Color",
+        "hashtags": "#EnergíaRegional #IntegraciónLatam #Olade"
+      },
+      "card": "cards/2026-10-10/2026-10-10_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k81ba11gvmq0yq2ut2h9v",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "bf977009-6600-413e-9087-aef5c11160ce"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k84lq114qqz0ybvxyyi3k",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "7886ed31-0532-49c3-a5fc-7f7ce9ab6fa0"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k84vo11gwmq0ydvw9v2v1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "f295abeb-0805-4b83-a64f-2a561c66a116"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T13:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv2k8546114rqz0ytybpj4k4",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "863bcfac-cf21-4abe-bb72-b1c2fcaefd40"
         }
       ]
     },
@@ -211,74 +275,6 @@
         }
       ]
     },
-    "PY": {
-      "status": "scheduled",
-      "news": {
-        "key": "2c943de31a9b40e8adce08d8d540a396f565ef26",
-        "title": "Olacde: La integración energética es clave para el futuro de América Latina y el Caribe",
-        "source": "ABC Color",
-        "preferred": true,
-        "link": "https://www.abc.com.py/internacionales/2026/10/10/olacde-la-integracion-energetica-es-clave-para-el-futuro-de-america-latina-y-el-caribe/",
-        "published": "2026-10-10T11:40:17-03:00",
-        "summary": ""
-      },
-      "selection": {
-        "index": 23,
-        "category": "ECONOMÍA",
-        "card_title": "Integración energética, clave para el futuro de América Latina según Olade",
-        "card_summary": "La Organización Latinoamericana de Energía destaca la integración energética como factor estratégico para el desarrollo regional y el Caribe.",
-        "linkedin": "La Organización Latinoamericana de Energía (Olade) reafirmó que la integración energética constituye un factor clave para el futuro de América Latina y el Caribe, según declaraciones difundidas este viernes.\n\nEsta visión cobra especial relevancia para la industria de telecomunicaciones, que depende de un suministro eléctrico estable y eficiente para sostener sus redes de antenas, centros de datos y torres de transmisión. La infraestructura telecom moderna, especialmente con el avance del 5G y la densificación de redes, demanda cada vez más energía confiable.\n\nUna mayor integración energética regional permitiría optimizar costos operativos, mejorar la resiliencia de las redes críticas y facilitar la expansión de infraestructura en zonas remotas, donde el acceso energético sigue siendo un desafío para los operadores y fabricantes de torres.\n\nFuente: ABC Color",
-        "instagram": "La Olade destaca la integración energética como clave para el desarrollo de América Latina y el Caribe 🔌\n\nPara la industria de telecomunicaciones, esto significa mayor estabilidad eléctrica para redes, torres y centros de datos. Un suministro energético integrado facilita la expansión del 5G y mejora la conectividad en zonas remotas.\n\nFuente: ABC Color",
-        "hashtags": "#EnergíaRegional #IntegraciónLatam #Olade"
-      },
-      "card": "cards/2026-10-10/2026-10-10_PY.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-10-10T13:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmv2k81ba11gvmq0yq2ut2h9v",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ],
-          "group": "bf977009-6600-413e-9087-aef5c11160ce"
-        },
-        {
-          "channel": "Deitel SPA",
-          "scheduled_for": "2026-10-10T13:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmv2k84lq114qqz0ybvxyyi3k",
-              "integration": "cmu7tv1l003l4lb0ydst38wb3"
-            }
-          ],
-          "group": "7886ed31-0532-49c3-a5fc-7f7ce9ab6fa0"
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-10-10T13:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmv2k84vo11gwmq0ydvw9v2v1",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ],
-          "group": "f295abeb-0805-4b83-a64f-2a561c66a116"
-        },
-        {
-          "channel": "Deitel Brasil LTDA",
-          "scheduled_for": "2026-10-10T13:00:00-03:00",
-          "result": [
-            {
-              "postId": "cmv2k8546114rqz0ytybpj4k4",
-              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
-            }
-          ],
-          "group": "863bcfac-cf21-4abe-bb72-b1c2fcaefd40"
-        }
-      ]
-    },
     "HOY": {
       "status": "scheduled",
       "selection": {
@@ -340,6 +336,74 @@
             }
           ],
           "group": "2aecd028-4023-42e9-a515-d83ea9d4cef1"
+        }
+      ]
+    },
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "9baac4db2d2eb51132427b5b0793d4b556a704ed",
+        "title": "Vodanovic cuestiona recorte a gobiernos regionales y buscará apoyo transversal para revertir decisión del Ejecutivo",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/politica/noticia/vodanovic-cuestiona-recorte-a-gobiernos-regionales-y-buscara-apoyo-transversal-para-revertir-decision-del-ejecutivo/",
+        "published": "2026-10-10T13:46:53-03:00",
+        "summary": "La propuesta presentada por el gobierno del Presidente José Antonio Kast contempla la reducción de un 4,8% del presupuesto total de los gobiernos regionales. \"Hemos dicho que las regiones no pueden sufrir disminuciones en sus ingresos\", cuestionó la timonel del PS."
+      },
+      "selection": {
+        "index": 3,
+        "category": "ECONOMÍA",
+        "card_title": "Gobierno recorta 4,8% presupuesto de gobiernos regionales en Chile",
+        "card_summary": "El Ejecutivo propone reducir en 4,8% el presupuesto total de los gobiernos regionales. Autoridades regionales buscan apoyo transversal para revertir la decisión.",
+        "linkedin": "El gobierno del Presidente José Antonio Kast ha presentado una propuesta de presupuesto que contempla un recorte del 4,8% a los gobiernos regionales de Chile. La medida ha generado fuerte rechazo de las autoridades regionales, quienes advierten que esta reducción compromete la capacidad de inversión y desarrollo territorial.\n\nPara la industria de infraestructura y telecomunicaciones, este ajuste presupuestario podría impactar proyectos de conectividad regional, especialmente en zonas donde los gobiernos regionales son actores clave en el financiamiento de obras de telecomunicaciones e infraestructura digital.\n\nLas autoridades regionales ya anunciaron que buscarán apoyo transversal en el Congreso para revertir esta decisión, argumentando que las regiones no pueden seguir asumiendo recortes que afectan su desarrollo. El debate presupuestario será determinante para conocer el destino de múltiples proyectos de infraestructura planificados para 2027.\n\nFuente: La Tercera",
+        "instagram": "🏛️ El gobierno propone recortar en 4,8% el presupuesto de los gobiernos regionales en Chile. La medida genera rechazo de autoridades regionales que advierten riesgo para proyectos de desarrollo e infraestructura territorial.\n\nPara el sector de telecomunicaciones, esto podría afectar inversiones regionales en conectividad digital. Las autoridades buscarán revertir la decisión en el Congreso.\n\nFuente: La Tercera",
+        "hashtags": "#PresupuestoChile #GobiernosRegionales #InversiónPública"
+      },
+      "card": "cards/2026-10-10/2026-10-10_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-10T14:29:20.018985-03:00",
+          "result": [
+            {
+              "postId": "cmv2o22fw12qjqz0y5ark79g8",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "e7fc31af-d5d2-445e-a637-24ab1864bcb7"
+        },
+        {
+          "channel": "Deitel SPA",
+          "scheduled_for": "2026-10-10T14:29:20.018985-03:00",
+          "result": [
+            {
+              "postId": "cmv2o22po12qkqz0y4qea98le",
+              "integration": "cmu7tv1l003l4lb0ydst38wb3"
+            }
+          ],
+          "group": "722b3cbc-ab30-4156-83bb-614f7d835185"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-10T14:29:20.018985-03:00",
+          "result": [
+            {
+              "postId": "cmv2o2301137pmq0yn3pgxjnz",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "bffa6447-66ba-4208-a3ab-1fcb8c092e6c"
+        },
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-10T14:29:20.018985-03:00",
+          "result": [
+            {
+              "postId": "cmv2o23be137qmq0yiounca4z",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "cbe645d3-a077-4954-a499-49d240818f5d"
         }
       ]
     }
