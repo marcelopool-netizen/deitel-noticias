@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-11",
+  "run_at": "2026-10-11T13:02:48.309197-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "76016a66a145b02cbeb79e5ee75465f774e1982c",
+        "title": "Biministro Mas dice que no esperaba que existiría hoy un escenario económico adverso, pero proyecta un repunte para 2027",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/biministro-mas-dice-que-no-esperaba-que-existiria-hoy-un-escenario-economico-adverso/",
+        "published": "2026-10-11T12:14:21-03:00",
+        "summary": "“Una vez que estamos adentro, efectivamente la información fue mucho más negativa. Y tenemos dos shocks que jamás los podríamos haber proyectado”, dijo el biministro de Economía y Minería, Daniel Mas."
+      },
+      "selection": {
+        "index": 3,
+        "category": "ECONOMÍA",
+        "card_title": "Biministro Mas reconoce escenario económico adverso y proyecta repunte en 2027",
+        "card_summary": "El biministro de Economía y Minería, Daniel Mas, admitió que el panorama económico resultó más negativo de lo esperado y anticipa mejora para el próximo año.",
+        "linkedin": "El biministro de Economía y Minería, Daniel Mas, reconoció que el escenario económico actual resultó más adverso de lo proyectado al inicio de la gestión. Según sus declaraciones, la información disponible una vez dentro del gobierno fue significativamente más negativa, sumado a dos shocks que no pudieron anticiparse.\n\nPese al contexto desafiante, el biministro proyecta un repunte económico para 2027. Esta perspectiva resulta relevante para la industria de telecomunicaciones e infraestructura, sectores que dependen del dinamismo de la inversión y la confianza empresarial.\n\nPara empresas como DEITEL, que operan en el desarrollo de infraestructura crítica para las comunicaciones, estas señales macroeconómicas son clave para planificar inversiones y proyectos de mediano plazo. La recuperación esperada podría impulsar la demanda de infraestructura telecom en Chile.\n\nFuente: La Tercera",
+        "instagram": "El biministro Daniel Mas admitió que el panorama económico actual es más complejo de lo previsto, afectado por shocks no anticipados. Sin embargo, proyecta una recuperación para 2027 📊\n\nPara la industria de infraestructura y telecomunicaciones, estas proyecciones son fundamentales al momento de planificar inversiones y desarrollo de proyectos.\n\nFuente: La Tercera",
+        "hashtags": "#EconomíaChile #InversiónInfraestructura #ProyecciónEconómica"
+      },
+      "card": "cards/2026-10-11/2026-10-11_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40iuzj1n5rqz0yl6yioplv",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "299be407-e756-4a41-a320-bec992afb1fd"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40ivbw1no7mq0ynoypzotw",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "84635a7d-34e2-41ea-86ac-cf36e3b4015c"
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "ce745c5a73295bbece9f1792a3d8d21fc3abe6fa",
+        "title": "Fazenda investiga 14 bets por subdeclaração de receita; só Blaze pode ter gerado prejuízo de R$ 96 mi",
+        "source": "Folha de S.Paulo - Mercado - Principal",
+        "preferred": true,
+        "link": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/fazenda-investiga-14-bets-por-subdeclaracao-de-receita-so-blaze-pode-ter-gerado-prejuizo-de-r-96-mi.shtml",
+        "published": "2026-10-11T12:30:00-03:00",
+        "summary": "O Ministério da Fazenda investiga 14 sites de apostas, as bets, por declarações subestimadas da receita e outras práticas que comprometem a arrecadação do governo por meio de impostos e destinação social. Leia mais (10/11/2026 - 12h30)"
+      },
+      "selection": {
+        "index": 1,
+        "category": "TRIBUTÁRIO",
+        "card_title": "Fazenda investiga 14 bets por subdeclaração de R$ 96 mi em receitas",
+        "card_summary": "Ministério da Fazenda apura irregularidades fiscais em sites de apostas. Só a Blaze pode ter gerado prejuízo de R$ 96 milhões aos cofres públicos.",
+        "linkedin": "O Ministério da Fazenda está investigando 14 plataformas de apostas online por subdeclaração de receitas e práticas que comprometem a arrecadação tributária. Segundo apurado, apenas a operadora Blaze pode ter causado um prejuízo estimado em R$ 96 milhões aos cofres públicos por meio de declarações subestimadas e outras irregularidades fiscais.\n\nA investigação reforça o movimento de maior fiscalização sobre o setor de apostas online no Brasil, que tem crescido exponencialmente nos últimos anos. Para empresas de infraestrutura e tecnologia, incluindo o setor de telecomunicações, esse tipo de apuração sinaliza um ambiente regulatório cada vez mais rigoroso em relação à transparência fiscal e ao cumprimento de obrigações tributárias.\n\nO caso demonstra a importância de processos contábeis robustos e conformidade tributária, especialmente em segmentos digitais onde a fiscalização vem se intensificando. A regularização do setor de apostas online também impacta toda a cadeia de infraestrutura digital que suporta essas operações.\n\nFonte: Folha de S.Paulo",
+        "instagram": "O Ministério da Fazenda investiga 14 sites de apostas por subdeclaração de receitas e práticas fiscais irregulares. 💰\n\nApenas a Blaze pode ter causado prejuízo de R$ 96 milhões aos cofres públicos. A ação reforça o movimento de fiscalização mais rigorosa sobre plataformas digitais no Brasil.\n\nPara o setor de tecnologia e telecom, é um alerta sobre a importância da conformidade tributária em operações digitais. ⚖️\n\nFonte: Folha de S.Paulo",
+        "hashtags": "#Bets #FiscalizaçãoFiscal #EconomiaDigital"
+      },
+      "card": "cards/2026-10-11/2026-10-11_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40jc3t1n6gqz0yo1d9v586",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "c8f11504-aa7a-42ec-bd0f-5cfd2c78ad25"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40jce31n6iqz0yl3hbptf7",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "58435a60-f032-4066-8c18-eeca80429f5a"
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "35a717beb4f15a429d33bcf0f38842f33f1a9b68",
+        "title": "Javier Milei y Flávio Bolsonaro ponen en jaque al Mercosur, ruido en el sector automotor y desplome de la inversión",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/javier-milei-y-flavio-bolsonaro-ponen-jaque-al-mercosur-ruido-el-sector-automotor-y-desplome-la-inversion-n6332375",
+        "published": "2026-10-11T00:00:00-03:00",
+        "summary": "El candidato más votado en Brasil sintoniza con la mirada aperturista del mandatario argentino. Ya advirtió que su país debe “liberarse de las amarras del Mercosur”."
+      },
+      "selection": {
+        "index": 0,
+        "category": "ECONOMÍA",
+        "card_title": "Tensión en el Mercosur amenaza al sector automotor e inversiones regionales",
+        "card_summary": "La sintonía aperturista entre Milei y Flávio Bolsonaro genera incertidumbre en el bloque regional, impactando inversiones y cadenas productivas.",
+        "linkedin": "La posible reconfiguración del Mercosur vuelve a estar sobre la mesa. El candidato más votado en las recientes elecciones brasileñas, Flávio Bolsonaro, compartió la visión aperturista del presidente argentino Javier Milei y adelantó que Brasil debería \"liberarse de las amarras del Mercosur\".\n\nEsta postura conjunta genera ruido especialmente en el sector automotor y preocupa por el desplome de la inversión regional. Para la industria de infraestructura y telecomunicaciones, un debilitamiento del bloque podría significar tanto oportunidades de apertura a nuevos mercados como riesgos en la integración de proyectos binacionales y en la armonización regulatoria que facilita el despliegue de redes a escala regional.\n\nLa estabilidad del marco comercial del Mercosur ha sido clave para proyectos de infraestructura que requieren planificación de largo plazo y seguridad jurídica transfronteriza. La incertidumbre actual exige seguir de cerca cómo evolucionan estas definiciones políticas.\n\nFuente: Ámbito",
+        "instagram": "La sintonía entre Milei y el candidato más votado en Brasil, Flávio Bolsonaro, pone en jaque al Mercosur 🔄\n\nAmbos impulsan una visión aperturista que genera incertidumbre en sectores clave como el automotor y golpea la inversión regional. Para infraestructura y telecom, esto plantea interrogantes sobre proyectos binacionales y marcos regulatorios compartidos.\n\nLa estabilidad del bloque ha sido fundamental para el despliegue de redes a escala regional.\n\nFuente: Ámbito",
+        "hashtags": "#Mercosur #InversiónRegional #IntegraciónComercial"
+      },
+      "card": "cards/2026-10-11/2026-10-11_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40jyux1nonmq0yj0ywbuum",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "669e1d7f-ded9-4e3b-904b-aef63829ec5d"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40jzca1noomq0ymn6e250p",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "53b3d92b-7340-4fe8-b13d-149e89b046c9"
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "48c418826653316858bb697f6846dec7731d0b6e",
+        "title": "Sismo de magnitud 5.1 se registró esta mañana en Arequipa, según el IGP",
+        "source": "El Comercio",
+        "preferred": true,
+        "link": "https://elcomercio.pe/peru/arequipa/sismo-de-magnitud-51-se-registro-esta-manana-en-arequipa-segun-el-igp-ultimas-noticia/",
+        "published": "2026-10-11T12:57:20-03:00",
+        "summary": "El movimiento telúrico ocurrió a las 8:43 a.m. de este domingo 11 de octubre, según el Centro Sismológico Nacional del IGP."
+      },
+      "selection": {
+        "index": 1,
+        "category": "ECONOMÍA",
+        "card_title": "Sismo de magnitud 5.1 sacude Arequipa en horas de la mañana",
+        "card_summary": "El Centro Sismológico Nacional del IGP registró un movimiento telúrico de magnitud 5.1 en Arequipa este domingo a las 8:43 a.m.",
+        "linkedin": "Un sismo de magnitud 5.1 afectó la región de Arequipa durante la mañana de este domingo, según reportó el Centro Sismológico Nacional del Instituto Geofísico del Perú (IGP). El movimiento telúrico se registró a las 8:43 a.m.\n\nPara la industria de infraestructura de telecomunicaciones, eventos sísmicos de esta magnitud representan un recordatorio constante de la importancia del diseño antisísmico en torres y estructuras metálicas. En países con alta actividad sísmica como Perú, las normas de construcción y los estándares de ingeniería para infraestructura crítica son fundamentales para garantizar la continuidad de los servicios de comunicación, especialmente en situaciones de emergencia cuando la población más los necesita.\n\nLa resiliencia de las redes de telecomunicaciones ante eventos naturales no solo es un requisito técnico, sino una responsabilidad con las comunidades que dependen de estos servicios en momentos críticos.\n\nFuente: El Comercio",
+        "instagram": "Un sismo de magnitud 5.1 sacudió Arequipa esta mañana a las 8:43 a.m., según el IGP 📡\n\nEventos como este nos recuerdan la importancia del diseño antisísmico en torres y estructuras de telecomunicaciones. En zonas de alta actividad sísmica, la infraestructura debe ser resiliente para mantener las comunicaciones operativas, especialmente cuando la población más las necesita.\n\nLa continuidad del servicio en emergencias depende de estructuras bien diseñadas y construidas bajo estándares rigurosos.\n\nFuente: El Comercio",
+        "hashtags": "#Arequipa #InfraestructuraResiliente #SeguridadSísmica"
+      },
+      "card": "cards/2026-10-11/2026-10-11_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40kd4f1noumq0yvw59vtdr",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "d00ecc6e-be0c-46bf-ba1d-bc7e341f9255"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40kdgn1n70qz0ymk612g4o",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "bf999f08-4415-42a8-998d-f0b39c643f1a"
+        }
+      ]
+    },
+    "PY": {
+      "status": "skip",
+      "reason": "No hay noticias relevantes sobre telecomunicaciones, economía sustantiva para inversión industrial o tributación en los candidatos disponibles. Todas las notas son de deportes, política partidista, clima, farándula o sucesos internacionales sin relación con los sectores prioritarios para DEITEL en Paraguay."
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día Internacional de la Niña",
+        "card_summary": "Promoviendo derechos, igualdad de oportunidades y el acceso a la educación en ciencia y tecnología para las niñas.",
+        "linkedin": "Hoy celebramos el Día Internacional de la Niña, establecido por Naciones Unidas para promover los derechos de las niñas, combatir la discriminación y fomentar la igualdad de oportunidades. 🌍\n\nEn DEITEL creemos que el futuro de la ingeniería, las telecomunicaciones y la tecnología se construye desde hoy, incentivando la participación de las niñas en la educación científica y técnica. Cada torre que levantamos es también un símbolo de las conexiones que queremos fortalecer: entre personas, comunidades y oportunidades.\n\nQue este día nos recuerde la importancia de construir un mundo más equitativo, donde cada niña tenga acceso a las herramientas para alcanzar su máximo potencial.",
+        "instagram": "Hoy es el Día Internacional de la Niña 🌍✨\n\nUn día para promover sus derechos, combatir la discriminación y fomentar la igualdad de oportunidades.\n\nEn DEITEL sabemos que el futuro de la ingeniería y las telecomunicaciones se construye incentivando la educación científica y técnica desde la infancia. Cada niña merece las herramientas para conectar con su potencial.",
+        "hashtags": "#DíaDeLaNiña #IgualdadDeOportunidades #MujeresEnCiencia",
+        "source": ""
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-10-11/2026-10-11_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40kuex1n77qz0y8ycqei8b",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "6326f4f5-8605-4c14-9a59-ae3d9eaca85c"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-11T13:05:48.309197-03:00",
+          "result": [
+            {
+              "postId": "cmv40kuss1n78qz0ynah317x1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "cb6dc78a-0e44-4006-842c-9e6130f67d3c"
+        }
+      ]
+    }
+  }
+}
