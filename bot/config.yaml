@@ -24,16 +24,13 @@ preferred_sources_global:
 # Cuentas de Postiz donde publicar (se buscan por plataforma + nombre; el nombre se
 # compara sin espacios, puntos ni guiones bajos). lang: idioma de la cuenta para la
 # campaña (es por defecto); las noticias por país salen igual en todas las cuentas.
+# Desde el 11/10/2026 Marcelo pidió NO publicar más noticias en los Instagram de DEITEL
+# (Deitel SPA y Deitel Brasil): el bot solo publica en LinkedIn.
 channels:
   - platform: linkedin-page
     name: Grupodeitel
-  - platform: instagram
-    name: Deitel SPA
   - platform: linkedin
     name: Marcelo Pool Skiadaressis
-  - platform: instagram-standalone   # Postiz la conecto como "Instagram (standalone)"
-    name: Deitel Brasil
-    lang: pt
 
 countries:
   CL:

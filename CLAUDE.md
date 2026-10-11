@@ -46,10 +46,12 @@ Contexto para Claude Code. Leer antes de tocar el repo.
 ## Canales Postiz (config.yaml > channels; match por plataforma + nombre sin espacios/puntos/guiones)
 | Cuenta | Plataforma | Integration id | lang |
 |---|---|---|---|
-| Deitel SPA | instagram | cmu7tv1l003l4lb0ydst38wb3 | es |
 | Grupodeitel | linkedin-page | cmu7tmjgs08i5mo0y3lp0eimk | es |
 | Marcelo Pool Skiadaressis | linkedin | cmu7sq33e03belb0yzk9botks | es |
-| Deitel Brasil | instagram | pendiente de conectar en Postiz (el bot la detecta sola por nombre) | pt |
+
+**Desde el 11/10/2026 el bot NO publica en Instagram** (pedido de Marcelo): se sacaron de `channels`
+"Deitel SPA" (instagram, cmu7tv1l003l4lb0ydst38wb3) y "Deitel Brasil LTDA" (instagram-standalone,
+cmuvag8ah04b9ql0ywlh4uf4j). No volver a agregarlas sin que él lo pida.
 
 Sitios: **deitel.cl** (Chile) y **deitel.com.br** (Brasil). **Nunca `grupodeitel.cl` en las tarjetas.**
 
