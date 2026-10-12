@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-12",
+  "run_at": "2026-10-12T16:30:02.461320-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "4047f7bb48d185ee6f1a2fb88fd1376060b9bd24",
+        "title": "Petróleo supera los US$106 tras ataques a Arabia Saudita y cobre al alza por caída en inventarios",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/petroleo-supera-los-us106-tras-ataques-a-arabia-saudita-cobre-en-alza-por-caida-en-inventarios/",
+        "published": "2026-10-12T15:12:36-03:00",
+        "summary": "Un mortal ataque al aeropuerto de la capital saudí el fin de semana, acompañado por la tensión Ucrania-Rusia, provocó una fuerte reacción de los mercados que consolida el barril del petróleo sobre los US$100."
+      },
+      "selection": {
+        "index": 6,
+        "category": "ECONOMÍA",
+        "card_title": "Petróleo supera US$106 tras ataques y cobre al alza por caída en inventarios",
+        "card_summary": "El barril se consolida sobre los US$106 tras ataque al aeropuerto de Riad y tensión Ucrania-Rusia. El cobre sube por reducción de inventarios, beneficiando a la economía chilena.",
+        "linkedin": "El petróleo superó la barrera de los US$106 por barril este lunes, impulsado por un mortal ataque al aeropuerto de la capital saudí durante el fin de semana y la persistente tensión geopolítica entre Ucrania y Rusia. Esta alza en los precios energéticos se suma a noticias positivas para Chile: el cobre también registra incrementos debido a la caída en los inventarios globales.\n\nPara la industria de infraestructura y telecomunicaciones, estas señales del mercado de materias primas son relevantes. El alza del cobre fortalece los ingresos fiscales chilenos y mejora las perspectivas económicas del país, lo que puede traducirse en mayor capacidad de inversión pública. Sin embargo, el encarecimiento del petróleo podría presionar los costos operativos y logísticos del sector.\n\nLa volatilidad de los mercados internacionales refuerza la importancia de la planificación estratégica en proyectos de infraestructura, considerando tanto las oportunidades que brinda un cobre al alza como los desafíos que impone el encarecimiento energético.\n\nFuente: La Tercera",
+        "instagram": "⚡ El petróleo supera los US$106 por barril tras el ataque al aeropuerto de Riad y la tensión geopolítica. Mientras tanto, el cobre sube por caída en inventarios globales, una buena noticia para Chile.\n\nPara infraestructura y telecomunicaciones, esto significa oportunidades con un cobre fortalecido, pero también desafíos por mayores costos energéticos y logísticos. La planificación estratégica se vuelve clave en este escenario de mercados volátiles. 📊\n\nFuente: La Tercera",
+        "hashtags": "#Petróleo #Cobre #MateriasPrimas"
+      },
+      "card": "cards/2026-10-12/2026-10-12_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ncvdb0ikoqc0yab6jb63k",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "07eff13e-30fa-4682-8646-cfd31fe8e13e"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ncvu50ia4le0y1bi27v0s",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "28d9f038-46f7-4405-8331-c2fa6c2291c0"
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "f719fcc4711539aad232da0c8fd9d1e05d2207c8",
+        "title": "Chefe do FMI se diz alarmada com o tsunami em câmera lenta da IA sobre empregos e impostos",
+        "source": "Folha de S.Paulo - Mercado - Principal",
+        "preferred": true,
+        "link": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/chefe-do-fmi-se-diz-alarmada-com-o-tsunami-em-camera-lenta-da-ia-sobre-empregos-e-impostos.shtml",
+        "published": "2026-10-12T11:24:00-03:00",
+        "summary": "A diretora-geral do FMI (Fundo Monetário Internacional) alertou para a ameaça de disrupção que a inteligência artificial representa para o mercado de trabalho e a arrecadação tributária, instando formuladores de políticas públicas a repensar a educação e agir agora para ajudar a sociedade a se adaptar. Leia mais (10/12/2026 - 11h24)"
+      },
+      "selection": {
+        "index": 9,
+        "category": "TRIBUTÁRIO",
+        "card_title": "FMI alerta sobre impacto da IA no emprego e arrecadação tributária",
+        "card_summary": "Diretora-geral do FMI adverte sobre disrupção da inteligência artificial no mercado de trabalho e na arrecadação de impostos, pedindo reformas urgentes.",
+        "linkedin": "A diretora-geral do Fundo Monetário Internacional alertou hoje sobre o que chamou de \"tsunami em câmera lenta\" causado pela inteligência artificial sobre o mercado de trabalho e os sistemas tributários globais.\n\nO avanço acelerado da IA representa uma ameaça concreta para a arrecadação de impostos dos países, à medida que transforma radicalmente o mercado de trabalho. A chefe do FMI instou formuladores de políticas a implementarem reformas tributárias que considerem essa nova realidade tecnológica.\n\nPara empresas de infraestrutura como a DEITEL, esse alerta reforça a importância de acompanhar não apenas as transformações tecnológicas no setor de telecomunicações, mas também as mudanças regulatórias e tributárias que certamente virão para adaptar os sistemas fiscais a essa nova era digital.\n\nFonte: Folha de S.Paulo",
+        "instagram": "O FMI emitiu um alerta importante sobre o impacto da inteligência artificial no mercado de trabalho e na arrecadação de impostos. 📊\n\nA diretora-geral do Fundo descreveu a situação como um \"tsunami em câmera lenta\" e pediu reformas urgentes nos sistemas tributários para enfrentar essa disrupção tecnológica.\n\nUm tema crucial para todos os setores, incluindo infraestrutura e telecomunicações. 🌐\n\nFonte: Folha de S.Paulo",
+        "hashtags": "#InteligênciaArtificial #ReformaTributária #FMI"
+      },
+      "card": "cards/2026-10-12/2026-10-12_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ndcmu0il1qc0yfluqmpxt",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "8ccda777-dc7c-40a7-a066-7aa07efb63d0"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ndd0o0iaele0yo48n9x46",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "d3890237-7bda-4856-9f94-359518c85cf7"
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "c37afd77d87316d9aa3a4d6e36d8c517cd28edca",
+        "title": "Telecomunicaciones: las empresas debaten cómo generar nuevos negocios en la era digital - iProfesional",
+        "source": "iProfesional",
+        "preferred": true,
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWFpcTE4Nl9QZDNoTFJUcWkzXzN4Vk52d19KdDczZTZyMEtVM3VGZVRwd3VGMFV6QnJzejVFaGp2MVZYdUtXZms0b0FJdlozZGJucU1EbUFZSjZiaUhlaWdWU181RXcyaDhTTjhUNllEYlRLYVlXSXNuSUw2SjduNmktUmpGdlM3TmlIaU1uMF9SdWdMZm9QRk83clQ1ajVtN1oybHJrWFZ6ODIxRVoySWtjY1dfQUVpN3VXQlFIbGRIYWFRSHRKeXZiONIB0AFBVV95cUxOdi1Ta0x5UDhjWG5WcVdSSkdvbHNMVmJtY1pSM0NIZmFvVDVGWk5jbU5qSm03Yy0tcHUtVE5aM3RyRUF0VnBSalhLeS10NTB2bF9ILTVULUFQRTFzUjdXNzRJM0FjVmN6UnpYemZNUm40QklmRzNVNEdwZUpYMGg0Y2M5ek96ak4zV29JZHlPZzA4TGNkS2VSd0ZMQ0FPbVMzMGdVZ2lvaVdvV3FWeWhuSWttQkRiS1hGNXJMVlFuT0U2RlV4dGd4V2x4anFjbFM1?oc=5",
+        "published": "2026-10-11T18:42:00-03:00",
+        "summary": "Telecomunicaciones: las empresas debaten cómo generar nuevos negocios en la era digital &nbsp;&nbsp; iProfesional"
+      },
+      "selection": {
+        "index": 18,
+        "category": "TELECOM",
+        "card_title": "Empresas de telecomunicaciones debaten nuevos negocios en la era digital",
+        "card_summary": "El sector de telecomunicaciones argentino analiza cómo generar oportunidades de negocio ante la transformación digital y los nuevos desafíos tecnológicos.",
+        "linkedin": "El sector de telecomunicaciones en Argentina está en plena discusión sobre cómo adaptarse y crear nuevas líneas de negocio en el contexto de la era digital.\n\nLas empresas del rubro enfrentan el desafío de reinventar sus modelos comerciales frente a la evolución tecnológica acelerada y las cambiantes demandas del mercado. Esta transformación no solo impacta a los operadores, sino a toda la cadena de valor del sector, incluyendo a quienes proveen infraestructura crítica como torres y estructuras de telecomunicaciones.\n\nPara la industria de infraestructura, este debate es clave: la generación de nuevos servicios digitales impulsa la necesidad de mayor densificación de redes, despliegue de tecnologías avanzadas y modernización de activos existentes. Entender hacia dónde se dirige el negocio de las telecom permite anticipar inversiones y oportunidades de crecimiento.\n\nFuente: iProfessional",
+        "instagram": "Las empresas de telecomunicaciones en Argentina debaten cómo generar nuevos negocios en la era digital 📡\n\nLa transformación tecnológica impulsa a los operadores a reinventar sus modelos comerciales, lo que impacta directamente en la demanda de infraestructura: más torres, más redes, más despliegue.\n\nUn sector en evolución que abre oportunidades para toda la cadena de valor 🚀\n\nFuente: iProfessional",
+        "hashtags": "#TransformaciónDigital #OperadoresTelecom #InfraestructuraTelecom"
+      },
+      "card": "cards/2026-10-12/2026-10-12_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ndpqe0iljqc0y4obajhuo",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "9d3c7fd1-e2d1-41b0-858a-8f647120814d"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ndqhl0iajle0ygscxdf1c",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "6c77be8e-28ff-4591-ada6-1338b44b0dbb"
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "ec08dcbd85d35d6071ba6fc40b8864b4478ec97b",
+        "title": "BTS en Lima: conciertos generaron más de S/5,8 millones por ventas de alimentos, bebidas y merchandising",
+        "source": "El Comercio",
+        "preferred": true,
+        "link": "https://elcomercio.pe/economia/peru/bts-en-lima-conciertos-generaron-mas-de-s58-millones-por-ventas-de-alimentos-bebidas-y-merchandising-l-bts-l-ultimas-noticia/",
+        "published": "2026-10-12T15:47:38-03:00",
+        "summary": "La Superintendencia Nacional de Aduanas y de Administración Tributaria (Sunat) verificó las actividades comerciales que se efectuaron durante los tres conciertos que la banda surcoreana “BTS” brindó en nuestro país, que registró ingresos de más de S/5.8 millones por la venta de bebidas, alimentos y merchandising."
+      },
+      "selection": {
+        "index": 23,
+        "category": "TRIBUTARIO",
+        "card_title": "Conciertos de BTS generaron S/5,8 millones en ventas verificadas por SUNAT",
+        "card_summary": "La SUNAT fiscalizó las actividades comerciales durante los tres shows de BTS en Lima, verificando más de S/5,8 millones en ventas de alimentos, bebidas y merchandising.",
+        "linkedin": "La Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT) verificó operaciones comerciales durante los tres conciertos de BTS en Lima, registrando más de S/5,8 millones en ventas de alimentos, bebidas y productos oficiales.\n\nEste tipo de fiscalización demuestra la importancia del control tributario en eventos masivos, un aspecto clave para la formalización de la economía peruana. Para la industria de infraestructura y telecomunicaciones, eventos de esta magnitud representan desafíos importantes: miles de asistentes demandan conectividad robusta, redes móviles capaces de soportar picos de tráfico y cobertura continua.\n\nLa fiscalización efectiva no solo asegura la recaudación tributaria, sino que también refleja la capacidad logística y tecnológica del país para albergar eventos internacionales de gran escala, donde la infraestructura de telecomunicaciones juega un rol fundamental.\n\nFuente: El Comercio",
+        "instagram": "La SUNAT verificó más de S/5,8 millones en ventas durante los tres conciertos de BTS en Lima 🎤\n\nLa fiscalización en eventos masivos no solo asegura recaudación tributaria, sino que evidencia la capacidad del país para gestionar logística compleja. Para la industria telecom, estos eventos demandan redes robustas capaces de soportar miles de conexiones simultáneas.\n\nFuente: El Comercio",
+        "hashtags": "#FiscalizaciónTributaria #EventosMasivos #InfraestructuraPerú"
+      },
+      "card": "cards/2026-10-12/2026-10-12_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ne4ta0ianle0ydgvmywnh",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "74c7cef2-cd3d-4144-a98d-87a0ce6b08f8"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ne5710iloqc0ynfdck4cw",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "e0acc93a-0d6c-4889-88b8-4cdf5637a84c"
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "10df2ea9cb2701452896269872b1843acacfe5d8",
+        "title": "Actividad Económica creció 5,7% hasta agosto",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/negocios/2026/10/12/actividad-economica-crecio-57-hasta-agosto/",
+        "published": "2026-10-12T15:48:42-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 24,
+        "category": "ECONOMÍA",
+        "card_title": "Actividad económica de Paraguay creció 5,7% hasta agosto de 2026",
+        "card_summary": "La economía paraguaya registró un crecimiento de 5,7% en los primeros ocho meses del año, impulsando las perspectivas para inversión en infraestructura.",
+        "linkedin": "Paraguay reporta un crecimiento del 5,7% en su actividad económica acumulada hasta agosto de 2026, una cifra que refleja el dinamismo de diversos sectores productivos del país.\n\nEste desempeño económico positivo es una señal relevante para nuestra industria, ya que fortalece el contexto para nuevas inversiones en infraestructura de telecomunicaciones. Un entorno macroeconómico favorable típicamente se traduce en mayor demanda de conectividad, expansión de redes móviles y desarrollo de proyectos de infraestructura crítica.\n\nPara empresas como DEITEL, que proveen estructuras de acero para el sector telecom, este tipo de indicadores refuerza las oportunidades de crecimiento en el mercado paraguayo y la región. La solidez económica impulsa tanto la inversión privada de operadores como los proyectos de digitalización que requieren torres y equipamiento.\n\nFuente: ABC Color",
+        "instagram": "Paraguay creció 5,7% en su actividad económica hasta agosto 2026 📊\n\nUn indicador positivo que fortalece las perspectivas de inversión en infraestructura y telecomunicaciones en el país. La expansión económica impulsa la demanda de conectividad y abre oportunidades para proyectos de torres y estructuras que permiten el desarrollo digital.\n\nFuente: ABC Color",
+        "hashtags": "#CrecimientoEconómico #ParaguayEconomía #InversiónInfraestructura"
+      },
+      "card": "cards/2026-10-12/2026-10-12_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5neh5g0ilvqc0y2wdiejvl",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "236b7c6b-927a-451f-ac55-70a80fc4189c"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5nehkt0ilwqc0y4f7weygd",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "e2ec56fe-f93c-4ad4-9003-ec069860b373"
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día del Encuentro de Dos Mundos",
+        "card_summary": "Hoy celebramos un feriado que nos une en Chile, Brasil, Argentina, Perú y Paraguay.",
+        "linkedin": "Hoy conmemoramos el Día del Encuentro de Dos Mundos, una fecha que nos une a lo largo de toda nuestra región.\n\nEn Chile es feriado nacional, en Brasil se celebra el Día de Nossa Senhora Aparecida, y en Argentina el Día de la Raza. Más allá de las distintas denominaciones, esta jornada nos recuerda la diversidad cultural que caracteriza a nuestros países y la riqueza que surge del intercambio entre pueblos.\n\nDesde DEITEL, valoramos esta diversidad que se refleja en nuestro equipo y en los proyectos que desarrollamos para conectar comunidades en Chile, Brasil, Argentina, Perú y Paraguay. ¡Feliz día a todos! 🌎",
+        "instagram": "Hoy conmemoramos el Día del Encuentro de Dos Mundos 🌎\n\nEn Chile es feriado nacional, en Brasil se celebra el Día de Nossa Senhora Aparecida, y en Argentina el Día de la Raza. Una fecha que nos une a lo largo de toda nuestra región.\n\nDesde DEITEL celebramos la diversidad cultural que nos caracteriza y que se refleja en los proyectos que desarrollamos para conectar comunidades. ¡Feliz día a todos! 🙌",
+        "hashtags": "#EncuentroDeMundos #DiversidadCultural #Latinoamérica",
+        "source": ""
+      },
+      "context": {
+        "curated": [
+          {
+            "when": "10-12",
+            "name": "Día del Encuentro de Dos Mundos / Dia de Nossa Senhora Aparecida (Brasil)",
+            "scope": "todos"
+          }
+        ],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-10-12/2026-10-12_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5nesbz0im7qc0y35q8mmvy",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "4dad1ae1-a5c9-43db-9c19-afe6abd994ac"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5nespu0ib0le0yy3vvamzt",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "10b6d93c-e7b2-44c3-8cef-3629425671b1"
+        }
+      ]
+    }
+  }
+}
