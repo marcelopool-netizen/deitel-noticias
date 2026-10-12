@@ -1,54 +1,8 @@
 {
   "date": "2026-10-12",
-  "run_at": "2026-10-12T16:30:02.461320-03:00",
+  "run_at": "2026-10-12T18:22:36.277769-03:00",
   "dry_run": false,
   "countries": {
-    "CL": {
-      "status": "scheduled",
-      "news": {
-        "key": "4047f7bb48d185ee6f1a2fb88fd1376060b9bd24",
-        "title": "Petróleo supera los US$106 tras ataques a Arabia Saudita y cobre al alza por caída en inventarios",
-        "source": "La Tercera",
-        "preferred": true,
-        "link": "https://www.latercera.com/pulso/noticia/petroleo-supera-los-us106-tras-ataques-a-arabia-saudita-cobre-en-alza-por-caida-en-inventarios/",
-        "published": "2026-10-12T15:12:36-03:00",
-        "summary": "Un mortal ataque al aeropuerto de la capital saudí el fin de semana, acompañado por la tensión Ucrania-Rusia, provocó una fuerte reacción de los mercados que consolida el barril del petróleo sobre los US$100."
-      },
-      "selection": {
-        "index": 6,
-        "category": "ECONOMÍA",
-        "card_title": "Petróleo supera US$106 tras ataques y cobre al alza por caída en inventarios",
-        "card_summary": "El barril se consolida sobre los US$106 tras ataque al aeropuerto de Riad y tensión Ucrania-Rusia. El cobre sube por reducción de inventarios, beneficiando a la economía chilena.",
-        "linkedin": "El petróleo superó la barrera de los US$106 por barril este lunes, impulsado por un mortal ataque al aeropuerto de la capital saudí durante el fin de semana y la persistente tensión geopolítica entre Ucrania y Rusia. Esta alza en los precios energéticos se suma a noticias positivas para Chile: el cobre también registra incrementos debido a la caída en los inventarios globales.\n\nPara la industria de infraestructura y telecomunicaciones, estas señales del mercado de materias primas son relevantes. El alza del cobre fortalece los ingresos fiscales chilenos y mejora las perspectivas económicas del país, lo que puede traducirse en mayor capacidad de inversión pública. Sin embargo, el encarecimiento del petróleo podría presionar los costos operativos y logísticos del sector.\n\nLa volatilidad de los mercados internacionales refuerza la importancia de la planificación estratégica en proyectos de infraestructura, considerando tanto las oportunidades que brinda un cobre al alza como los desafíos que impone el encarecimiento energético.\n\nFuente: La Tercera",
-        "instagram": "⚡ El petróleo supera los US$106 por barril tras el ataque al aeropuerto de Riad y la tensión geopolítica. Mientras tanto, el cobre sube por caída en inventarios globales, una buena noticia para Chile.\n\nPara infraestructura y telecomunicaciones, esto significa oportunidades con un cobre fortalecido, pero también desafíos por mayores costos energéticos y logísticos. La planificación estratégica se vuelve clave en este escenario de mercados volátiles. 📊\n\nFuente: La Tercera",
-        "hashtags": "#Petróleo #Cobre #MateriasPrimas"
-      },
-      "card": "cards/2026-10-12/2026-10-12_CL.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
-          "result": [
-            {
-              "postId": "cmv5ncvdb0ikoqc0yab6jb63k",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ],
-          "group": "07eff13e-30fa-4682-8646-cfd31fe8e13e"
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
-          "result": [
-            {
-              "postId": "cmv5ncvu50ia4le0y1bi27v0s",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ],
-          "group": "28d9f038-46f7-4405-8331-c2fa6c2291c0"
-        }
-      ]
-    },
     "BR": {
       "status": "scheduled",
       "news": {
@@ -92,52 +46,6 @@
             }
           ],
           "group": "d3890237-7bda-4856-9f94-359518c85cf7"
-        }
-      ]
-    },
-    "AR": {
-      "status": "scheduled",
-      "news": {
-        "key": "c37afd77d87316d9aa3a4d6e36d8c517cd28edca",
-        "title": "Telecomunicaciones: las empresas debaten cómo generar nuevos negocios en la era digital - iProfesional",
-        "source": "iProfesional",
-        "preferred": true,
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWFpcTE4Nl9QZDNoTFJUcWkzXzN4Vk52d19KdDczZTZyMEtVM3VGZVRwd3VGMFV6QnJzejVFaGp2MVZYdUtXZms0b0FJdlozZGJucU1EbUFZSjZiaUhlaWdWU181RXcyaDhTTjhUNllEYlRLYVlXSXNuSUw2SjduNmktUmpGdlM3TmlIaU1uMF9SdWdMZm9QRk83clQ1ajVtN1oybHJrWFZ6ODIxRVoySWtjY1dfQUVpN3VXQlFIbGRIYWFRSHRKeXZiONIB0AFBVV95cUxOdi1Ta0x5UDhjWG5WcVdSSkdvbHNMVmJtY1pSM0NIZmFvVDVGWk5jbU5qSm03Yy0tcHUtVE5aM3RyRUF0VnBSalhLeS10NTB2bF9ILTVULUFQRTFzUjdXNzRJM0FjVmN6UnpYemZNUm40QklmRzNVNEdwZUpYMGg0Y2M5ek96ak4zV29JZHlPZzA4TGNkS2VSd0ZMQ0FPbVMzMGdVZ2lvaVdvV3FWeWhuSWttQkRiS1hGNXJMVlFuT0U2RlV4dGd4V2x4anFjbFM1?oc=5",
-        "published": "2026-10-11T18:42:00-03:00",
-        "summary": "Telecomunicaciones: las empresas debaten cómo generar nuevos negocios en la era digital &nbsp;&nbsp; iProfesional"
-      },
-      "selection": {
-        "index": 18,
-        "category": "TELECOM",
-        "card_title": "Empresas de telecomunicaciones debaten nuevos negocios en la era digital",
-        "card_summary": "El sector de telecomunicaciones argentino analiza cómo generar oportunidades de negocio ante la transformación digital y los nuevos desafíos tecnológicos.",
-        "linkedin": "El sector de telecomunicaciones en Argentina está en plena discusión sobre cómo adaptarse y crear nuevas líneas de negocio en el contexto de la era digital.\n\nLas empresas del rubro enfrentan el desafío de reinventar sus modelos comerciales frente a la evolución tecnológica acelerada y las cambiantes demandas del mercado. Esta transformación no solo impacta a los operadores, sino a toda la cadena de valor del sector, incluyendo a quienes proveen infraestructura crítica como torres y estructuras de telecomunicaciones.\n\nPara la industria de infraestructura, este debate es clave: la generación de nuevos servicios digitales impulsa la necesidad de mayor densificación de redes, despliegue de tecnologías avanzadas y modernización de activos existentes. Entender hacia dónde se dirige el negocio de las telecom permite anticipar inversiones y oportunidades de crecimiento.\n\nFuente: iProfessional",
-        "instagram": "Las empresas de telecomunicaciones en Argentina debaten cómo generar nuevos negocios en la era digital 📡\n\nLa transformación tecnológica impulsa a los operadores a reinventar sus modelos comerciales, lo que impacta directamente en la demanda de infraestructura: más torres, más redes, más despliegue.\n\nUn sector en evolución que abre oportunidades para toda la cadena de valor 🚀\n\nFuente: iProfessional",
-        "hashtags": "#TransformaciónDigital #OperadoresTelecom #InfraestructuraTelecom"
-      },
-      "card": "cards/2026-10-12/2026-10-12_AR.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
-          "result": [
-            {
-              "postId": "cmv5ndpqe0iljqc0y4obajhuo",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ],
-          "group": "9d3c7fd1-e2d1-41b0-858a-8f647120814d"
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
-          "result": [
-            {
-              "postId": "cmv5ndqhl0iajle0ygscxdf1c",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ],
-          "group": "6c77be8e-28ff-4591-ada6-1338b44b0dbb"
         }
       ]
     },
@@ -233,6 +141,52 @@
         }
       ]
     },
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "4047f7bb48d185ee6f1a2fb88fd1376060b9bd24",
+        "title": "Petróleo supera los US$106 tras ataques a Arabia Saudita y cobre al alza por caída en inventarios",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/petroleo-supera-los-us106-tras-ataques-a-arabia-saudita-cobre-en-alza-por-caida-en-inventarios/",
+        "published": "2026-10-12T15:12:36-03:00",
+        "summary": "Un mortal ataque al aeropuerto de la capital saudí el fin de semana, acompañado por la tensión Ucrania-Rusia, provocó una fuerte reacción de los mercados que consolida el barril del petróleo sobre los US$100."
+      },
+      "selection": {
+        "index": 6,
+        "category": "ECONOMÍA",
+        "card_title": "Petróleo supera US$106 tras ataques y cobre al alza por caída en inventarios",
+        "card_summary": "El barril se consolida sobre los US$106 tras ataque al aeropuerto de Riad y tensión Ucrania-Rusia. El cobre sube por reducción de inventarios, beneficiando a la economía chilena.",
+        "linkedin": "El petróleo superó la barrera de los US$106 por barril este lunes, impulsado por un mortal ataque al aeropuerto de la capital saudí durante el fin de semana y la persistente tensión geopolítica entre Ucrania y Rusia. Esta alza en los precios energéticos se suma a noticias positivas para Chile: el cobre también registra incrementos debido a la caída en los inventarios globales.\n\nPara la industria de infraestructura y telecomunicaciones, estas señales del mercado de materias primas son relevantes. El alza del cobre fortalece los ingresos fiscales chilenos y mejora las perspectivas económicas del país, lo que puede traducirse en mayor capacidad de inversión pública. Sin embargo, el encarecimiento del petróleo podría presionar los costos operativos y logísticos del sector.\n\nLa volatilidad de los mercados internacionales refuerza la importancia de la planificación estratégica en proyectos de infraestructura, considerando tanto las oportunidades que brinda un cobre al alza como los desafíos que impone el encarecimiento energético.\n\nFuente: La Tercera",
+        "instagram": "⚡ El petróleo supera los US$106 por barril tras el ataque al aeropuerto de Riad y la tensión geopolítica. Mientras tanto, el cobre sube por caída en inventarios globales, una buena noticia para Chile.\n\nPara infraestructura y telecomunicaciones, esto significa oportunidades con un cobre fortalecido, pero también desafíos por mayores costos energéticos y logísticos. La planificación estratégica se vuelve clave en este escenario de mercados volátiles. 📊\n\nFuente: La Tercera",
+        "hashtags": "#Petróleo #Cobre #MateriasPrimas"
+      },
+      "card": "cards/2026-10-12/2026-10-12_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ncvdb0ikoqc0yab6jb63k",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "07eff13e-30fa-4682-8646-cfd31fe8e13e"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ncvu50ia4le0y1bi27v0s",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "28d9f038-46f7-4405-8331-c2fa6c2291c0"
+        }
+      ]
+    },
     "HOY": {
       "status": "scheduled",
       "selection": {
@@ -278,6 +232,52 @@
             }
           ],
           "group": "10b6d93c-e7b2-44c3-8cef-3629425671b1"
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "c37afd77d87316d9aa3a4d6e36d8c517cd28edca",
+        "title": "Telecomunicaciones: las empresas debaten cómo generar nuevos negocios en la era digital - iProfesional",
+        "source": "iProfesional",
+        "preferred": true,
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWFpcTE4Nl9QZDNoTFJUcWkzXzN4Vk52d19KdDczZTZyMEtVM3VGZVRwd3VGMFV6QnJzejVFaGp2MVZYdUtXZms0b0FJdlozZGJucU1EbUFZSjZiaUhlaWdWU181RXcyaDhTTjhUNllEYlRLYVlXSXNuSUw2SjduNmktUmpGdlM3TmlIaU1uMF9SdWdMZm9QRk83clQ1ajVtN1oybHJrWFZ6ODIxRVoySWtjY1dfQUVpN3VXQlFIbGRIYWFRSHRKeXZiONIB0AFBVV95cUxOdi1Ta0x5UDhjWG5WcVdSSkdvbHNMVmJtY1pSM0NIZmFvVDVGWk5jbU5qSm03Yy0tcHUtVE5aM3RyRUF0VnBSalhLeS10NTB2bF9ILTVULUFQRTFzUjdXNzRJM0FjVmN6UnpYemZNUm40QklmRzNVNEdwZUpYMGg0Y2M5ek96ak4zV29JZHlPZzA4TGNkS2VSd0ZMQ0FPbVMzMGdVZ2lvaVdvV3FWeWhuSWttQkRiS1hGNXJMVlFuT0U2RlV4dGd4V2x4anFjbFM1?oc=5",
+        "published": "2026-10-11T18:42:00-03:00",
+        "summary": "Telecomunicaciones: las empresas debaten cómo generar nuevos negocios en la era digital &nbsp;&nbsp; iProfesional"
+      },
+      "selection": {
+        "index": 18,
+        "category": "TELECOM",
+        "card_title": "Empresas de telecomunicaciones debaten nuevos negocios en la era digital",
+        "card_summary": "El sector de telecomunicaciones argentino analiza cómo generar oportunidades de negocio ante la transformación digital y los nuevos desafíos tecnológicos.",
+        "linkedin": "El sector de telecomunicaciones en Argentina está en plena discusión sobre cómo adaptarse y crear nuevas líneas de negocio en el contexto de la era digital.\n\nLas empresas del rubro enfrentan el desafío de reinventar sus modelos comerciales frente a la evolución tecnológica acelerada y las cambiantes demandas del mercado. Esta transformación no solo impacta a los operadores, sino a toda la cadena de valor del sector, incluyendo a quienes proveen infraestructura crítica como torres y estructuras de telecomunicaciones.\n\nPara la industria de infraestructura, este debate es clave: la generación de nuevos servicios digitales impulsa la necesidad de mayor densificación de redes, despliegue de tecnologías avanzadas y modernización de activos existentes. Entender hacia dónde se dirige el negocio de las telecom permite anticipar inversiones y oportunidades de crecimiento.\n\nFuente: iProfessional",
+        "instagram": "Las empresas de telecomunicaciones en Argentina debaten cómo generar nuevos negocios en la era digital 📡\n\nLa transformación tecnológica impulsa a los operadores a reinventar sus modelos comerciales, lo que impacta directamente en la demanda de infraestructura: más torres, más redes, más despliegue.\n\nUn sector en evolución que abre oportunidades para toda la cadena de valor 🚀\n\nFuente: iProfessional",
+        "hashtags": "#TransformaciónDigital #OperadoresTelecom #InfraestructuraTelecom"
+      },
+      "card": "cards/2026-10-12/2026-10-12_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ndpqe0iljqc0y4obajhuo",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "9d3c7fd1-e2d1-41b0-858a-8f647120814d"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-12T16:33:02.461320-03:00",
+          "result": [
+            {
+              "postId": "cmv5ndqhl0iajle0ygscxdf1c",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "6c77be8e-28ff-4591-ada6-1338b44b0dbb"
         }
       ]
     }
