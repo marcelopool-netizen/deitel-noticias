@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-13",
+  "run_at": "2026-10-13T14:14:08.886758-03:00",
+  "dry_run": false,
+  "countries": {
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "035b3f376f98e5071d42bc5232170e273474b8a2",
+        "title": "Conoce cómo acceder a las 1.000 becas de Entel de capacitación en Inteligencia Artificial para personas mayores",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/horizontes/noticia/conoce-como-acceder-a-las-1000-becas-de-entel-de-capacitacion-en-inteligencia-artificial-para-personas-mayores/",
+        "published": "2026-10-13T12:45:36-03:00",
+        "summary": "La iniciativa, desarrollada junto a Skillnest, busca disminuir la brecha digital en este segmento. Estas becas se dan en el marco de las 15 mil instancias de capacitación para personas mayores que promueve la compañía a través de su Programa 70+ y el Fondo 55+."
+      },
+      "selection": {
+        "index": 24,
+        "category": "TELECOM",
+        "card_title": "Entel ofrece 1.000 becas en IA para personas mayores",
+        "card_summary": "El operador lanza programa de capacitación en Inteligencia Artificial para reducir la brecha digital en adultos mayores, como parte de 15 mil becas totales.",
+        "linkedin": "Entel Chile anuncia una iniciativa de capacitación digital que busca cerrar la brecha tecnológica en segmentos históricamente excluidos. El operador pondrá a disposición 1.000 becas específicas en Inteligencia Artificial dirigidas a personas mayores, desarrolladas en alianza con Skillnest.\n\nEsta acción forma parte de un programa más amplio que contempla 15 mil instancias de capacitación para adultos mayores, reflejando el compromiso del sector telecomunicaciones con la inclusión digital. La formación en IA representa un paso relevante considerando la acelerada transformación tecnológica que vive la industria.\n\nPara las empresas de infraestructura telecom, iniciativas como esta son fundamentales: la adopción efectiva de nuevas tecnologías requiere usuarios capacitados en todos los segmentos etarios. La alfabetización digital impulsa la demanda de servicios avanzados y justifica la inversión en redes de última generación.\n\nFuente: La Tercera",
+        "instagram": "Entel Chile lanza 1.000 becas de capacitación en Inteligencia Artificial específicamente para personas mayores 📱\n\nLa iniciativa, desarrollada con Skillnest, busca reducir la brecha digital y forma parte de un programa mayor con 15 mil becas totales para adultos mayores. Un paso importante para la inclusión digital en el sector telecomunicaciones 🚀\n\nFuente: La Tercera",
+        "hashtags": "#InclusionDigital #CapacitacionDigital #TelecomChile"
+      },
+      "card": "cards/2026-10-13/2026-10-13_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xxv95183mqc0y1dqr0f47",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "569e3432-276c-4f7d-a91f-f6d8af22f12c"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xxviq17yfle0y6evi3ax4",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "4c017244-a9d5-46f7-8a4b-cf20c9c14e18"
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "113f11e8163fdf9713ba2f01b85a175ff53d9bb5",
+        "title": "DSA pede à Anatel compartilhamento dos 6 GHz para preservar Wi-Fi",
+        "source": "TeleSíntese",
+        "preferred": true,
+        "link": "https://telesintese.com.br/dsa-pede-a-anatel-compartilhamento-dos-6-ghz-para-preservar-wi-fi/",
+        "published": "2026-10-13T14:02:38-03:00",
+        "summary": "Entidade defende acesso à faixa completa, aponta impactos para provedores e propõe coexistência com redes móveis. O post DSA pede à Anatel compartilhamento dos 6 GHz para preservar Wi-Fi apareceu primeiro em TeleSíntese ."
+      },
+      "selection": {
+        "index": 3,
+        "category": "TELECOM",
+        "card_title": "DSA pede à Anatel compartilhamento da faixa de 6 GHz para preservar Wi-Fi",
+        "card_summary": "Entidade defende acesso completo à faixa, aponta impactos para provedores e propõe coexistência com redes móveis diante da disputa pelo espectro.",
+        "linkedin": "A Dynamic Spectrum Alliance (DSA) apresentou à Anatel um pedido formal para que a faixa de 6 GHz seja compartilhada, permitindo a preservação e expansão dos serviços Wi-Fi no Brasil. A entidade defende que provedores de internet tenham acesso à faixa completa e propõe um modelo de coexistência com as redes móveis.\n\nA disputa pelo espectro de 6 GHz tornou-se estratégica para o futuro das telecomunicações. De um lado, operadoras móveis buscam expandir suas redes 5G; de outro, provedores regionais e empresas dependem dessa faixa para oferecer Wi-Fi de alta capacidade, especialmente em áreas de difícil cobertura celular.\n\nPara a indústria de infraestrutura, a definição sobre o uso dessa faixa impactará diretamente os investimentos em torres e equipamentos nos próximos anos. Um modelo de compartilhamento equilibrado pode maximizar o aproveitamento do espectro e evitar a concentração de recursos apenas nas grandes operadoras.\n\nFonte: TeleSíntese",
+        "instagram": "A DSA pediu à Anatel que a faixa de 6 GHz seja compartilhada entre Wi-Fi e redes móveis 📡\n\nA disputa por esse espectro é estratégica: operadoras querem expandir o 5G, enquanto provedores regionais dependem da faixa para Wi-Fi de alta capacidade. A decisão vai impactar diretamente os investimentos em infraestrutura e torres nos próximos anos.\n\nUm modelo de coexistência pode ser a chave para aproveitar melhor o espectro disponível.\n\nFonte: TeleSíntese",
+        "hashtags": "#EspectroRadioelétrico #Wi-Fi #Anatel"
+      },
+      "card": "cards/2026-10-13/2026-10-13_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xyarl183vqc0ync3sri7z",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "05d2ea49-1911-4af5-aae5-5369eb6b3b26"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xyb0b17yile0y3nm9t532",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "08fcf782-d76d-461f-a88e-207cf9635f71"
+        }
+      ]
+    },
+    "AR": {
+      "status": "scheduled",
+      "news": {
+        "key": "bc7dfe5c76b05cc5140709e21ab6f11cf4a5a3f0",
+        "title": "ALERTA DEL FMI: volvió a empeorar su diagnóstico sobre la economía argentina con menos crecimiento y más inflación - El Economista - Últimas noticias económicas y financieras",
+        "source": "El Economista - Últimas noticias económicas y financieras",
+        "preferred": true,
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYVJsS19oNDVJeUhabV9JeHI2VDJSckREV0RBRWFmSDhmbUtHYkRnWm8xUjRxaC13d0hCQWpqaEozcFdkdnZvSUdCZDhuX3pwenJReGREemFYd3pZYy1xRnpZcFRnT3dDTm50WjIxM1hzanpSN1VGeFhkTXpWcFU2TVVQUy1BdnZHQU9uMjZJd1g0ak5iblhpWjAxYmRWUHpTZ0p1V1lEUWNZeV9RV0RieW5uN3NrUGJtRWJsYXVQeG45QzlVcGJ5NVltSGtGQWtkSEZ4eHJ1VEhkZ9IB3wFBVV95cUxQckRMV3hMSlNqMFpFSk1sQUF6akhGYUlrOS1kYzBkWnc0eFdRWDZDNzJ2VTVYa3lLRFpyeHpFOENWd1dpSzZpUmpMWTduOThOYmJoTU9xTURlLXpzdk5TZkVXWl9Bd0M0XzNMcnk3bGUyZ1VoSjdPcXJvUmEzanBidjFxZDFsMnVSa2Z0UkNGTjN5cXk5WHF4V21adkJ3N013cUZ1VlI2dWc1VmZSQTE3bVcyMHlfUXNqQ2toc0l0M0VpT0JBdjlTblN5NkRXRFdtSmY4WjI2VFNjU0lhVnJB?oc=5",
+        "published": "2026-10-13T09:04:00-03:00",
+        "summary": "ALERTA DEL FMI: volvió a empeorar su diagnóstico sobre la economía argentina con menos crecimiento y más inflación &nbsp;&nbsp; El Economista - Últimas noticias económicas y financieras"
+      },
+      "selection": {
+        "index": 0,
+        "category": "ECONOMÍA",
+        "card_title": "FMI recorta proyección de crecimiento para Argentina a 2,1% en 2026",
+        "card_summary": "El organismo rebajó su estimación desde el 4% proyectado hace un año y elevó la previsión de inflación, empeorando su diagnóstico sobre la economía argentina.",
+        "linkedin": "El Fondo Monetario Internacional volvió a ajustar a la baja sus proyecciones para Argentina. El organismo estima ahora un crecimiento de apenas 2,1% para 2026, menos de la mitad del 4% que había proyectado hace un año. Además, elevó sus pronósticos de inflación para el país.\n\nEste deterioro en las expectativas económicas impacta directamente en el sector de infraestructura y telecomunicaciones. Un crecimiento más débil puede traducirse en menor inversión en expansión de redes, postergación de proyectos de infraestructura crítica y ajustes en los planes de despliegue de tecnología.\n\nPara la industria de torres y estructuras, este escenario exige planificación cautelosa y flexibilidad operativa. La inflación elevada presiona los costos de materiales y mano de obra, mientras que la desaceleración económica puede afectar la demanda de los operadores de telecomunicaciones.\n\nFuente: El Economista",
+        "instagram": "El FMI recortó su proyección de crecimiento para Argentina en 2026 a solo 2,1%, menos de la mitad de lo estimado hace un año. También elevó las previsiones de inflación. 📉\n\nEste escenario más complejo impacta la inversión en infraestructura y telecomunicaciones, exigiendo mayor cautela en la planificación de proyectos y gestión de costos en un contexto inflacionario.\n\nFuente: El Economista",
+        "hashtags": "#FMI #CrecimientoEconómico #ArgentinaEconomía"
+      },
+      "card": "cards/2026-10-13/2026-10-13_AR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xynwl17yole0ybycbxw0i",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "262a24ac-c4b5-43e3-9436-8972a8c19c47"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xyofd17yple0yod4go6p2",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "ee7c0945-ce0c-496a-9fb5-0f3503bace86"
+        }
+      ]
+    },
+    "PE": {
+      "status": "scheduled",
+      "news": {
+        "key": "767739a9582959d7781db3dc1d22d0bd16f1c23b",
+        "title": "El Niño retrasaría la recuperación económica del Perú hasta la segunda mitad de 2027: las cifras del impacto",
+        "source": "El Comercio",
+        "preferred": true,
+        "link": "https://elcomercio.pe/economia/el-nino-retrasaria-la-recuperacion-economica-del-peru-hasta-la-segunda-mitad-de-2027-noticia/",
+        "published": "2026-10-13T13:58:37-03:00",
+        "summary": "BBVA Research recortó a 2,9% el crecimiento previsto para Perú en 2026 y 2027 por El Niño. Conoce sus proyecciones de inflación, inversión y tipo de cambio."
+      },
+      "selection": {
+        "index": 11,
+        "category": "ECONOMÍA",
+        "card_title": "El Niño retrasaría recuperación económica de Perú hasta segunda mitad de 2027",
+        "card_summary": "BBVA Research recortó la proyección de crecimiento de Perú a 2,9% para 2026 y 2027 debido al impacto del fenómeno El Niño sobre la actividad económica e inversión.",
+        "linkedin": "El fenómeno El Niño continúa afectando las perspectivas económicas del Perú. BBVA Research ajustó a la baja su proyección de crecimiento para 2026 y 2027, situándola en 2,9%, y estima que la recuperación económica del país se postergará hasta la segunda mitad de 2027.\n\nEste escenario de menor crecimiento tiene implicancias directas para nuestra industria de infraestructura de telecomunicaciones. Un menor ritmo de actividad económica puede traducirse en inversiones más cautelosas en proyectos de conectividad y modernización de redes, mientras que los efectos climáticos del fenómeno podrían afectar plazos de ejecución y mantenimiento de infraestructura.\n\nSin embargo, la necesidad de fortalecer la resiliencia de las telecomunicaciones frente a eventos climáticos extremos también abre oportunidades para soluciones de infraestructura más robustas y adaptadas a estos desafíos.\n\nFuente: El Comercio",
+        "instagram": "El Niño retrasa la recuperación económica de Perú 📉\n\nBBVA Research recortó la proyección de crecimiento del país a 2,9% para 2026-2027. La recuperación económica se postergaría hasta la segunda mitad de 2027.\n\nEsto impacta las inversiones en infraestructura y telecomunicaciones, pero también refuerza la necesidad de soluciones más resilientes ante eventos climáticos extremos.\n\nFuente: El Comercio",
+        "hashtags": "#EconomíaPerú #BBVAResearch #InversiónInfraestructura"
+      },
+      "card": "cards/2026-10-13/2026-10-13_PE.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xz1sd17yqle0yusxs2bqx",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "289c7d77-45cc-4ca8-95fd-3c870f6e111b"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xz22x17yrle0y3nmd5zu1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "37b42a60-cc6a-486c-b44c-5d5765f54ede"
+        }
+      ]
+    },
+    "PY": {
+      "status": "scheduled",
+      "news": {
+        "key": "622cdeb0473c1fe61271c3a89dad1f0363894a83",
+        "title": "Gobierno promete acciones articuladas ante impacto de “El Niño”",
+        "source": "ABC Color",
+        "preferred": true,
+        "link": "https://www.abc.com.py/politica/2026/10/13/gobierno-promete-acciones-articuladas-ante-impacto-de-el-nino/",
+        "published": "2026-10-13T14:01:20-03:00",
+        "summary": ""
+      },
+      "selection": {
+        "index": 6,
+        "category": "ECONOMÍA",
+        "card_title": "Paraguay anuncia acciones ante impacto de El Niño",
+        "card_summary": "El Gobierno paraguayo promete medidas coordinadas para enfrentar los efectos del fenómeno climático El Niño en el país.",
+        "linkedin": "El Gobierno de Paraguay ha anunciado la implementación de acciones articuladas para hacer frente al impacto del fenómeno climático El Niño en el territorio nacional.\n\nEste tipo de eventos climáticos pueden afectar significativamente la infraestructura crítica del país, incluyendo las redes de telecomunicaciones y las instalaciones eléctricas. Para la industria de infraestructura telecom, la anticipación y preparación ante fenómenos meteorológicos extremos es fundamental para garantizar la continuidad operativa de las redes.\n\nLas torres y estructuras de telecomunicaciones requieren mantenimiento preventivo y medidas de refuerzo ante condiciones climáticas adversas, especialmente en zonas propensas a inundaciones o vientos intensos asociados a El Niño. La coordinación entre gobierno y sector privado resulta esencial para proteger los activos de comunicación que sostienen la conectividad del país.\n\nFuente: ABC Color",
+        "instagram": "🌐 El Gobierno paraguayo anuncia acciones coordinadas para enfrentar el impacto de El Niño en el país.\n\nLos fenómenos climáticos extremos representan un desafío importante para la infraestructura de telecomunicaciones. Las torres y estructuras deben estar preparadas para resistir condiciones adversas y garantizar la conectividad.\n\nLa prevención es clave en nuestra industria. ⚡\n\nFuente: ABC Color",
+        "hashtags": "#ElNiño #InfraestructuraCrítica #Paraguay"
+      },
+      "card": "cards/2026-10-13/2026-10-13_PY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xzc2f17z3le0yc9omi88a",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "71bbf200-c10e-4a37-a18e-787b19dde064"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-13T14:17:08.886758-03:00",
+          "result": [
+            {
+              "postId": "cmv6xzccs17z4le0ytk4xmuwc",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "10f0bd2f-4d4e-414b-adf8-2a5aa032094f"
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "EFEMÉRIDE",
+        "lang": "es",
+        "card_title": "Hace 16 años Chile rescataba a los 33 mineros de San José",
+        "card_summary": "El 13 de octubre de 2010 finalizó con éxito el rescate de los 33 mineros atrapados durante 69 días en Copiapó, una operación que requirió ingeniería de precisión.",
+        "linkedin": "📡 Un día como hoy, hace 16 años, el mundo entero seguía en tiempo real el rescate de los 33 mineros atrapados en la mina San José, cerca de Copiapó, Chile.\n\nDespués de 69 días a 700 metros bajo tierra, la operación culminó con éxito gracias a una combinación extraordinaria de ingeniería de perforación, tecnología de comunicaciones y coordinación logística. Las cápsulas de rescate, el sistema de fibra óptica que permitió comunicación permanente y las antenas que transmitieron cada momento al mundo demostraron cómo la infraestructura salva vidas.\n\nEn DEITEL sabemos que las estructuras confiables y las comunicaciones estables son esenciales en las operaciones más críticas. Ese rescate sigue siendo un ejemplo de perseverancia y excelencia técnica. 🇨🇱",
+        "instagram": "Hace 16 años, el 13 de octubre de 2010, terminó con éxito el rescate de los 33 mineros atrapados en la mina San José, Copiapó. 🇨🇱\n\n69 días bajo tierra, una operación de ingeniería impecable y comunicaciones que permitieron al mundo seguir cada minuto del rescate. Infraestructura que salva vidas. 📡\n\n#Copiapó #Los33 #IngenieríaChilena",
+        "hashtags": "#Copiapó #Los33 #IngenieríaChilena",
+        "source": "Wikipedia"
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 47
+      },
+      "card": "cards/2026-10-13/2026-10-13_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-13T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv6xzndg184cqc0y7ydj37qs",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "03e51b8c-f9ff-40e4-a676-f52035a47c92"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-13T16:00:00-03:00",
+          "result": [
+            {
+              "postId": "cmv6xznmw184dqc0yz3haiz7r",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "6a71dd8f-bfcb-4d9b-91e9-c7b26d12fcee"
+        }
+      ]
+    }
+  }
+}
