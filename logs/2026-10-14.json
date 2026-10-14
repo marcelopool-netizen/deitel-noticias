@@ -1,146 +1,8 @@
 {
   "date": "2026-10-14",
-  "run_at": "2026-10-14T11:46:23.195559-03:00",
+  "run_at": "2026-10-14T14:31:03.111202-03:00",
   "dry_run": false,
   "countries": {
-    "CL": {
-      "status": "scheduled",
-      "news": {
-        "key": "9d9cd8dd9bb3c64321e11f5296ec499c2b939f64",
-        "title": "Bancos flexibilizan hipotecarios y créditos para inmobiliarias, y perciben mayor demanda por vivienda",
-        "source": "La Tercera",
-        "preferred": true,
-        "link": "https://www.latercera.com/pulso/noticia/bancos-flexibilizan-hipotecarios-y-creditos-para-inmobiliarias-y-perciben-mayor-demanda-por-vivienda/",
-        "published": "2026-10-14T09:16:01-03:00",
-        "summary": "La Encuesta sobre Créditos Bancarios del Banco Central mostró, sin embargo, restricción en las condiciones para el otorgamiento de créditos de consumo."
-      },
-      "selection": {
-        "index": 23,
-        "category": "ECONOMÍA",
-        "card_title": "Bancos flexibilizan créditos hipotecarios e inmobiliarios en Chile",
-        "card_summary": "Encuesta del Banco Central revela que entidades financieras están facilitando el acceso a hipotecarios y créditos para constructoras, detectando mayor demanda por vivienda.",
-        "linkedin": "La banca chilena está ajustando su estrategia crediticia en el sector inmobiliario. Según la Encuesta sobre Créditos Bancarios del Banco Central, las instituciones financieras están flexibilizando las condiciones para créditos hipotecarios y financiamiento a empresas inmobiliarias, respondiendo a una percepción de mayor demanda en el mercado de vivienda.\n\nEsta señal es relevante para nuestra industria de infraestructura de telecomunicaciones. Un sector inmobiliario más dinámico impulsa el desarrollo urbano y la construcción de nuevos proyectos habitacionales y comerciales, que requieren infraestructura de conectividad desde su diseño inicial. Torres, antenas y redes de fibra óptica son componentes esenciales en cualquier desarrollo inmobiliario moderno.\n\nLa reactivación del crédito inmobiliario anticipa oportunidades para proveedores de infraestructura telecom, especialmente en proyectos que buscan ofrecer conectividad de calidad como valor diferenciador. Para DEITEL, esto representa un escenario favorable para la demanda de estructuras que soporten las redes de nueva generación.\n\nFuente: La Tercera",
-        "instagram": "💼 La banca chilena flexibiliza créditos hipotecarios e inmobiliarios, según encuesta del Banco Central. Las entidades financieras perciben mayor demanda por vivienda y están facilitando el acceso al financiamiento.\n\n¿Por qué nos importa? Más desarrollo inmobiliario significa más infraestructura de telecomunicaciones. Cada nuevo proyecto necesita torres, antenas y conectividad desde el inicio. 📡\n\nFuente: La Tercera",
-        "hashtags": "#CréditoHipotecario #DesarrolloInmobiliario #BancoCentral"
-      },
-      "card": "cards/2026-10-14/2026-10-14_CL.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
-          "result": [
-            {
-              "postId": "cmv883ral06r2qu0yym0s7kez",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ],
-          "group": "2fdbe2bd-4d32-462c-9f04-02993c0034ae"
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
-          "result": [
-            {
-              "postId": "cmv883riv06r3qu0yu10jiozp",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ],
-          "group": "d768f383-0f20-467e-b17b-986b0ccc9c25"
-        }
-      ]
-    },
-    "BR": {
-      "status": "scheduled",
-      "news": {
-        "key": "f0cdf39825f45f54684e7a09576dc1e783bb0f45",
-        "title": "Medida Provisória torna obrigatória identificação de empresas nas ligações, explica Anatel",
-        "source": "TeleSíntese",
-        "preferred": true,
-        "link": "https://telesintese.com.br/mp-torna-obrigatoria-identificacao-de-empresas-nas-ligacoes-explica-anatel/",
-        "published": "2026-10-14T11:12:44-03:00",
-        "summary": "Chamadas curtas chegaram a 70% do tráfego em 2026; agência detalha exigências e prazos das medidas contra ligações abusivas. O post Medida Provisória torna obrigatória identificação de empresas nas ligações, explica Anatel apareceu primeiro em TeleSíntese ."
-      },
-      "selection": {
-        "index": 5,
-        "category": "TELECOM",
-        "card_title": "Brasil torna obrigatória identificação de empresas em ligações telefônicas",
-        "card_summary": "Medida Provisória exige que empresas se identifiquem nas chamadas. Anatel detalha novas regras contra ligações abusivas, que chegaram a 70% do tráfego em 2026.",
-        "linkedin": "O governo brasileiro publicou uma Medida Provisória que torna obrigatória a identificação de empresas nas ligações telefônicas, medida anunciada pela Anatel para combater o problema das chamadas abusivas no país.\n\nSegundo a agência reguladora, as chamadas curtas chegaram a representar 70% do tráfego telefônico em 2026, evidenciando a dimensão do problema que afeta tanto consumidores quanto a qualidade das redes de telecomunicações. A Anatel detalhou as exigências técnicas e os prazos que as operadoras e empresas deverão cumprir para implementar o sistema de identificação.\n\nPara o setor de infraestrutura de telecomunicações, essa regulamentação impacta diretamente a gestão do tráfego nas redes e pode demandar investimentos em sistemas de autenticação e controle de chamadas por parte das operadoras que utilizam nossa infraestrutura de torres e antenas.\n\nFonte: TeleSíntese",
-        "instagram": "Brasil avança no combate às ligações indesejadas! 📞\n\nNova Medida Provisória torna obrigatória a identificação de empresas nas chamadas telefônicas. A Anatel informou que chamadas curtas chegaram a 70% do tráfego em 2026.\n\nA regulamentação estabelece exigências e prazos para operadoras implementarem sistemas de identificação, impactando a gestão das redes de telecomunicações em todo o país.\n\nFonte: TeleSíntese",
-        "hashtags": "#LigacoesAbusivas #RegulacaoTelecom #Anatel"
-      },
-      "card": "cards/2026-10-14/2026-10-14_BR.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
-          "result": [
-            {
-              "postId": "cmv88473e06rcqu0ygwd2utcf",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ],
-          "group": "3b607d74-1c25-4bdc-a9b0-d48e62b5289a"
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
-          "result": [
-            {
-              "postId": "cmv8847f406h2qt0yhgsaryjl",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ],
-          "group": "04612e0e-b7dc-48b6-878e-6f227df044ed"
-        }
-      ]
-    },
-    "AR": {
-      "status": "scheduled",
-      "news": {
-        "key": "745aad6464f890bc28d1ec4e5c03402ba80464e9",
-        "title": "El FMI le exige al Gobierno más reformas estructurales en el sistema tributario",
-        "source": "Noticias de Economía | Ámbito",
-        "preferred": true,
-        "link": "https://www.ambito.com/economia/el-fmi-le-exige-al-gobierno-avanzar-mas-reformas-estructurales-su-sistema-tributario-n6333486",
-        "published": "2026-10-14T08:51:00-03:00",
-        "summary": "Dabla-Norris, subdirectora del Departamento de Asuntos Fiscales del FMI, subrayó la importancia de la disciplina fiscal, pero remarcó que son necesarias más medidas para mejorar la eficiencia tributaria y del gasto. Los detalles, en la nota."
-      },
-      "selection": {
-        "index": 7,
-        "category": "TRIBUTARIO",
-        "card_title": "FMI exige a Argentina más reformas estructurales en sistema tributario",
-        "card_summary": "El organismo internacional destacó la necesidad de mejorar la eficiencia tributaria en Argentina, más allá de la disciplina fiscal actual.",
-        "linkedin": "El Fondo Monetario Internacional planteó nuevos desafíos para Argentina en materia tributaria. Dabla-Norris, subdirectora del Departamento de Asuntos Fiscales del FMI, destacó la importancia de la disciplina fiscal lograda hasta ahora, pero enfatizó que el país necesita avanzar en reformas estructurales que mejoren la eficiencia del sistema tributario.\n\nPara las empresas que operan en Argentina, incluyendo el sector de infraestructura de telecomunicaciones, estas señales del organismo internacional anticipan posibles cambios en el marco impositivo. La inversión en torres y estructuras de telecomunicaciones requiere certidumbre tributaria de largo plazo, por lo que conocer la dirección de estas reformas será clave para la planificación estratégica.\n\nLa modernización del sistema tributario argentino podría impactar tanto en la carga impositiva como en los mecanismos de recaudación, afectando decisiones de inversión en infraestructura crítica para el desarrollo digital del país.\n\nFuente: Ámbito",
-        "instagram": "El FMI le pidió a Argentina profundizar las reformas en su sistema tributario 📊\n\nAunque reconoció la disciplina fiscal actual, el organismo señaló que se necesitan cambios estructurales para mejorar la eficiencia tributaria del país.\n\nPara el sector de infraestructura de telecomunicaciones, estas reformas pueden impactar directamente en las condiciones de inversión y desarrollo de proyectos en Argentina.\n\nFuente: Ámbito",
-        "hashtags": "#ReformaTributaria #FMI #ArgentinaEconómica"
-      },
-      "card": "cards/2026-10-14/2026-10-14_AR.png",
-      "posts": [
-        {
-          "channel": "Grupodeitel",
-          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
-          "result": [
-            {
-              "postId": "cmv884i6h06rnqu0y47to3who",
-              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
-            }
-          ],
-          "group": "2352e4d1-8752-47ee-83b8-0eab086f95d3"
-        },
-        {
-          "channel": "Marcelo Pool Skiadaressis",
-          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
-          "result": [
-            {
-              "postId": "cmv884ifq06roqu0yr68t84vx",
-              "integration": "cmu7sq33e03belb0yzk9botks"
-            }
-          ],
-          "group": "01bb4a0b-ac61-4a90-8c1d-d2045e6e9ab3"
-        }
-      ]
-    },
     "PE": {
       "status": "scheduled",
       "news": {
@@ -184,6 +46,48 @@
             }
           ],
           "group": "f1d8e62f-ebfb-47cd-a85d-b530eda691ee"
+        }
+      ]
+    },
+    "HOY": {
+      "status": "scheduled",
+      "selection": {
+        "kind": "SALUDO",
+        "lang": "es",
+        "card_title": "Día Mundial de la Normalización",
+        "card_summary": "Celebramos el trabajo de quienes desarrollan las normas técnicas que hacen posible la interoperabilidad global en telecomunicaciones.",
+        "linkedin": "Hoy celebramos el Día Mundial de la Normalización, impulsado por ISO, IEC y la Unión Internacional de Telecomunicaciones (UIT). 📡\n\nEsta fecha reconoce a los especialistas que desarrollan las normas técnicas internacionales que permiten que nuestras infraestructuras de telecomunicaciones funcionen de manera segura, eficiente e interoperable en todo el mundo.\n\nEn DEITEL, estas normas guían cada proyecto: desde el diseño estructural de nuestras torres hasta los estándares de calidad que garantizan la conectividad en Chile, Brasil y toda la región. Un saludo a todos quienes trabajan para que la tecnología hable el mismo idioma. 🌎",
+        "instagram": "Hoy es el Día Mundial de la Normalización, impulsado por ISO, IEC y la UIT. 📡\n\nCelebramos a quienes desarrollan las normas técnicas que hacen posible que las infraestructuras de telecomunicaciones funcionen de manera segura e interoperable en todo el mundo.\n\nEn DEITEL, estos estándares son la base de cada torre y estructura que construimos. 🌎",
+        "hashtags": "#DíaMundialDeLaNormalización #Telecomunicaciones #Infraestructura",
+        "source": "UIT"
+      },
+      "context": {
+        "curated": [],
+        "wikipedia": 55
+      },
+      "card": "cards/2026-10-14/2026-10-14_HOY.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
+          "result": [
+            {
+              "postId": "cmv885gwy06sxqu0ygkw5en7i",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "40560157-1447-45aa-8184-8368475e8838"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
+          "result": [
+            {
+              "postId": "cmv885h7j06syqu0y5mj572n7",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "be384979-fc91-4134-8457-757d5a2759db"
         }
       ]
     },
@@ -233,45 +137,141 @@
         }
       ]
     },
-    "HOY": {
+    "AR": {
       "status": "scheduled",
+      "news": {
+        "key": "745aad6464f890bc28d1ec4e5c03402ba80464e9",
+        "title": "El FMI le exige al Gobierno más reformas estructurales en el sistema tributario",
+        "source": "Noticias de Economía | Ámbito",
+        "preferred": true,
+        "link": "https://www.ambito.com/economia/el-fmi-le-exige-al-gobierno-avanzar-mas-reformas-estructurales-su-sistema-tributario-n6333486",
+        "published": "2026-10-14T08:51:00-03:00",
+        "summary": "Dabla-Norris, subdirectora del Departamento de Asuntos Fiscales del FMI, subrayó la importancia de la disciplina fiscal, pero remarcó que son necesarias más medidas para mejorar la eficiencia tributaria y del gasto. Los detalles, en la nota."
+      },
       "selection": {
-        "kind": "SALUDO",
-        "lang": "es",
-        "card_title": "Día Mundial de la Normalización",
-        "card_summary": "Celebramos el trabajo de quienes desarrollan las normas técnicas que hacen posible la interoperabilidad global en telecomunicaciones.",
-        "linkedin": "Hoy celebramos el Día Mundial de la Normalización, impulsado por ISO, IEC y la Unión Internacional de Telecomunicaciones (UIT). 📡\n\nEsta fecha reconoce a los especialistas que desarrollan las normas técnicas internacionales que permiten que nuestras infraestructuras de telecomunicaciones funcionen de manera segura, eficiente e interoperable en todo el mundo.\n\nEn DEITEL, estas normas guían cada proyecto: desde el diseño estructural de nuestras torres hasta los estándares de calidad que garantizan la conectividad en Chile, Brasil y toda la región. Un saludo a todos quienes trabajan para que la tecnología hable el mismo idioma. 🌎",
-        "instagram": "Hoy es el Día Mundial de la Normalización, impulsado por ISO, IEC y la UIT. 📡\n\nCelebramos a quienes desarrollan las normas técnicas que hacen posible que las infraestructuras de telecomunicaciones funcionen de manera segura e interoperable en todo el mundo.\n\nEn DEITEL, estos estándares son la base de cada torre y estructura que construimos. 🌎",
-        "hashtags": "#DíaMundialDeLaNormalización #Telecomunicaciones #Infraestructura",
-        "source": "UIT"
+        "index": 7,
+        "category": "TRIBUTARIO",
+        "card_title": "FMI exige a Argentina más reformas estructurales en sistema tributario",
+        "card_summary": "El organismo internacional destacó la necesidad de mejorar la eficiencia tributaria en Argentina, más allá de la disciplina fiscal actual.",
+        "linkedin": "El Fondo Monetario Internacional planteó nuevos desafíos para Argentina en materia tributaria. Dabla-Norris, subdirectora del Departamento de Asuntos Fiscales del FMI, destacó la importancia de la disciplina fiscal lograda hasta ahora, pero enfatizó que el país necesita avanzar en reformas estructurales que mejoren la eficiencia del sistema tributario.\n\nPara las empresas que operan en Argentina, incluyendo el sector de infraestructura de telecomunicaciones, estas señales del organismo internacional anticipan posibles cambios en el marco impositivo. La inversión en torres y estructuras de telecomunicaciones requiere certidumbre tributaria de largo plazo, por lo que conocer la dirección de estas reformas será clave para la planificación estratégica.\n\nLa modernización del sistema tributario argentino podría impactar tanto en la carga impositiva como en los mecanismos de recaudación, afectando decisiones de inversión en infraestructura crítica para el desarrollo digital del país.\n\nFuente: Ámbito",
+        "instagram": "El FMI le pidió a Argentina profundizar las reformas en su sistema tributario 📊\n\nAunque reconoció la disciplina fiscal actual, el organismo señaló que se necesitan cambios estructurales para mejorar la eficiencia tributaria del país.\n\nPara el sector de infraestructura de telecomunicaciones, estas reformas pueden impactar directamente en las condiciones de inversión y desarrollo de proyectos en Argentina.\n\nFuente: Ámbito",
+        "hashtags": "#ReformaTributaria #FMI #ArgentinaEconómica"
       },
-      "context": {
-        "curated": [],
-        "wikipedia": 55
-      },
-      "card": "cards/2026-10-14/2026-10-14_HOY.png",
+      "card": "cards/2026-10-14/2026-10-14_AR.png",
       "posts": [
         {
           "channel": "Grupodeitel",
           "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
           "result": [
             {
-              "postId": "cmv885gwy06sxqu0ygkw5en7i",
+              "postId": "cmv884i6h06rnqu0y47to3who",
               "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
             }
           ],
-          "group": "40560157-1447-45aa-8184-8368475e8838"
+          "group": "2352e4d1-8752-47ee-83b8-0eab086f95d3"
         },
         {
           "channel": "Marcelo Pool Skiadaressis",
           "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
           "result": [
             {
-              "postId": "cmv885h7j06syqu0y5mj572n7",
+              "postId": "cmv884ifq06roqu0yr68t84vx",
               "integration": "cmu7sq33e03belb0yzk9botks"
             }
           ],
-          "group": "be384979-fc91-4134-8457-757d5a2759db"
+          "group": "01bb4a0b-ac61-4a90-8c1d-d2045e6e9ab3"
+        }
+      ]
+    },
+    "BR": {
+      "status": "scheduled",
+      "news": {
+        "key": "f0cdf39825f45f54684e7a09576dc1e783bb0f45",
+        "title": "Medida Provisória torna obrigatória identificação de empresas nas ligações, explica Anatel",
+        "source": "TeleSíntese",
+        "preferred": true,
+        "link": "https://telesintese.com.br/mp-torna-obrigatoria-identificacao-de-empresas-nas-ligacoes-explica-anatel/",
+        "published": "2026-10-14T11:12:44-03:00",
+        "summary": "Chamadas curtas chegaram a 70% do tráfego em 2026; agência detalha exigências e prazos das medidas contra ligações abusivas. O post Medida Provisória torna obrigatória identificação de empresas nas ligações, explica Anatel apareceu primeiro em TeleSíntese ."
+      },
+      "selection": {
+        "index": 5,
+        "category": "TELECOM",
+        "card_title": "Brasil torna obrigatória identificação de empresas em ligações telefônicas",
+        "card_summary": "Medida Provisória exige que empresas se identifiquem nas chamadas. Anatel detalha novas regras contra ligações abusivas, que chegaram a 70% do tráfego em 2026.",
+        "linkedin": "O governo brasileiro publicou uma Medida Provisória que torna obrigatória a identificação de empresas nas ligações telefônicas, medida anunciada pela Anatel para combater o problema das chamadas abusivas no país.\n\nSegundo a agência reguladora, as chamadas curtas chegaram a representar 70% do tráfego telefônico em 2026, evidenciando a dimensão do problema que afeta tanto consumidores quanto a qualidade das redes de telecomunicações. A Anatel detalhou as exigências técnicas e os prazos que as operadoras e empresas deverão cumprir para implementar o sistema de identificação.\n\nPara o setor de infraestrutura de telecomunicações, essa regulamentação impacta diretamente a gestão do tráfego nas redes e pode demandar investimentos em sistemas de autenticação e controle de chamadas por parte das operadoras que utilizam nossa infraestrutura de torres e antenas.\n\nFonte: TeleSíntese",
+        "instagram": "Brasil avança no combate às ligações indesejadas! 📞\n\nNova Medida Provisória torna obrigatória a identificação de empresas nas chamadas telefônicas. A Anatel informou que chamadas curtas chegaram a 70% do tráfego em 2026.\n\nA regulamentação estabelece exigências e prazos para operadoras implementarem sistemas de identificação, impactando a gestão das redes de telecomunicações em todo o país.\n\nFonte: TeleSíntese",
+        "hashtags": "#LigacoesAbusivas #RegulacaoTelecom #Anatel"
+      },
+      "card": "cards/2026-10-14/2026-10-14_BR.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
+          "result": [
+            {
+              "postId": "cmv88473e06rcqu0ygwd2utcf",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "3b607d74-1c25-4bdc-a9b0-d48e62b5289a"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
+          "result": [
+            {
+              "postId": "cmv8847f406h2qt0yhgsaryjl",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "04612e0e-b7dc-48b6-878e-6f227df044ed"
+        }
+      ]
+    },
+    "CL": {
+      "status": "scheduled",
+      "news": {
+        "key": "9d9cd8dd9bb3c64321e11f5296ec499c2b939f64",
+        "title": "Bancos flexibilizan hipotecarios y créditos para inmobiliarias, y perciben mayor demanda por vivienda",
+        "source": "La Tercera",
+        "preferred": true,
+        "link": "https://www.latercera.com/pulso/noticia/bancos-flexibilizan-hipotecarios-y-creditos-para-inmobiliarias-y-perciben-mayor-demanda-por-vivienda/",
+        "published": "2026-10-14T09:16:01-03:00",
+        "summary": "La Encuesta sobre Créditos Bancarios del Banco Central mostró, sin embargo, restricción en las condiciones para el otorgamiento de créditos de consumo."
+      },
+      "selection": {
+        "index": 23,
+        "category": "ECONOMÍA",
+        "card_title": "Bancos flexibilizan créditos hipotecarios e inmobiliarios en Chile",
+        "card_summary": "Encuesta del Banco Central revela que entidades financieras están facilitando el acceso a hipotecarios y créditos para constructoras, detectando mayor demanda por vivienda.",
+        "linkedin": "La banca chilena está ajustando su estrategia crediticia en el sector inmobiliario. Según la Encuesta sobre Créditos Bancarios del Banco Central, las instituciones financieras están flexibilizando las condiciones para créditos hipotecarios y financiamiento a empresas inmobiliarias, respondiendo a una percepción de mayor demanda en el mercado de vivienda.\n\nEsta señal es relevante para nuestra industria de infraestructura de telecomunicaciones. Un sector inmobiliario más dinámico impulsa el desarrollo urbano y la construcción de nuevos proyectos habitacionales y comerciales, que requieren infraestructura de conectividad desde su diseño inicial. Torres, antenas y redes de fibra óptica son componentes esenciales en cualquier desarrollo inmobiliario moderno.\n\nLa reactivación del crédito inmobiliario anticipa oportunidades para proveedores de infraestructura telecom, especialmente en proyectos que buscan ofrecer conectividad de calidad como valor diferenciador. Para DEITEL, esto representa un escenario favorable para la demanda de estructuras que soporten las redes de nueva generación.\n\nFuente: La Tercera",
+        "instagram": "💼 La banca chilena flexibiliza créditos hipotecarios e inmobiliarios, según encuesta del Banco Central. Las entidades financieras perciben mayor demanda por vivienda y están facilitando el acceso al financiamiento.\n\n¿Por qué nos importa? Más desarrollo inmobiliario significa más infraestructura de telecomunicaciones. Cada nuevo proyecto necesita torres, antenas y conectividad desde el inicio. 📡\n\nFuente: La Tercera",
+        "hashtags": "#CréditoHipotecario #DesarrolloInmobiliario #BancoCentral"
+      },
+      "card": "cards/2026-10-14/2026-10-14_CL.png",
+      "posts": [
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
+          "result": [
+            {
+              "postId": "cmv883ral06r2qu0yym0s7kez",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "2fdbe2bd-4d32-462c-9f04-02993c0034ae"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-14T11:49:23.195559-03:00",
+          "result": [
+            {
+              "postId": "cmv883riv06r3qu0yu10jiozp",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "d768f383-0f20-467e-b17b-986b0ccc9c25"
         }
       ]
     }
