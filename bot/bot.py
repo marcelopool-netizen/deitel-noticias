@@ -391,13 +391,13 @@ def _platform_of(i):
     return ""
 
 
-def resolve_channels(pz):
+def resolve_channels(pz, lista=None):
     ints = pz.integrations()
     if isinstance(ints, dict):  # algunas versiones envuelven la lista
         ints = ints.get("integrations") or ints.get("data") or []
     out = []
     key = lambda x: re.sub(r"[\s._\-]+", "", (x or "").lower())
-    for ch in CFG["channels"]:
+    for ch in (lista if lista is not None else CFG["channels"]):
         m = [i for i in ints if _platform_of(i) == ch["platform"].lower()
              and key(ch["name"]) in key(i.get("name"))]
         if not m:
@@ -492,6 +492,152 @@ def run_campaign(camp, pz, channels, daylog, done):
 
 
 # ----------------------------------------------------------------------- main
+# ---------------------------------------------------------------- conteúdo próprio
+# Desde el 15/10/2026: en vez de noticias, un post por día hábil sobre la fábrica, el software de
+# estimativa de CAPEX para torreras (calculo.smartnoc.cl), las torres y los metálicos, en portugués,
+# con foto real o captura del software (config.yaml > conteudo).
+CONTEUDO_STATE = ROOT / "state" / "conteudo.json"
+
+CONTEUDO_PROMPT = """Você é o editor de redes sociais da DEITEL Brasil, fabricante de torres de telecomunicações e
+de todos os metálicos de um site. Escreva o post de hoje ({fecha}, {weekday}) para LinkedIn e Instagram,
+em português do Brasil, sobre o tema: {tema_nome}.
+
+Foco do tema: {tema_foco}
+
+A imagem do post (já escolhida, o texto precisa combinar com ela): {foto}
+
+Fatos que você pode usar (use SOMENTE estes; não invente números, clientes, prêmios nem prazos):
+{base}
+
+Posts recentes deste tema (NÃO repita o ângulo nem o título; traga outro aspecto):
+{historico}
+
+Regras:
+- Tom profissional e direto, para torreiras, operadoras, integradores e construtoras. Nada de clichê vazio.
+- Não cite clientes, pessoas, concorrentes, preços, promoções nem nomes de programas internos
+  (nada de tnxTower, ERP com nome, "otimizador", IA ou fornecedores de software).
+- O software se chama "Estimativa de sítios Deitel". É estimativa de CAPEX: nunca diga que substitui o projeto executivo.
+- Não coloque links, telefone nem hashtags no corpo: eles são adicionados depois.
+- LinkedIn: 600 a 1.100 caracteres, parágrafos curtos, pode usar uma lista curta com "•".
+- Instagram: 300 a 600 caracteres, mais direto, 1 a 3 emojis.
+- Título da tarjeta: no máximo 52 caracteres. Resumo da tarjeta: no máximo 95 caracteres.
+
+Responda APENAS com JSON, sem texto fora dele:
+{{"angulo": "<3 a 6 palavras com o aspecto abordado>",
+  "card_title": "<título>", "card_summary": "<resumo>",
+  "linkedin": "<texto>", "instagram": "<texto>",
+  "hashtags": "<2 a 4 hashtags extras>"}}"""
+
+
+def _conteudo_state():
+    try:
+        return json.loads(CONTEUDO_STATE.read_text(encoding="utf-8"))
+    except Exception:
+        return {"posts": []}
+
+
+def _escolher_foto(tema, cfg_tema, st):
+    """Foto do tema menos usada; em empate, a usada há mais tempo (ou nunca)."""
+    fotos = [f for f in cfg_tema.get("fotos", []) if (ROOT / f["file"]).exists()]
+    if not fotos:
+        raise RuntimeError(f"tema {tema}: nenhuma foto encontrada")
+    usos = {}
+    for i, p in enumerate(st["posts"]):
+        usos.setdefault(p.get("foto"), []).append(i)
+    return min(fotos, key=lambda f: (len(usos.get(f["file"], [])), max(usos.get(f["file"], [-1]))))
+
+
+def _foto_para_card(foto, card):
+    """Capturas de tela e modelos 3D pequenos vão inteiros (fit: contain) sobre fundo claro, abaixo do logo;
+    fotos normais vão recortadas para cobrir a área (make_photo_card faz o recorte)."""
+    src = ROOT / foto["file"]
+    if foto.get("fit") != "contain":
+        return str(src)
+    from PIL import Image
+    W, H, top, pad = 1080, 590, 150, 36
+    im = Image.open(src).convert("RGB")
+    bg = Image.new("RGB", (W, H), tuple(foto["bg"]) if foto.get("bg") else im.getpixel((2, 2)))  # fundo = canto da imagem
+    im.thumbnail((W - 2 * pad, H - top - 18), Image.LANCZOS)
+    bg.paste(im, ((W - im.width) // 2, top + (H - top - 18 - im.height) // 2))
+    out = card.with_name(card.stem + "_foto.png")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    bg.save(out)
+    return str(out)
+
+
+def ask_claude_conteudo(tema, cfg_tema, foto, st):
+    import anthropic
+    cc = CFG["conteudo"]
+    dias = ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo"]
+    hoje = dt.datetime.now(ZoneInfo(cc.get("timezone", CFG["timezone"])))
+    fecha = f"{hoje.day} de {MESES_PT[hoje.month - 1]} de {hoje.year}"
+    hist = [p for p in st["posts"] if p.get("tema") == tema][-12:]
+    historico = "\n".join(f"- {p['date']}: {p.get('angulo', '')} | {p.get('card_title', '')}" for p in hist) or "- (nenhum ainda)"
+    prompt = CONTEUDO_PROMPT.format(fecha=fecha, weekday=dias[hoje.weekday()], tema_nome=cfg_tema["nome"],
+                                    tema_foco=cfg_tema["foco"].strip(), foto=foto["descricao"],
+                                    base=cc["base"].strip(), historico=historico)
+    client = anthropic.Anthropic()
+    for attempt in range(3):
+        msg = client.messages.create(model=CFG["model"], max_tokens=2000,
+                                     messages=[{"role": "user", "content": prompt}])
+        txt = re.sub(r"^```(?:json)?|```$", "", msg.content[0].text.strip(), flags=re.M).strip()
+        try:
+            sel = json.loads(txt)
+            if all(sel.get(k) for k in ("card_title", "card_summary", "linkedin", "instagram")):
+                return sel
+        except json.JSONDecodeError:
+            pass
+        log("  respuesta no válida, reintento", attempt + 1)
+        time.sleep(2)
+    raise RuntimeError("Claude no devolvió JSON válido (conteúdo)")
+
+
+def run_conteudo(pz, daylog, done):
+    cc = CFG.get("conteudo") or {}
+    if not cc.get("enabled") or "CONTEUDO" in done or (ONLY and "CONTEUDO" not in ONLY):
+        return
+    tz = ZoneInfo(cc.get("timezone", CFG["timezone"]))
+    hoje = dt.datetime.now(tz)
+    if str(cc.get("start", "")) > hoje.strftime("%Y-%m-%d"):
+        log("Conteúdo: aún no empieza (start", cc.get("start"), ")")
+        return
+    tema = (cc.get("dias") or {}).get(hoje.weekday())
+    if not tema:
+        log("Conteúdo: hoy no hay post (fin de semana)")
+        return
+    log(f"== Conteúdo: {tema}")
+    entry = {"status": "skip", "tema": tema}
+    st = _conteudo_state()
+    try:
+        cfg_tema = cc["temas"][tema]
+        foto = _escolher_foto(tema, cfg_tema, st)
+        sel = ask_claude_conteudo(tema, cfg_tema, foto, st)
+        card = CARD_DIR / f"{TODAY}_CONTEUDO_{tema}.png"
+        img = _foto_para_card(foto, card)
+        make_photo_card(sel["card_title"], sel["card_summary"], img, str(card),
+                        [tuple(x) for x in cfg_tema.get("facts", cc.get("facts", []))],
+                        str(LOGO) if LOGO.exists() else None, None,
+                        kicker=cfg_tema.get("kicker", "DEITEL BRASIL"), tag=cfg_tema.get("tag", ""),
+                        focus=tuple(foto.get("focus", (0.5, 0.5))), web=cc.get("web", "deitel.com.br"))
+        tags = (cfg_tema.get("hashtags", "") + " " + sel.get("hashtags", "")).strip()
+        rodape = cc["links"].strip()
+        texts = {"linkedin": sel["linkedin"].strip() + "\n\n" + rodape + "\n\n" + tags,
+                 "instagram": sel["instagram"].strip() + "\n\n" + rodape + "\n\n" + tags}
+        entry.update(status="ready", foto=foto["file"], selection=sel, texts=texts, card=str(card.relative_to(ROOT)))
+        if not DRY:
+            channels = resolve_channels(pz, cc["channels"])
+            hh, mm = map(int, cc.get("post_time", "10:00").split(":"))
+            local = hoje.replace(hour=hh, minute=mm, second=0, microsecond=0).astimezone(TZ)
+            publish(pz, channels, card, texts, local.strftime("%H:%M"), entry)
+            st["posts"].append({"date": hoje.strftime("%Y-%m-%d"), "tema": tema, "foto": foto["file"],
+                                "angulo": sel.get("angulo", ""), "card_title": sel["card_title"]})
+            CONTEUDO_STATE.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as e:
+        entry.update(status="error", error=repr(e))
+        log("  ERROR:", repr(e))
+    daylog["countries"]["CONTEUDO"] = entry
+
+
 def main():
     seen = set(json.loads(STATE_FILE.read_text()).get("keys", [])) if STATE_FILE.exists() else set()
     CARD_DIR.mkdir(parents=True, exist_ok=True)
@@ -610,6 +756,8 @@ def main():
             entry.update(status="error", error=repr(e))
             log("  ERROR:", repr(e))
         daylog["countries"]["HOY"] = entry
+
+    run_conteudo(pz, daylog, done)
 
     (LOG_DIR / f"{TODAY}.json").write_text(json.dumps(daylog, ensure_ascii=False, indent=2), encoding="utf-8")
     STATE_FILE.write_text(json.dumps({"keys": sorted(seen)[-2000:]}, indent=0), encoding="utf-8")

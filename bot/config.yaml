@@ -461,3 +461,93 @@ campaign:
           Seguimos em contato para os próximos projetos.
 
           🌐 deitel.com.br · deitel.cl
+
+# ---------------------------------------------------------------- conteúdo próprio
+# Desde el 15/10/2026 (pedido de Marcelo): en vez de noticias, un post por día hábil sobre la fábrica,
+# el software de estimativa de CAPEX para torreras, las torres y los metálicos en Brasil. Portugués,
+# publicación automática, foto real o captura del software. Siempre con deitel.com.br y calculo.smartnoc.cl.
+conteudo:
+  enabled: true
+  start: "2026-10-15"
+  timezone: America/Sao_Paulo
+  post_time: "10:00"            # hora de São Paulo; si el workflow corre más tarde, sale en 3 minutos
+  dias: {0: fabrica, 1: software, 2: torres, 3: metalicos, 4: software}   # 0 = segunda-feira
+  channels:
+    - {platform: instagram-standalone, name: Deitel Brasil, lang: pt}
+    - {platform: linkedin-page, name: Grupodeitel, lang: pt}
+    - {platform: linkedin, name: Marcelo Pool Skiadaressis, lang: pt}
+  web: "deitel.com.br · calculo.smartnoc.cl"
+  links: |-
+    🌐 deitel.com.br
+    🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl
+    📲 WhatsApp (11) 97840-6855
+  facts: [[Fábrica, "Santana de Parnaíba · SP"], [WhatsApp, "(11) 97840-6855"]]
+  base: |-
+    DEITEL Brasil: fábrica própria em Santana de Parnaíba (SP). O grupo DEITEL também tem fábrica no Chile.
+    Fábrica: corte a laser de chapas até 1/2 polegada (mesa de 1.500 × 3.000 mm); corte a laser de tubos, vigas e
+    cantoneiras até 220 mm de diâmetro; dobra de chapas e perfis até 3 m; galvanização a fogo conforme a NBR 6323.
+    Cada peça é modelada em 3D antes do corte, sai com etiqueta QR e é rastreada do corte à expedição.
+    As peças saem em kits por site, paletizadas e identificadas. Estruturas parafusadas, sem solda em campo.
+    Torres: autoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro).
+    Projeto estrutural conforme NBR 6123 (vento) e NBR 8800 (aço), ou TIA-222 quando o cliente pede;
+    entregamos memória de cálculo, projeto de fundação, desenhos de fabricação e de montagem, com ART.
+    Metálicos de site: skids para gabinetes com tampa em chapa xadrez, portões e mourões, gradis, requadros,
+    esteiramento em tramos de 3 m, plataformas, mastros, postes de iluminação e suportes de antenas, RRUs e
+    micro-ondas. Itens padronizados, galvanizados e prontos para instalar; lista de preços unitários que
+    facilita cotar lotes de sites.
+    Estimativa de sítios Deitel (calculo.smartnoc.cl), para torreiras: a torreira sobe a planilha de sítios
+    (coordenadas + altura, em qualquer formato) e recebe em segundos, por sítio: torre Deitel recomendada e
+    peso de referência; vento NBR 6123 do ponto (V0, S1, S2) e relevo; solo pela sondagem anexada ou inferido
+    pela base de solos; fundação com concreto, aço, formas e escavação, com margem declarada; alertas de área
+    protegida, terra indígena, aeródromo, água e declive; ficha PDF, planilha do lote e KMZ para o Google Earth.
+    Sem preços nas fichas: só pesos, volumes e quantidades, para a torreira cotar com quem quiser. Serve para
+    decidir CAPEX e priorizar sítios antes de adquirir; não substitui o projeto executivo (que exige engenheiro
+    habilitado e ART). A mesma conta tem revisão de memória de cálculo e de projeto executivo, o Site Book
+    (todos os sítios e documentos num só lugar) e, quando o sítio vira obra, o projeto completo com RT/ART.
+    Teste grátis de 30 dias com 20 sítios, sem cartão.
+  temas:
+    fabrica:
+      nome: "a fábrica da DEITEL Brasil"
+      foco: "processos e capacidade da fábrica: corte a laser, dobra, galvanização, rastreabilidade QR, kits por site."
+      kicker: "FÁBRICA DEITEL"
+      tag: "SANTANA DE PARNAÍBA"
+      hashtags: "#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom"
+      fotos:
+        - {file: bot/assets/futurecom/fabrica.jpg, focus: [0.5, 0.45], descricao: "máquina de corte a laser de chapas na fábrica, com perfis e peças ao fundo"}
+        - {file: bot/assets/futurecom/galvanizados.jpg, focus: [0.5, 0.4], descricao: "kit de peças de torre galvanizadas a fogo, cada peça com etiqueta de identificação com código QR"}
+    software:
+      nome: "a Estimativa de sítios Deitel, software de estimativa de CAPEX para torreiras"
+      foco: "como a torreira estima peso de torre e fundação de lotes de sítios em segundos, e o que recebe por sítio; convidar para o teste grátis."
+      kicker: "ESTIMATIVA DE SÍTIOS"
+      tag: "CAPEX PARA TORREIRAS"
+      facts: [[Teste grátis, "30 dias · 20 sítios"], [Acesse, "calculo.smartnoc.cl"]]
+      hashtags: "#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil"
+      fotos:
+        - {file: bot/assets/conteudo/software/landing_hero.jpg, fit: contain, descricao: "tela inicial do software com o título 'Peso de torre e fundação de cada sítio em segundos, não em semanas' e o botão do teste grátis"}
+        - {file: bot/assets/conteudo/software/landing_recebe.jpg, fit: contain, descricao: "quadro 'O que você recebe por sítio': torre e peso de referência, vento NBR 6123, solo, fundação, alertas e ficha PDF, planilha e KMZ"}
+        - {file: bot/assets/conteudo/software/landing_servicos_1_2.jpg, fit: contain, descricao: "cartões dos serviços 1 (Estimativa de sítios) e 2 (Revisão de memória e de projeto executivo)"}
+        - {file: bot/assets/conteudo/software/landing_servicos_3_4.jpg, fit: contain, descricao: "cartões dos serviços 3 (Site Book) e 4 (Projeto completo com RT/ART)"}
+    torres:
+      nome: "as torres DEITEL"
+      foco: "tipos de torre, projeto estrutural com NBR 6123/8800 e ART, galvanização, montagem parafusada."
+      kicker: "TORRES DEITEL"
+      tag: "PROJETO + FABRICAÇÃO"
+      hashtags: "#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil"
+      fotos:
+        - {file: bot/assets/futurecom/torre_baixo.jpg, focus: [0.5, 0.3], descricao: "torre autoportante treliçada vista de baixo para cima, com pintura de sinalização"}
+        - {file: bot/assets/futurecom/torre_chile.jpg, focus: [0.5, 0.35], descricao: "torre autoportante treliçada pintada em vermelho e branco, montada em terreno árido"}
+        - {file: bot/assets/futurecom/trelica_vermelha.jpg, focus: [0.5, 0.5], descricao: "detalhe da treliça de uma torre: montantes, diagonais e chapas de ligação parafusadas, pintura vermelha de sinalização"}
+        - {file: bot/assets/futurecom/torre_noite.jpg, focus: [0.5, 0.4], descricao: "torre treliçada fotografada de baixo, em dia nublado, com a escada no centro"}
+        - {file: bot/assets/conteudo/torres/camufladas.jpg, focus: [0.5, 0.45], descricao: "torres camufladas: uma em forma de palmeira e outra de pinheiro, integradas à paisagem"}
+    metalicos:
+      nome: "os metálicos de site da DEITEL"
+      foco: "itens padronizados (skids, portões, gradis, esteiramento, plataformas, suportes), modelados em 3D, galvanizados e prontos para instalar."
+      kicker: "METÁLICOS DE SITE"
+      tag: "PRONTOS PARA INSTALAR"
+      hashtags: "#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil"
+      fotos:
+        - {file: bot/assets/conteudo/metalicos/suporte_3d_perna.jpg, focus: [0.5, 0.4], descricao: "modelo 3D de suporte de antena fixado na perna da torre"}
+        - {file: bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg, focus: [0.5, 0.4], descricao: "modelo 3D de suportes para antenas e RRUs em mastros"}
+        - {file: bot/assets/conteudo/metalicos/skid_3d.jpg, fit: contain, descricao: "modelo 3D de skid metálico para gabinetes e equipamentos, com tampa em chapa xadrez"}
+        - {file: bot/assets/conteudo/metalicos/portao_3d.jpg, fit: contain, descricao: "modelo 3D de portão de site com tela"}
+        - {file: bot/assets/futurecom/galvanizados.jpg, focus: [0.5, 0.4], descricao: "peças galvanizadas a fogo com etiqueta QR, organizadas em kit"}

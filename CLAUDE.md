@@ -11,6 +11,25 @@ Contexto para Claude Code. Leer antes de tocar el repo.
 - Repo público `marcelopool-netizen/deitel-noticias`, rama `main`. Clon local en
   `C:\Users\ACER\code\deitel-noticias` (fuera de OneDrive a propósito).
 
+## Línea editorial vigente (desde 15/10/2026) — MODO CONTEÚDO
+- **Noticias y post del día APAGADOS** (`config.yaml > news_enabled: false`, pedido de Marcelo 14/10).
+- `config.yaml > conteudo`: un post por día hábil, en portugués, publicación **automática**, a las 10:00 de São Paulo
+  (si el workflow corre más tarde, sale a los 3 minutos). Rotación `dias`: lun fábrica, mar software, mié torres,
+  jue metálicos, vie software.
+- Cuentas (`conteudo.channels`, propias de este modo): Instagram "Deitel Brasil LTDA" (instagram-standalone),
+  LinkedIn Grupodeitel y LinkedIn de Marcelo. Instagram Deitel SPA (Chile) NO.
+- **Siempre con deitel.com.br y calculo.smartnoc.cl** (pedido de Marcelo): van en `conteudo.links` (pie del texto) y
+  en `conteudo.web` (pie de la tarjeta). El software se llama "Estimativa de sítios Deitel" (landing pública en
+  calculo.smartnoc.cl); nunca nombrar tnxTower, el optimizador, el ERP ni IA, ni clientes ni precios.
+- Imágenes: `conteudo.temas.<tema>.fotos` (archivo + `descricao` que lee Claude + `focus`, o `fit: contain` para
+  capturas y modelos 3D chicos, que van enteros sobre el color del borde). Se elige la menos usada del tema.
+  Historial en `state/conteudo.json` (tema, foto, ángulo, título) para no repetir ángulos.
+- **Fotos sin personas** (regla de Marcelo para lo público); él mismo sí puede aparecer. Faltan fotos reales de
+  metálicos y de la fábrica: cuando Marcelo mande más, copiarlas a `bot/assets/conteudo/<tema>/` y sumarlas al config.
+- Los videos de la TV y del kiosko de Futurecom (repo Futurecom, `presentacion-ar/tv/media`, `kiosko/videos`) NO se
+  usan tal cual: los del avatar hablan del estande y nombran clientes; `calculo.mp4` muestra un sitio de cliente.
+- Probar tarjetas sin Claude ni Postiz: parchear `bot.ask_claude_conteudo` y llamar `bot.run_conteudo(None, {"countries": {}}, set())` con `DRY_RUN=1`.
+
 ## Qué hace (bot/bot.py)
 1. **Modo normal**: cada día, 1 noticia por país (CL, BR, AR, PE, PY) de economía, tributación y
    sobre todo telecom, en el idioma del país (pt para BR) + 1 "post del día" (saludo por fecha
