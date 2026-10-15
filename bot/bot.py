@@ -541,8 +541,11 @@ def main():
             "se omiten noticias por país y post del día")
         run_campaign(camp, pz, channels, daylog, done)
 
+    news_on = CFG.get("news_enabled", True)
+    if not news_on:
+        log("Noticias y post del día desactivados (config.yaml > news_enabled: false)")
     for code, c in CFG["countries"].items():
-        if active or (ONLY and code not in ONLY) or code in done:
+        if not news_on or active or (ONLY and code not in ONLY) or code in done:
             continue
         log(f"== {c['name']}")
         entry = {"status": "skip"}
@@ -583,7 +586,7 @@ def main():
 
     # ---- post del día (efeméride / saludo / dato curioso)
     extra_cfg = CFG.get("extra") or {}
-    if not active and extra_cfg.get("enabled", True) and (not ONLY or "HOY" in ONLY) and "HOY" not in done:
+    if news_on and not active and extra_cfg.get("enabled", True) and (not ONLY or "HOY" in ONLY) and "HOY" not in done:
         log("== Post del día")
         entry = {"status": "skip"}
         try:

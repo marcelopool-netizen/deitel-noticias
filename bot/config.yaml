@@ -6,6 +6,11 @@ window_hours: 36          # solo noticias publicadas en las últimas N horas
 max_candidates: 25        # candidatos por país que se le muestran al modelo
 model: claude-sonnet-4-5  # modelo de Anthropic para seleccionar y redactar
 
+# 14/10/2026: Marcelo cambia la línea editorial (fábrica, software de estimativa de CAPEX para
+# torreras, torres y metálicos en Brasil). Mientras se arma el contenido nuevo, NO se publican
+# noticias ni post del día.
+news_enabled: false
+
 # Lista blanca de medios: si un país tiene al menos min_preferred candidatos de
 # medios de referencia, al modelo SOLO se le muestran esos. Si hay menos, se muestran
 # todos, pero los de referencia van primero y marcados con ★.
