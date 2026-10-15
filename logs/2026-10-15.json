@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15",
+  "run_at": "2026-10-15T11:32:13.680728-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "fabrica",
+      "foto": "bot/assets/futurecom/fabrica.jpg",
+      "selection": {
+        "angulo": "Da chapa ao site pronto",
+        "card_title": "Fábrica DEITEL: precisão do corte ao parafuso",
+        "card_summary": "Corte a laser, dobra, galvanização e rastreabilidade QR. Kits prontos para instalar.",
+        "linkedin": "A fábrica da DEITEL Brasil em Santana de Parnaíba (SP) reúne toda a cadeia de fabricação de torres e metálicos de site sob o mesmo teto.\n\nCada peça nasce no modelo 3D, é cortada a laser (chapas até 1/2 polegada, tubos até 220 mm de diâmetro), dobrada (até 3 m), galvanizada a fogo conforme NBR 6323 e rastreada por etiqueta QR do corte à expedição.\n\nO resultado: kits paletizados por site, com todas as peças identificadas e prontas para montar. Estruturas parafusadas, sem solda em campo.\n\nTorres autoportantes, estaiadas, rooftop e camufladas. Skids, portões, gradis, esteiramentos, plataformas e suportes — tudo galvanizado e padronizado.\n\nProjeto estrutural conforme NBR 6123, NBR 8800 ou TIA-222, com memória de cálculo, fundação, fabricação, montagem e ART.\n\nCapacidade instalada e controle de processo para entregar obra após obra, sem improviso.",
+        "instagram": "Da chapa à torre instalada. 🏗️\n\nNossa fábrica em Santana de Parnaíba (SP) corta a laser, dobra, galvaniza e rastrea cada peça por QR — do modelo 3D à expedição.\n\nKits completos por site, paletizados e prontos para montar. Estruturas parafusadas, sem solda em campo.\n\nTorres, skids, gradis, plataformas: tudo galvanizado conforme NBR 6323 e projetado com ART. ⚙️\n\nPrecisão, rastreabilidade e capacidade de fábrica para entregar seus sites no prazo.",
+        "hashtags": "#TorresDeTelecomunicações #Infraestrutura #Fabricação"
+      },
+      "texts": {
+        "linkedin": "A fábrica da DEITEL Brasil em Santana de Parnaíba (SP) reúne toda a cadeia de fabricação de torres e metálicos de site sob o mesmo teto.\n\nCada peça nasce no modelo 3D, é cortada a laser (chapas até 1/2 polegada, tubos até 220 mm de diâmetro), dobrada (até 3 m), galvanizada a fogo conforme NBR 6323 e rastreada por etiqueta QR do corte à expedição.\n\nO resultado: kits paletizados por site, com todas as peças identificadas e prontas para montar. Estruturas parafusadas, sem solda em campo.\n\nTorres autoportantes, estaiadas, rooftop e camufladas. Skids, portões, gradis, esteiramentos, plataformas e suportes — tudo galvanizado e padronizado.\n\nProjeto estrutural conforme NBR 6123, NBR 8800 ou TIA-222, com memória de cálculo, fundação, fabricação, montagem e ART.\n\nCapacidade instalada e controle de processo para entregar obra após obra, sem improviso.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicações #Infraestrutura #Fabricação",
+        "instagram": "Da chapa à torre instalada. 🏗️\n\nNossa fábrica em Santana de Parnaíba (SP) corta a laser, dobra, galvaniza e rastrea cada peça por QR — do modelo 3D à expedição.\n\nKits completos por site, paletizados e prontos para montar. Estruturas parafusadas, sem solda em campo.\n\nTorres, skids, gradis, plataformas: tudo galvanizado conforme NBR 6323 e projetado com ART. ⚙️\n\nPrecisão, rastreabilidade e capacidade de fábrica para entregar seus sites no prazo.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicações #Infraestrutura #Fabricação"
+      },
+      "card": "cards/2026-10-15/2026-10-15_CONTEUDO_fabrica.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-15T11:35:13.680728-03:00",
+          "result": [
+            {
+              "postId": "cmv9n19o7064zo40yev6wfayu",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "fb0480df-1aab-4b9e-a87d-b7945440e293"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-15T11:35:13.680728-03:00",
+          "result": [
+            {
+              "postId": "cmv9n1a1e0650o40ypp9ahyyg",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "62e0b863-78fe-4726-a9d5-4e80e10324c8"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-15T11:35:13.680728-03:00",
+          "result": [
+            {
+              "postId": "cmv9n1age063lqj0yjzaznyuo",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "500f9fe8-cc5a-4e0b-a2ae-8d26230f8594"
+        }
+      ]
+    }
+  }
+}
