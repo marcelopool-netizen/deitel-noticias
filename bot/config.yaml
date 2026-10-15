@@ -472,6 +472,9 @@ conteudo:
   timezone: America/Sao_Paulo
   post_time: "10:00"            # hora de São Paulo; si el workflow corre más tarde, sale en 3 minutos
   dias: {0: fabrica, 1: software, 2: torres, 3: metalicos, 4: software}   # 0 = segunda-feira
+  # cambios puntuales de tema por fecha (manda sobre 'dias'). 15/10: metálicos ya salen ese día en dos videos
+  # de suportes 3D publicados a mano (14/10 noche y 15/10 15:00), así que el bot hace fábrica.
+  datas: {"2026-10-15": fabrica}
   channels:
     - {platform: instagram-standalone, name: Deitel Brasil, lang: pt}
     - {platform: linkedin-page, name: Grupodeitel, lang: pt}

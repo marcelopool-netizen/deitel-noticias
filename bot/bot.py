@@ -601,7 +601,7 @@ def run_conteudo(pz, daylog, done):
     if str(cc.get("start", "")) > hoje.strftime("%Y-%m-%d"):
         log("Conteúdo: aún no empieza (start", cc.get("start"), ")")
         return
-    tema = (cc.get("dias") or {}).get(hoje.weekday())
+    tema = (cc.get("datas") or {}).get(hoje.strftime("%Y-%m-%d")) or (cc.get("dias") or {}).get(hoje.weekday())
     if not tema:
         log("Conteúdo: hoy no hay post (fin de semana)")
         return
