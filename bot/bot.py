@@ -520,6 +520,7 @@ Regras:
 - Não coloque links, telefone nem hashtags no corpo: eles são adicionados depois.
 - LinkedIn: 600 a 1.100 caracteres, parágrafos curtos, pode usar uma lista curta com "•".
 - Instagram: 300 a 600 caracteres, mais direto, 1 a 3 emojis.
+- Português do Brasil correto (revise a ortografia: "rastreia", não "rastrea").
 - Título da tarjeta: no máximo 52 caracteres. Resumo da tarjeta: no máximo 95 caracteres.
 
 Responda APENAS com JSON, sem texto fora dele:
@@ -619,7 +620,7 @@ def run_conteudo(pz, daylog, done):
                         str(LOGO) if LOGO.exists() else None, None,
                         kicker=cfg_tema.get("kicker", "DEITEL BRASIL"), tag=cfg_tema.get("tag", ""),
                         focus=tuple(foto.get("focus", (0.5, 0.5))), web=cc.get("web", "deitel.com.br"))
-        tags = (cfg_tema.get("hashtags", "") + " " + sel.get("hashtags", "")).strip()
+        tags = " ".join(dict.fromkeys((cfg_tema.get("hashtags", "") + " " + sel.get("hashtags", "")).split()))  # sin repetidos
         rodape = cc["links"].strip()
         texts = {"linkedin": sel["linkedin"].strip() + "\n\n" + rodape + "\n\n" + tags,
                  "instagram": sel["instagram"].strip() + "\n\n" + rodape + "\n\n" + tags}
