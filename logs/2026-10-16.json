@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-16",
+  "run_at": "2026-10-16T11:24:07.434047-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "software",
+      "foto": "bot/assets/conteudo/software/landing_hero.jpg",
+      "selection": {
+        "angulo": "Da planilha à decisão de CAPEX",
+        "card_title": "Estimativa de lote: peso e fundação em segundos",
+        "card_summary": "Suba a planilha de coordenadas e alturas. Receba peso de torre, fundação e alertas por sítio.",
+        "linkedin": "Você recebeu um lote de 80 sítios para cotar. Precisa estimar CAPEX antes de fechar a proposta, mas não tem semanas para esperar.\n\nA Estimativa de sítios Deitel resolve isso.\n\nVocê sobe a planilha com coordenadas e altura de cada ponto. Em segundos, o sistema entrega por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 (V0, S1, S2) e relevo do ponto\n• Solo inferido ou pela sondagem anexada\n• Fundação: concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n\nSaída: ficha PDF por sítio, planilha do lote e KMZ para o Google Earth. Sem preços nas fichas — só pesos, volumes e quantidades. Você cota com quem quiser.\n\nÉ estimativa para decisão de CAPEX e priorização de sítios, não substitui o projeto executivo com ART.\n\nTeste grátis: 30 dias, 20 sítios, sem cartão.\n\nDEITEL Brasil — fábrica em Santana de Parnaíba (SP), torres e metálicos de site desde o corte a laser até a galvanização a fogo.",
+        "instagram": "Lote de sítios para cotar? A Estimativa de sítios Deitel entrega peso de torre e fundação por ponto em segundos. 📊\n\nVocê sobe a planilha (coordenadas + altura). Recebe por sítio: torre recomendada, vento NBR 6123, solo, fundação (concreto, aço, formas, escavação) e alertas de área protegida, aeródromo, declive.\n\nSem preços: só pesos e volumes. Você cota com quem quiser. Estimativa para CAPEX, não substitui projeto executivo.\n\nTeste grátis: 30 dias, 20 sítios, sem cartão. ⚙️\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP).",
+        "hashtags": "#Torres #Telecom #CAPEX #Engenharia"
+      },
+      "texts": {
+        "linkedin": "Você recebeu um lote de 80 sítios para cotar. Precisa estimar CAPEX antes de fechar a proposta, mas não tem semanas para esperar.\n\nA Estimativa de sítios Deitel resolve isso.\n\nVocê sobe a planilha com coordenadas e altura de cada ponto. Em segundos, o sistema entrega por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 (V0, S1, S2) e relevo do ponto\n• Solo inferido ou pela sondagem anexada\n• Fundação: concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n\nSaída: ficha PDF por sítio, planilha do lote e KMZ para o Google Earth. Sem preços nas fichas — só pesos, volumes e quantidades. Você cota com quem quiser.\n\nÉ estimativa para decisão de CAPEX e priorização de sítios, não substitui o projeto executivo com ART.\n\nTeste grátis: 30 dias, 20 sítios, sem cartão.\n\nDEITEL Brasil — fábrica em Santana de Parnaíba (SP), torres e metálicos de site desde o corte a laser até a galvanização a fogo.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres #Engenharia",
+        "instagram": "Lote de sítios para cotar? A Estimativa de sítios Deitel entrega peso de torre e fundação por ponto em segundos. 📊\n\nVocê sobe a planilha (coordenadas + altura). Recebe por sítio: torre recomendada, vento NBR 6123, solo, fundação (concreto, aço, formas, escavação) e alertas de área protegida, aeródromo, declive.\n\nSem preços: só pesos e volumes. Você cota com quem quiser. Estimativa para CAPEX, não substitui projeto executivo.\n\nTeste grátis: 30 dias, 20 sítios, sem cartão. ⚙️\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP).\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres #Engenharia"
+      },
+      "card": "cards/2026-10-16/2026-10-16_CONTEUDO_software.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-16T11:27:07.434047-03:00",
+          "result": [
+            {
+              "postId": "cmvb26qc90olnlu0yvv0gww16",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "88bd4183-02a9-493c-b089-553b6dbdbae0"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-16T11:27:07.434047-03:00",
+          "result": [
+            {
+              "postId": "cmvb26r1h0ok5o00yd66zl1i8",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "f441a3cf-a4c9-4036-ad38-893f50344bc0"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-16T11:27:07.434047-03:00",
+          "result": [
+            {
+              "postId": "cmvb26vp90ololu0y4nvmui04",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "72e2840a-0a68-4e77-93f1-4a7d679c932f"
+        }
+      ]
+    }
+  }
+}

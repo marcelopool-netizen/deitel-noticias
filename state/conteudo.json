@@ -6,6 +6,13 @@
    "foto": "bot/assets/futurecom/fabrica.jpg",
    "angulo": "Da chapa ao site pronto",
    "card_title": "Fábrica DEITEL: precisão do corte ao parafuso"
+  },
+  {
+   "date": "2026-10-16",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_hero.jpg",
+   "angulo": "Da planilha à decisão de CAPEX",
+   "card_title": "Estimativa de lote: peso e fundação em segundos"
   }
  ]
 }
