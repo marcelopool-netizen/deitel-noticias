@@ -13,6 +13,13 @@
    "foto": "bot/assets/conteudo/software/landing_hero.jpg",
    "angulo": "Da planilha à decisão de CAPEX",
    "card_title": "Estimativa de lote: peso e fundação em segundos"
+  },
+  {
+   "date": "2026-10-19",
+   "tema": "fabrica",
+   "foto": "bot/assets/futurecom/galvanizados.jpg",
+   "angulo": "Kit completo identificado por QR",
+   "card_title": "Cada peça rastreada: do corte à montagem"
   }
  ]
 }

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-19",
+  "run_at": "2026-10-19T13:42:03.338445-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "fabrica",
+      "foto": "bot/assets/futurecom/galvanizados.jpg",
+      "selection": {
+        "angulo": "Kit completo identificado por QR",
+        "card_title": "Cada peça rastreada: do corte à montagem",
+        "card_summary": "Kits completos por site, com etiquetas QR em todas as peças galvanizadas e sem solda em campo",
+        "linkedin": "Todo kit de torre que sai da DEITEL Brasil chega ao site assim: peças galvanizadas a fogo conforme NBR 6323, cada uma com etiqueta QR, paletizadas e prontas para montar.\n\nNossa fábrica em Santana de Parnaíba (SP) trabalha com rastreabilidade total:\n• Modelagem 3D de cada peça antes do corte\n• Corte a laser de chapas até 1/2 polegada e de tubos até 220 mm\n• Dobra de perfis até 3 m\n• Galvanização a fogo in house\n• Etiqueta QR aplicada na saída da galvanização\n• Rastreamento do corte à expedição\n\nO resultado: kits organizados por site, estruturas parafusadas sem solda em campo, e montagem mais rápida e segura. A etiqueta QR permite confirmar especificação, lote e destino de cada peça no recebimento e durante a montagem.\n\nPara torres autoportantes, estaiadas, rooftop e camufladas, e todos os metálicos do site — skids, portões, gradis, esteiramento, plataformas e suportes —, a lógica é a mesma: precisão, rastreabilidade e kit completo.",
+        "instagram": "Kit de torre pronto para montar 🔩\n\nCada peça modelada em 3D, cortada a laser, dobrada, galvanizada a fogo e identificada com QR. Rastreabilidade total do corte à expedição.\n\nKits paletizados por site, estruturas parafusadas e sem solda em campo. Fábrica própria em Santana de Parnaíba (SP), com corte a laser de chapas e tubos, dobra até 3 m e galvanização conforme NBR 6323.\n\nTorres e metálicos completos, prontos para instalar.",
+        "hashtags": "#TorresDeTelecomunicações #Galvanização #Rastreabilidade"
+      },
+      "texts": {
+        "linkedin": "Todo kit de torre que sai da DEITEL Brasil chega ao site assim: peças galvanizadas a fogo conforme NBR 6323, cada uma com etiqueta QR, paletizadas e prontas para montar.\n\nNossa fábrica em Santana de Parnaíba (SP) trabalha com rastreabilidade total:\n• Modelagem 3D de cada peça antes do corte\n• Corte a laser de chapas até 1/2 polegada e de tubos até 220 mm\n• Dobra de perfis até 3 m\n• Galvanização a fogo in house\n• Etiqueta QR aplicada na saída da galvanização\n• Rastreamento do corte à expedição\n\nO resultado: kits organizados por site, estruturas parafusadas sem solda em campo, e montagem mais rápida e segura. A etiqueta QR permite confirmar especificação, lote e destino de cada peça no recebimento e durante a montagem.\n\nPara torres autoportantes, estaiadas, rooftop e camufladas, e todos os metálicos do site — skids, portões, gradis, esteiramento, plataformas e suportes —, a lógica é a mesma: precisão, rastreabilidade e kit completo.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicações #Galvanização #Rastreabilidade",
+        "instagram": "Kit de torre pronto para montar 🔩\n\nCada peça modelada em 3D, cortada a laser, dobrada, galvanizada a fogo e identificada com QR. Rastreabilidade total do corte à expedição.\n\nKits paletizados por site, estruturas parafusadas e sem solda em campo. Fábrica própria em Santana de Parnaíba (SP), com corte a laser de chapas e tubos, dobra até 3 m e galvanização conforme NBR 6323.\n\nTorres e metálicos completos, prontos para instalar.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicações #Galvanização #Rastreabilidade"
+      },
+      "card": "cards/2026-10-19/2026-10-19_CONTEUDO_fabrica.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-19T13:45:03.338445-03:00",
+          "result": [
+            {
+              "postId": "cmvfhfq040do4mw0ysr2ay5e9",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "87f98ba2-b578-4c87-8c0a-dfeaee0adb45"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-19T13:45:03.338445-03:00",
+          "result": [
+            {
+              "postId": "cmvfhfqfx0dr5nl0yvmt2qj2m",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "47e5ec88-d4f0-415a-b893-21fa6b371edb"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-19T13:45:03.338445-03:00",
+          "result": [
+            {
+              "postId": "cmvfhfqtf0do5mw0yyl93zd8r",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "88c4ec73-3acd-4286-a9d5-97385f9d513c"
+        }
+      ]
+    }
+  }
+}
