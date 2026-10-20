@@ -20,6 +20,13 @@
    "foto": "bot/assets/futurecom/galvanizados.jpg",
    "angulo": "Kit completo identificado por QR",
    "card_title": "Cada peça rastreada: do corte à montagem"
+  },
+  {
+   "date": "2026-10-20",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
+   "angulo": "O que você recebe por sítio",
+   "card_title": "Estimativa completa: o que sai de cada sítio"
   }
  ]
 }

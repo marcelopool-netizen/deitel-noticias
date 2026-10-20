@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-20",
+  "run_at": "2026-10-20T11:34:01.558846-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "software",
+      "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
+      "selection": {
+        "angulo": "O que você recebe por sítio",
+        "card_title": "Estimativa completa: o que sai de cada sítio",
+        "card_summary": "Torre, peso, fundação, vento, solo, alertas, PDF, planilha e KMZ — tudo em segundos",
+        "linkedin": "Você sobe a planilha de sítios — coordenadas e altura, em qualquer formato — e a Estimativa de sítios Deitel devolve, em segundos, por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 do ponto (V0, S1, S2) e relevo\n• Solo pela sondagem anexada ou inferido pela base de solos\n• Fundação com concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades, para você cotar com quem quiser.\n\nIdeal para decidir CAPEX e priorizar sítios antes de adquirir. Não substitui o projeto executivo (que exige engenheiro habilitado e ART), mas acelera o planejamento do lote.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP), torres e metálicos de site, galvanizados e rastreados do corte à expedição.",
+        "instagram": "Sobe a planilha de sítios, recebe em segundos por cada um:\n\n📋 Torre e peso de referência\n🌬️ Vento NBR 6123\n🏗️ Fundação completa (concreto, aço, formas, escavação)\n⚠️ Alertas (área protegida, aeródromo, declive…)\n📄 Ficha PDF + planilha + KMZ\n\nSem preços: só quantidades, para você cotar onde quiser.\n\nDecida CAPEX e priorize sítios antes de adquirir.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil — torres e metálicos de site, fábrica própria em Santana de Parnaíba (SP).",
+        "hashtags": "#Torres #Telecom #Engenharia"
+      },
+      "texts": {
+        "linkedin": "Você sobe a planilha de sítios — coordenadas e altura, em qualquer formato — e a Estimativa de sítios Deitel devolve, em segundos, por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 do ponto (V0, S1, S2) e relevo\n• Solo pela sondagem anexada ou inferido pela base de solos\n• Fundação com concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades, para você cotar com quem quiser.\n\nIdeal para decidir CAPEX e priorizar sítios antes de adquirir. Não substitui o projeto executivo (que exige engenheiro habilitado e ART), mas acelera o planejamento do lote.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP), torres e metálicos de site, galvanizados e rastreados do corte à expedição.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres #Engenharia",
+        "instagram": "Sobe a planilha de sítios, recebe em segundos por cada um:\n\n📋 Torre e peso de referência\n🌬️ Vento NBR 6123\n🏗️ Fundação completa (concreto, aço, formas, escavação)\n⚠️ Alertas (área protegida, aeródromo, declive…)\n📄 Ficha PDF + planilha + KMZ\n\nSem preços: só quantidades, para você cotar onde quiser.\n\nDecida CAPEX e priorize sítios antes de adquirir.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil — torres e metálicos de site, fábrica própria em Santana de Parnaíba (SP).\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres #Engenharia"
+      },
+      "card": "cards/2026-10-20/2026-10-20_CONTEUDO_software.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-20T11:37:01.558846-03:00",
+          "result": [
+            {
+              "postId": "cmvgsawkh046ko70ycu2u2r15",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "9771dbb2-69bb-4a1b-8534-7b21c22a4fcd"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-20T11:37:01.558846-03:00",
+          "result": [
+            {
+              "postId": "cmvgsawux046lo70y7r5oszvs",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "d110f2f0-b9dd-4b31-8daf-7a6d4254f25a"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-20T11:37:01.558846-03:00",
+          "result": [
+            {
+              "postId": "cmvgsax67044crq0yzfle4fx8",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "b84a03dc-4965-4dd5-98ff-cf3116427fa6"
+        }
+      ]
+    }
+  }
+}
