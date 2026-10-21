@@ -27,6 +27,13 @@
    "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
    "angulo": "O que você recebe por sítio",
    "card_title": "Estimativa completa: o que sai de cada sítio"
+  },
+  {
+   "date": "2026-10-21",
+   "tema": "torres",
+   "foto": "bot/assets/futurecom/torre_baixo.jpg",
+   "angulo": "Projeto estrutural e rastreabilidade",
+   "card_title": "Torres DEITEL: projeto estrutural e fabricação"
   }
  ]
 }

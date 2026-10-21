@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-21",
+  "run_at": "2026-10-21T11:45:19.855497-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "torres",
+      "foto": "bot/assets/futurecom/torre_baixo.jpg",
+      "selection": {
+        "angulo": "Projeto estrutural e rastreabilidade",
+        "card_title": "Torres DEITEL: projeto estrutural e fabricação",
+        "card_summary": "NBR 6123 e 8800, ART, galvanização a fogo, modelagem 3D e rastreio por QR em cada peça.",
+        "linkedin": "Torre autoportante DEITEL: engenharia estrutural, fabricação rastreada e montagem sem solda em campo.\n\nCada projeto estrutural segue NBR 6123 (vento) e NBR 8800 (aço), ou TIA-222 quando solicitado. Você recebe memória de cálculo, projeto de fundação, desenhos de fabricação e montagem, todos com ART.\n\nNa fábrica de Santana de Parnaíba (SP):\n• Cada peça é modelada em 3D antes do corte a laser\n• Etiqueta QR individual para rastreio do corte à expedição\n• Galvanização a fogo conforme NBR 6323\n• Kits paletizados por site, prontos para montagem parafusada\n\nAutoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro). Todos os metálicos do site: skids, gradis, esteiramento, plataformas, mastros e suportes.\n\nEstrutura parafusada significa instalação mais rápida, segura e sem dependência de soldador em campo.\n\nPrecisa estimar CAPEX de um lote de sites antes do projeto executivo? A Estimativa de sítios DEITEL calcula peso, fundação e quantitativos em segundos. Teste grátis de 30 dias com 20 sítios.",
+        "instagram": "Torre autoportante DEITEL 📐\n\nProjeto estrutural conforme NBR 6123 e 8800, com ART. Cada peça modelada em 3D, etiqueta QR para rastreio, galvanização a fogo NBR 6323.\n\nMontagem 100% parafusada: sem solda em campo, instalação mais rápida e segura.\n\nAutoportantes, estaiadas, rooftop e camufladas. Fábrica própria em Santana de Parnaíba (SP) com corte a laser, dobra e galvanização. Kits completos por site, paletizados e prontos para subir. 🔧",
+        "hashtags": "#TorresDeTelecomunicações #EngenhariaEstrutural #Infraestrutura"
+      },
+      "texts": {
+        "linkedin": "Torre autoportante DEITEL: engenharia estrutural, fabricação rastreada e montagem sem solda em campo.\n\nCada projeto estrutural segue NBR 6123 (vento) e NBR 8800 (aço), ou TIA-222 quando solicitado. Você recebe memória de cálculo, projeto de fundação, desenhos de fabricação e montagem, todos com ART.\n\nNa fábrica de Santana de Parnaíba (SP):\n• Cada peça é modelada em 3D antes do corte a laser\n• Etiqueta QR individual para rastreio do corte à expedição\n• Galvanização a fogo conforme NBR 6323\n• Kits paletizados por site, prontos para montagem parafusada\n\nAutoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro). Todos os metálicos do site: skids, gradis, esteiramento, plataformas, mastros e suportes.\n\nEstrutura parafusada significa instalação mais rápida, segura e sem dependência de soldador em campo.\n\nPrecisa estimar CAPEX de um lote de sites antes do projeto executivo? A Estimativa de sítios DEITEL calcula peso, fundação e quantitativos em segundos. Teste grátis de 30 dias com 20 sítios.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicações #EngenhariaEstrutural #Infraestrutura",
+        "instagram": "Torre autoportante DEITEL 📐\n\nProjeto estrutural conforme NBR 6123 e 8800, com ART. Cada peça modelada em 3D, etiqueta QR para rastreio, galvanização a fogo NBR 6323.\n\nMontagem 100% parafusada: sem solda em campo, instalação mais rápida e segura.\n\nAutoportantes, estaiadas, rooftop e camufladas. Fábrica própria em Santana de Parnaíba (SP) com corte a laser, dobra e galvanização. Kits completos por site, paletizados e prontos para subir. 🔧\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicações #EngenhariaEstrutural #Infraestrutura"
+      },
+      "card": "cards/2026-10-21/2026-10-21_CONTEUDO_torres.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-21T11:48:19.855497-03:00",
+          "result": [
+            {
+              "postId": "cmvi85avh0htzoh0ydq6u5max",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "1a277021-f4fb-4e9b-94a7-f425f59369e0"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-21T11:48:19.855497-03:00",
+          "result": [
+            {
+              "postId": "cmvi85b5j0hybta0y97r247xd",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "50823fe7-64ff-4d9b-a72a-97790fb0fdb1"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-21T11:48:19.855497-03:00",
+          "result": [
+            {
+              "postId": "cmvi85bdp0hycta0yqdtdoha2",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "38c30bcd-e36b-46b0-bac6-ff5e250e3b09"
+        }
+      ]
+    }
+  }
+}
