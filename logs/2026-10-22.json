@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-22",
+  "run_at": "2026-10-22T11:45:06.269543-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "metalicos",
+      "foto": "bot/assets/conteudo/metalicos/suporte_3d_perna.jpg",
+      "selection": {
+        "angulo": "Modelagem 3D e rastreamento",
+        "card_title": "Metálicos modelados em 3D e rastreados",
+        "card_summary": "Cada peça metálica DEITEL sai com etiqueta QR e é rastreada do corte à expedição.",
+        "linkedin": "Suporte de antena: do modelo 3D à instalação na torre.\n\nCada metálico de site DEITEL nasce no 3D. Antes do primeiro corte a laser, a peça já foi modelada, validada e etiquetada. Sai da fábrica com QR e é rastreada do corte à expedição.\n\n• Suportes de antenas, RRUs e micro-ondas\n• Skids para gabinetes com tampa em chapa xadrez\n• Portões, mourões e gradis\n• Esteiramento em tramos de 3 m\n• Plataformas e mastros\n\nTodos os itens são padronizados, galvanizados a fogo conforme NBR 6323 e parafusados — sem solda em campo. Saem em kits completos por site, paletizados e identificados.\n\nCorte a laser de chapas até 1/2 polegada e de tubos até 220 mm, dobra de perfis até 3 m. Fábrica própria em Santana de Parnaíba (SP), com lista de preços unitários que facilita cotar lotes de sites.\n\nMetálicos prontos para instalar, do jeito que a obra precisa.",
+        "instagram": "Do modelo 3D ao topo da torre 📡\n\nCada metálico DEITEL é modelado em 3D antes do corte. Sai com etiqueta QR e é rastreado do corte à expedição.\n\nSuportes, skids, portões, esteiramento, plataformas: itens padronizados, galvanizados e prontos para instalar. Estruturas parafusadas, sem solda em campo.\n\nKits completos por site, paletizados e identificados. Fábrica própria em Santana de Parnaíba (SP).\n\nMetálicos que chegam prontos para a obra. 🔩",
+        "hashtags": "#Telecom #Infraestrutura #TorresDeTelecomunicações"
+      },
+      "texts": {
+        "linkedin": "Suporte de antena: do modelo 3D à instalação na torre.\n\nCada metálico de site DEITEL nasce no 3D. Antes do primeiro corte a laser, a peça já foi modelada, validada e etiquetada. Sai da fábrica com QR e é rastreada do corte à expedição.\n\n• Suportes de antenas, RRUs e micro-ondas\n• Skids para gabinetes com tampa em chapa xadrez\n• Portões, mourões e gradis\n• Esteiramento em tramos de 3 m\n• Plataformas e mastros\n\nTodos os itens são padronizados, galvanizados a fogo conforme NBR 6323 e parafusados — sem solda em campo. Saem em kits completos por site, paletizados e identificados.\n\nCorte a laser de chapas até 1/2 polegada e de tubos até 220 mm, dobra de perfis até 3 m. Fábrica própria em Santana de Parnaíba (SP), com lista de preços unitários que facilita cotar lotes de sites.\n\nMetálicos prontos para instalar, do jeito que a obra precisa.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #Infraestrutura #TorresDeTelecomunicações",
+        "instagram": "Do modelo 3D ao topo da torre 📡\n\nCada metálico DEITEL é modelado em 3D antes do corte. Sai com etiqueta QR e é rastreado do corte à expedição.\n\nSuportes, skids, portões, esteiramento, plataformas: itens padronizados, galvanizados e prontos para instalar. Estruturas parafusadas, sem solda em campo.\n\nKits completos por site, paletizados e identificados. Fábrica própria em Santana de Parnaíba (SP).\n\nMetálicos que chegam prontos para a obra. 🔩\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #Infraestrutura #TorresDeTelecomunicações"
+      },
+      "card": "cards/2026-10-22/2026-10-22_CONTEUDO_metalicos.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-22T11:48:06.269543-03:00",
+          "result": [
+            {
+              "postId": "cmvjnks0r152iot0ykng5ophu",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "44575578-697f-4f7c-950c-38676c449eac"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-22T11:48:06.269543-03:00",
+          "result": [
+            {
+              "postId": "cmvjnksb30fc5lf0yqurmn0im",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "1f749367-dae7-4e43-a145-081f8ca7b7e6"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-22T11:48:06.269543-03:00",
+          "result": [
+            {
+              "postId": "cmvjnksno0fc6lf0ysz0kci2f",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "ff223826-2310-47e1-9576-8ae8db5b99b3"
+        }
+      ]
+    }
+  }
+}
