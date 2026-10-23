@@ -41,6 +41,13 @@
    "foto": "bot/assets/conteudo/metalicos/suporte_3d_perna.jpg",
    "angulo": "Modelagem 3D e rastreamento",
    "card_title": "Metálicos modelados em 3D e rastreados"
+  },
+  {
+   "date": "2026-10-23",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
+   "angulo": "Velocidade e dados para decidir",
+   "card_title": "Estimativa de sítios: decisão em segundos"
   }
  ]
 }
