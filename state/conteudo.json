@@ -48,6 +48,13 @@
    "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
    "angulo": "Velocidade e dados para decidir",
    "card_title": "Estimativa de sítios: decisão em segundos"
+  },
+  {
+   "date": "2026-10-26",
+   "tema": "fabrica",
+   "foto": "bot/assets/futurecom/fabrica.jpg",
+   "angulo": "Capacidade industrial e galvanização",
+   "card_title": "Fábrica própria: corte, dobra e galvanização"
   }
  ]
 }
