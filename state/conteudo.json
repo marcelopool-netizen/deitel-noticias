@@ -55,6 +55,13 @@
    "foto": "bot/assets/futurecom/fabrica.jpg",
    "angulo": "Capacidade industrial e galvanização",
    "card_title": "Fábrica própria: corte, dobra e galvanização"
+  },
+  {
+   "date": "2026-10-27",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
+   "angulo": "Do upload à decisão técnica",
+   "card_title": "Site Book e Projeto Completo com RT/ART"
   }
  ]
 }

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-27",
+  "run_at": "2026-10-27T12:36:24.624522-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "software",
+      "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
+      "selection": {
+        "angulo": "Do upload à decisão técnica",
+        "card_title": "Site Book e Projeto Completo com RT/ART",
+        "card_summary": "A mesma conta que estima: Site Book para organizar documentos e projeto executivo com RT/ART.",
+        "linkedin": "Você sobe a planilha de sítios na Estimativa de sítios Deitel e recebe em segundos, por sítio: torre recomendada e peso de referência, fundação com concreto e aço, vento NBR 6123, solo inferido ou da sondagem anexada, alertas de área protegida e relevo.\n\nSem preços nas fichas: só pesos, volumes e quantidades. Você cota com quem quiser e decide o CAPEX antes de adquirir.\n\nA mesma conta já traz o Site Book, que organiza todos os sítios e documentos do lote num só lugar, e — quando o sítio vira obra — o projeto completo com RT/ART.\n\nEstimativa para decidir, Site Book para organizar, projeto executivo para construir. Tudo na mesma plataforma.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil: fábrica própria em Santana de Parnaíba (SP), torres e metálicos de site, galvanização a fogo conforme NBR 6323, estruturas parafusadas e rastreadas do corte à expedição.",
+        "instagram": "Sobe a planilha de sítios, recebe em segundos: torre e peso, fundação, vento, solo, alertas. Sem preços: só quantidades para você cotar.\n\nA mesma conta já tem o Site Book (organiza documentos do lote) e, quando o sítio vira obra, o projeto completo com RT/ART. 📐\n\nEstimativa para decidir CAPEX, Site Book para organizar, projeto executivo para construir. Tudo integrado.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão. 🚀",
+        "hashtags": "#Torres #CAPEX #Telecom #EngenhariaDeTelecom"
+      },
+      "texts": {
+        "linkedin": "Você sobe a planilha de sítios na Estimativa de sítios Deitel e recebe em segundos, por sítio: torre recomendada e peso de referência, fundação com concreto e aço, vento NBR 6123, solo inferido ou da sondagem anexada, alertas de área protegida e relevo.\n\nSem preços nas fichas: só pesos, volumes e quantidades. Você cota com quem quiser e decide o CAPEX antes de adquirir.\n\nA mesma conta já traz o Site Book, que organiza todos os sítios e documentos do lote num só lugar, e — quando o sítio vira obra — o projeto completo com RT/ART.\n\nEstimativa para decidir, Site Book para organizar, projeto executivo para construir. Tudo na mesma plataforma.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil: fábrica própria em Santana de Parnaíba (SP), torres e metálicos de site, galvanização a fogo conforme NBR 6323, estruturas parafusadas e rastreadas do corte à expedição.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres #EngenhariaDeTelecom",
+        "instagram": "Sobe a planilha de sítios, recebe em segundos: torre e peso, fundação, vento, solo, alertas. Sem preços: só quantidades para você cotar.\n\nA mesma conta já tem o Site Book (organiza documentos do lote) e, quando o sítio vira obra, o projeto completo com RT/ART. 📐\n\nEstimativa para decidir CAPEX, Site Book para organizar, projeto executivo para construir. Tudo integrado.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão. 🚀\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres #EngenhariaDeTelecom"
+      },
+      "card": "cards/2026-10-27/2026-10-27_CONTEUDO_software.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-27T12:39:24.624522-03:00",
+          "result": [
+            {
+              "postId": "cmvqum2s62v4kp71cvoxh1k8f",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "6be1862c-41eb-4841-95fa-56039aa25638"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-27T12:39:24.624522-03:00",
+          "result": [
+            {
+              "postId": "cmvqum3ao2zf8pi1cbzhs7ixh",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "5db15326-f2d9-459b-9bbc-5d6002075a04"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-27T12:39:24.624522-03:00",
+          "result": [
+            {
+              "postId": "cmvqum3ro2v4qp71cagtc3fi6",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "98df821a-76c4-43bf-b5d6-e6075946439d"
+        }
+      ]
+    }
+  }
+}
