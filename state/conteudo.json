@@ -62,6 +62,13 @@
    "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
    "angulo": "Do upload à decisão técnica",
    "card_title": "Site Book e Projeto Completo com RT/ART"
+  },
+  {
+   "date": "2026-10-28",
+   "tema": "torres",
+   "foto": "bot/assets/futurecom/torre_chile.jpg",
+   "angulo": "Tipos de torre e montagem",
+   "card_title": "Torres DEITEL: do projeto à montagem parafusada"
   }
  ]
 }

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-28",
+  "run_at": "2026-10-28T13:20:45.151322-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "torres",
+      "foto": "bot/assets/futurecom/torre_chile.jpg",
+      "selection": {
+        "angulo": "Tipos de torre e montagem",
+        "card_title": "Torres DEITEL: do projeto à montagem parafusada",
+        "card_summary": "Autoportantes, estaiadas, rooftop ou camufladas: projeto NBR 6123/8800 com ART e kits prontos",
+        "linkedin": "Torres autoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro): a DEITEL projeta e fabrica cada estrutura conforme NBR 6123 (vento) e NBR 8800 (aço), ou TIA-222 quando solicitado.\n\nCada projeto inclui memória de cálculo, desenhos de fabricação e montagem, projeto de fundação e ART. As peças são modeladas em 3D, cortadas a laser, galvanizadas a fogo (NBR 6323) e expedidas em kits paletizados por site, com etiqueta QR e rastreamento do corte à entrega.\n\nMontagem 100% parafusada, sem solda em campo. Estruturas prontas para instalar, com segurança e agilidade.\n\n• Fábrica própria em Santana de Parnaíba (SP)\n• Corte a laser de tubos, vigas e cantoneiras até 220 mm\n• Galvanização a fogo in house\n• Metálicos de site: skids, esteiramento, plataformas, mastros e suportes\n\nProjeto executivo completo, com responsável técnico e ART.",
+        "instagram": "Torres autoportantes, estaiadas, rooftop ou camufladas 🗼\n\nProjeto estrutural conforme NBR 6123 e NBR 8800, com memória de cálculo, desenhos e ART. Peças cortadas a laser, galvanizadas a fogo e expedidas em kits paletizados por site.\n\nMontagem 100% parafusada, sem solda em campo. Rastreamento do corte à entrega. Fábrica própria em Santana de Parnaíba (SP) ⚙️\n\nMetálicos de site: skids, esteiramento, plataformas, mastros e suportes. Tudo pronto para instalar.",
+        "hashtags": "#Torres #Telecom #Infraestrutura"
+      },
+      "texts": {
+        "linkedin": "Torres autoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro): a DEITEL projeta e fabrica cada estrutura conforme NBR 6123 (vento) e NBR 8800 (aço), ou TIA-222 quando solicitado.\n\nCada projeto inclui memória de cálculo, desenhos de fabricação e montagem, projeto de fundação e ART. As peças são modeladas em 3D, cortadas a laser, galvanizadas a fogo (NBR 6323) e expedidas em kits paletizados por site, com etiqueta QR e rastreamento do corte à entrega.\n\nMontagem 100% parafusada, sem solda em campo. Estruturas prontas para instalar, com segurança e agilidade.\n\n• Fábrica própria em Santana de Parnaíba (SP)\n• Corte a laser de tubos, vigas e cantoneiras até 220 mm\n• Galvanização a fogo in house\n• Metálicos de site: skids, esteiramento, plataformas, mastros e suportes\n\nProjeto executivo completo, com responsável técnico e ART.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #Torres #Infraestrutura",
+        "instagram": "Torres autoportantes, estaiadas, rooftop ou camufladas 🗼\n\nProjeto estrutural conforme NBR 6123 e NBR 8800, com memória de cálculo, desenhos e ART. Peças cortadas a laser, galvanizadas a fogo e expedidas em kits paletizados por site.\n\nMontagem 100% parafusada, sem solda em campo. Rastreamento do corte à entrega. Fábrica própria em Santana de Parnaíba (SP) ⚙️\n\nMetálicos de site: skids, esteiramento, plataformas, mastros e suportes. Tudo pronto para instalar.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #Torres #Infraestrutura"
+      },
+      "card": "cards/2026-10-28/2026-10-28_CONTEUDO_torres.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-28T13:23:45.151322-03:00",
+          "result": [
+            {
+              "postId": "cmvsbmwfu08uwor1clmurjuqz",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "ed860658-8402-404d-8848-3de0e498a6f2"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-28T13:23:45.151322-03:00",
+          "result": [
+            {
+              "postId": "cmvsbmx5x03z8pg1co4xwam8d",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "e03f942d-74af-484b-8fee-01f3bf7968b4"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-28T13:23:45.151322-03:00",
+          "result": [
+            {
+              "postId": "cmvsbmxqj08uyor1c68mf8fsa",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "17ec6021-4554-47c1-a81c-43e05b432532"
+        }
+      ]
+    }
+  }
+}
