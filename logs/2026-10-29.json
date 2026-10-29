@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-29",
+  "run_at": "2026-10-29T13:30:33.065188-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "metalicos",
+      "foto": "bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg",
+      "selection": {
+        "angulo": "Suportes padronizados prontos para instalar",
+        "card_title": "Suportes de antenas e RRUs: padrão e galvanizados",
+        "card_summary": "Suportes para mastros em itens padronizados, modelados em 3D, galvanizados e prontos para campo",
+        "linkedin": "Suportes de antenas, RRUs e micro-ondas: itens padronizados que aceleram a implantação de sites.\n\nCada suporte sai da nossa fábrica em Santana de Parnaíba (SP) modelado em 3D, cortado a laser, galvanizado a fogo conforme NBR 6323 e identificado com etiqueta QR. Estruturas parafusadas, sem solda em campo.\n\nAlém de suportes, fabricamos toda a linha de metálicos de site:\n• Skids para gabinetes com tampa em chapa xadrez\n• Portões, mourões e gradis\n• Esteiramento em tramos de 3 m\n• Plataformas e mastros\n• Requadros e postes de iluminação\n\nTodos os itens saem em kits por site, paletizados e identificados. Lista de preços unitários que facilita cotar lotes de sites.\n\nDa modelagem 3D à galvanização: metálicos rastreados do corte à expedição, prontos para instalar.",
+        "instagram": "Suportes de antenas e RRUs padronizados, modelados em 3D e galvanizados 🔩\n\nCada peça sai da fábrica pronta para instalar: cortada a laser, galvanizada conforme NBR 6323 e identificada com QR. Estruturas parafusadas, sem solda em campo.\n\nSkids, portões, gradis, esteiramento, plataformas, mastros e toda a linha de metálicos de site. Kits completos por site, paletizados e rastreados do corte à expedição.\n\nLista de preços unitários para facilitar a cotação de lotes. ⚙️📐",
+        "hashtags": "#Telecom #Infraestrutura #TorresDeTelevomunicação"
+      },
+      "texts": {
+        "linkedin": "Suportes de antenas, RRUs e micro-ondas: itens padronizados que aceleram a implantação de sites.\n\nCada suporte sai da nossa fábrica em Santana de Parnaíba (SP) modelado em 3D, cortado a laser, galvanizado a fogo conforme NBR 6323 e identificado com etiqueta QR. Estruturas parafusadas, sem solda em campo.\n\nAlém de suportes, fabricamos toda a linha de metálicos de site:\n• Skids para gabinetes com tampa em chapa xadrez\n• Portões, mourões e gradis\n• Esteiramento em tramos de 3 m\n• Plataformas e mastros\n• Requadros e postes de iluminação\n\nTodos os itens saem em kits por site, paletizados e identificados. Lista de preços unitários que facilita cotar lotes de sites.\n\nDa modelagem 3D à galvanização: metálicos rastreados do corte à expedição, prontos para instalar.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #Infraestrutura #TorresDeTelevomunicação",
+        "instagram": "Suportes de antenas e RRUs padronizados, modelados em 3D e galvanizados 🔩\n\nCada peça sai da fábrica pronta para instalar: cortada a laser, galvanizada conforme NBR 6323 e identificada com QR. Estruturas parafusadas, sem solda em campo.\n\nSkids, portões, gradis, esteiramento, plataformas, mastros e toda a linha de metálicos de site. Kits completos por site, paletizados e rastreados do corte à expedição.\n\nLista de preços unitários para facilitar a cotação de lotes. ⚙️📐\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #Infraestrutura #TorresDeTelevomunicação"
+      },
+      "card": "cards/2026-10-29/2026-10-29_CONTEUDO_metalicos.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-10-29T13:33:33.065188-03:00",
+          "result": [
+            {
+              "postId": "cmvtrfbed30ppor1ctipxbflh",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "0c12d7ba-4ebc-44bd-a54d-41e0eea5b760"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-10-29T13:33:33.065188-03:00",
+          "result": [
+            {
+              "postId": "cmvtrfbrc2g2wpg1c4ggtst8m",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "a70685ad-4e60-41af-a2aa-b57cb51dde20"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-10-29T13:33:33.065188-03:00",
+          "result": [
+            {
+              "postId": "cmvtrfdn82g2zpg1cwwg1r0o5",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "822901bc-30b9-42d4-9337-65252ce97a85"
+        }
+      ]
+    }
+  }
+}

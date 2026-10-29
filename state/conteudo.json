@@ -69,6 +69,13 @@
    "foto": "bot/assets/futurecom/torre_chile.jpg",
    "angulo": "Tipos de torre e montagem",
    "card_title": "Torres DEITEL: do projeto à montagem parafusada"
+  },
+  {
+   "date": "2026-10-29",
+   "tema": "metalicos",
+   "foto": "bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg",
+   "angulo": "Suportes padronizados prontos para instalar",
+   "card_title": "Suportes de antenas e RRUs: padrão e galvanizados"
   }
  ]
 }
