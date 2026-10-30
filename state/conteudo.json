@@ -76,6 +76,13 @@
    "foto": "bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg",
    "angulo": "Suportes padronizados prontos para instalar",
    "card_title": "Suportes de antenas e RRUs: padrão e galvanizados"
+  },
+  {
+   "date": "2026-10-30",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_hero.jpg",
+   "angulo": "Entrada e saída da estimativa",
+   "card_title": "O que entra, o que sai: estimativa de lote"
   }
  ]
 }
