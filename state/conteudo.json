@@ -83,6 +83,13 @@
    "foto": "bot/assets/conteudo/software/landing_hero.jpg",
    "angulo": "Entrada e saída da estimativa",
    "card_title": "O que entra, o que sai: estimativa de lote"
+  },
+  {
+   "date": "2026-11-02",
+   "tema": "fabrica",
+   "foto": "bot/assets/futurecom/galvanizados.jpg",
+   "angulo": "Kits paletizados por site, zero solda",
+   "card_title": "Kits completos: parafuse, não solde em campo"
   }
  ]
 }
