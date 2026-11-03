@@ -90,6 +90,13 @@
    "foto": "bot/assets/futurecom/galvanizados.jpg",
    "angulo": "Kits paletizados por site, zero solda",
    "card_title": "Kits completos: parafuse, não solde em campo"
+  },
+  {
+   "date": "2026-11-03",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
+   "angulo": "Entrada simples, saída técnica completa",
+   "card_title": "O que você recebe por sítio: estimativa completa"
   }
  ]
 }
