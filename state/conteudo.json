@@ -97,6 +97,13 @@
    "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
    "angulo": "Entrada simples, saída técnica completa",
    "card_title": "O que você recebe por sítio: estimativa completa"
+  },
+  {
+   "date": "2026-11-04",
+   "tema": "torres",
+   "foto": "bot/assets/futurecom/trelica_vermelha.jpg",
+   "angulo": "Fabricação e acabamento industrial",
+   "card_title": "Torres DEITEL: fabricação e galvanização a fogo"
   }
  ]
 }

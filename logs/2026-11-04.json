@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-04",
+  "run_at": "2026-11-04T14:39:10.689179-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "torres",
+      "foto": "bot/assets/futurecom/trelica_vermelha.jpg",
+      "selection": {
+        "angulo": "Fabricação e acabamento industrial",
+        "card_title": "Torres DEITEL: fabricação e galvanização a fogo",
+        "card_summary": "Corte a laser 3D, montagem parafusada e galvanização NBR 6323 em fábrica própria",
+        "linkedin": "A qualidade de uma torre de telecomunicações começa na fabricação.\n\nNa DEITEL, cada peça da treliça — montantes, diagonais e chapas de ligação — é modelada em 3D, cortada a laser e galvanizada a fogo conforme NBR 6323 na nossa fábrica em Santana de Parnaíba (SP).\n\nTodas as estruturas são parafusadas, sem solda em campo. As peças saem etiquetadas com QR, rastreadas do corte à expedição, e chegam ao site em kits paletizados prontos para montagem.\n\nProjeto estrutural conforme NBR 6123 (vento) e NBR 8800 (aço), com memória de cálculo, fundação, desenhos de fabricação e montagem, e ART assinada por engenheiro habilitado.\n\nFabricamos torres autoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro), além de todos os metálicos do site: skids, portões, gradis, esteiramento, plataformas e suportes.\n\nNa foto: detalhe da treliça com pintura vermelha de sinalização, chapas de ligação e montagem parafusada — engenharia e acabamento industrial para infraestrutura que dura.",
+        "instagram": "Treliça DEITEL: montantes, diagonais e chapas de ligação parafusadas 🔩\n\nCada peça é modelada em 3D, cortada a laser e galvanizada a fogo (NBR 6323) na nossa fábrica em Santana de Parnaíba (SP). Montagem 100% parafusada, sem solda em campo.\n\nProjeto estrutural conforme NBR 6123 e 8800, com ART. Torres autoportantes, estaiadas, rooftop e camufladas, mais todos os metálicos do site.\n\nEngenharia, rastreabilidade e acabamento industrial para infraestrutura que dura. 📡",
+        "hashtags": "#TorresDeTelecomunicacoes #Galvanizacao #InfraestruturaDeTelecom"
+      },
+      "texts": {
+        "linkedin": "A qualidade de uma torre de telecomunicações começa na fabricação.\n\nNa DEITEL, cada peça da treliça — montantes, diagonais e chapas de ligação — é modelada em 3D, cortada a laser e galvanizada a fogo conforme NBR 6323 na nossa fábrica em Santana de Parnaíba (SP).\n\nTodas as estruturas são parafusadas, sem solda em campo. As peças saem etiquetadas com QR, rastreadas do corte à expedição, e chegam ao site em kits paletizados prontos para montagem.\n\nProjeto estrutural conforme NBR 6123 (vento) e NBR 8800 (aço), com memória de cálculo, fundação, desenhos de fabricação e montagem, e ART assinada por engenheiro habilitado.\n\nFabricamos torres autoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro), além de todos os metálicos do site: skids, portões, gradis, esteiramento, plataformas e suportes.\n\nNa foto: detalhe da treliça com pintura vermelha de sinalização, chapas de ligação e montagem parafusada — engenharia e acabamento industrial para infraestrutura que dura.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicacoes #Galvanizacao #InfraestruturaDeTelecom",
+        "instagram": "Treliça DEITEL: montantes, diagonais e chapas de ligação parafusadas 🔩\n\nCada peça é modelada em 3D, cortada a laser e galvanizada a fogo (NBR 6323) na nossa fábrica em Santana de Parnaíba (SP). Montagem 100% parafusada, sem solda em campo.\n\nProjeto estrutural conforme NBR 6123 e 8800, com ART. Torres autoportantes, estaiadas, rooftop e camufladas, mais todos os metálicos do site.\n\nEngenharia, rastreabilidade e acabamento industrial para infraestrutura que dura. 📡\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicacoes #Galvanizacao #InfraestruturaDeTelecom"
+      },
+      "card": "cards/2026-11-04/2026-11-04_CONTEUDO_torres.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-04T14:42:10.689179-03:00",
+          "result": [
+            {
+              "postId": "cmw2eitvt0davl8080r1iu33b",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "f1df94d9-08bf-4a94-bde9-97ab39621343"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-04T14:42:10.689179-03:00",
+          "result": [
+            {
+              "postId": "cmw2eiu2x0cvfmk08d158cixn",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "608a2834-7a5a-49fc-9209-1656b6180844"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-04T14:42:10.689179-03:00",
+          "result": [
+            {
+              "postId": "cmw2eiu930dawl808f5hd36oq",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "15693ab2-9678-4f9f-9677-097ad4e0b372"
+        }
+      ]
+    }
+  }
+}
