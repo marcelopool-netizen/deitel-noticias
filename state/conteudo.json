@@ -104,6 +104,13 @@
    "foto": "bot/assets/futurecom/trelica_vermelha.jpg",
    "angulo": "Fabricação e acabamento industrial",
    "card_title": "Torres DEITEL: fabricação e galvanização a fogo"
+  },
+  {
+   "date": "2026-11-05",
+   "tema": "metalicos",
+   "foto": "bot/assets/conteudo/metalicos/skid_3d.jpg",
+   "angulo": "Kits paletizados por site",
+   "card_title": "Kits de metálicos paletizados e identificados"
   }
  ]
 }

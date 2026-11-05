@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-05",
+  "run_at": "2026-11-05T14:44:49.052872-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "metalicos",
+      "foto": "bot/assets/conteudo/metalicos/skid_3d.jpg",
+      "selection": {
+        "angulo": "Kits paletizados por site",
+        "card_title": "Kits de metálicos paletizados e identificados",
+        "card_summary": "Skids, portões, gradis e estruturas saem em kits por site, prontos para instalar em campo",
+        "linkedin": "Metálicos de site que chegam organizados fazem diferença no cronograma.\n\nNa DEITEL, cada kit sai da fábrica paletizado e identificado por site. Skids para gabinetes com tampa em chapa xadrez, portões, mourões, gradis, requadros, esteiramento em tramos de 3 m, plataformas e suportes – tudo modelado em 3D, galvanizado a fogo conforme NBR 6323 e pronto para instalar.\n\nCada peça recebe etiqueta QR e é rastreada do corte à expedição. Estruturas parafusadas, sem solda em campo. Lista de preços unitários que facilita cotar lotes de sites.\n\nO kit chega no canteiro, a equipe abre e monta. Sem falta de peça, sem retrabalho, sem espera.\n\nFábrica própria em Santana de Parnaíba (SP): corte a laser de chapas e tubos, dobra até 3 m, galvanização interna. Produção sob medida ou itens padronizados em estoque.",
+        "instagram": "Kit de metálicos organizado por site 📦\n\nSkids, portões, gradis, esteiramento e suportes saem da fábrica paletizados e identificados. Cada peça modelada em 3D, galvanizada e rastreada por QR.\n\nEstrutura parafusada, sem solda em campo. O kit chega no canteiro pronto para montar.\n\nFábrica própria em Santana de Parnaíba (SP) com corte a laser, dobra e galvanização a fogo. Itens padronizados ou sob medida para o seu lote de sites. ⚙️",
+        "hashtags": "#InfraestruturaMovel #TelecomunicacoesIndoor #ConstrucaoDeSites"
+      },
+      "texts": {
+        "linkedin": "Metálicos de site que chegam organizados fazem diferença no cronograma.\n\nNa DEITEL, cada kit sai da fábrica paletizado e identificado por site. Skids para gabinetes com tampa em chapa xadrez, portões, mourões, gradis, requadros, esteiramento em tramos de 3 m, plataformas e suportes – tudo modelado em 3D, galvanizado a fogo conforme NBR 6323 e pronto para instalar.\n\nCada peça recebe etiqueta QR e é rastreada do corte à expedição. Estruturas parafusadas, sem solda em campo. Lista de preços unitários que facilita cotar lotes de sites.\n\nO kit chega no canteiro, a equipe abre e monta. Sem falta de peça, sem retrabalho, sem espera.\n\nFábrica própria em Santana de Parnaíba (SP): corte a laser de chapas e tubos, dobra até 3 m, galvanização interna. Produção sob medida ou itens padronizados em estoque.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #InfraestruturaMovel #TelecomunicacoesIndoor #ConstrucaoDeSites",
+        "instagram": "Kit de metálicos organizado por site 📦\n\nSkids, portões, gradis, esteiramento e suportes saem da fábrica paletizados e identificados. Cada peça modelada em 3D, galvanizada e rastreada por QR.\n\nEstrutura parafusada, sem solda em campo. O kit chega no canteiro pronto para montar.\n\nFábrica própria em Santana de Parnaíba (SP) com corte a laser, dobra e galvanização a fogo. Itens padronizados ou sob medida para o seu lote de sites. ⚙️\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #InfraestruturaMovel #TelecomunicacoesIndoor #ConstrucaoDeSites"
+      },
+      "card": "cards/2026-11-05/2026-11-05_CONTEUDO_metalicos.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-05T14:47:49.052872-03:00",
+          "result": [
+            {
+              "postId": "cmw3u5t6t0f2tod07be1ry3ij",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "e39e131f-7bf7-4a94-b902-ee280febfca3"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-05T14:47:49.052872-03:00",
+          "result": [
+            {
+              "postId": "cmw3u5tfc0f2uod07xpsokbb7",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "38fa5c51-3a69-49f3-a4a6-5972e52f76a5"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-05T14:47:49.052872-03:00",
+          "result": [
+            {
+              "postId": "cmw3u5tm90f2wod07dsz80i6t",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "a8ae301c-eb1b-4c3e-8db6-1915e56fdbcd"
+        }
+      ]
+    }
+  }
+}
