@@ -111,6 +111,13 @@
    "foto": "bot/assets/conteudo/metalicos/skid_3d.jpg",
    "angulo": "Kits paletizados por site",
    "card_title": "Kits de metálicos paletizados e identificados"
+  },
+  {
+   "date": "2026-11-06",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
+   "angulo": "O que a torreira recebe por sítio",
+   "card_title": "Estimativa de sítios: o que você recebe"
   }
  ]
 }
