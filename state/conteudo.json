@@ -118,6 +118,13 @@
    "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
    "angulo": "O que a torreira recebe por sítio",
    "card_title": "Estimativa de sítios: o que você recebe"
+  },
+  {
+   "date": "2026-11-09",
+   "tema": "fabrica",
+   "foto": "bot/assets/futurecom/fabrica.jpg",
+   "angulo": "Tecnologia e preparação industrial",
+   "card_title": "Tecnologia de corte e preparação para o campo"
   }
  ]
 }

@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-09",
+  "run_at": "2026-11-09T17:16:49.180354-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "fabrica",
+      "foto": "bot/assets/futurecom/fabrica.jpg",
+      "selection": {
+        "angulo": "Tecnologia e preparação industrial",
+        "card_title": "Tecnologia de corte e preparação para o campo",
+        "card_summary": "Corte a laser, dobra, galvanização e rastreabilidade: a fábrica preparada para a torre",
+        "linkedin": "A tecnologia da fábrica DEITEL Brasil determina a qualidade da torre no campo.\n\nNossa unidade em Santana de Parnaíba (SP) reúne corte a laser de chapas até 1/2 polegada e de tubos até 220 mm, dobra de perfis até 3 m e galvanização a fogo conforme NBR 6323. Cada peça é modelada em 3D, cortada com precisão e identificada com etiqueta QR — rastreada do corte até a expedição.\n\nEstrutura parafusada, sem solda em campo. Kits organizados por site, paletizados e prontos para instalar.\n\n• Corte a laser: chapas (mesa 1.500 × 3.000 mm) e tubos\n• Dobra de chapas e perfis até 3 m\n• Galvanização a fogo NBR 6323\n• Rastreabilidade por QR em cada peça\n• Kits completos por site\n\nTorres autoportantes, estaiadas, rooftop e camufladas. Metálicos de site: skids, portões, gradis, esteiramentos, plataformas e suportes. Projeto estrutural conforme NBR 6123, NBR 8800 ou TIA-222, com memória de cálculo e ART.\n\nFábrica própria. Controle total. Entrega garantida.",
+        "instagram": "Tecnologia de fábrica que garante a torre no campo. 🏭\n\nFábrica DEITEL Brasil em Santana de Parnaíba (SP): corte a laser de chapas e tubos, dobra até 3 m, galvanização a fogo NBR 6323. Cada peça sai com QR e é rastreada do corte à expedição.\n\nKits completos por site, paletizados e prontos. Estrutura parafusada — zero solda em campo. ⚙️\n\nTorres autoportantes, estaiadas, rooftop e camufladas. Metálicos de site galvanizados. Projeto com ART.\n\nFábrica própria. Controle total.",
+        "hashtags": "#TorresDeTelecomunicações #InfraestruturaMovel #Galvanização"
+      },
+      "texts": {
+        "linkedin": "A tecnologia da fábrica DEITEL Brasil determina a qualidade da torre no campo.\n\nNossa unidade em Santana de Parnaíba (SP) reúne corte a laser de chapas até 1/2 polegada e de tubos até 220 mm, dobra de perfis até 3 m e galvanização a fogo conforme NBR 6323. Cada peça é modelada em 3D, cortada com precisão e identificada com etiqueta QR — rastreada do corte até a expedição.\n\nEstrutura parafusada, sem solda em campo. Kits organizados por site, paletizados e prontos para instalar.\n\n• Corte a laser: chapas (mesa 1.500 × 3.000 mm) e tubos\n• Dobra de chapas e perfis até 3 m\n• Galvanização a fogo NBR 6323\n• Rastreabilidade por QR em cada peça\n• Kits completos por site\n\nTorres autoportantes, estaiadas, rooftop e camufladas. Metálicos de site: skids, portões, gradis, esteiramentos, plataformas e suportes. Projeto estrutural conforme NBR 6123, NBR 8800 ou TIA-222, com memória de cálculo e ART.\n\nFábrica própria. Controle total. Entrega garantida.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicações #InfraestruturaMovel #Galvanização",
+        "instagram": "Tecnologia de fábrica que garante a torre no campo. 🏭\n\nFábrica DEITEL Brasil em Santana de Parnaíba (SP): corte a laser de chapas e tubos, dobra até 3 m, galvanização a fogo NBR 6323. Cada peça sai com QR e é rastreada do corte à expedição.\n\nKits completos por site, paletizados e prontos. Estrutura parafusada — zero solda em campo. ⚙️\n\nTorres autoportantes, estaiadas, rooftop e camufladas. Metálicos de site galvanizados. Projeto com ART.\n\nFábrica própria. Controle total.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicações #InfraestruturaMovel #Galvanização"
+      },
+      "card": "cards/2026-11-09/2026-11-09_CONTEUDO_fabrica.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-09T17:19:49.180354-03:00",
+          "result": [
+            {
+              "postId": "cmw9pct0v0lxlp607gm6y5ehs",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "f969eb26-65d7-44a8-9ffd-343bfb772db1"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-09T17:19:49.180354-03:00",
+          "result": [
+            {
+              "postId": "cmw9pct7r0l7onv077x3kpr9o",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "06cbb0df-3c0e-4eee-a941-cf31e1fc4f08"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-09T17:19:49.180354-03:00",
+          "result": [
+            {
+              "postId": "cmw9pctee0l7pnv07bykitjou",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "df2f68ef-7815-4d3b-a8b3-00239f4d8089"
+        }
+      ]
+    }
+  }
+}
