@@ -519,6 +519,14 @@ conteudo:
       fotos:
         - {file: bot/assets/futurecom/fabrica.jpg, focus: [0.5, 0.45], descricao: "máquina de corte a laser de chapas na fábrica, com perfis e peças ao fundo"}
         - {file: bot/assets/futurecom/galvanizados.jpg, focus: [0.5, 0.4], descricao: "kit de peças de torre galvanizadas a fogo, cada peça com etiqueta de identificação com código QR"}
+        - {file: bot/assets/conteudo/fabrica/laser_tubos_linha.jpg, focus: [0.5, 0.45], descricao: "linha de corte a laser de tubos e perfis (laser de fibra de 3.000 W, tubos até Ø 220 mm e 6 m de comprimento), com cerca de proteção amarela"}
+        - {file: bot/assets/conteudo/fabrica/laser_tubos_mesa.jpg, focus: [0.5, 0.5], descricao: "mesa de alimentação da máquina de corte a laser de tubos e perfis, com cerca de proteção amarela"}
+        - {file: bot/assets/conteudo/fabrica/laser_tubos_cnc.jpg, focus: [0.5, 0.45], descricao: "máquina de corte a laser de tubos e perfis com o monitor do comando CNC e perfis ao lado"}
+        - {file: bot/assets/conteudo/fabrica/dobradeira_cnc.jpg, focus: [0.5, 0.4], descricao: "dobradeira CNC para chapas e perfis até 3 m, com o painel de comando"}
+        - {file: bot/assets/conteudo/fabrica/dobradeira_detalhe.jpg, focus: [0.5, 0.45], descricao: "detalhe da dobradeira CNC: ferramentas de dobra e cilindros hidráulicos"}
+        - {file: bot/assets/conteudo/fabrica/laser_chapas.jpg, focus: [0.5, 0.5], descricao: "máquina de corte a laser de chapas com mesa de 1.500 × 3.000 mm"}
+        - {file: bot/assets/conteudo/fabrica/laser_chapas_exaustao.jpg, focus: [0.5, 0.5], descricao: "máquina de corte a laser de chapas com o sistema de exaustão em primeiro plano"}
+        - {file: bot/assets/conteudo/fabrica/laser_chapas_comando.jpg, focus: [0.5, 0.45], descricao: "máquina de corte a laser de chapas com o monitor de comando"}
     software:
       nome: "a Estimativa de sítios Deitel, software de estimativa de CAPEX para torreiras"
       foco: "como a torreira estima peso de torre e fundação de lotes de sítios em segundos, e o que recebe por sítio; convidar para o teste grátis."
