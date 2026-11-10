@@ -516,6 +516,8 @@ Regras:
 - Tom profissional e direto, para torreiras, operadoras, integradores e construtoras. Nada de clichê vazio.
 - Não cite clientes, pessoas, concorrentes, preços, promoções nem nomes de programas internos
   (nada de tnxTower, ERP com nome, "otimizador", IA ou fornecedores de software).
+- A galvanização é terceirizada: nunca diga que a DEITEL galvaniza ou que a fábrica galvaniza; diga que as peças
+  são entregues galvanizadas a fogo (NBR 6323).
 - O software se chama "Estimativa de sítios Deitel". É estimativa de CAPEX: nunca diga que substitui o projeto executivo.
 - Não coloque links, telefone nem hashtags no corpo: eles são adicionados depois.
 - LinkedIn: 600 a 1.100 caracteres, parágrafos curtos, pode usar uma lista curta com "•".

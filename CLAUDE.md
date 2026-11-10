@@ -24,6 +24,7 @@ Contexto para Claude Code. Leer antes de tocar el repo.
 - Imágenes: `conteudo.temas.<tema>.fotos` (archivo + `descricao` que lee Claude + `focus`, o `fit: contain` para
   capturas y modelos 3D chicos, que van enteros sobre el color del borde). Se elige la menos usada del tema.
   Historial en `state/conteudo.json` (tema, foto, ángulo, título) para no repetir ángulos.
+- **La galvanización es tercerizada** (Marcelo 10/11/2026): nunca decir que DEITEL galvaniza; las piezas se entregan galvanizadas.
 - **Fotos sin personas** (regla de Marcelo para lo público); él mismo sí puede aparecer. Faltan fotos reales de
   metálicos y de la fábrica: cuando Marcelo mande más, copiarlas a `bot/assets/conteudo/<tema>/` y sumarlas al config.
 - Los videos de la TV y del kiosko de Futurecom (repo Futurecom, `presentacion-ar/tv/media`, `kiosko/videos`) NO se

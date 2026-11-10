@@ -488,7 +488,8 @@ conteudo:
   base: |-
     DEITEL Brasil: fábrica própria em Santana de Parnaíba (SP). O grupo DEITEL também tem fábrica no Chile.
     Fábrica: corte a laser de chapas até 1/2 polegada (mesa de 1.500 × 3.000 mm); corte a laser de tubos, vigas e
-    cantoneiras até 220 mm de diâmetro; dobra de chapas e perfis até 3 m; galvanização a fogo conforme a NBR 6323.
+    cantoneiras até 220 mm de diâmetro; dobra de chapas e perfis até 3 m. A galvanização a fogo (NBR 6323) é TERCEIRIZADA
+    em galvanizadora qualificada: a DEITEL entrega as peças galvanizadas, mas NÃO galvaniza na própria fábrica.
     Cada peça é modelada em 3D antes do corte, sai com etiqueta QR e é rastreada do corte à expedição.
     As peças saem em kits por site, paletizadas e identificadas. Estruturas parafusadas, sem solda em campo.
     Torres: autoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro).
@@ -511,7 +512,7 @@ conteudo:
   temas:
     fabrica:
       nome: "a fábrica da DEITEL Brasil"
-      foco: "processos e capacidade da fábrica: corte a laser, dobra, galvanização, rastreabilidade QR, kits por site."
+      foco: "processos e capacidade da fábrica: corte a laser, dobra, rastreabilidade QR, kits por site (a galvanização é terceirizada)."
       kicker: "FÁBRICA DEITEL"
       tag: "SANTANA DE PARNAÍBA"
       hashtags: "#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom"
