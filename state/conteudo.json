@@ -125,6 +125,13 @@
    "foto": "bot/assets/futurecom/fabrica.jpg",
    "angulo": "Tecnologia e preparação industrial",
    "card_title": "Tecnologia de corte e preparação para o campo"
+  },
+  {
+   "date": "2026-11-10",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
+   "angulo": "O que o sistema processa para entregar",
+   "card_title": "Site Book e Projeto Completo com RT/ART"
   }
  ]
 }
