@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-11",
+  "run_at": "2026-11-11T14:32:59.386730-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "torres",
+      "foto": "bot/assets/futurecom/torre_noite.jpg",
+      "selection": {
+        "angulo": "Especificação técnica e montagem parafusada",
+        "card_title": "Torres DEITEL: especificação e montagem em campo",
+        "card_summary": "Projeto conforme NBR 6123/8800 com ART, estruturas parafusadas e peças galvanizadas a fogo.",
+        "linkedin": "Torres DEITEL: da especificação técnica à montagem\n\nCada torre sai da nossa fábrica em Santana de Parnaíba (SP) com projeto estrutural conforme NBR 6123 (vento) e NBR 8800 (aço) — ou TIA-222, quando o cliente solicita.\n\nVocê recebe:\n• Memória de cálculo completa\n• Projeto de fundação\n• Desenhos de fabricação e de montagem\n• ART do responsável técnico\n\nAs peças são entregues galvanizadas a fogo (NBR 6323), identificadas por kit de site, paletizadas e prontas para montagem parafusada — sem solda em campo.\n\nAutoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro): cada tipo projetado para a sua necessidade de cobertura, com rastreabilidade do corte à expedição.\n\nPara torreiras que precisam estimar CAPEX antes de adquirir sítios, a Estimativa de sítios Deitel (calculo.smartnoc.cl) entrega torre recomendada, vento NBR 6123, fundação e alertas regulatórios por coordenada — em segundos. Teste grátis de 30 dias com 20 sítios, sem cartão.",
+        "instagram": "Torres DEITEL: especificação técnica e montagem parafusada 🔧\n\nProjeto estrutural conforme NBR 6123/8800 com ART, peças galvanizadas a fogo (NBR 6323) e montagem 100% parafusada — sem solda em campo.\n\nAutoportantes, estaiadas, rooftop e camufladas: cada torre sai da fábrica em kits identificados, com memória de cálculo, projeto de fundação e desenhos completos.\n\nDa especificação à instalação, tudo rastreado e documentado. 📐",
+        "hashtags": "#TorresDeTelecomunicações #InfraestruturaDeTelecom #NBR6123"
+      },
+      "texts": {
+        "linkedin": "Torres DEITEL: da especificação técnica à montagem\n\nCada torre sai da nossa fábrica em Santana de Parnaíba (SP) com projeto estrutural conforme NBR 6123 (vento) e NBR 8800 (aço) — ou TIA-222, quando o cliente solicita.\n\nVocê recebe:\n• Memória de cálculo completa\n• Projeto de fundação\n• Desenhos de fabricação e de montagem\n• ART do responsável técnico\n\nAs peças são entregues galvanizadas a fogo (NBR 6323), identificadas por kit de site, paletizadas e prontas para montagem parafusada — sem solda em campo.\n\nAutoportantes triangulares e quadradas, estaiadas, rooftop e camufladas (palmeira e pinheiro): cada tipo projetado para a sua necessidade de cobertura, com rastreabilidade do corte à expedição.\n\nPara torreiras que precisam estimar CAPEX antes de adquirir sítios, a Estimativa de sítios Deitel (calculo.smartnoc.cl) entrega torre recomendada, vento NBR 6123, fundação e alertas regulatórios por coordenada — em segundos. Teste grátis de 30 dias com 20 sítios, sem cartão.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicações #InfraestruturaDeTelecom #NBR6123",
+        "instagram": "Torres DEITEL: especificação técnica e montagem parafusada 🔧\n\nProjeto estrutural conforme NBR 6123/8800 com ART, peças galvanizadas a fogo (NBR 6323) e montagem 100% parafusada — sem solda em campo.\n\nAutoportantes, estaiadas, rooftop e camufladas: cada torre sai da fábrica em kits identificados, com memória de cálculo, projeto de fundação e desenhos completos.\n\nDa especificação à instalação, tudo rastreado e documentado. 📐\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicações #InfraestruturaDeTelecom #NBR6123"
+      },
+      "card": "cards/2026-11-11/2026-11-11_CONTEUDO_torres.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-11T14:35:59.386730-03:00",
+          "result": [
+            {
+              "postId": "cmwcedsev0hopr007gyldve8y",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "eae8596a-0d94-48fa-9321-18f72f5bfc7c"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-11T14:35:59.386730-03:00",
+          "result": [
+            {
+              "postId": "cmwcedshq0hosr007ulobq1m3",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "fdf7b480-4b72-4e8a-bd01-0e7876b08d2a"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-11T14:35:59.386730-03:00",
+          "result": [
+            {
+              "postId": "cmwcedsko0hotr007gu1kvldh",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "63560662-cccf-419d-b1cd-23030907d1d3"
+        }
+      ]
+    }
+  }
+}

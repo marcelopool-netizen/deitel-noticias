@@ -132,6 +132,13 @@
    "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
    "angulo": "O que o sistema processa para entregar",
    "card_title": "Site Book e Projeto Completo com RT/ART"
+  },
+  {
+   "date": "2026-11-11",
+   "tema": "torres",
+   "foto": "bot/assets/futurecom/torre_noite.jpg",
+   "angulo": "Especificação técnica e montagem parafusada",
+   "card_title": "Torres DEITEL: especificação e montagem em campo"
   }
  ]
 }
