@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-12",
+  "run_at": "2026-11-12T14:47:37.004893-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "metalicos",
+      "foto": "bot/assets/conteudo/metalicos/portao_3d.jpg",
+      "selection": {
+        "angulo": "Portões e gradis padronizados",
+        "card_title": "Portões e gradis: padronização e qualidade",
+        "card_summary": "Portões, gradis e mourões modelados em 3D, galvanizados e prontos para instalar no site",
+        "linkedin": "Portões, gradis e mourões fazem parte da infraestrutura de segurança de qualquer site de telecomunicações. Na DEITEL, cada peça é modelada em 3D antes do corte, garantindo precisão dimensional e encaixe perfeito em campo.\n\nNossa fábrica em Santana de Parnaíba (SP) corta a laser tubos, vigas e cantoneiras até 220 mm de diâmetro e chapas até 1/2 polegada, com mesas de 1.500 × 3.000 mm. As peças são entregues galvanizadas a fogo conforme NBR 6323, em estruturas parafusadas, sem solda em campo.\n\nPortões de site com tela, mourões, gradis e requadros saem em kits paletizados e identificados, prontos para instalar. Cada item é rastreado do corte à expedição com etiqueta QR.\n\nItens padronizados, lista de preços unitários e entrega organizada por site: a combinação que facilita a cotação e execução de lotes de implantação.",
+        "instagram": "Portões de site com tela, gradis e mourões: itens padronizados que garantem segurança e agilidade na implantação. 🔧\n\nModelados em 3D, cortados a laser e entregues galvanizados a fogo (NBR 6323), prontos para instalar. Estruturas parafusadas, sem solda em campo.\n\nFábrica DEITEL em Santana de Parnaíba (SP): kits paletizados e rastreados do corte à expedição. 📦",
+        "hashtags": "#Telecomunicações #InfraestruturaMovel #SiteTelecom"
+      },
+      "texts": {
+        "linkedin": "Portões, gradis e mourões fazem parte da infraestrutura de segurança de qualquer site de telecomunicações. Na DEITEL, cada peça é modelada em 3D antes do corte, garantindo precisão dimensional e encaixe perfeito em campo.\n\nNossa fábrica em Santana de Parnaíba (SP) corta a laser tubos, vigas e cantoneiras até 220 mm de diâmetro e chapas até 1/2 polegada, com mesas de 1.500 × 3.000 mm. As peças são entregues galvanizadas a fogo conforme NBR 6323, em estruturas parafusadas, sem solda em campo.\n\nPortões de site com tela, mourões, gradis e requadros saem em kits paletizados e identificados, prontos para instalar. Cada item é rastreado do corte à expedição com etiqueta QR.\n\nItens padronizados, lista de preços unitários e entrega organizada por site: a combinação que facilita a cotação e execução de lotes de implantação.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #Telecomunicações #InfraestruturaMovel #SiteTelecom",
+        "instagram": "Portões de site com tela, gradis e mourões: itens padronizados que garantem segurança e agilidade na implantação. 🔧\n\nModelados em 3D, cortados a laser e entregues galvanizados a fogo (NBR 6323), prontos para instalar. Estruturas parafusadas, sem solda em campo.\n\nFábrica DEITEL em Santana de Parnaíba (SP): kits paletizados e rastreados do corte à expedição. 📦\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #Telecomunicações #InfraestruturaMovel #SiteTelecom"
+      },
+      "card": "cards/2026-11-12/2026-11-12_CONTEUDO_metalicos.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-12T14:50:37.004893-03:00",
+          "result": [
+            {
+              "postId": "cmwduce1805z8qp07zn8yjhzh",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "cb62a7cd-fcbe-4e19-bd3f-7d3fd7a473ae"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-12T14:50:37.004893-03:00",
+          "result": [
+            {
+              "postId": "cmwduce7v06cvuh07qzleitih",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "eae1fce2-d63f-4707-a2e6-f8d2a97a0b50"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-12T14:50:37.004893-03:00",
+          "result": [
+            {
+              "postId": "cmwducefk05z9qp07iy3fd7rw",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "7208fc73-9ca7-4d99-bf2b-5737f86013f4"
+        }
+      ]
+    }
+  }
+}

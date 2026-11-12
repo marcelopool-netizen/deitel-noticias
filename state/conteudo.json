@@ -139,6 +139,13 @@
    "foto": "bot/assets/futurecom/torre_noite.jpg",
    "angulo": "Especificação técnica e montagem parafusada",
    "card_title": "Torres DEITEL: especificação e montagem em campo"
+  },
+  {
+   "date": "2026-11-12",
+   "tema": "metalicos",
+   "foto": "bot/assets/conteudo/metalicos/portao_3d.jpg",
+   "angulo": "Portões e gradis padronizados",
+   "card_title": "Portões e gradis: padronização e qualidade"
   }
  ]
 }
