@@ -146,6 +146,13 @@
    "foto": "bot/assets/conteudo/metalicos/portao_3d.jpg",
    "angulo": "Portões e gradis padronizados",
    "card_title": "Portões e gradis: padronização e qualidade"
+  },
+  {
+   "date": "2026-11-13",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_hero.jpg",
+   "angulo": "O que entra e sai do sistema",
+   "card_title": "Coordenadas e altura: o resto é automático"
   }
  ]
 }
