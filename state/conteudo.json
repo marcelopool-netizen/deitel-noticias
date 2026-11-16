@@ -153,6 +153,13 @@
    "foto": "bot/assets/conteudo/software/landing_hero.jpg",
    "angulo": "O que entra e sai do sistema",
    "card_title": "Coordenadas e altura: o resto é automático"
+  },
+  {
+   "date": "2026-11-16",
+   "tema": "fabrica",
+   "foto": "bot/assets/conteudo/fabrica/laser_tubos_linha.jpg",
+   "angulo": "Corte a laser: precisão e produtividade",
+   "card_title": "Corte a laser de tubos: até Ø 220 mm e 6 m"
   }
  ]
 }

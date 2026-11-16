@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-16",
+  "run_at": "2026-11-16T16:55:47.387255-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "fabrica",
+      "foto": "bot/assets/conteudo/fabrica/laser_tubos_linha.jpg",
+      "selection": {
+        "angulo": "Corte a laser: precisão e produtividade",
+        "card_title": "Corte a laser de tubos: até Ø 220 mm e 6 m",
+        "card_summary": "Laser de fibra 3.000 W corta tubos, vigas e cantoneiras com precisão. Peças saem com QR.",
+        "linkedin": "A linha de corte a laser de tubos da DEITEL Brasil processa tubos, vigas e cantoneiras até 220 mm de diâmetro e 6 metros de comprimento, com laser de fibra de 3.000 W.\n\nCada peça é modelada em 3D antes do corte, sai da máquina já identificada com etiqueta QR e é rastreada do corte à expedição. Chapas até 1/2 polegada também são processadas em mesa dedicada (1.500 × 3.000 mm).\n\nDepois do corte e da dobra (perfis até 3 m), as peças seguem para galvanização a fogo (NBR 6323) em galvanizadora qualificada. A DEITEL entrega os kits completos galvanizados, paletizados e identificados por site — estruturas parafusadas, sem solda em campo.\n\nFábrica própria em Santana de Parnaíba (SP), capacidade industrial para atender torres e metálicos de sites em escala, com controle de qualidade e rastreabilidade em cada etapa.",
+        "instagram": "Corte a laser de tubos: laser de fibra 3.000 W, tubos até Ø 220 mm e 6 m de comprimento 🔧\n\nCada peça sai com QR, rastreada do corte à expedição. Chapas, tubos e perfis processados na fábrica DEITEL em Santana de Parnaíba (SP), entregues galvanizados a fogo (NBR 6323) e prontos para parafusar — zero solda em campo.\n\nCapacidade industrial, controle de qualidade e kits completos por site 📦",
+        "hashtags": "#TorresDeTelecomunicacoes #FabricaDeAco #Galvanizacao"
+      },
+      "texts": {
+        "linkedin": "A linha de corte a laser de tubos da DEITEL Brasil processa tubos, vigas e cantoneiras até 220 mm de diâmetro e 6 metros de comprimento, com laser de fibra de 3.000 W.\n\nCada peça é modelada em 3D antes do corte, sai da máquina já identificada com etiqueta QR e é rastreada do corte à expedição. Chapas até 1/2 polegada também são processadas em mesa dedicada (1.500 × 3.000 mm).\n\nDepois do corte e da dobra (perfis até 3 m), as peças seguem para galvanização a fogo (NBR 6323) em galvanizadora qualificada. A DEITEL entrega os kits completos galvanizados, paletizados e identificados por site — estruturas parafusadas, sem solda em campo.\n\nFábrica própria em Santana de Parnaíba (SP), capacidade industrial para atender torres e metálicos de sites em escala, com controle de qualidade e rastreabilidade em cada etapa.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicacoes #FabricaDeAco #Galvanizacao",
+        "instagram": "Corte a laser de tubos: laser de fibra 3.000 W, tubos até Ø 220 mm e 6 m de comprimento 🔧\n\nCada peça sai com QR, rastreada do corte à expedição. Chapas, tubos e perfis processados na fábrica DEITEL em Santana de Parnaíba (SP), entregues galvanizados a fogo (NBR 6323) e prontos para parafusar — zero solda em campo.\n\nCapacidade industrial, controle de qualidade e kits completos por site 📦\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#DeitelBrasil #Fabricação #CorteALaser #EstruturasMetálicas #Telecom #TorresDeTelecomunicacoes #FabricaDeAco #Galvanizacao"
+      },
+      "card": "cards/2026-11-16/2026-11-16_CONTEUDO_fabrica.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-16T16:58:47.387255-03:00",
+          "result": [
+            {
+              "postId": "cmwjoop3j0ax2p908kwkvm6e1",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "d4ccf0cb-cf96-4f1b-b3df-56c35318e188"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-16T16:58:47.387255-03:00",
+          "result": [
+            {
+              "postId": "cmwjoop9s09pipc07q445akx3",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "1edaf3fa-4dee-4613-af94-a39e220412bd"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-16T16:58:47.387255-03:00",
+          "result": [
+            {
+              "postId": "cmwjoopfd0ad0mn07txnp9b2h",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "562df2ac-d1e6-4127-99b7-d09e2353a1a3"
+        }
+      ]
+    }
+  }
+}
