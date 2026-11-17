@@ -160,6 +160,13 @@
    "foto": "bot/assets/conteudo/fabrica/laser_tubos_linha.jpg",
    "angulo": "Corte a laser: precisão e produtividade",
    "card_title": "Corte a laser de tubos: até Ø 220 mm e 6 m"
+  },
+  {
+   "date": "2026-11-17",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
+   "angulo": "Entrada mínima, saída completa estruturada",
+   "card_title": "Coordenadas e altura: saída técnica completa"
   }
  ]
 }

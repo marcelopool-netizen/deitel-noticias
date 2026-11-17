@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-17",
+  "run_at": "2026-11-17T15:51:50.170775-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "software",
+      "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
+      "selection": {
+        "angulo": "Entrada mínima, saída completa estruturada",
+        "card_title": "Coordenadas e altura: saída técnica completa",
+        "card_summary": "Suba coordenadas e altura; receba torre, peso, fundação, alertas e fichas em segundos.",
+        "linkedin": "A Estimativa de sítios Deitel transforma o mínimo de entrada — coordenadas e altura — em saída técnica completa para decisão de CAPEX.\n\nPor sítio, você recebe:\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 do ponto (V0, S1, S2) e relevo\n• Solo inferido ou da sondagem anexada\n• Fundação com concreto, aço, formas e escavação\n• Alertas: área protegida, terra indígena, aeródromo, água, declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades, para você cotar com quem quiser. Estimativa de CAPEX para priorizar sítios antes de adquirir — não substitui o projeto executivo com engenheiro habilitado e ART.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP), peças galvanizadas a fogo (NBR 6323), rastreadas do corte à expedição.",
+        "instagram": "Coordenadas e altura: o resto é automático. 📍\n\nA Estimativa de sítios Deitel transforma entrada mínima em saída técnica completa: torre recomendada e peso, vento NBR 6123, solo, fundação, alertas de área protegida e fichas PDF, planilha e KMZ. Tudo em segundos, por sítio.\n\nSem preços: só pesos e quantidades para você cotar. Estimativa de CAPEX para decidir antes de adquirir.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão. ✅\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP).",
+        "hashtags": "#Torres #Telecom #CAPEX"
+      },
+      "texts": {
+        "linkedin": "A Estimativa de sítios Deitel transforma o mínimo de entrada — coordenadas e altura — em saída técnica completa para decisão de CAPEX.\n\nPor sítio, você recebe:\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 do ponto (V0, S1, S2) e relevo\n• Solo inferido ou da sondagem anexada\n• Fundação com concreto, aço, formas e escavação\n• Alertas: área protegida, terra indígena, aeródromo, água, declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades, para você cotar com quem quiser. Estimativa de CAPEX para priorizar sítios antes de adquirir — não substitui o projeto executivo com engenheiro habilitado e ART.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP), peças galvanizadas a fogo (NBR 6323), rastreadas do corte à expedição.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres",
+        "instagram": "Coordenadas e altura: o resto é automático. 📍\n\nA Estimativa de sítios Deitel transforma entrada mínima em saída técnica completa: torre recomendada e peso, vento NBR 6123, solo, fundação, alertas de área protegida e fichas PDF, planilha e KMZ. Tudo em segundos, por sítio.\n\nSem preços: só pesos e quantidades para você cotar. Estimativa de CAPEX para decidir antes de adquirir.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão. ✅\n\nDEITEL Brasil — fábrica própria em Santana de Parnaíba (SP).\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres"
+      },
+      "card": "cards/2026-11-17/2026-11-17_CONTEUDO_software.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-17T15:54:50.170775-03:00",
+          "result": [
+            {
+              "postId": "cmwl1u7ob0cvqo407rsr97jd0",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "91d027f7-acdb-4ded-bf6b-551e99ffa65b"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-17T15:54:50.170775-03:00",
+          "result": [
+            {
+              "postId": "cmwl1u7rs0djeqv07fgxjd5l6",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "c65e0189-3950-48e6-ae71-e339909d8d34"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-17T15:54:50.170775-03:00",
+          "result": [
+            {
+              "postId": "cmwl1u7v50cvro407qfji62j9",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "a7cd172e-379c-4823-bec1-eee252e1904a"
+        }
+      ]
+    }
+  }
+}
