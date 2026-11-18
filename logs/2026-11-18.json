@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-18",
+  "run_at": "2026-11-18T15:29:48.577064-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "torres",
+      "foto": "bot/assets/conteudo/torres/camufladas.jpg",
+      "selection": {
+        "angulo": "Torres camufladas e integração visual",
+        "card_title": "Torres DEITEL: camufladas e integradas ao ambiente",
+        "card_summary": "Torres camufladas em formato de palmeira e pinheiro, com projeto NBR e montagem parafusada",
+        "linkedin": "Torres camufladas DEITEL: quando a infraestrutura precisa de discrição visual.\n\nEm áreas urbanas, parques, resorts e condomínios, a torre precisa cumprir sua função técnica sem impactar a paisagem. As torres camufladas DEITEL — palmeira e pinheiro — entregam cobertura com integração ao ambiente.\n\nCada torre é projetada conforme NBR 6123 (vento) e NBR 8800 (aço), com memória de cálculo, projeto de fundação e ART. As peças são modeladas em 3D, cortadas a laser, entregues galvanizadas a fogo (NBR 6323) e montadas com parafusos, sem solda em campo.\n\nFabricação rastreada por QR, do corte à expedição. Kits paletizados por site, prontos para instalar.\n\nAlém das camufladas, a linha inclui autoportantes triangulares e quadradas, estaiadas e rooftop — todas com o mesmo padrão de projeto, fabricação e acabamento.\n\nFábrica própria em Santana de Parnaíba (SP). O grupo DEITEL também opera no Chile.",
+        "instagram": "Torres camufladas DEITEL: palmeira e pinheiro 🌴🌲\n\nQuando a infraestrutura precisa de discrição, a torre camuflada entrega cobertura integrada à paisagem.\n\nProjeto estrutural NBR 6123/8800 com ART, peças galvanizadas a fogo e montagem parafusada. Fabricação rastreada, kits por site, sem solda em campo.\n\nParques, resorts, condomínios: cobertura sem impacto visual.\n\nFábrica própria em Santana de Parnaíba (SP).",
+        "hashtags": "#TorresDeTelecomunicações #Infraestrutura #Engenharia"
+      },
+      "texts": {
+        "linkedin": "Torres camufladas DEITEL: quando a infraestrutura precisa de discrição visual.\n\nEm áreas urbanas, parques, resorts e condomínios, a torre precisa cumprir sua função técnica sem impactar a paisagem. As torres camufladas DEITEL — palmeira e pinheiro — entregam cobertura com integração ao ambiente.\n\nCada torre é projetada conforme NBR 6123 (vento) e NBR 8800 (aço), com memória de cálculo, projeto de fundação e ART. As peças são modeladas em 3D, cortadas a laser, entregues galvanizadas a fogo (NBR 6323) e montadas com parafusos, sem solda em campo.\n\nFabricação rastreada por QR, do corte à expedição. Kits paletizados por site, prontos para instalar.\n\nAlém das camufladas, a linha inclui autoportantes triangulares e quadradas, estaiadas e rooftop — todas com o mesmo padrão de projeto, fabricação e acabamento.\n\nFábrica própria em Santana de Parnaíba (SP). O grupo DEITEL também opera no Chile.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicações #Infraestrutura #Engenharia",
+        "instagram": "Torres camufladas DEITEL: palmeira e pinheiro 🌴🌲\n\nQuando a infraestrutura precisa de discrição, a torre camuflada entrega cobertura integrada à paisagem.\n\nProjeto estrutural NBR 6123/8800 com ART, peças galvanizadas a fogo e montagem parafusada. Fabricação rastreada, kits por site, sem solda em campo.\n\nParques, resorts, condomínios: cobertura sem impacto visual.\n\nFábrica própria em Santana de Parnaíba (SP).\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#TorresDeTelecom #TorreAutoportante #Telecom #DeitelBrasil #TorresDeTelecomunicações #Infraestrutura #Engenharia"
+      },
+      "card": "cards/2026-11-18/2026-11-18_CONTEUDO_torres.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-18T15:32:48.577064-03:00",
+          "result": [
+            {
+              "postId": "cmwmghqgw09cep507zl3mr5gu",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "66f7bd98-c134-4d65-a355-e2f9df9953e6"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-18T15:32:48.577064-03:00",
+          "result": [
+            {
+              "postId": "cmwmghqlu09cfp507oidbzubm",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "e5a44ce3-5ef7-43c9-b86b-32a0db364254"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-18T15:32:48.577064-03:00",
+          "result": [
+            {
+              "postId": "cmwmghqpo05yrp907dptj02zh",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "e28bf5f0-c1c5-43e5-a05a-596e75e33d29"
+        }
+      ]
+    }
+  }
+}

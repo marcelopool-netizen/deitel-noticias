@@ -167,6 +167,13 @@
    "foto": "bot/assets/conteudo/software/landing_recebe.jpg",
    "angulo": "Entrada mínima, saída completa estruturada",
    "card_title": "Coordenadas e altura: saída técnica completa"
+  },
+  {
+   "date": "2026-11-18",
+   "tema": "torres",
+   "foto": "bot/assets/conteudo/torres/camufladas.jpg",
+   "angulo": "Torres camufladas e integração visual",
+   "card_title": "Torres DEITEL: camufladas e integradas ao ambiente"
   }
  ]
 }
