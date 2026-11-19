@@ -174,6 +174,13 @@
    "foto": "bot/assets/conteudo/torres/camufladas.jpg",
    "angulo": "Torres camufladas e integração visual",
    "card_title": "Torres DEITEL: camufladas e integradas ao ambiente"
+  },
+  {
+   "date": "2026-11-19",
+   "tema": "metalicos",
+   "foto": "bot/assets/conteudo/metalicos/suporte_3d_perna.jpg",
+   "angulo": "Suportes modelados em 3D antes do corte",
+   "card_title": "Suportes de antena: do 3D ao galvanizado"
   }
  ]
 }
