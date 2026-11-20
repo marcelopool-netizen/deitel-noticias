@@ -181,6 +181,13 @@
    "foto": "bot/assets/conteudo/metalicos/suporte_3d_perna.jpg",
    "angulo": "Suportes modelados em 3D antes do corte",
    "card_title": "Suportes de antena: do 3D ao galvanizado"
+  },
+  {
+   "date": "2026-11-20",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
+   "angulo": "Entrada mínima, saídas técnicas múltiplas",
+   "card_title": "Estimativa de sítios: peso, fundação e alertas"
   }
  ]
 }

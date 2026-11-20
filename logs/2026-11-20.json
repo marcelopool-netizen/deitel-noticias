@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-20",
+  "run_at": "2026-11-20T15:07:35.683495-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "software",
+      "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
+      "selection": {
+        "angulo": "Entrada mínima, saídas técnicas múltiplas",
+        "card_title": "Estimativa de sítios: peso, fundação e alertas",
+        "card_summary": "Coordenadas e altura: torre, fundação, solo, vento, alertas e exportações em segundos.",
+        "linkedin": "A torreira sobe a planilha de sítios — coordenadas e altura, em qualquer formato — e recebe em segundos, por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 do ponto (V0, S1, S2) e relevo\n• Solo pela sondagem anexada ou inferido pela base\n• Fundação completa: concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades, para você cotar com quem quiser.\n\nEstimativa de sítios Deitel: decisão de CAPEX e priorização de sítios antes de adquirir. Não substitui o projeto executivo — esse exige engenheiro habilitado e ART.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.",
+        "instagram": "Coordenadas e altura 📍\nA Estimativa de sítios Deitel processa e entrega por sítio:\n\n✓ Torre recomendada e peso\n✓ Fundação completa (concreto, aço, formas, escavação)\n✓ Vento NBR 6123 e solo\n✓ Alertas de restrições (área protegida, aeródromo, declive...)\n✓ PDF, planilha e KMZ\n\nSó quantidades — você cota onde quiser. Decisão de CAPEX em segundos. 🚀\n\nTeste grátis: 30 dias, 20 sítios, sem cartão.",
+        "hashtags": "#torreiras #CAPEX #telecomunicações"
+      },
+      "texts": {
+        "linkedin": "A torreira sobe a planilha de sítios — coordenadas e altura, em qualquer formato — e recebe em segundos, por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 do ponto (V0, S1, S2) e relevo\n• Solo pela sondagem anexada ou inferido pela base\n• Fundação completa: concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades, para você cotar com quem quiser.\n\nEstimativa de sítios Deitel: decisão de CAPEX e priorização de sítios antes de adquirir. Não substitui o projeto executivo — esse exige engenheiro habilitado e ART.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #torreiras #telecomunicações",
+        "instagram": "Coordenadas e altura 📍\nA Estimativa de sítios Deitel processa e entrega por sítio:\n\n✓ Torre recomendada e peso\n✓ Fundação completa (concreto, aço, formas, escavação)\n✓ Vento NBR 6123 e solo\n✓ Alertas de restrições (área protegida, aeródromo, declive...)\n✓ PDF, planilha e KMZ\n\nSó quantidades — você cota onde quiser. Decisão de CAPEX em segundos. 🚀\n\nTeste grátis: 30 dias, 20 sítios, sem cartão.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #torreiras #telecomunicações"
+      },
+      "card": "cards/2026-11-20/2026-11-20_CONTEUDO_software.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-20T15:10:35.683495-03:00",
+          "result": [
+            {
+              "postId": "cmwpaku2o0axtry07f3kb0azc",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "d295a1c0-033e-4af0-980f-7a88a55e219c"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-20T15:10:35.683495-03:00",
+          "result": [
+            {
+              "postId": "cmwpaku8p0bhttl07ma0kbjne",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "6ed25e7d-b33c-4228-ae8e-7f72d82fd516"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-20T15:10:35.683495-03:00",
+          "result": [
+            {
+              "postId": "cmwpakuey0bd0ob07107ra6j1",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "f41ef4ae-7000-48c3-ac7e-8b16f110b890"
+        }
+      ]
+    }
+  }
+}
