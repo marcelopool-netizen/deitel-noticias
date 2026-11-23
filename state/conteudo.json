@@ -188,6 +188,13 @@
    "foto": "bot/assets/conteudo/software/landing_servicos_1_2.jpg",
    "angulo": "Entrada mínima, saídas técnicas múltiplas",
    "card_title": "Estimativa de sítios: peso, fundação e alertas"
+  },
+  {
+   "date": "2026-11-23",
+   "tema": "fabrica",
+   "foto": "bot/assets/conteudo/fabrica/laser_tubos_mesa.jpg",
+   "angulo": "Alimentação e fluxo da produção",
+   "card_title": "Fluxo contínuo: da matéria-prima ao kit"
   }
  ]
 }
