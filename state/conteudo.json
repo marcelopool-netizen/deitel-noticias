@@ -195,6 +195,13 @@
    "foto": "bot/assets/conteudo/fabrica/laser_tubos_mesa.jpg",
    "angulo": "Alimentação e fluxo da produção",
    "card_title": "Fluxo contínuo: da matéria-prima ao kit"
+  },
+  {
+   "date": "2026-11-24",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
+   "angulo": "Peso, fundação e alertas por sítio",
+   "card_title": "Site Book e Projeto Completo com RT/ART"
   }
  ]
 }
