@@ -202,6 +202,13 @@
    "foto": "bot/assets/conteudo/software/landing_servicos_3_4.jpg",
    "angulo": "Peso, fundação e alertas por sítio",
    "card_title": "Site Book e Projeto Completo com RT/ART"
+  },
+  {
+   "date": "2026-11-25",
+   "tema": "torres",
+   "foto": "bot/assets/futurecom/torre_baixo.jpg",
+   "angulo": "Normas técnicas e segurança estrutural",
+   "card_title": "Torres DEITEL: normas brasileiras e ART"
   }
  ]
 }
