@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-26",
+  "run_at": "2026-11-26T16:20:30.462500-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "metalicos",
+      "foto": "bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg",
+      "selection": {
+        "angulo": "Corte a laser e dobra CNC",
+        "card_title": "Corte a laser e dobra: precisão nos metálicos",
+        "card_summary": "Suportes e demais metálicos cortados a laser e dobrados em CNC na fábrica de Santana de Parnaíba",
+        "linkedin": "Os suportes de antenas e RRUs da DEITEL saem da fábrica de Santana de Parnaíba com precisão de corte a laser e dobra CNC.\n\nCada peça é modelada em 3D antes do corte. Tubos, vigas e cantoneiras até 220 mm de diâmetro são cortados a laser; chapas até 1/2 polegada passam pela mesa de corte de 1.500 × 3.000 mm. Dobra de chapas e perfis até 3 m.\n\nO resultado: suportes, skids, portões, gradis, esteiramento, plataformas e mastros padronizados, com encaixe perfeito e sem necessidade de solda em campo.\n\nTodas as peças são entregues galvanizadas a fogo (NBR 6323), paletizadas por site e prontas para instalar.\n\nPrecisão do 3D ao galvanizado, para torreiras, operadoras e integradores que não abrem mão de qualidade e prazo.",
+        "instagram": "Suportes de antenas e RRUs com precisão de corte a laser e dobra CNC 🔧\n\nModelados em 3D, cortados a laser (tubos até 220 mm, chapas até 1/2 polegada) e dobrados na fábrica de Santana de Parnaíba.\n\nPeças padronizadas, entregues galvanizadas a fogo (NBR 6323) e prontas para instalar. Sem solda em campo, encaixe perfeito.\n\nSkids, portões, gradis, esteiramento, plataformas e suportes para o seu site 📡",
+        "hashtags": "#MetálicosDeSite #InfraestruturaDeTelecom #Galvanização"
+      },
+      "texts": {
+        "linkedin": "Os suportes de antenas e RRUs da DEITEL saem da fábrica de Santana de Parnaíba com precisão de corte a laser e dobra CNC.\n\nCada peça é modelada em 3D antes do corte. Tubos, vigas e cantoneiras até 220 mm de diâmetro são cortados a laser; chapas até 1/2 polegada passam pela mesa de corte de 1.500 × 3.000 mm. Dobra de chapas e perfis até 3 m.\n\nO resultado: suportes, skids, portões, gradis, esteiramento, plataformas e mastros padronizados, com encaixe perfeito e sem necessidade de solda em campo.\n\nTodas as peças são entregues galvanizadas a fogo (NBR 6323), paletizadas por site e prontas para instalar.\n\nPrecisão do 3D ao galvanizado, para torreiras, operadoras e integradores que não abrem mão de qualidade e prazo.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #InfraestruturaDeTelecom",
+        "instagram": "Suportes de antenas e RRUs com precisão de corte a laser e dobra CNC 🔧\n\nModelados em 3D, cortados a laser (tubos até 220 mm, chapas até 1/2 polegada) e dobrados na fábrica de Santana de Parnaíba.\n\nPeças padronizadas, entregues galvanizadas a fogo (NBR 6323) e prontas para instalar. Sem solda em campo, encaixe perfeito.\n\nSkids, portões, gradis, esteiramento, plataformas e suportes para o seu site 📡\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#MetálicosDeSite #Telecom #Galvanização #DeitelBrasil #InfraestruturaDeTelecom"
+      },
+      "card": "cards/2026-11-26/2026-11-26_CONTEUDO_metalicos.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-26T16:23:30.462500-03:00",
+          "result": [
+            {
+              "postId": "cmwxxtppp05qpnu070msolsjl",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "4e786e07-ffb8-4610-bdd7-e653a096408f"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-26T16:23:30.462500-03:00",
+          "result": [
+            {
+              "postId": "cmwxxtpti083ql107cg5vu38k",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "42ee0be7-883d-49b6-8af2-ef0c3cdede34"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-26T16:23:30.462500-03:00",
+          "result": [
+            {
+              "postId": "cmwxxtpxf083rl107c7fc7w8f",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "dc2cb5c4-4903-4da1-91c2-2749adc29a57"
+        }
+      ]
+    }
+  }
+}

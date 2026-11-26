@@ -209,6 +209,13 @@
    "foto": "bot/assets/futurecom/torre_baixo.jpg",
    "angulo": "Normas técnicas e segurança estrutural",
    "card_title": "Torres DEITEL: normas brasileiras e ART"
+  },
+  {
+   "date": "2026-11-26",
+   "tema": "metalicos",
+   "foto": "bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg",
+   "angulo": "Corte a laser e dobra CNC",
+   "card_title": "Corte a laser e dobra: precisão nos metálicos"
   }
  ]
 }
