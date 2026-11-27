@@ -216,6 +216,13 @@
    "foto": "bot/assets/conteudo/metalicos/suporte_3d_mastro.jpg",
    "angulo": "Corte a laser e dobra CNC",
    "card_title": "Corte a laser e dobra: precisão nos metálicos"
+  },
+  {
+   "date": "2026-11-27",
+   "tema": "software",
+   "foto": "bot/assets/conteudo/software/landing_hero.jpg",
+   "angulo": "Rapidez e dados técnicos completos",
+   "card_title": "Peso e fundação em segundos, não em semanas"
   }
  ]
 }

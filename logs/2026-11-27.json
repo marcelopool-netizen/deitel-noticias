@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-27",
+  "run_at": "2026-11-27T16:14:53.783621-03:00",
+  "dry_run": false,
+  "countries": {
+    "CONTEUDO": {
+      "status": "scheduled",
+      "tema": "software",
+      "foto": "bot/assets/conteudo/software/landing_hero.jpg",
+      "selection": {
+        "angulo": "Rapidez e dados técnicos completos",
+        "card_title": "Peso e fundação em segundos, não em semanas",
+        "card_summary": "Suba a planilha de sítios e receba peso de torre, fundação dimensionada e alertas técnicos.",
+        "linkedin": "Estimar CAPEX de um lote de sítios costumava levar semanas. Hoje, a Estimativa de sítios Deitel entrega dados técnicos completos em segundos.\n\nVocê sobe a planilha com coordenadas e altura de cada sítio — em qualquer formato — e recebe por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 (V0, S1, S2) e relevo do ponto\n• Solo inferido pela base ou pela sondagem anexada\n• Fundação dimensionada: concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades. Você cota com quem quiser e decide o CAPEX antes de adquirir os sítios.\n\nA estimativa não substitui o projeto executivo — que exige engenheiro habilitado e ART —, mas acelera a decisão técnica do lote.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.",
+        "instagram": "Peso de torre e fundação de cada sítio em segundos ⚡\n\nA Estimativa de sítios Deitel processa o lote inteiro e entrega por sítio: torre recomendada e peso, vento NBR 6123, solo, fundação dimensionada (concreto, aço, formas, escavação) e alertas técnicos (área protegida, aeródromo, declive).\n\nSó pesos e quantidades — sem preços. Você cota onde quiser e decide o CAPEX antes de adquirir.\n\nTeste grátis: 30 dias, 20 sítios, sem cartão 🚀",
+        "hashtags": "#Torres #Telecom #CAPEX"
+      },
+      "texts": {
+        "linkedin": "Estimar CAPEX de um lote de sítios costumava levar semanas. Hoje, a Estimativa de sítios Deitel entrega dados técnicos completos em segundos.\n\nVocê sobe a planilha com coordenadas e altura de cada sítio — em qualquer formato — e recebe por sítio:\n\n• Torre Deitel recomendada e peso de referência\n• Vento NBR 6123 (V0, S1, S2) e relevo do ponto\n• Solo inferido pela base ou pela sondagem anexada\n• Fundação dimensionada: concreto, aço, formas e escavação, com margem declarada\n• Alertas de área protegida, terra indígena, aeródromo, água e declive\n• Ficha PDF, planilha do lote e KMZ para o Google Earth\n\nSem preços nas fichas: só pesos, volumes e quantidades. Você cota com quem quiser e decide o CAPEX antes de adquirir os sítios.\n\nA estimativa não substitui o projeto executivo — que exige engenheiro habilitado e ART —, mas acelera a decisão técnica do lote.\n\nTeste grátis de 30 dias com 20 sítios, sem cartão.\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres",
+        "instagram": "Peso de torre e fundação de cada sítio em segundos ⚡\n\nA Estimativa de sítios Deitel processa o lote inteiro e entrega por sítio: torre recomendada e peso, vento NBR 6123, solo, fundação dimensionada (concreto, aço, formas, escavação) e alertas técnicos (área protegida, aeródromo, declive).\n\nSó pesos e quantidades — sem preços. Você cota onde quiser e decide o CAPEX antes de adquirir.\n\nTeste grátis: 30 dias, 20 sítios, sem cartão 🚀\n\n🌐 deitel.com.br\n🧮 Estimativa de sítios para torreiras: calculo.smartnoc.cl\n📲 WhatsApp (11) 97840-6855\n\n#EstimativaDeSitios #CAPEX #Torreiras #Telecom #DeitelBrasil #Torres"
+      },
+      "card": "cards/2026-11-27/2026-11-27_CONTEUDO_software.png",
+      "posts": [
+        {
+          "channel": "Deitel Brasil LTDA",
+          "scheduled_for": "2026-11-27T16:17:53.783621-03:00",
+          "result": [
+            {
+              "postId": "cmwzd2ctr0o2wnu07t80zr89b",
+              "integration": "cmuvag8ah04b9ql0ywlh4uf4j"
+            }
+          ],
+          "group": "89a5b105-ecb4-41ec-8dc5-b0a0e4fac6cf"
+        },
+        {
+          "channel": "Grupodeitel",
+          "scheduled_for": "2026-11-27T16:17:53.783621-03:00",
+          "result": [
+            {
+              "postId": "cmwzd2cwf0o2xnu07vary0x95",
+              "integration": "cmu7tmjgs08i5mo0y3lp0eimk"
+            }
+          ],
+          "group": "9c56b2fc-b4dc-49e2-aca2-e3e1459defea"
+        },
+        {
+          "channel": "Marcelo Pool Skiadaressis",
+          "scheduled_for": "2026-11-27T16:17:53.783621-03:00",
+          "result": [
+            {
+              "postId": "cmwzd2cz50o2ynu078qcns7y6",
+              "integration": "cmu7sq33e03belb0yzk9botks"
+            }
+          ],
+          "group": "a627726d-73ac-402a-be8e-53753f97cbf1"
+        }
+      ]
+    }
+  }
+}
